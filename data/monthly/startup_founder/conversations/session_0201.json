@@ -1,0 +1,106 @@
+{
+  "session_id": 201,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_4",
+    "content_data": {
+      "email_purpose": "Proposing a strategic partnership for AI-driven content innovation and market expansion.",
+      "recipient_list": [
+        "Head of Innovation - Entertainment Co."
+      ],
+      "key_points": [
+        "Synergistic potential between our AI capabilities and your established global reach."
+      ],
+      "call_to_action": "Schedule a follow-up meeting to discuss a detailed proof-of-concept and explore potential collaboration models within the next two weeks."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Exploring new revenue streams through interactive and adaptive entertainment experiences.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 179,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 201,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my email titled 'Proposing a strategic partnership for AI-driven content innovation and market expansion.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Exploring new revenue streams through interactive and adaptive entertainment experiences\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Exploring new revenue streams through interactive and adaptive entertainment experiences\" from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The email has been updated by removing that key point. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

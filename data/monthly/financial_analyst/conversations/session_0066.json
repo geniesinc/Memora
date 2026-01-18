@@ -1,0 +1,83 @@
+{
+  "session_id": 66,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": {
+      "task_type": "work_tasks",
+      "description": "Prepare board presentation",
+      "created_at": "2025-06-03"
+    },
+    "category": "todo_list"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Not much, just thinking about the latest advancements in AI technology. It's fascinating how quickly things are evolving.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "It truly is! Did you know that some AI models can now generate human-quality text and even create realistic images from simple descriptions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's interesting. What else is new in the tech world?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Well, beyond AI, there's a lot of buzz around quantum computing and its potential to revolutionize various industries.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Quantum computing sounds really complex. What exactly is it?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Quantum computing harnesses quantum-mechanical phenomena like superposition and entanglement to solve complex problems intractable for classical computers. It could dramatically impact fields such as medicine, materials science, and cryptography.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Actually, I need to remove \"Prepare board presentation\" from my work tasks. I've already completed it.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's great you've completed it! How about we talk about something else you've accomplished today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Sounds good to me.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's wonderful! It's always a good feeling to mark something off the to-do list.",
+      "share_memory": false
+    }
+  ]
+}

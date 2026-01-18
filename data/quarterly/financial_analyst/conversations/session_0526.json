@@ -1,0 +1,148 @@
+{
+  "session_id": 526,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_10",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insight Post",
+      "main_message": "Analyzing the latest European real estate market trends, we're seeing strong indicators for sustainable investment in urban regeneration projects. Our pilot research highlights key financial models for optimizing returns while driving community value.",
+      "hashtags": [
+        "#MarketTrends",
+        "#RealEstateTech",
+        "#EuropeanProperty",
+        "#RealEstateFinance",
+        "#FinancialAnalysis",
+        "#UrbanRegeneration",
+        "#SustainableInvestment",
+        "#PilotResearch"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#UrbanRegeneration",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#SustainableInvestment",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#PilotResearch",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 439,
+        "session_date": "2025-06-21",
+        "operation": "add"
+      },
+      {
+        "session_id": 526,
+        "session_date": "2025-06-24",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-24",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Insight Post' with some new details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#UrbanRegeneration'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#UrbanRegeneration' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#SustainableInvestment' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#SustainableInvestment' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#PilotResearch' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#PilotResearch' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all the hashtag updates for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. Is there anything else you'd like to update for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now. I'll reach out if I need anything else!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

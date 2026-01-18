@@ -1,0 +1,74 @@
+{
+  "session_id": 1941,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All project_proposal items have been completed. Converting to general conversation."
+  },
+  "date": "2025-08-31",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering, what exactly is the difference between a planet and a dwarf planet?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "The key differences lie in their size, orbital characteristics, and whether they have cleared their orbit of other debris. Planets are generally larger and have cleared their orbital path, while dwarf planets have not.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear explanation. So, size and orbital dominance are the main factors.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly! Those are the primary distinctions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks for the information! I need to get going now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

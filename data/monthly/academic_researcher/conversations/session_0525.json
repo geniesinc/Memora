@@ -1,0 +1,111 @@
+{
+  "session_id": 525,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Alignment of AI Ethics Frameworks for Global Education Policy",
+      "agenda_items": [
+        "Discussion on challenges of implementing AI governance in diverse educational contexts."
+      ],
+      "key_decisions": [
+        "Form an inter-agency working group to synthesize regional educational technology policies."
+      ],
+      "action_items": [
+        "All attendees to review the preliminary framework draft and provide feedback by +7 days.",
+        "Dr. Anya Sharma to draft a comparative analysis of existing national AI education policies by +14 days."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Establishment of working groups for policy recommendation drafting.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Ms. Lena Petrova to coordinate outreach with key educational technology providers for input on practical implementation challenges within the next 3 weeks.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-24",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which aims to mimic the human brain's structure and function for more efficient processing. It's fascinating how researchers are trying to bridge the gap between AI and biological intelligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Alignment of AI Ethics Frameworks for Global Education Policy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Establishment of working groups for policy recommendation drafting.' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Establishment of working groups for policy recommendation drafting' from the agenda items for your meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove 'Ms. Lena Petrova to coordinate outreach with key educational technology providers for input on practical implementation challenges within the next 3 weeks.' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that action item from your meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for the meeting notes for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, the requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "session_id": 203,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Global Healthcare Provider Network Expansion Initiative",
+      "project_description": "Strategic expansion of enterprise healthcare partnerships across three new geographic regions to drive recurring revenue growth through integrated care coordination solutions. Focus on large hospital systems and multi-facility healthcare organizations seeking comprehensive patient data interoperability.",
+      "budget": 3450000,
+      "timeline": "18 months with Phase 1: Market Entry & Partnership Development (months 1-6), Phase 2: Integration & Onboarding (months 7-12), Phase 3: Optimization & Scale (months 13-18)",
+      "project_lead": "Priya Venkataraman, Senior Sales Manager - Healthcare Enterprise Solutions",
+      "stakeholders": [
+        "Healthcare Solutions Engineering Team",
+        "Customer Success Leadership",
+        "Legal & Compliance Team"
+      ],
+      "objectives": [
+        "Establish partnerships with 45-60 new healthcare provider organizations across target regions",
+        "Achieve 85% integration success rate for new healthcare system deployments",
+        "Generate $12M-15M in new annual recurring revenue through enterprise contracts"
+      ],
+      "deliverables": [
+        "Comprehensive market entry strategy with competitive positioning for each target region",
+        "45-60 executed enterprise agreements with multi-year commitment structures",
+        "Quarterly business reviews and revenue forecasting models"
+      ],
+      "success_metrics": [
+        "Customer retention: 95% annual renewal rate with zero critical account losses",
+        "Customer acquisition cost: Maintain below $85K per new healthcare organization",
+        "Conversion rate: 40% from qualified opportunity to closed-won contract"
+      ],
+      "sales_strategy": "Deploy consultative selling approach leveraging clinical outcome data and total cost of ownership models to engage C-suite healthcare executives. Establish regional presence through industry conference sponsorships, peer-to-peer executive roundtables, and strategic partnerships with healthcare IT consulting firms. Utilize account-based marketing to penetrate top 25 target health systems with personalized engagement campaigns. Implement proof-of-concept programs with 90-day pilot deployments to demonstrate integration capabilities and measurable workflow improvements. Build champions within clinical informatics teams who can advocate internally across multiple stakeholder groups."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 2950000,
+        "reverted_to": 3450000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Marketing - Healthcare Vertical",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Sales enablement toolkit including ROI calculators, case studies, and clinical workflow demonstrations",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Global Healthcare Provider Network Expansion Initiative'. We can go through the details of what needs to be removed.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Alright, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget from $2,950,000 back to $3,450,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $3,450,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Marketing - Healthcare Vertical' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Marketing - Healthcare Vertical' from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Sales enablement toolkit including ROI calculators, case studies, and clinical workflow demonstrations' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Sales enablement toolkit including ROI calculators, case studies, and clinical workflow demonstrations' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made those changes to the project proposal. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": 263,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Regional Healthcare Provider Onboarding",
+      "agenda_items": [
+        "Alignment on content requirements for upcoming platform feature releases"
+      ],
+      "key_decisions": [
+        "Approve repurposing existing patient education materials into short-form video series for social media."
+      ],
+      "attendees": [
+        "Dr. Anya Sharma (Clinical Operations Lead)",
+        "Amara Khan (Content Writer)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Brainstorming content themes for patient engagement in new regions",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize development of localized content for 'Mid-Atlantic' pilot region onboarding.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-12",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going quite well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Content Strategy Alignment for Regional Healthcare Provider Onboarding'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Brainstorming content themes for patient engagement in new regions\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. \"Brainstorming content themes for patient engagement in new regions\" has been removed from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Prioritize development of localized content for 'Mid-Atlantic' pilot region onboarding.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Prioritize development of localized content for 'Mid-Atlantic' pilot region onboarding' from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Brainstorming content themes for patient engagement in new regions\" from the agenda items and \"Prioritize development of localized content for 'Mid-Atlantic' pilot region onboarding\" from the key decisions in the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "session_id": 378,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Spring/Summer Collection 2025 Design Review & Concept Finalization",
+      "agenda_items": [
+        "Feedback session on key capsule collection pieces"
+      ],
+      "key_decisions": [
+        "Established a preliminary sourcing strategy for organic cotton and recycled synthetics.",
+        "Agreed on a visual direction for the campaign shoot, focusing on natural light and outdoor settings.",
+        "Approved 'Coastal Serenity' as the overarching theme for SS25, emphasizing sustainable fabrics."
+      ],
+      "action_items": [
+        "Prepare digital mock-ups of selected core garments - Designer Kai Sharma (due in 5 days)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Refine mood boards to better reflect 'Coastal Serenity' theme - Designer Ava Chen (due in 3 days)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Confirmed the primary color palette, with minor adjustments to accent shades.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Selected three core garment designs for expedited prototyping.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 269,
+        "session_date": "2025-06-13",
+        "operation": "add"
+      },
+      {
+        "session_id": 285,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      },
+      {
+        "session_id": 286,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      },
+      {
+        "session_id": 369,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      },
+      {
+        "session_id": 378,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I hope you're having a good day so far. What interesting things are on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I'm doing well, thank you. Have you been following any interesting news lately?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I've been keeping up with the latest advancements in AI and renewable energy.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my meeting notes for the 'Spring/Summer Collection 2025 Design Review & Concept Finalization'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you delete information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Refine mood boards to better reflect 'Coastal Serenity' theme - Designer Ava Chen (due in 3 days)\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Refine mood boards to better reflect 'Coastal Serenity' theme - Designer Ava Chen (due in 3 days)\" from the action items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Confirmed the primary color palette, with minor adjustments to accent shades.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Confirmed the primary color palette, with minor adjustments to accent shades\" from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please also remove \"Selected three core garment designs for expedited prototyping.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Selected three core garment designs for expedited prototyping\" from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been completed for the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

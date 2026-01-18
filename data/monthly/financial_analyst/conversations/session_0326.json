@@ -1,0 +1,163 @@
+{
+  "session_id": 326,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Strategic Growth Initiative: Q3 Performance Review & Future Capital Allocation",
+      "agenda_items": [
+        "Analysis of current North American real estate market trends and their impact on growth projections",
+        "Evaluation of proposed capital expenditure requests for new development opportunities"
+      ],
+      "key_decisions": [
+        "Mandated a detailed cost-benefit analysis for all deferred maintenance projects exceeding a pre-defined threshold.",
+        "Agreed to prioritize investment in prop-tech solutions that enhance tenant retention and property value.",
+        "Approved preliminary budget allocation for the acquisition of two new development sites in key urban growth corridors.",
+        "Decided to form a cross-functional task force to evaluate potential asset divestitures for underperforming properties."
+      ],
+      "attendees": [
+        "Head of Corporate Strategy",
+        "Market Research Lead",
+        "Director of Real Estate Development"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Decided to form a cross-functional task force to evaluate potential asset divestitures for underperforming properties.",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Director of Real Estate Development",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Evaluation of proposed capital expenditure requests for new development opportunities",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 196,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 199,
+        "session_date": "2025-06-10",
+        "operation": "delete"
+      },
+      {
+        "session_id": 201,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      },
+      {
+        "session_id": 219,
+        "session_date": "2025-06-11",
+        "operation": "delete"
+      },
+      {
+        "session_id": 326,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going quite well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Strategic Growth Initiative: Q3 Performance Review & Future Capital Allocation'. I'd like to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. What information needs to be updated in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the 'key_decisions' to include: 'Decided to form a cross-functional task force to evaluate potential asset divestitures for underperforming properties.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the 'key_decisions' with the task force information. Is there anything else you'd like to update in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the 'attendees' to include the 'Director of Real Estate Development'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added the 'Director of Real Estate Development' to the attendees. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update the 'agenda_items' to include 'Evaluation of proposed capital expenditure requests for new development opportunities'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Evaluation of proposed capital expenditure requests for new development opportunities' to the 'agenda_items'. Is there anything else you'd like to update in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that covers all the updates for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. All updates to the meeting notes have been applied. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I'll definitely reach out if anything else comes up.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime.",
+      "share_memory": false
+    }
+  ]
+}

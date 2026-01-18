@@ -1,0 +1,132 @@
+{
+  "session_id": 147,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "Global Anti-Bribery and Corruption Program Enhancement",
+      "project_description": "Proposal to upgrade and standardize our global anti-bribery and corruption (ABC) compliance framework, integrating advanced analytics for risk detection and reporting.",
+      "budget": 775000,
+      "timeline": "18 months, with a review milestone at 9 months",
+      "project_lead": "Dr. Lena Petrova, Senior Financial Analyst",
+      "stakeholders": [
+        "Global Compliance Department",
+        "Regional Finance Directors"
+      ],
+      "objectives": [
+        "Streamline compliance reporting processes, reducing manual effort by 30% through automation.",
+        "Achieve 100% adherence to all relevant international ABC regulations across all jurisdictions within the next 18 months.",
+        "Enhance training and awareness programs for all relevant employees globally."
+      ],
+      "deliverables": [
+        "Post-implementation audit report assessing program effectiveness."
+      ],
+      "risk_analysis": [
+        "Employee Resistance to Change: Ensuring full adoption of new policies and systems across diverse cultural contexts.",
+        "Regulatory Landscape Volatility: Ongoing changes in international ABC laws may require frequent policy updates."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "risk_analysis",
+        "removed_item": "Third-Party Vendor Compliance: Ensuring new software solutions meet stringent security and data privacy standards.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Comprehensive training modules for all high-risk employee groups.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Automated reporting dashboards for key ABC metrics and regulatory submissions.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat and assist you today.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Global Anti-Bribery and Corruption Program Enhancement'. We can go over the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Third-Party Vendor Compliance: Ensuring new software solutions meet stringent security and data privacy standards.' from the risk analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted the removal of 'Third-Party Vendor Compliance: Ensuring new software solutions meet stringent security and data privacy standards.' from the risk analysis. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Comprehensive training modules for all high-risk employee groups.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Comprehensive training modules for all high-risk employee groups' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Automated reporting dashboards for key ABC metrics and regulatory submissions.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Automated reporting dashboards for key ABC metrics and regulatory submissions' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for helping me with these removals.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been noted for the project proposal. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks again for your help!",
+      "share_memory": false
+    }
+  ]
+}

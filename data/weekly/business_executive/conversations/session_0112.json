@@ -1,0 +1,138 @@
+{
+  "session_id": 112,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Regulatory Compliance and Cross-Border Operations Review",
+      "agenda_items": [
+        "Discussion of new FERC interstate transmission compliance requirements",
+        "Review of updated EPA emissions standards and impact on refinery operations",
+        "Timeline review for ISO 14001 recertification across North American facilities",
+        "Budget allocation for environmental monitoring systems upgrade",
+        "Status update on Canadian pipeline expansion regulatory approvals"
+      ],
+      "key_decisions": [
+        "Approved $4.2M capital investment for emissions monitoring technology at three Gulf Coast refineries to meet revised standards within 18 months",
+        "Authorized engagement of external legal counsel specializing in Canadian energy regulations to expedite pipeline approval process",
+        "Deferred decision on Mexico facility expansion pending clarity on bilateral energy trade agreements",
+        "Mandated implementation of enhanced cybersecurity framework across all operational technology systems within 12 months"
+      ],
+      "action_items": [
+        "CIO to present cybersecurity infrastructure upgrade proposal and vendor recommendations within 45 days",
+        "General Counsel to provide comprehensive risk assessment on cross-border regulatory exposure within 3 weeks"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Status update on Canadian pipeline expansion regulatory approvals",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Mandated implementation of enhanced cybersecurity framework across all operational technology systems within 12 months",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 14,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 101,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 112,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Regulatory Compliance and Cross-Border Operations Review'. I have some changes to make regarding the action items.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the action items in the meeting notes for 'Regulatory Compliance and Cross-Border Operations Review'. What specific changes do you need to make to them?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add \"Status update on Canadian pipeline expansion regulatory approvals\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Status update on Canadian pipeline expansion regulatory approvals\" to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the key decisions to include: Mandated implementation of enhanced cybersecurity framework across all operational technology systems within 12 months.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Mandated implementation of enhanced cybersecurity framework across all operational technology systems within 12 months\" to the key decisions. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated it.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help! I'll be in touch if anything else comes up.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

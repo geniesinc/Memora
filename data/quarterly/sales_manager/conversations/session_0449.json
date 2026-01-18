@@ -1,0 +1,137 @@
+{
+  "session_id": 449,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Pan-European Market Expansion for Novel Oncology Therapeutic",
+      "project_description": "Proposal for a strategic initiative to penetrate key European markets with our lead oncology therapeutic, leveraging data-driven insights for optimized sales and market share growth.",
+      "budget": 1100000,
+      "timeline": "18 months, with initial market entry in the first 6 months and full regional rollout over the subsequent 12 months.",
+      "project_lead": "Isabelle Dubois, Senior Sales Manager",
+      "stakeholders": [
+        "Marketing Director, Oncology Division"
+      ],
+      "objectives": [
+        "Achieve significant market penetration in 5 target European countries within the first year.",
+        "Exceed initial revenue targets for the novel therapeutic by 15% within the first 18 months.",
+        "Optimize sales force effectiveness and resource allocation based on real-time market data."
+      ],
+      "deliverables": [
+        "KOL engagement plan and initial relationship establishment reports.",
+        "Regional sales team structure and hiring recommendations.",
+        "Comprehensive sales training program for European sales teams, tailored to the new product."
+      ],
+      "success_metrics": [
+        "Percentage of target physicians prescribing the therapeutic.",
+        "Market share growth within target indications."
+      ],
+      "revenue_targets": [
+        "Generate \u20ac30M in cumulative revenue by the end of the 18-month project timeline."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Detailed country-specific market entry strategies for 5 target nations.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 925000,
+        "reverted_to": 1100000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Medical Affairs Lead, Europe",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Pan-European Market Expansion for Novel Oncology Therapeutic'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Detailed country-specific market entry strategies for 5 target nations\" from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Detailed country-specific market entry strategies for 5 target nations\" from the deliverables. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Actually, I'd like to update the budget. Can you revert it to 1,100,000 instead of 925,000?",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've reverted the budget to $1,100,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Medical Affairs Lead, Europe' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Medical Affairs Lead, Europe' from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing 'Medical Affairs Lead, Europe' from the stakeholders. Is there anything else you need help with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Not at the moment, thanks!",
+      "share_memory": false
+    }
+  ]
+}

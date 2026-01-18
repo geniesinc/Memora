@@ -1,0 +1,118 @@
+{
+  "session_id": 365,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "AI-Driven Fraud Detection System Enhancement for Fintech",
+      "project_description": "A comprehensive project proposal to enhance an existing fraud detection system using advanced AI/ML algorithms, improving accuracy and reducing false positives for a leading fintech institution.",
+      "budget": 1100000,
+      "timeline": "Over a 10-month period, with an initial 3-month discovery and pilot phase.",
+      "project_lead": "Dr. Anya Sharma, Senior Management Consultant",
+      "stakeholders": [
+        "Client Head of Fraud Operations",
+        "Internal Project Management Office",
+        "Client CTO Office"
+      ],
+      "objectives": [
+        "Provide actionable insights into fraud trends and customer behavior for strategic decision-making."
+      ],
+      "deliverables": [
+        "Detailed Fraud System Assessment Report with recommendations for AI integration.",
+        "Developed and integrated AI-powered fraud detection module."
+      ],
+      "success_metrics": [
+        "System uptime and performance benchmarks.",
+        "Percentage reduction in false positives.",
+        "Average time saved per fraud investigation."
+      ],
+      "methodology": "Leveraging an Agile-Scrum framework for iterative development, combined with a data-driven consulting approach focusing on deep dive analytics, stakeholder interviews, and continuous feedback loops."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "objectives",
+        "removed_item": "Increase detection rate of emerging fraud patterns by 15% through adaptive AI models.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 750000,
+        "reverted_to": 1100000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'AI-Driven Fraud Detection System Enhancement for Fintech'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What specific information would you like to remove from the 'AI-Driven Fraud Detection System Enhancement for Fintech' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Increase detection rate of emerging fraud patterns by 15% through adaptive AI models.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I have removed \"Increase detection rate of emerging fraud patterns by 15% through adaptive AI models\" from the objectives. Is there anything else you would like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget from $750,000 back to $1,100,000 for this proposal. We secured additional funding for the original scope.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The budget for the proposal has been updated from $750,000 to $1,100,000. Is there anything else you would like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I'm all set with the changes for the 'AI-Driven Fraud Detection System Enhancement for Fintech' project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I have updated the budget for the 'AI-Driven Fraud Detection System Enhancement for Fintech' project proposal from $750,000 to $1,100,000, and removed the specified objective. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

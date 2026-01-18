@@ -1,0 +1,167 @@
+{
+  "session_id": 213,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_3",
+    "content_data": {
+      "email_purpose": "To summarize key findings and propose next steps for the mobile-first pilot in the telecommunications sector.",
+      "recipient_list": [
+        "Telecommunications Executive Leadership",
+        "VP of Customer Experience",
+        "Head of Product Development"
+      ],
+      "key_points": [
+        "Initial pilot phase has validated significant user engagement and positive feedback on the mobile-first approach.",
+        "Strategic alignment with long-term digital transformation goals is strong, supporting broader rollout.",
+        "Resource allocation and training requirements for a scaled deployment need immediate attention.",
+        "Identified critical areas for optimization, particularly around network latency in underserved regions."
+      ],
+      "call_to_action": "Schedule a follow-up working session within the next five business days to finalize the strategic roadmap for broader implementation."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "VP of Customer Experience",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Resource allocation and training requirements for a scaled deployment need immediate attention.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Head of Product Development",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Identified critical areas for optimization, particularly around network latency in underserved regions.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 148,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 159,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 213,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks for asking! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To summarize key findings and propose next steps for the mobile-first pilot in the telecommunications sector.' I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Alright, I can help you update that email. What specific details would you like to change in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include 'VP of Customer Experience'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the recipient list to include 'VP of Customer Experience'. What other details would you like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please add \"Resource allocation and training requirements for a scaled deployment need immediate attention\" to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Resource allocation and training requirements for a scaled deployment need immediate attention\" to the key points. What else would you like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'd also like to add 'Head of Product Development' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Head of Product Development' to the recipient list. What else would you like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please add 'Identified critical areas for optimization, particularly around network latency in underserved regions.' to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Identified critical areas for optimization, particularly around network latency in underserved regions\" to the key points. What else would you like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Confirmed, the updates to the email have been made. Is there anything else you'd like to do with it?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

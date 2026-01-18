@@ -1,0 +1,127 @@
+{
+  "session_id": 20,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: European Travel Partners",
+      "agenda_items": [
+        "Identification of cross-selling and upselling opportunities within existing portfolio",
+        "Discussion on new predictive analytics features for enhanced client value",
+        "Review of Q3 sales performance against targets for key European accounts"
+      ],
+      "key_decisions": [
+        "Launch a pilot program for the 'Customer Journey Optimization' feature with two strategic partners next period.",
+        "Allocate dedicated sales engineering support for the upcoming 3 months to assist with complex client integrations."
+      ],
+      "action_items": [
+        "Draft a proposal for a joint marketing initiative with a strategic airline partner for review next month. (Owner: Marketing Department)",
+        "Prepare Q3 performance deep-dive reports for each sales team member by end of next week. (Owner: Sales Operations)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I've been learning a lot about the recent advancements in AI models and their applications in various fields. It's fascinating to see how they are being used to solve complex problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's really interesting! I actually need some help organizing my meeting notes. I'm looking to add new meeting notes and need assistance structuring the information.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can certainly help you add new meeting notes and structure the information.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Absolutely! What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The meeting was a Strategic Account Review for European Travel Partners.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The agenda included identifying cross-selling and upselling opportunities, discussing new predictive analytics features, and reviewing Q3 sales performance for key European accounts.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We decided to launch a pilot program for the 'Customer Journey Optimization' feature with two strategic partners next period and allocate dedicated sales engineering support for the upcoming 3 months to assist with complex client integrations.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "What are the action items from this meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "The action items include drafting a proposal for a joint marketing initiative with a strategic airline partner for review next month, to be owned by the Marketing Department. Additionally, Sales Operations needs to prepare Q3 performance deep-dive reports for each sales team member by the end of next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Thank you. I have all the information needed to add the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Perfect, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime you need help with organizing information or anything else.",
+      "share_memory": false
+    }
+  ]
+}

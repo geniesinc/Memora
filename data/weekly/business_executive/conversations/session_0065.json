@@ -1,0 +1,137 @@
+{
+  "session_id": 65,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Next-Generation Cockpit Display Integration Platform",
+      "project_description": "Strategic initiative to develop and deploy an advanced avionics display integration system that enhances pilot situational awareness while reducing certification complexity for OEM partners.",
+      "budget": 3450000,
+      "timeline": "18 months with Phase 1: Requirements & Design (months 1-4), Phase 2: Development & Testing (months 5-13), Phase 3: Certification & Deployment (months 14-18)",
+      "project_lead": "Priya Kapoor, VP of Engineering Operations",
+      "stakeholders": [
+        "Quality Assurance Division",
+        "Director of Regulatory Compliance"
+      ],
+      "objectives": [
+        "Establish modular architecture supporting rapid customization across aircraft platforms",
+        "Generate new revenue stream projected at $12M annually within first 2 years post-launch"
+      ],
+      "deliverables": [
+        "Certified display integration software platform with modular component library",
+        "Market positioning strategy and go-to-market execution plan",
+        "Training program for internal teams and OEM partner engineering staff"
+      ],
+      "market_impact": "Positions company as innovation leader in cockpit user experience within North American business aviation sector, enabling penetration of $450M addressable market while strengthening strategic partnerships with three major OEMs currently in pipeline."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Strategic OEM Partners",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 3250000,
+        "reverted_to": 3450000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Create competitive differentiation in the mid-size business jet market segment",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Next-Generation Cockpit Display Integration Platform'. We're no longer pursuing certain aspects of the project.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove some information from the project proposal. What specific details or sections should I remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Strategic OEM Partners' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Strategic OEM Partners' from the stakeholders for this proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget from $3,250,000 back to $3,450,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the budget has been updated back to $3,450,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Create competitive differentiation in the mid-size business jet market segment' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, 'Create competitive differentiation in the mid-size business jet market segment' has been removed from the objectives. Is there anything else you'd like to remove or modify for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the project proposal adjustments.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. All requested removals and modifications have been applied to the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with these adjustments! I appreciate it.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm glad I could assist with the adjustments to your project proposal.",
+      "share_memory": false
+    }
+  ]
+}

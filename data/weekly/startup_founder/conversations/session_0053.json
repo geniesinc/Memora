@@ -1,0 +1,125 @@
+{
+  "session_id": 53,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Accessibility Integration for Biotech Platform",
+      "agenda_items": [
+        "Discussion of regulatory compliance for North American biotech industry (ADA, Section 508, AODA)"
+      ],
+      "key_decisions": [
+        "Integrate automated accessibility testing tools into the CI/CD pipeline within the next development cycle."
+      ],
+      "attendees": [
+        "Dr. Ben Carter (CTO)",
+        "Anya Sharma (UX Lead)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Defining KPIs for accessibility improvements",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Elias Vance (CEO, Founder)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 22,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 46,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 53,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Accessibility Integration for Biotech Platform'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Defining KPIs for accessibility improvements' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Defining KPIs for accessibility improvements' from the agenda items. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Dr. Elias Vance (CEO, Founder)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Dr. Elias Vance (CEO, Founder)' from the attendees. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

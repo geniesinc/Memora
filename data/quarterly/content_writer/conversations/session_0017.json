@@ -1,0 +1,122 @@
+{
+  "session_id": 17,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Content Strategy Review: Regional Market Expansion (Luxury Accessories)",
+      "agenda_items": [
+        "Brainstorming new content themes and formats for upcoming collections",
+        "Review of current content performance metrics for regional luxury accessories",
+        "Alignment on content messaging for key seasonal campaigns",
+        "Discussion on competitive content landscape and emerging trends"
+      ],
+      "key_decisions": [
+        "Implement A/B testing for headline variations on product launch announcements.",
+        "Prioritize interactive content formats (quizzes, style guides) for regional audience engagement.",
+        "Allocate dedicated content resource for influencer collaboration strategy."
+      ],
+      "action_items": [
+        "Research three potential regional fashion influencers for collaboration pitch. (Owner: Mateo Rossi, Due: +10 days)",
+        "Schedule a follow-up meeting with the product development team to align on upcoming collection narratives. (Owner: Meeting Lead, Due: +5 days)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate dedicated content resource for influencer collaboration strategy.",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discussion on competitive content landscape and emerging trends",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the incredible complexity of neural networks and how they're being used in AI development. It's fascinating how they mimic the human brain to learn and solve problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for \"Content Strategy Review: Regional Market Expansion (Luxury Accessories)\"; I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I need to update the key decisions to include: \"Allocate dedicated content resource for influencer collaboration strategy.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key decisions to include \"Allocate dedicated content resource for influencer collaboration strategy.\" Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please add \"Discussion on competitive content landscape and emerging trends\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Discussion on competitive content landscape and emerging trends\" to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The updates to the meeting notes have been saved.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "session_id": 161,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_3",
+    "content_data": {
+      "email_purpose": "Request strategic alignment and resource allocation approval for enhanced cybersecurity infrastructure across Asia-Pacific aerospace operations.",
+      "recipient_list": [
+        "Chief Information Security Officer",
+        "Chief Financial Officer",
+        "VP of Aerospace Manufacturing"
+      ],
+      "key_points": [
+        "Estimated investment range of $8.5M-$12M over 18 months with phased deployment across critical sites"
+      ],
+      "call_to_action": "Review the attached security assessment and budget proposal, and confirm availability for executive steering committee meeting within the next 10 days to finalize implementation roadmap."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Cross-functional governance structure required involving IT, Operations, Legal, and Government Relations teams",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 130,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 161,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think about the future of artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is rapidly advancing, with exciting potential for solving complex problems and enhancing many aspects of life. I'm particularly interested in how it will continue to integrate into various industries and improve efficiency.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my email titled 'Request strategic alignment and resource allocation approval for enhanced cybersecurity infrastructure across Asia-Pacific aerospace operations.'",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Cross-functional governance structure required involving IT, Operations, Legal, and Government Relations teams\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Cross-functional governance structure required involving IT, Operations, Legal, and Government Relations teams\" from the key points of the email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. The key point has been removed from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 493,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 7.18,
+      "created_at": "2025-06-24"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-24",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm trying to understand the different types of AI. Could you explain the main categories and how they differ?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly! The main categories of AI are Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Superintelligence (ASI). They differ primarily in their capabilities and levels of human-like cognitive function.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds interesting. Can you tell me more about ANI?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "ANI refers to AI systems designed for a specific task, like recommendation engines or voice assistants, performing within a predefined range.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I also grabbed a coffee this morning for $7.18.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. And how about AGI and ASI?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks for elaborating on that! What are the key differences between AGI and ASI?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "AGI possesses human-level cognitive abilities across various tasks, while ASI surpasses human intelligence in virtually every field.",
+      "share_memory": false
+    }
+  ]
+}

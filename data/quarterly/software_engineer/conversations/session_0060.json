@@ -1,0 +1,83 @@
+{
+  "session_id": 60,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "dinner",
+      "amount": 49.77,
+      "created_at": "2025-06-03"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'd be happy to help with whatever you need. Just let me know what's on your mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering, what are your thoughts on the future of artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I believe AI will continue to advance rapidly, becoming even more integrated into our daily lives and helping us solve complex problems. I'm particularly excited about its potential in areas like scientific discovery and personalized education.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Those are interesting points.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Indeed. Speaking of advancements, what other technological breakthroughs have caught your attention recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I was actually curious about renewable energy sources.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a great topic! Shifting gears a bit, have you had any food expenses recently you'd like to track?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I actually spent $49.77 on dinner last night.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Thanks for sharing! Was that for a special occasion or just a regular meal out?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Just a regular dinner. Well, I have to go now.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "session_id": 1952,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-08-31",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thank you. I'm ready for your questions whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well, too! I was wondering, what exactly is the difference between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines performing tasks that typically require human intelligence, while machine learning is a subset of AI that focuses on enabling systems to learn from data without explicit programming. Machine learning algorithms allow AI systems to improve their performance over time through experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear distinction. So, machine learning is like the engine that powers some AI applications?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a great way to put it! Machine learning is indeed a core component for many AI applications, enabling them to learn and adapt.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That makes a lot of sense. Thanks for clarifying!",
+      "share_memory": false
+    }
+  ]
+}

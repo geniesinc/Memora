@@ -1,0 +1,148 @@
+{
+  "session_id": 332,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "Q3 Pilot Integration Review: Progress & Next Steps for Key Accounts",
+      "agenda_items": [
+        "Review current pilot status for top 3 enterprise accounts"
+      ],
+      "key_decisions": [
+        "Prioritize dedicated engineering support for the 'Aurora Telecom' integration over the next 2 weeks to unblock critical path items.",
+        "Initiate weekly syncs between sales and product teams to streamline feedback on pilot features and address client concerns proactively."
+      ],
+      "attendees": [
+        "Maria Rodriguez, Senior Account Executive, Strategic Accounts",
+        "David Chen, Director of Enterprise Solutions",
+        "Omar Khan, Solutions Architect Lead",
+        "Anya Sharma, VP Sales, North America"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "attendees",
+        "added_item": "Anya Sharma, VP Sales, North America",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Initiate weekly syncs between sales and product teams to streamline feedback on pilot features and address client concerns proactively.",
+        "action": "added"
+      }
+    ],
+    "session_count": 4,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 196,
+        "session_date": "2025-06-10",
+        "operation": "add"
+      },
+      {
+        "session_id": 239,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 326,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      },
+      {
+        "session_id": 332,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Q3 Pilot Integration Review: Progress & Next Steps for Key Accounts'. I have some changes to make to the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the 'attendees' field to include Anya Sharma, VP Sales, North America.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added Anya Sharma to the attendees. Is there anything else you need to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, I also need to update the 'key_decisions' to include: 'Initiate weekly syncs between sales and product teams to streamline feedback on pilot features and address client concerns proactively.'",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key decisions. Is there anything else you need to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the updates on the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, the meeting notes have been updated. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do, thanks!",
+      "share_memory": false
+    }
+  ]
+}

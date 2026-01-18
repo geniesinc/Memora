@@ -1,0 +1,125 @@
+{
+  "session_id": 113,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "IoT Gateway Modernization for Smart Building Infrastructure",
+      "project_description": "Migration of legacy IoT gateway systems to a cloud-native, mobile-first architecture supporting real-time sensor data aggregation and edge computing capabilities across regional smart building deployments.",
+      "budget": 275000,
+      "timeline": "14 months with Phase 1 (months 1-4) for architecture design and prototyping, Phase 2 (months 5-10) for core development, and Phase 3 (months 11-14) for deployment and optimization",
+      "project_lead": "Priya Sundaram, Senior IoT Solutions Architect",
+      "stakeholders": [
+        "Security and Compliance Team",
+        "Infrastructure Operations",
+        "IoT Platform Engineering"
+      ],
+      "objectives": [
+        "Reduce gateway latency by 60% through edge computing implementation",
+        "Enable real-time mobile monitoring and control for 500+ connected devices per gateway"
+      ],
+      "deliverables": [
+        "Mobile-first dashboard application for iOS and Android",
+        "Automated deployment pipeline with CI/CD integration",
+        "Training materials and knowledge transfer sessions"
+      ],
+      "success_metrics": [
+        "Zero critical security vulnerabilities in production",
+        "System handles 10,000+ concurrent device connections per gateway",
+        "Mobile app performance score above 90 on Lighthouse metrics"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 300000,
+        "reverted_to": 275000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Edge computing modules for local data processing",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat and assist.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'IoT Gateway Modernization for Smart Building Infrastructure'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget from $300,000 back to $275,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for the proposal to $275,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Edge computing modules for local data processing' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Edge computing modules for local data processing' from the deliverables. Is there anything else you'd like to remove or modify for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all the removals I needed for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've completed the requested removals and modifications for the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's great! I appreciate your help with that.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance with your project proposals or anything else.",
+      "share_memory": false
+    }
+  ]
+}

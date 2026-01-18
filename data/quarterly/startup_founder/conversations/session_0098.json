@@ -1,0 +1,154 @@
+{
+  "session_id": 98,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Strategic Roadmap Review: Mobile-First Biotech Platform",
+      "agenda_items": [
+        "Competitive analysis and differentiation strategy for upcoming market entries"
+      ],
+      "key_decisions": [
+        "Allocate additional resources to legal and compliance teams to proactively address evolving EU data privacy regulations."
+      ],
+      "attendees": [
+        "Mr. Kai Chen (Head of Product)",
+        "Dr. Anya Sharma (CEO & Founder)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Initiate pilot program for new user onboarding flow in a key European market within 4 weeks.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Elara Vance (Head of R&D)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Talent acquisition and team scaling for critical R&D roles",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 80,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 83,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      },
+      {
+        "session_id": 98,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think is the most interesting recent scientific discovery?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! The discovery of gravitational waves by LIGO in 2015, confirming a major prediction of Einstein's theory of relativity, was incredibly significant. It opened up a whole new way to observe the universe.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Roadmap Review: Mobile-First Biotech Platform'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Initiate pilot program for new user onboarding flow in a key European market within 4 weeks.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Dr. Elara Vance (Head of R&D)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Dr. Elara Vance from the attendees. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Talent acquisition and team scaling for critical R&D roles' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that agenda item. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed all the specified items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

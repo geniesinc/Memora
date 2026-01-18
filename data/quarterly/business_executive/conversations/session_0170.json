@@ -1,0 +1,117 @@
+{
+  "session_id": 170,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Strategic Review: ERP System Integration for North American Pharmaceutical Operations",
+      "agenda_items": [
+        "Assess regulatory compliance implications for data synchronization in FDA-regulated environments",
+        "Discuss budget allocation for Phase 2 expansion to remaining facilities"
+      ],
+      "key_decisions": [
+        "Established cross-functional steering committee led by VP of Operations and Chief Information Officer"
+      ],
+      "action_items": [
+        "Kwame Osei to coordinate with Quality Assurance on validation protocol for integrated systems by end of next month"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocated additional budget for third-party integration middleware to address real-time data synchronization challenges",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Priya Mehta to complete vendor capability assessment and present recommendations within 3 weeks",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Review: ERP System Integration for North American Pharmaceutical Operations'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Allocated additional budget for third-party integration middleware to address real-time data synchronization challenges' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that decision from the key decisions. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Priya Mehta to complete vendor capability assessment and present recommendations within 3 weeks' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that action item. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding these notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing the specified decision and action item. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do, thanks!",
+      "share_memory": false
+    }
+  ]
+}

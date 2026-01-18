@@ -1,0 +1,142 @@
+{
+  "session_id": 648,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insight Post",
+      "main_message": "Delving into our recent manufacturing efficiency improvements across European operations. Data-driven insights from our pilot programs are revealing significant opportunities for cost optimization and enhanced productivity. #ManufacturingExcellence #DataDrivenDecisions",
+      "hashtags": [
+        "Manufacturing",
+        "EuropeanOperations",
+        "FinancialAnalysis",
+        "FinanceInsights",
+        "DataAnalytics",
+        "Productivity",
+        "CostOptimization",
+        "PilotProgram"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "Productivity",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "CostOptimization",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "PilotProgram",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 370,
+        "session_date": "2025-06-17",
+        "operation": "add"
+      },
+      {
+        "session_id": 648,
+        "session_date": "2025-06-30",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-30",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks! Ready for another interesting conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Insight Post'. I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#Productivity'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the hashtags to include '#Productivity'. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#CostOptimization' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've added '#CostOptimization' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#PilotProgram' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've added '#PilotProgram' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That covers all the hashtag updates for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I've noted the hashtag updates. Is there anything else you'd like to update for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "session_id": 62,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Regional Biosecurity Data Integration Initiative - Technical Working Group",
+      "agenda_items": [
+        "Review of current mobile data collection protocols for pathogen surveillance"
+      ],
+      "key_decisions": [
+        "Prioritize the development of a secure API for regional data exchange over direct database access.",
+        "Adopt FHIR-based data standards for all new mobile data collection applications within the next 3 months."
+      ],
+      "attendees": [
+        "Dr. Omar Khan, Research Program Manager (Regional Initiatives)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Update on ethical guidelines for genomic data handling in a mobile-first context",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Lena Petrova, Principal Investigator (AI & Machine Learning)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Samuel Lee, Data Security Specialist (Cybersecurity)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips inspired by the human brain. It's fascinating how researchers are trying to mimic biological neural networks for more efficient AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the meeting notes titled 'Regional Biosecurity Data Integration Initiative - Technical Working Group'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Update on ethical guidelines for genomic data handling in a mobile-first context' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Update on ethical guidelines for genomic data handling in a mobile-first context\" from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Lena Petrova, Principal Investigator (AI & Machine Learning)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Dr. Lena Petrova from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Samuel Lee, Data Security Specialist (Cybersecurity)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Dr. Samuel Lee from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been processed for the meeting notes. Is there anything else I can help you with regarding these notes or other content?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

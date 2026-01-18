@@ -1,0 +1,80 @@
+{
+  "session_id": 744,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All email_writeup items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was just wondering about something.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm happy to chat about anything you have on your mind! What's your question?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, nothing really specific. Just generally curious about things.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand. Sometimes it's interesting to explore different subjects without a specific goal in mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, exactly! It's nice to just see where a conversation goes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It certainly is! We could discuss recent scientific discoveries, technological advancements, or interesting historical facts.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Those all sound like great topics, but I actually have to run for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "No problem at all! I hope you have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

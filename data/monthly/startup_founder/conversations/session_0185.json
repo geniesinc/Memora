@@ -1,0 +1,126 @@
+{
+  "session_id": 185,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "FinTech AI Workflow Optimization Engine: North American Market Expansion",
+      "project_description": "Development and deployment of an AI-driven platform to streamline complex financial workflows for North American fintech institutions, focusing on compliance and operational efficiency.",
+      "budget": 850000,
+      "timeline": "18 months, with initial MVP deployment within 6 months and full feature rollout over the subsequent 12 months.",
+      "project_lead": "Kai Chen, CEO & Lead Product Strategist",
+      "stakeholders": [
+        "Head of Sales & Marketing (North America)",
+        "Lead AI Architect",
+        "Founding Team & Investors"
+      ],
+      "objectives": [
+        "Scale platform to support diverse regulatory environments across North America.",
+        "Establish strategic partnerships with 2-3 major fintech infrastructure providers.",
+        "Achieve 20% reduction in operational costs for pilot clients within the first year of deployment."
+      ],
+      "deliverables": [
+        "Client onboarding and training materials.",
+        "Functional MVP of AI workflow optimization engine (within 6 months).",
+        "Market analysis report for further expansion opportunities."
+      ],
+      "competitive_analysis": [
+        "Existing legacy systems lack advanced AI capabilities and are costly to maintain.",
+        "Larger tech firms are exploring similar solutions but lack our specialized fintech focus and agile development."
+      ],
+      "growth_projections": "Projected ARR of $2M by the end of the second year, scaling to $10M within five years through strategic client acquisition and product diversification. Expecting a 30% year-over-year client growth rate after initial market penetration."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 1150000,
+        "reverted_to": 850000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Performance analytics dashboard for clients.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'FinTech AI Workflow Optimization Engine: North American Market Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget from $1,150,000 back to $850,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for 'FinTech AI Workflow Optimization Engine' back to $850,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Performance analytics dashboard for clients.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, 'Performance analytics dashboard for clients' has been removed from the deliverables for the 'FinTech AI Workflow Optimization Engine' project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding this project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the project proposal has been updated by reverting the budget and removing that deliverable. Do you have any other changes or content for me today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I think that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, sounds good! Have a great rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

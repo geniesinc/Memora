@@ -1,0 +1,111 @@
+{
+  "session_id": 365,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Update",
+      "main_message": "Excited to share preliminary findings from our project on intelligent network orchestration for 6G. Our latest simulations demonstrate significant improvements in latency and resource allocation efficiency, paving the way for truly adaptive telecommunications infrastructure across Europe. We're exploring how AI-driven predictive models can optimize network slicing in dynamic environments.",
+      "hashtags": [
+        "#EuropeanInnovation",
+        "#Telecommunications",
+        "#ComputerScience",
+        "#AIinTelecom",
+        "#NetworkOrchestration"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#NetworkOrchestration",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 148,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 365,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Research Update'; I have some changes for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update it. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add '#NetworkOrchestration' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#NetworkOrchestration' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the hashtags for the social media post. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

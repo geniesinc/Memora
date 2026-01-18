@@ -1,0 +1,105 @@
+{
+  "session_id": 191,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "UX/UI Brainstorm for 'Nebula Nexus' Onboarding Flow",
+      "agenda_items": [
+        "Review current onboarding user journey and pain points"
+      ],
+      "key_decisions": [
+        "Implement a dynamic background that evolves with user progress."
+      ],
+      "action_items": [
+        "Develop initial concept art for the 'celestial explorer' visual theme (Designer: Kai Chen)",
+        "Draft micro-interaction specifications for the first three onboarding steps (Designer: Kai Chen)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Identify technical constraints and opportunities for creative solutions",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Schedule a follow-up meeting with the engineering team to discuss technical feasibility of dynamic elements (PM: Anya Sharma)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How can you help me today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to assist you with any questions you have. Just let me know what's on your mind!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'UX/UI Brainstorm for 'Nebula Nexus' Onboarding Flow'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details should I remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Identify technical constraints and opportunities for creative solutions' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Identify technical constraints and opportunities for creative solutions' from the agenda items for the 'Nebula Nexus' meeting notes. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Schedule a follow-up meeting with the engineering team to discuss technical feasibility of dynamic elements (PM: Anya Sharma)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item from the 'Nebula Nexus' meeting notes. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the meeting notes. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Confirmed. All specified removals have been made to the meeting notes. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help!",
+      "share_memory": false
+    }
+  ]
+}

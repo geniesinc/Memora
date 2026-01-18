@@ -1,0 +1,80 @@
+{
+  "session_id": 1231,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-28",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'd be happy to answer any questions you have for me.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's great to hear! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I've been fascinated by the recent advancements in AI models and how they are being used in various fields, from healthcare to environmental science. It's incredible to see their potential.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds pretty complex. Is there anything else interesting you've come across?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I also recently learned about the discovery of new exoplanets, which always sparks my imagination about the vastness of the universe. It's amazing to think about what else is out there.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's really interesting. What kind of applications are those AI models being used for in healthcare?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's really cool. I'd love to learn more about this sometime.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I'm glad to hear that! Please feel free to ask me about it anytime you'd like to delve deeper.",
+      "share_memory": false
+    }
+  ]
+}

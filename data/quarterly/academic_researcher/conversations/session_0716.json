@@ -1,0 +1,80 @@
+{
+  "session_id": 716,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello to you too! I'm doing well, just looking to chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great! Did you know that the average person speaks about 7,000 words a day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, that's an interesting fact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It certainly is! Speaking of interesting things, have you ever considered the history behind everyday objects?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds like a fascinating topic! What kind of objects are you thinking of?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Well, take something like the humble fork, for instance; its journey from a two-pronged tool to the common four-pronged utensil we use today is quite a story. Or even the evolution of the zipper, from a complex hook-and-eye system to the smooth, interlocking mechanism we know.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Those are really interesting examples, but I actually have to run.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "No problem at all! It was a pleasure chatting with you, and I hope you have a wonderful rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

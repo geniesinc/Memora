@@ -1,0 +1,80 @@
+{
+  "session_id": 1213,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-28",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering, what are your thoughts on the future of artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I believe AI has the potential to revolutionize many aspects of our lives, from healthcare to entertainment, by offering innovative solutions and efficiencies. However, it's also crucial to consider the ethical implications and ensure responsible development as it progresses.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a very interesting perspective. It sounds like there's a lot to consider with AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Indeed, the rapid advancements in AI present both exciting opportunities and complex challenges for society.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It definitely seems like a field with a lot of ongoing discussion. What are some of the biggest challenges you see for AI development?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a good question.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It has been a pleasure discussing this with you!",
+      "share_memory": false
+    }
+  ]
+}

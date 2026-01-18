@@ -1,0 +1,106 @@
+{
+  "session_id": 261,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To provide an update on the visual design concepts for the new predictive analytics dashboard and gather feedback.",
+      "recipient_list": [
+        "Head of Product Innovation"
+      ],
+      "key_points": [
+        "Overview of proposed UI/UX elements, focusing on data visualization clarity and brand consistency."
+      ],
+      "call_to_action": "Please review the attached design mockups and provide your feedback by end of day, three days from now, so we can refine the concepts further."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Discussion on how design choices support intuitive understanding of predictive travel trends.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 225,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 261,
+        "session_date": "2025-06-12",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-12",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I can certainly try my best to help you. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'To provide an update on the visual design concepts for the new predictive analytics dashboard and gather feedback.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Discussion on how design choices support intuitive understanding of predictive travel trends.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Discussion on how design choices support intuitive understanding of predictive travel trends\" from the key points of the email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all the changes I wanted to make for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the key point has been removed from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I might have more questions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

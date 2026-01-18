@@ -1,0 +1,123 @@
+{
+  "session_id": 249,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Excited to see how real-time enterprise solutions are transforming the North American travel industry! Our recent pilot programs are demonstrating significant gains in operational efficiency and customer satisfaction. It's truly a game-changer.",
+      "hashtags": [
+        "TravelTech",
+        "AirlineInnovation",
+        "DigitalTransformation",
+        "SalesLeadership",
+        "RealTimeEnterprise",
+        "NorthAmericaTravel"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "RealTimeEnterprise",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "NorthAmericaTravel",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 121,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 249,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! I'm ready to chat about anything you'd like.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'. I want to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update your 'LinkedIn Thought Leadership Post'. What changes would you like to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Let's update the hashtags. Please add `RealTimeEnterprise` to the current list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added `RealTimeEnterprise` to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add `NorthAmericaTravel` to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added `NorthAmericaTravel` to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the hashtags now, thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the hashtags have been updated. Is there anything else you'd like to change for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

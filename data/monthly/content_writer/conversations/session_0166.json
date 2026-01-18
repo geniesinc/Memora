@@ -1,0 +1,112 @@
+{
+  "session_id": 166,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Audience Engagement Strategy for Regional Entertainment Venues",
+      "project_description": "A comprehensive content strategy proposal focused on enhancing audience engagement and optimizing digital presence for regional entertainment venues to drive ticket sales and foster community loyalty.",
+      "budget": 15000,
+      "timeline": "Over a 4-month period, including initial research, strategy development, and pilot content creation.",
+      "project_lead": "Isabella Chen, Lead Content Strategist",
+      "stakeholders": [
+        "Event Coordinators"
+      ],
+      "objectives": [
+        "Improve social media engagement rates by 20% across key platforms",
+        "Increase online ticket sales by 15% within the first 6 months of implementation",
+        "Establish clear brand voice guidelines for all digital communications",
+        "Develop a sustainable content calendar and editorial workflow for venue marketing teams"
+      ],
+      "deliverables": [
+        "Brand Voice and Tone Guidelines for digital communications"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 25000,
+        "reverted_to": 15000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Editorial Calendar Template and 3 months of planned content topics",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Audience Engagement Strategy for Regional Entertainment Venues'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for this project to $15,000; the $25,000 figure was incorrect.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $15,000 for 'Audience Engagement Strategy'. Is there anything else you'd like to remove or modify for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Editorial Calendar Template and 3 months of planned content topics' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Editorial Calendar Template and 3 months of planned content topics' from the deliverables. Is there anything else you'd like to remove or modify for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the project proposal by removing the specified deliverable and reverting the budget. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

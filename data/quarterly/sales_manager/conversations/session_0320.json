@@ -1,0 +1,161 @@
+{
+  "session_id": 320,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: Q4 European Growth Initiatives",
+      "agenda_items": [
+        "Open discussion and action item assignment",
+        "Pipeline forecast analysis for the upcoming period",
+        "Team performance metrics and individual goal alignment",
+        "Discussion on new market entry strategies for Eastern Europe",
+        "Deep dive into top strategic accounts challenges and opportunities"
+      ],
+      "key_decisions": [
+        "Establish a cross-functional task force to address customer churn in the UK market, reporting back in 2 weeks",
+        "Initiate pilot program for new e-commerce platform integration with two key accounts within the next 4 weeks",
+        "Approve increased marketing spend for targeted campaigns in the Nordic region for the upcoming phase"
+      ],
+      "attendees": [
+        "Head of European Marketing",
+        "Regional Sales Directors (EU)",
+        "Key Account Managers (Germany, UK, France)",
+        "Customer Success Lead (EU)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of Q3 European sales performance and key variances",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize dedicated sales enablement resources for the German market in the next 3 months",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Head of Product Development",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 131,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 268,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      },
+      {
+        "session_id": 273,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      },
+      {
+        "session_id": 320,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, ready to chat. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Account Review: Q4 European Growth Initiatives'. We can go over the specifics in a bit.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details should I remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Review of Q3 European sales performance and key variances\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Review of Q3 European sales performance and key variances\" from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please also remove 'Prioritize dedicated sales enablement resources for the German market in the next 3 months' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Prioritize dedicated sales enablement resources for the German market in the next 3 months' from the key decisions. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Head of Product Development' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Head of Product Development' from the attendees. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all the removals I needed for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've removed all the requested items from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

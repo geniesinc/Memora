@@ -1,0 +1,156 @@
+{
+  "session_id": 151,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Regional Market Performance Review & Strategic Capital Allocation",
+      "agenda_items": [
+        "Review of current regional sales performance and market share analysis for the past period",
+        "Strategic planning for inventory optimization and supply chain resilience in the region",
+        "Evaluation of key financial metrics (revenue, gross margin, operating expenses) against budget"
+      ],
+      "key_decisions": [
+        "Mandated a deep dive into Q3 operating expenses to identify areas for cost reduction."
+      ],
+      "action_items": [
+        "Regional Sales Directors to provide a comprehensive market share analysis for the past 3 months, highlighting growth opportunities and competitive threats, due in 1 week. (Owner: Regional Sales Directors)",
+        "Treasury department to present a revised FX hedging strategy proposal for key currencies within the next 10 days. (Owner: Treasury Lead)",
+        "Financial Analyst team to prepare a detailed capex budget for the East Asia facility upgrade for review within the next 2 weeks. (Owner: Rina Patel)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Assessment of foreign exchange impacts on profitability for the next period",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Supply Chain Finance to collaborate with Operations on an inventory optimization report, due in 3 weeks. (Owner: David Chen)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion on capital expenditure proposals for upcoming manufacturing upgrades",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 114,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 122,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      },
+      {
+        "session_id": 124,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      },
+      {
+        "session_id": 151,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How are things with you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Regional Market Performance Review & Strategic Capital Allocation'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Assessment of foreign exchange impacts on profitability for the next period\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Assessment of foreign exchange impacts on profitability for the next period\" from the agenda items. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Supply Chain Finance to collaborate with Operations on an inventory optimization report, due in 3 weeks. (Owner: David Chen)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that action item. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Discussion on capital expenditure proposals for upcoming manufacturing upgrades' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Discussion on capital expenditure proposals for upcoming manufacturing upgrades\" from the agenda items. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I've completed the requested removals from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's great! Thanks for your help.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

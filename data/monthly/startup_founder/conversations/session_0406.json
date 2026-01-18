@@ -1,0 +1,128 @@
+{
+  "session_id": 406,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Biotech Pilot Program: AI Integration & Global Strategy Alignment",
+      "agenda_items": [
+        "Resource allocation for upcoming R&D initiatives"
+      ],
+      "key_decisions": [
+        "Initiate discussions with a specialized data brokerage firm for European market data",
+        "Allocate additional budget for regulatory compliance consulting in APAC region"
+      ],
+      "attendees": [
+        "Dr. Lena Petrova (Head of Research & Development)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Anya Sharma (CEO & Founder)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion on data acquisition strategies for global expansion",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Mr. Javier Rodriguez (Regulatory Affairs Lead)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks for asking! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Biotech Pilot Program: AI Integration & Global Strategy Alignment'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Anya Sharma (CEO & Founder)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Dr. Anya Sharma from the attendees. Is there anything else you'd like to remove or modify in the notes for the Biotech Pilot Program?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Discussion on data acquisition strategies for global expansion' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that agenda item. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Mr. Javier Rodriguez (Regulatory Affairs Lead)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Mr. Javier Rodriguez from the attendees. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. The attendees 'Dr. Anya Sharma' and 'Mr. Javier Rodriguez' have been removed, along with the agenda item 'Discussion on data acquisition strategies for global expansion'. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Glad I could assist with that.",
+      "share_memory": false
+    }
+  ]
+}

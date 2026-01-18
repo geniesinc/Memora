@@ -1,0 +1,148 @@
+{
+  "session_id": 498,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_1",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Image Post",
+      "main_message": "Excited to share a sneak peek of our latest UI/UX concept for a new e-commerce feature! We're focusing on intuitive navigation and a seamless user journey to enhance the shopping experience for our European customers. What are your thoughts on user-centric design in e-commerce?",
+      "hashtags": [
+        "#DigitalProduct",
+        "#CreativeDesign",
+        "#CustomerCentric",
+        "#DesignThinking",
+        "#ProductDesign",
+        "#EuropeanMarket",
+        "#UIUXDesign",
+        "#UserExperience"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#EuropeanMarket",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#UIUXDesign",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#UserExperience",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 74,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 498,
+        "session_date": "2025-06-25",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Image Post'. I want to change some of the details for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the hashtags to include '#EuropeanMarket'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#EuropeanMarket' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#UIUXDesign' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#UIUXDesign' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#UserExperience' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#UserExperience' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all the hashtag updates for the social media post are complete. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 444,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 6.33,
+      "created_at": "2025-06-21"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-21",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! I'm ready to chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! What exactly is the difference between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines performing tasks that typically require human intelligence, while machine learning is a subset of AI that focuses on enabling systems to learn from data without explicit programming. Machine learning is essentially how many AI systems achieve their intelligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. So, machine learning is like a specific tool within the AI toolbox?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly, that's a great way to put it! Machine learning provides the methods for AI to learn and improve.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Speaking of tools, I just spent $6.33 on coffee, which is a tool for me to get through the day!",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I hear you, coffee is essential for many! It's good to keep track of those daily essentials.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Definitely! I've enjoyed our chat and look forward to our next one.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've enjoyed our chat too! I'm always here to continue our conversations whenever you'd like.",
+      "share_memory": false
+    }
+  ]
+}

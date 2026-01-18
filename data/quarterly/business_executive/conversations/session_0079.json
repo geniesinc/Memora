@@ -1,0 +1,109 @@
+{
+  "session_id": 79,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "Outline strategic priorities for accelerating customer-centric transformation across European operations and secure leadership alignment on investment decisions.",
+      "recipient_list": [
+        "VP of Customer Experience"
+      ],
+      "key_points": [
+        "Proposed investment of \u20ac3.2M over 18 months to expand digital customer engagement platforms across all European markets",
+        "Customer satisfaction scores have increased by 18% following pilot programs in Nordic markets, demonstrating viability of scaled deployment"
+      ],
+      "call_to_action": "Review the attached strategic framework and provide input on investment priorities and resource allocation by end of next week to maintain project timeline."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Chief Commercial Officer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Regional Operations Directors",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you for asking! I'm ready to chat and help out in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the email titled 'Outline strategic priorities for accelerating customer-centric transformation across European operations and secure leadership alignment on investment decisions.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Chief Commercial Officer' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Chief Commercial Officer' from the recipient list for that email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Also remove 'Regional Operations Directors' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Regional Operations Directors' from the recipient list. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Confirmed. I have removed 'Chief Commercial Officer' and 'Regional Operations Directors' from the recipient list for the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a wonderful day.",
+      "share_memory": false
+    }
+  ]
+}

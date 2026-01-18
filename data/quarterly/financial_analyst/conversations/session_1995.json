@@ -1,0 +1,104 @@
+{
+  "session_id": 1995,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-08-31",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks for asking. How about yours?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Mine's going well too, thanks! Is there anything exciting you're looking forward to this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "There's a tech conference I'm keeping an eye on, which could be interesting. Otherwise, just the usual.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A tech conference sounds quite interesting! What kind of technologies or topics are they focusing on this year?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, it really does. They're focusing on AI advancements and sustainable technology.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Those are both incredibly relevant and important fields right now. Are there any specific advancements in AI or sustainable tech that have caught your attention recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I've been hearing a lot about AI ethics, and how to make sure these new technologies are developed responsibly.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a crucial point, especially since some estimates suggest the global AI market could reach over $1.8 trillion by 2030, making ethical considerations even more vital.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's a massive number. It makes one wonder about the long-term societal impact of such rapid technological growth.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Indeed, the societal impact is a profound question. It highlights the importance of proactive discussions around responsible innovation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's a good point, and I appreciate you raising it.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! It was great chatting with you about these important topics.",
+      "share_memory": false
+    }
+  ]
+}

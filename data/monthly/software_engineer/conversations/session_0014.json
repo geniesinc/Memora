@@ -1,0 +1,92 @@
+{
+  "session_id": 14,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "Proposal for implementing FHIR-compliant API architecture to improve patient data interoperability and system integration capabilities.",
+      "recipient_list": [
+        "Engineering Manager",
+        "Chief Technology Officer"
+      ],
+      "key_points": [
+        "Security enhancements include OAuth 2.0 implementation and end-to-end encryption for PHI data"
+      ],
+      "call_to_action": "Please review the technical proposal and provide feedback within the next 10 days so we can schedule an architecture review meeting and finalize the implementation roadmap."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "FHIR R4 standard implementation will enable seamless data exchange with external healthcare systems and meet regulatory requirements",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Proposal for implementing FHIR-compliant API architecture to improve patient data interoperability and system integration capabilities.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the email. What specific details would you like to remove or modify from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'FHIR R4 standard implementation will enable seamless data exchange with external healthcare systems and meet regulatory requirements' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that key point from the email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the key point has been removed from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I'll definitely reach out again if I need more help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good! I'll be here if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

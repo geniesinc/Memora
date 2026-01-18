@@ -1,0 +1,101 @@
+{
+  "session_id": 91,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "Propose architectural improvements to reduce latency in the autonomous navigation system and request feedback on implementation approach.",
+      "recipient_list": [
+        "Embedded Software Team"
+      ],
+      "key_points": [
+        "Benchmark results indicate 62% latency reduction with minimal impact on accuracy",
+        "Current navigation pipeline shows 340ms average latency, exceeding target threshold by 140ms"
+      ],
+      "call_to_action": "Review the attached technical proposal and provide feedback by end of next week so we can begin implementation in the upcoming sprint cycle."
+    },
+    "pool_status": "completed",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Current navigation pipeline shows 340ms average latency, exceeding target threshold by 140ms",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Propose architectural improvements to reduce latency in the autonomous navigation system and request feedback on implementation approach.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can definitely help with that. What information do you want to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the key points to include: 'Current navigation pipeline shows 340ms average latency, exceeding target threshold by 140ms.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key points to include the latency details. What else would you like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all the updates for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. The email has been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, talk to you later!",
+      "share_memory": false
+    }
+  ]
+}

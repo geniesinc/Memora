@@ -1,0 +1,86 @@
+{
+  "session_id": 1274,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-08-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's great to connect with you. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm doing well, thanks for asking. How are you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! Did you know that the average person checks their phone about 58 times a day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's a surprising statistic! Do you know if there's a difference in how often people check their phones based on their age group?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's an interesting question! Research indicates younger demographics generally check their phones more frequently than older age groups.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes a lot of sense.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It certainly does. What other tech trends or behaviors have you found interesting lately?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I've been noticing a lot about how AI is being integrated into everyday technology.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a fascinating observation. In what areas of everyday technology have you seen AI being most prominently integrated?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for me today, thanks for the chat!",
+      "share_memory": false
+    }
+  ]
+}

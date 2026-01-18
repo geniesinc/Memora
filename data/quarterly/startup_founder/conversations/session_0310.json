@@ -1,0 +1,102 @@
+{
+  "session_id": 310,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To introduce a new AI-driven pilot project proposal for enhancing player engagement and retention within the European gaming market.",
+      "recipient_list": [
+        "Head of Innovation"
+      ],
+      "key_points": [
+        "Potential for significant ROI and competitive advantage."
+      ],
+      "call_to_action": "Schedule a follow-up meeting to discuss the full pilot project plan and resource allocation within the next two weeks."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Pilot project scope: specific game title within the next business cycle.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "VP of European Operations",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'To introduce a new AI-driven pilot project proposal for enhancing player engagement and retention within the European gaming market.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Pilot project scope: specific game title within the next business cycle.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Pilot project scope: specific game title within the next business cycle.' from the key points. Anything else to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'VP of European Operations' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'VP of European Operations' from the recipient list. Anything else to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from this email for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The requested removals from the email have been processed. Is there anything else I can help you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

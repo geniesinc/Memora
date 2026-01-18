@@ -1,0 +1,104 @@
+{
+  "session_id": 136,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Coastal Routes Rebranding Initiative: Visual Identity Review",
+      "agenda_items": [
+        "Timeline and next steps for creative asset development"
+      ],
+      "key_decisions": [
+        "Finalized the 'Wave Crest' logo variant for its dynamic representation of travel and regional focus."
+      ],
+      "action_items": [
+        "Research and propose stock photography options that align with the new brand aesthetic - Owner: Junior Designer; Due: +7 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Refine selected logo variant (Wave Crest) with minor adjustments to line weight - Owner: Creative Lead; Due: +5 days",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Develop initial mock-ups for key digital touchpoints (website homepage, social media banners) using new visual identity - Owner: Design Team; Due: +10 days",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Coastal Routes Rebranding Initiative: Visual Identity Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Refine selected logo variant (Wave Crest) with minor adjustments to line weight - Owner: Creative Lead; Due: +5 days\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Refine selected logo variant (Wave Crest) with minor adjustments to line weight - Owner: Creative Lead; Due: +5 days\" from the action items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Develop initial mock-ups for key digital touchpoints (website homepage, social media banners) using new visual identity - Owner: Design Team; Due: +10 days\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, \"Develop initial mock-ups for key digital touchpoints (website homepage, social media banners) using new visual identity - Owner: Design Team; Due: +10 days\" has been removed from the action items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from these notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've completed all removals from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

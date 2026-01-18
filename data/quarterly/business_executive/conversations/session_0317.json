@@ -1,0 +1,139 @@
+{
+  "session_id": 317,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Regional Automotive Market Expansion Strategy Review",
+      "agenda_items": [
+        "Discuss strategic partnership opportunities with fleet management providers",
+        "Review operational efficiency improvements from predictive maintenance rollout",
+        "Review current market penetration metrics across regional dealership network",
+        "Assess competitive landscape shifts in electric vehicle segment"
+      ],
+      "key_decisions": [
+        "Approved allocation of additional resources to accelerate analytics platform deployment across remaining 40% of dealerships",
+        "Authorized pilot program for subscription-based vehicle service model in three metropolitan markets",
+        "Greenlit strategic alliance with commercial fleet operator to expand B2B market presence",
+        "Deferred decision on autonomous vehicle testing facility pending further regulatory clarity"
+      ],
+      "action_items": [
+        "Analytics team to present comprehensive competitive intelligence report on EV market dynamics in 3 weeks",
+        "Marketing lead to develop go-to-market strategy for fleet partnership initiative within 6 weeks",
+        "Finance team to model revenue projections for subscription service pilot over 18-month period",
+        "Operations director to finalize vendor selection for predictive maintenance sensors by end of next month"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Deferred decision on autonomous vehicle testing facility pending further regulatory clarity",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Assess competitive landscape shifts in electric vehicle segment",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 75,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 172,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      },
+      {
+        "session_id": 317,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Regional Automotive Market Expansion Strategy Review'. I have some changes to a few details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add \"Deferred decision on autonomous vehicle testing facility pending further regulatory clarity\" to the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Deferred decision on autonomous vehicle testing facility pending further regulatory clarity\" to the key decisions. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Assess competitive landscape shifts in electric vehicle segment' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Assess competitive landscape shifts in electric vehicle segment' to the agenda items. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, the meeting notes have been updated. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. I'll probably need your help again soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good! I'll be here if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "session_id": 280,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Logistics Automation Strategy Alignment - Phase 2 Review",
+      "agenda_items": [
+        "Risk assessment and mitigation strategies for technology integration",
+        "Discussion of current bottlenecks in regional distribution centers (DCs)",
+        "Review of Phase 1 automation implementation outcomes and KPIs"
+      ],
+      "key_decisions": [
+        "Allocate additional budget for specialized WMS integration consultants."
+      ],
+      "attendees": [
+        "Mr. Samuel Akintola, Regional DC Manager (East)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Form a cross-functional task force to address data standardization challenges.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Ms. Isabella Rossi, Director of Supply Chain Technology",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Mr. David Chen, VP Operations North America",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm good, thanks! I need to remove some information from my meeting notes titled 'Logistics Automation Strategy Alignment - Phase 2 Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Form a cross-functional task force to address data standardization challenges.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Form a cross-functional task force to address data standardization challenges\" from the key decisions in the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Ms. Isabella Rossi, Director of Supply Chain Technology\" from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. Ms. Isabella Rossi has been removed from the attendees. Anything else to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Mr. David Chen, VP Operations North America\" from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. Mr. David Chen has been removed from the attendees. Anything else to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested removals from the meeting notes have been completed. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance again.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

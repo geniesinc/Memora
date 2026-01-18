@@ -1,0 +1,122 @@
+{
+  "session_id": 486,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Research Collaboration Kick-off: Next-Gen Network Slicing for 6G",
+      "agenda_items": [
+        "Establishing communication protocols and regular check-in cadence",
+        "Defining initial research objectives and scope for the collaboration",
+        "Allocation of preliminary tasks and roles for the first phase",
+        "Discussion of potential research gaps and novel approaches for 6G"
+      ],
+      "key_decisions": [
+        "Formulate joint publication strategy for relevant academic conferences within the next 12 months.",
+        "Prioritize AI-driven predictive resource allocation for network slice management.",
+        "Focus initial research on proof-of-concept simulations rather than immediate hardware implementation."
+      ],
+      "attendees": [
+        "Professor Jian Li, Head of Research, Telecommunications Innovations",
+        "Dr. Anya Sharma, Lead Researcher, Network Architectures Group"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Kenji Tanaka, Senior Research Scientist, AI & Machine Learning Division",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current literature on dynamic network slicing optimization",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common misconceptions people have about AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "One common misconception is that AI is always sentient or has emotions like humans. Another is that it's a single, monolithic entity rather than a diverse field of technologies.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Research Collaboration Kick-off: Next-Gen Network Slicing for 6G'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Kenji Tanaka, Senior Research Scientist, AI & Machine Learning Division' from the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed Dr. Kenji Tanaka from the attendees list. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review of current literature on dynamic network slicing optimization' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Review of current literature on dynamic network slicing optimization\" from the agenda items. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I have updated the meeting notes by removing the specified attendee and agenda item. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

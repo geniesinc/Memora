@@ -1,0 +1,125 @@
+{
+  "session_id": 32,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Regional Media Accessibility Enhancement Initiative",
+      "project_description": "A strategic proposal to expand and optimize accessible media content delivery across our regional markets, fostering deeper engagement and market penetration.",
+      "budget": 400000,
+      "timeline": "Over the next 12 months, with initial rollout in the first 6 months and optimization in the subsequent 6 months.",
+      "project_lead": "Isabella Chen",
+      "stakeholders": [
+        "Content Production Team",
+        "Accessibility Compliance Officer",
+        "Legal Department"
+      ],
+      "objectives": [
+        "Improve customer retention rates by 10% among users of accessible content features.",
+        "Increase market share by 15% in underserved accessible segments within the next business cycle."
+      ],
+      "deliverables": [
+        "Accessibility feature integration roadmap for existing and new platforms.",
+        "Training program for sales and content teams on accessible media best practices.",
+        "Pilot program for enhanced accessible content in two key regional markets."
+      ],
+      "success_metrics": [
+        "User satisfaction scores for accessibility features.",
+        "Compliance rate with regional accessibility guidelines."
+      ],
+      "sales_strategy": "Leverage our existing client relationships to introduce enhanced accessible offerings, develop targeted campaigns for new segments, and partner with regional disability advocacy groups for promotional outreach. Focus on value proposition of inclusivity and expanded audience reach for advertisers."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 450000,
+        "reverted_to": 400000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "success_metrics",
+        "removed_item": "Growth in advertising revenue specifically tied to accessible content placements.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Regional Media Accessibility Enhancement Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the 'Regional Media Accessibility Enhancement Initiative' project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for the proposal from $450,000 back to $400,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for the proposal from $450,000 back to $400,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Growth in advertising revenue specifically tied to accessible content placements.' from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Growth in advertising revenue specifically tied to accessible content placements' from the success metrics. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've completed the requested removals from the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, but I might have more questions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more questions or need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

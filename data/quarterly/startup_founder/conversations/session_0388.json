@@ -1,0 +1,163 @@
+{
+  "session_id": 388,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_8",
+    "content_data": {
+      "meeting_title": "Strategic Growth & AI Integration Review - European Expansion",
+      "agenda_items": [
+        "Review of current predictive analytics model performance in European education market",
+        "Financial projections and funding strategy update"
+      ],
+      "key_decisions": [
+        "Initiate discussions with two identified EdTech platforms for potential integration partnerships.",
+        "Begin preparations for Series A funding round, focusing on growth metrics achieved over the past period.",
+        "Allocate additional resources to R&D for advanced AI explainability features."
+      ],
+      "action_items": [
+        "Founder to meet with lead investors to present the updated growth strategy within the next four weeks.",
+        "Dr. Anya Sharma to lead a deep dive into regional data discrepancies and model adjustments by end of next week.",
+        "Ms. Sofia Rossi to draft initial partnership proposals and reach out to target companies within the next two weeks."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize development of localized predictive models for key European regions within the next six months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Mr. Jan Novak to outline the technical requirements and resource allocation for the next AI feature development sprint within five business days.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion on competitive landscape and emerging AI solutions",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 223,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 348,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      },
+      {
+        "session_id": 357,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      },
+      {
+        "session_id": 388,
+        "session_date": "2025-06-20",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Growth & AI Integration Review - European Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Prioritize development of localized predictive models for key European regions within the next six months.\" from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Prioritize development of localized predictive models for key European regions within the next six months\" from the 'key_decisions' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Mr. Jan Novak to outline the technical requirements and resource allocation for the next AI feature development sprint within five business days.\" from the 'action_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Mr. Jan Novak to outline the technical requirements and resource allocation for the next AI feature development sprint within five business days\" from the 'action_items' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Discussion on competitive landscape and emerging AI solutions' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Discussion on competitive landscape and emerging AI solutions' from the 'agenda_items' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've completed all the requested removals from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Glad I could assist! Feel free to reach out if you need help with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do! Talk to you later.",
+      "share_memory": false
+    }
+  ]
+}

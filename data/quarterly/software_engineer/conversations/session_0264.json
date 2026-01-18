@@ -1,0 +1,113 @@
+{
+  "session_id": 264,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Learning Platform API Refactoring Sprint Planning",
+      "agenda_items": [
+        "Define database schema changes for student progress tracking",
+        "Discuss migration strategy from monolithic to microservices architecture"
+      ],
+      "key_decisions": [
+        "Migrate authentication to OAuth 2.0 with JWT tokens within the next 6 weeks"
+      ],
+      "action_items": [
+        "Marcus Okonkwo to set up staging environment with Redis cluster within 5 days",
+        "Priya Nambiar to create technical design document for GraphQL schema by end of week",
+        "Leila Al-Rashid to research and present OAuth provider comparison within 1 week"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Adopt GraphQL for new student assessment endpoints to reduce over-fetching",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review current API performance metrics and bottlenecks",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Learning Platform API Refactoring Sprint Planning'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Adopt GraphQL for new student assessment endpoints to reduce over-fetching' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Adopt GraphQL for new student assessment endpoints to reduce over-fetching' from the key decisions. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Review current API performance metrics and bottlenecks' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Review current API performance metrics and bottlenecks' from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

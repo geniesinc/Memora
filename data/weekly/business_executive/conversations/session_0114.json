@@ -1,0 +1,139 @@
+{
+  "session_id": 114,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To align leadership on our strategic pivot toward patient-centered digital health solutions and secure commitment for resource reallocation.",
+      "recipient_list": [
+        "Chief Financial Officer",
+        "Head of R&D",
+        "Director of Patient Services"
+      ],
+      "key_points": [
+        "Market analysis indicates 40% growth opportunity in patient adherence technologies over the next 18 months",
+        "Partnership discussions underway with three leading healthcare technology providers to accelerate market entry",
+        "Proposed reallocation of resources from legacy product lines to digital therapeutics platform development",
+        "Regulatory pathway assessment shows favorable timeline for FDA clearance within 12-15 months"
+      ],
+      "call_to_action": "Please review the attached strategic framework and provide your division's resource commitment and potential roadblocks by end of next week so we can finalize the board presentation."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Financial modeling projects break-even within 24 months with estimated ROI of 35% by year three",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Chief Operating Officer",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 42,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 63,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      },
+      {
+        "session_id": 114,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological processes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my email titled 'To align leadership on our strategic pivot toward patient-centered digital health solutions and secure commitment for resource reallocation.'",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the email. What specific details would you like to remove or modify from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Financial modeling projects break-even within 24 months with estimated ROI of 35% by year three\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Financial modeling projects break-even within 24 months with estimated ROI of 35% by year three\" from the key points. Is there anything else you'd like to remove or modify from this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Chief Operating Officer' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Chief Operating Officer' from the recipient list. Is there anything else you'd like to remove or modify from this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for this email.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, I've removed the requested details from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance in the future.",
+      "share_memory": false
+    }
+  ]
+}

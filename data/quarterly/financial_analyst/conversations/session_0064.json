@@ -1,0 +1,120 @@
+{
+  "session_id": 64,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Regional Manufacturing Efficiency Optimization Initiative",
+      "project_description": "Proposal for a pilot program to integrate advanced analytics and process automation across key regional manufacturing sites to enhance operational efficiency and reduce costs.",
+      "budget": 875000,
+      "timeline": "Over an 18-month period, including a 6-month pilot phase and a 12-month scaled implementation.",
+      "project_lead": "Anya Sharma, Senior Financial Analyst",
+      "stakeholders": [
+        "Supply Chain Management",
+        "Finance Steering Committee"
+      ],
+      "objectives": [
+        "Enhance inventory management accuracy by 15% across pilot facilities.",
+        "Improve production throughput by 8% through process optimization and automation."
+      ],
+      "deliverables": [
+        "Monthly performance reports tracking key operational and financial metrics.",
+        "Detailed pilot program operational plan including technology stack and integration strategy."
+      ],
+      "roi_projection": [
+        "Estimated annual savings of 1.5M to 2.0M USD once fully implemented across the pilot region."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "IT Infrastructure Team",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "roi_projection",
+        "removed_item": "Projected ROI of 2.5x within 3 years, driven by cost savings in labor, waste reduction, and increased output.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Regional Manufacturing Efficiency Optimization Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'IT Infrastructure Team' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'IT Infrastructure Team' from the project proposal stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Projected ROI of 2.5x within 3 years, driven by cost savings in labor, waste reduction, and increased output.' from the ROI projection.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed the ROI projection as requested. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've updated the project proposal by removing the requested information. Let me know if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Feel free to reach out again if you need assistance with anything in the future.",
+      "share_memory": false
+    }
+  ]
+}

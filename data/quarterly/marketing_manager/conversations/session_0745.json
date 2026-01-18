@@ -1,0 +1,98 @@
+{
+  "session_id": 745,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-05",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help with your questions. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Great! Could you explain what a \"quantum computer\" is in simple terms?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "A quantum computer uses quantum-mechanical phenomena like superposition and entanglement to perform computations. Unlike classical computers that use bits, quantum computers use qubits, which can exist in multiple states simultaneously.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's really interesting! So, what exactly is \"superposition\" in this context?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Superposition allows a qubit to be in a combination of all possible states at once, rather than being limited to a single state like a classical bit. This means it can represent multiple values simultaneously, greatly increasing computational power.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For example, a classical bit is either a 0 or a 1, but a qubit in superposition can be both 0 and 1 at the same time. This allows quantum computers to process a vast number of possibilities concurrently.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a fascinating concept. So, how does \"entanglement\" fit into this?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Entanglement is when two or more qubits become linked, meaning the state of one instantly influences the state of the others, regardless of the distance between them. This interconnectedness allows quantum computers to perform complex calculations much faster.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "So, these entangled qubits work together in a unique way?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Yes, precisely. When qubits are entangled, measuring the state of one immediately reveals information about the state of the others, enabling highly correlated operations.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That makes a lot of sense. Thanks for explaining all of this to me!",
+      "share_memory": false
+    }
+  ]
+}

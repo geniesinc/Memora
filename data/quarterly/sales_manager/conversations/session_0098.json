@@ -1,0 +1,94 @@
+{
+  "session_id": 98,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Strategic Market Expansion Initiative: Central & Eastern European Manufacturing Solutions",
+      "project_description": "A comprehensive proposal to penetrate and secure significant market share in key Central and Eastern European regions, focusing on high-demand manufacturing sectors with our innovative product lines.",
+      "budget": 1450000,
+      "timeline": "Phased implementation over an 18-month period, with initial market entry in the first 6 months.",
+      "project_lead": "Lena Petrova, Regional Sales Director, EMEA",
+      "stakeholders": [
+        "Head of European Sales"
+      ],
+      "objectives": [
+        "Establish strategic partnerships with 3-5 key distributors in each target country."
+      ],
+      "deliverables": [
+        "Detailed CEE market entry strategy document."
+      ],
+      "market_analysis": "Recent studies indicate significant growth potential in CEE manufacturing sectors, driven by modernization and increased industrial output. Our innovative solutions are well-positioned to meet these evolving needs.",
+      "sales_strategy": "Hybrid approach combining direct sales engagement with strategic local distribution partnerships, supported by targeted digital marketing campaigns and industry event participation across the CEE region."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 1350000,
+        "reverted_to": 1450000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the 'Strategic Market Expansion Initiative: Central & Eastern European Manufacturing Solutions' project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget from $1,350,000 back to $1,450,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget change for the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've reverted the budget for the project proposal. Is there anything else I can help you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    }
+  ]
+}

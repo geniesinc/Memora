@@ -1,0 +1,118 @@
+{
+  "session_id": 90,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Accessibility Compliance Review for VR Navigation Module",
+      "agenda_items": [
+        "Discuss screen reader compatibility with AR overlay rendering pipeline"
+      ],
+      "key_decisions": [
+        "Defer voice command integration to following development cycle due to resource constraints",
+        "Adopt WebXR accessibility extensions as primary framework for spatial navigation aids"
+      ],
+      "action_items": [
+        "Lars Bergstr\u00f6m to optimize rendering pipeline to accommodate real-time text scaling without frame drops by +21 days",
+        "Priya Deshmukh to coordinate with UX team on haptic pattern library for gesture alternatives by +7 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Address performance bottlenecks in assistive technology API layer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Yuki Tanaka to refactor spatial audio engine to support binaural positioning for screen reader users by +14 days",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the incredible complexity of neural networks and how they're revolutionizing AI. It's fascinating to see how they can learn and adapt.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Accessibility Compliance Review for VR Navigation Module'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, Project \"Accessibility Compliance Review for VR Navigation Module\" meeting notes. What specific information would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Address performance bottlenecks in assistive technology API layer' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, 'Address performance bottlenecks in assistive technology API layer' has been removed from the agenda items. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Yuki Tanaka to refactor spatial audio engine to support binaural positioning for screen reader users by +14 days' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood, 'Yuki Tanaka to refactor spatial audio engine to support binaural positioning for screen reader users by +14 days' has been removed from the action items. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, the meeting notes have been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's great! I appreciate your help with that.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Feel free to reach out again if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

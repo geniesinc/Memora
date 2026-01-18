@@ -1,0 +1,2807 @@
+{
+  "persona": "management_consultant",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-28"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_605",
+        "question": "What tasks remain on my todo list this month?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Plan weekend activities",
+              "session_id": 324
+            },
+            {
+              "value": "Call extended family",
+              "session_id": 436
+            },
+            {
+              "value": "Update home organization",
+              "session_id": 494
+            },
+            {
+              "value": "Schedule medical appointments",
+              "session_id": 523
+            },
+            {
+              "value": "Update client deliverables",
+              "session_id": 535
+            },
+            {
+              "value": "Schedule exercise time",
+              "session_id": 553
+            },
+            {
+              "value": "Plan family time",
+              "session_id": 563
+            },
+            {
+              "value": "Plan vacation days",
+              "session_id": 565
+            },
+            {
+              "value": "Plan travel arrangements",
+              "session_id": 586
+            },
+            {
+              "value": "Network with industry peers",
+              "session_id": 587
+            },
+            {
+              "value": "Complete client assessment report",
+              "session_id": 599
+            }
+          ],
+          "task_count": 11
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Update change management plan",
+              "session_id": 40
+            },
+            {
+              "value": "Prepare workshop materials",
+              "session_id": 138
+            },
+            {
+              "value": "Review industry benchmarks",
+              "session_id": 180
+            },
+            {
+              "value": "Review industry benchmarks",
+              "session_id": 206
+            },
+            {
+              "value": "Update professional certifications",
+              "session_id": 389
+            },
+            {
+              "value": "Review project budget",
+              "session_id": 399
+            },
+            {
+              "value": "Update change management plan",
+              "session_id": 446
+            },
+            {
+              "value": "Update project timeline",
+              "session_id": 459
+            },
+            {
+              "value": "Review industry benchmarks",
+              "session_id": 546
+            },
+            {
+              "value": "Prepare case study",
+              "session_id": 603
+            }
+          ],
+          "total_forgotten_items": 10
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Plan weekend activities?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_1",
+              "evaluation_question": "Is 'Call extended family' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_2",
+              "evaluation_question": "Does the response include Update home organization in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_3",
+              "evaluation_question": "Is the todo item 'Schedule medical appointments' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_4",
+              "evaluation_question": "Does the response mention the task: Update client deliverables?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_5",
+              "evaluation_question": "Is 'Schedule exercise time' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_6",
+              "evaluation_question": "Does the response include Plan family time in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_7",
+              "evaluation_question": "Is the todo item 'Plan vacation days' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_8",
+              "evaluation_question": "Does the response mention the task: Plan travel arrangements?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_9",
+              "evaluation_question": "Is 'Network with industry peers' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_memory_presence_10",
+              "evaluation_question": "Does the response include Complete client assessment report in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_2",
+              "evaluation_question": "Does the response include Update change management plan in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_6",
+              "evaluation_question": "Does the response include Prepare workshop materials in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Review industry benchmarks?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_10",
+              "evaluation_question": "Does the response include Review industry benchmarks in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_21",
+              "evaluation_question": "Is 'Update professional certifications' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_23",
+              "evaluation_question": "Is the completed/deleted task 'Review project budget' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_25",
+              "evaluation_question": "Is 'Update change management plan' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_27",
+              "evaluation_question": "Is the completed/deleted task 'Update project timeline' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_31",
+              "evaluation_question": "Is the completed/deleted task 'Review industry benchmarks' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_605_eval_forgetting_33",
+              "evaluation_question": "Is 'Prepare case study' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 21,
+          "memory_presence_questions": 11,
+          "forgetting_absence_questions": 10
+        }
+      },
+      {
+        "question_id": "content_project_proposal_605_project_proposal_2",
+        "question": "Write a project proposal for 'Strategic Innovation Roadmap for Electrification Transition'",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Strategic Innovation Roadmap for Electrification Transition",
+            "project_description": "A comprehensive proposal to guide an automotive OEM through the strategic and operational challenges of transitioning to an electrified vehicle portfolio, focusing on market differentiation and sustainable growth.",
+            "budget": 975000,
+            "timeline": "Over an 18-month period, with key milestones at 6, 12, and 18 months.",
+            "project_lead": "Dr. Anya Sharma, Senior Strategy Consultant",
+            "stakeholders": [
+              "Chief Strategy Officer (CSO)"
+            ],
+            "objectives": [
+              "Optimize internal processes and supply chain for electrification components."
+            ],
+            "deliverables": [
+              "Detailed Market Opportunity Analysis Report (including competitive landscape and customer segmentation)"
+            ],
+            "success_metrics": [
+              "Achieved market share percentage for new EV models within 24 months of launch."
+            ],
+            "methodology": "Our approach combines rigorous market analysis, internal capability assessments, stakeholder workshops, and scenario planning. We leverage proprietary frameworks for strategic innovation and organizational agility, tailored to the automotive sector's unique challenges."
+          },
+          "session_history": [
+            85,
+            99,
+            128,
+            331,
+            511
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "success_metrics",
+              "value": "Improved employee engagement scores related to the electrification strategy.",
+              "session_id": 99
+            },
+            {
+              "field": "stakeholders",
+              "value": "Head of Sustainability Initiatives",
+              "session_id": 99
+            },
+            {
+              "field": "objectives",
+              "value": "Establish a framework for continuous innovation in EV technology and customer experience.",
+              "session_id": 99
+            },
+            {
+              "field": "budget",
+              "value": 1150000,
+              "session_id": 128
+            },
+            {
+              "field": "stakeholders",
+              "value": "VP of Manufacturing Operations",
+              "session_id": 128
+            },
+            {
+              "field": "deliverables",
+              "value": "Financial Impact Projections & ROI Model for Electrification Initiatives",
+              "session_id": 331
+            },
+            {
+              "field": "deliverables",
+              "value": "Strategic Innovation Roadmap with phased implementation plan",
+              "session_id": 331
+            },
+            {
+              "field": "success_metrics",
+              "value": "Positive ROI on electrification investments within 36 months.",
+              "session_id": 511
+            },
+            {
+              "field": "budget",
+              "value": 1250000,
+              "session_id": 511
+            }
+          ],
+          "total_forgotten_items": 9
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Strategic Innovation Roadmap for Electrification Transition?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A comprehensive proposal to guide an automotive OEM through the strategic and operational challenges of transitioning to an electrified vehicle portfolio, focusing on market differentiation and sustainable growth.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 975000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline 'Over an 18-month period, with key milestones at 6, 12, and 18 months.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Dr. Anya Sharma, Senior Strategy Consultant?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Chief Strategy Officer (CSO)' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Optimize internal processes and supply chain for electrification components.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Detailed Market Opportunity Analysis Report (including competitive landscape and customer segmentation)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the success_metrics: Achieved market share percentage for new EV models within 24 months of launch.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_memory_presence_9",
+              "evaluation_question": "Is the methodology information 'Our approach combines rigorous market analysis, internal capability assessments, stakeholder workshops, and scenario planning. We leverage proprietary frameworks for strategic innovation and organizational agility, tailored to the automotive sector's unique challenges.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted success_metrics: Improved employee engagement scores related to the electrification strategy.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed stakeholders information 'Head of Sustainability Initiatives' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the objectives 'Establish a framework for continuous innovation in EV technology and customer experience.' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_3",
+              "evaluation_question": "Is the deleted project budget '1150000' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_4",
+              "evaluation_question": "Does the response include the deleted stakeholders: VP of Manufacturing Operations?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_5",
+              "evaluation_question": "Is the removed deliverables information 'Financial Impact Projections & ROI Model for Electrification Initiatives' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_6",
+              "evaluation_question": "Does the response mention the deliverables 'Strategic Innovation Roadmap with phased implementation plan' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_7",
+              "evaluation_question": "Is the deleted project success_metrics 'Positive ROI on electrification investments within 36 months.' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_2_eval_forgetting_8",
+              "evaluation_question": "Does the response include the deleted budget: 1250000?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 19,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 9
+        }
+      },
+      {
+        "question_id": "content_email_writeup_605_email_writeup_1",
+        "question": "Write an email about: To summarize key findings and recommendations from the initial phase of the Accessibility Strategy Review for our regional energy operations.",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To summarize key findings and recommendations from the initial phase of the Accessibility Strategy Review for our regional energy operations.",
+            "recipient_list": [
+              "VP of Regulatory Affairs",
+              "Chief Technology Officer"
+            ],
+            "key_points": [
+              "Noted the need for comprehensive employee training and awareness programs.",
+              "Identified critical gaps in digital accessibility compliance across customer-facing platforms.",
+              "Emphasized the business case for strategic accessibility, including market expansion and brand reputation."
+            ],
+            "call_to_action": "Please review the attached executive summary and schedule a follow-up discussion within the next two weeks to align on next steps and resource allocation for the proposed initiatives."
+          },
+          "session_history": [
+            39,
+            73,
+            74
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_points",
+              "value": "Proposed a phased approach to integrate accessibility into core operational processes and future projects.",
+              "session_id": 74
+            },
+            {
+              "field": "recipient_list",
+              "value": "Head of Customer Experience",
+              "session_id": 74
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To summarize key findings and recommendations from the initial phase of the Accessibility Strategy Review for our regional energy operations.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'VP of Regulatory Affairs, Chief Technology Officer' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Noted the need for comprehensive employee training and awareness programs., Identified critical gaps in digital accessibility compliance across customer-facing platforms., Emphasized the business case for strategic accessibility, including market expansion and brand reputation.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached executive summary and schedule a follow-up discussion within the next two weeks to align on next steps and resource allocation for the proposed initiatives.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key points: Proposed a phased approach to integrate accessibility into core operational processes and future projects.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_605_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed recipient list information 'Head of Customer Experience' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_605_meeting_notes_1",
+        "question": "Write meeting notes for: Strategic Accessibility Initiative: Regional Fintech Rollout Planning",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Strategic Accessibility Initiative: Regional Fintech Rollout Planning",
+            "agenda_items": [
+              "Discussion on integration of WCAG 2.2 AA standards into development lifecycle"
+            ],
+            "key_decisions": [
+              "Adopt a phased approach for WCAG 2.2 AA compliance, starting with critical user journeys."
+            ],
+            "attendees": [
+              "Consultant (Self)"
+            ]
+          },
+          "session_history": [
+            62,
+            112,
+            286,
+            412,
+            457
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_decisions",
+              "value": "Form a dedicated cross-functional accessibility task force with representatives from Product, Engineering, and Legal.",
+              "session_id": 286
+            },
+            {
+              "field": "attendees",
+              "value": "Dr. Anya Sharma, VP Strategy & Innovation",
+              "session_id": 286
+            },
+            {
+              "field": "attendees",
+              "value": "Ms. Isabella Rossi, Chief Compliance Officer",
+              "session_id": 286
+            },
+            {
+              "field": "attendees",
+              "value": "Mr. David Chen, Lead UX Strategist",
+              "session_id": 286
+            },
+            {
+              "field": "agenda_items",
+              "value": "Stakeholder alignment on communication strategy for accessibility updates",
+              "session_id": 412
+            },
+            {
+              "field": "agenda_items",
+              "value": "Resource allocation and budget considerations for compliance initiatives",
+              "session_id": 412
+            },
+            {
+              "field": "agenda_items",
+              "value": "Review of current accessibility audit findings for regional platforms",
+              "session_id": 412
+            },
+            {
+              "field": "key_decisions",
+              "value": "Allocate a specific budget increment for accessibility training for development teams over the next six months.",
+              "session_id": 457
+            },
+            {
+              "field": "key_decisions",
+              "value": "Prioritize screen reader compatibility and keyboard navigation enhancements for the next two product cycles.",
+              "session_id": 457
+            }
+          ],
+          "total_forgotten_items": 9
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Strategic Accessibility Initiative: Regional Fintech Rollout Planning?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Discussion on integration of WCAG 2.2 AA standards into development lifecycle' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Adopt a phased approach for WCAG 2.2 AA compliance, starting with critical user journeys.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's attendees 'Consultant (Self)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key decisions: Form a dedicated cross-functional accessibility task force with representatives from Product, Engineering, and Legal.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed attendees information 'Dr. Anya Sharma, VP Strategy & Innovation' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the attendees 'Ms. Isabella Rossi, Chief Compliance Officer' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_3",
+              "evaluation_question": "Is the deleted meeting attendees 'Mr. David Chen, Lead UX Strategist' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_4",
+              "evaluation_question": "Does the response include the deleted agenda items: Stakeholder alignment on communication strategy for accessibility updates?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_5",
+              "evaluation_question": "Is the removed agenda items information 'Resource allocation and budget considerations for compliance initiatives' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_6",
+              "evaluation_question": "Does the response mention the agenda items 'Review of current accessibility audit findings for regional platforms' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_7",
+              "evaluation_question": "Is the deleted meeting key decisions 'Allocate a specific budget increment for accessibility training for development teams over the next six months.' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_605_meeting_notes_1_eval_forgetting_8",
+              "evaluation_question": "Does the response include the deleted key decisions: Prioritize screen reader compatibility and keyboard navigation enhancements for the next two product cycles.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 13,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 9
+        }
+      },
+      {
+        "question_id": "content_project_proposal_605_project_proposal_3",
+        "question": "Write a project proposal for 'AI-Driven Regional Logistics Optimization for Enhanced Operational Efficiency'",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "AI-Driven Regional Logistics Optimization for Enhanced Operational Efficiency",
+            "project_description": "A comprehensive proposal to implement an AI-powered enterprise solution for optimizing regional logistics operations, focusing on route planning, inventory management, and predictive maintenance to drive significant cost savings and service improvements.",
+            "budget": 1650000,
+            "timeline": "18 months, structured into three distinct phases of 6 months each.",
+            "project_lead": "Dr. Anya Sharma, Principal Management Consultant",
+            "stakeholders": [
+              "Finance Department Representative",
+              "IT Infrastructure Lead",
+              "Key Logistics Managers",
+              "Regional Operations Director",
+              "External Technology Partner (AI Vendor)"
+            ],
+            "objectives": [
+              "Enhance fleet uptime by 20% by implementing predictive maintenance schedules based on real-time telematics data.",
+              "Streamline order fulfillment processes, decreasing average delivery times by 8% across the regional network."
+            ],
+            "deliverables": [
+              "Post-Implementation Performance Monitoring Framework and Reporting Template.",
+              "Customized AI-powered Route Optimization Module (POC and full deployment)."
+            ],
+            "risk_assessment": "Medium-high risk due to complex AI integration with legacy systems, potential data privacy concerns, and the need for significant organizational change management. Mitigation strategies include phased rollout, dedicated change champions, and robust data security protocols.",
+            "methodology": "This project will employ a hybrid Agile-Waterfall methodology. Strategic planning and infrastructure setup will follow a Waterfall approach, while software development and integration will utilize Agile sprints for iterative delivery and continuous feedback. Regular stakeholder reviews and change management protocols will be embedded throughout."
+          },
+          "session_history": [
+            89,
+            478,
+            517,
+            538,
+            547
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "stakeholders",
+              "value": "Head of Supply Chain Management",
+              "session_id": 478
+            },
+            {
+              "field": "deliverables",
+              "value": "Integrated Inventory Prediction and Management System.",
+              "session_id": 478
+            },
+            {
+              "field": "deliverables",
+              "value": "Predictive Maintenance Analytics Dashboard and Alert System.",
+              "session_id": 517
+            },
+            {
+              "field": "budget",
+              "value": 1500000,
+              "session_id": 517
+            },
+            {
+              "field": "budget",
+              "value": 1300000,
+              "session_id": 547
+            },
+            {
+              "field": "objectives",
+              "value": "Establish a scalable AI platform capable of integrating future operational enhancements and data sources.",
+              "session_id": 547
+            },
+            {
+              "field": "deliverables",
+              "value": "Detailed AI Solution Architecture and Implementation Roadmap Document.",
+              "session_id": 547
+            }
+          ],
+          "total_forgotten_items": 7
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: AI-Driven Regional Logistics Optimization for Enhanced Operational Efficiency?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A comprehensive proposal to implement an AI-powered enterprise solution for optimizing regional logistics operations, focusing on route planning, inventory management, and predictive maintenance to drive significant cost savings and service improvements.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 1650000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '18 months, structured into three distinct phases of 6 months each.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Dr. Anya Sharma, Principal Management Consultant?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Finance Department Representative, IT Infrastructure Lead, Key Logistics Managers, Regional Operations Director, External Technology Partner (AI Vendor)' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Enhance fleet uptime by 20% by implementing predictive maintenance schedules based on real-time telematics data., Streamline order fulfillment processes, decreasing average delivery times by 8% across the regional network.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Post-Implementation Performance Monitoring Framework and Reporting Template., Customized AI-powered Route Optimization Module (POC and full deployment).' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the risk_assessment: Medium-high risk due to complex AI integration with legacy systems, potential data privacy concerns, and the need for significant organizational change management. Mitigation strategies include phased rollout, dedicated change champions, and robust data security protocols.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_memory_presence_9",
+              "evaluation_question": "Is the methodology information 'This project will employ a hybrid Agile-Waterfall methodology. Strategic planning and infrastructure setup will follow a Waterfall approach, while software development and integration will utilize Agile sprints for iterative delivery and continuous feedback. Regular stakeholder reviews and change management protocols will be embedded throughout.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted stakeholders: Head of Supply Chain Management?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_1",
+              "evaluation_question": "Is the removed deliverables information 'Integrated Inventory Prediction and Management System.' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the deliverables 'Predictive Maintenance Analytics Dashboard and Alert System.' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_3",
+              "evaluation_question": "Is the deleted project budget '1500000' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_5",
+              "evaluation_question": "Is the removed budget information '1300000' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_6",
+              "evaluation_question": "Does the response mention the objectives 'Establish a scalable AI platform capable of integrating future operational enhancements and data sources.' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_605_project_proposal_3_eval_forgetting_7",
+              "evaluation_question": "Is the deleted project deliverables 'Detailed AI Solution Architecture and Implementation Roadmap Document.' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 17,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 7
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_605",
+        "question": "What is my total food spending this month?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "expense_count": 95,
+          "total_amount": 1617.5499999999997,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.55,
+              "session_id": 1
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 7.29,
+              "session_id": 8
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 13.11,
+              "session_id": 16
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 30.23,
+              "session_id": 20
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 111.91,
+              "session_id": 25
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.81,
+              "session_id": 26
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.14,
+              "session_id": 30
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 32.66,
+              "session_id": 33
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.49,
+              "session_id": 48
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 15.23,
+              "session_id": 50
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 25.93,
+              "session_id": 52
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 10.19,
+              "session_id": 68
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 17.76,
+              "session_id": 71
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.54,
+              "session_id": 77
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 13.57,
+              "session_id": 96
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.36,
+              "session_id": 102
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.71,
+              "session_id": 116
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 28.25,
+              "session_id": 119
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.22,
+              "session_id": 131
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.73,
+              "session_id": 152
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 15.06,
+              "session_id": 154
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 47.28,
+              "session_id": 162
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.96,
+              "session_id": 164
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 9.67,
+              "session_id": 185
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.1,
+              "session_id": 193
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 109.97,
+              "session_id": 194
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 11.5,
+              "session_id": 198
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.4,
+              "session_id": 201
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.8,
+              "session_id": 203
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 47.8,
+              "session_id": 205
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.96,
+              "session_id": 207
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.33,
+              "session_id": 226
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.73,
+              "session_id": 233
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 15.78,
+              "session_id": 235
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 8.48,
+              "session_id": 242
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.64,
+              "session_id": 244
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 19.72,
+              "session_id": 250
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.93,
+              "session_id": 254
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.33,
+              "session_id": 268
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 20.07,
+              "session_id": 272
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.88,
+              "session_id": 290
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 12.55,
+              "session_id": 292
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 22.61,
+              "session_id": 302
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.78,
+              "session_id": 305
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.52,
+              "session_id": 309
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 15.84,
+              "session_id": 315
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 16.3,
+              "session_id": 340
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.76,
+              "session_id": 343
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.76,
+              "session_id": 348
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 10.36,
+              "session_id": 352
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 10.52,
+              "session_id": 354
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 39.87,
+              "session_id": 356
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.89,
+              "session_id": 363
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.34,
+              "session_id": 372
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.3,
+              "session_id": 374
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 17.28,
+              "session_id": 382
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 16.0,
+              "session_id": 384
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 19.42,
+              "session_id": 386
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 25.3,
+              "session_id": 390
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 7.69,
+              "session_id": 393
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.46,
+              "session_id": 396
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.62,
+              "session_id": 398
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 16.63,
+              "session_id": 404
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 43.49,
+              "session_id": 411
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.62,
+              "session_id": 416
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.54,
+              "session_id": 418
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 15.94,
+              "session_id": 433
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.12,
+              "session_id": 437
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.52,
+              "session_id": 440
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 34.5,
+              "session_id": 444
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 10.9,
+              "session_id": 455
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.37,
+              "session_id": 463
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 21.21,
+              "session_id": 465
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 23.7,
+              "session_id": 486
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.09,
+              "session_id": 489
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.16,
+              "session_id": 502
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 15.01,
+              "session_id": 505
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 24.6,
+              "session_id": 509
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 36.7,
+              "session_id": 512
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.73,
+              "session_id": 521
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 13.42,
+              "session_id": 526
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 46.61,
+              "session_id": 529
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.62,
+              "session_id": 537
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.15,
+              "session_id": 541
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 16.75,
+              "session_id": 548
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 39.24,
+              "session_id": 550
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.94,
+              "session_id": 562
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.8,
+              "session_id": 564
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 83.12,
+              "session_id": 567
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.84,
+              "session_id": 583
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.11,
+              "session_id": 585
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 6.8,
+              "session_id": 589
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 10.7,
+              "session_id": 592
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 17.65,
+              "session_id": 594
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 49.73,
+              "session_id": 598
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_605_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $1617.55?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "comparative_steps_max_week_605",
+        "question": "Which week in this month did I have the most steps?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "max_period": 3,
+          "max_value": 75302,
+          "period_breakdown": {
+            "1": {
+              "total_steps": 63198,
+              "items": [
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 8992,
+                  "session_id": 23
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 11003,
+                  "session_id": 46
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 4412,
+                  "session_id": 63
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 7148,
+                  "session_id": 87
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 10557,
+                  "session_id": 92
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 12468,
+                  "session_id": 113
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 8618,
+                  "session_id": 143
+                }
+              ],
+              "period_ref": "1st week"
+            },
+            "2": {
+              "total_steps": 55399,
+              "items": [
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 11055,
+                  "session_id": 172
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 7664,
+                  "session_id": 190
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 7892,
+                  "session_id": 210
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 13303,
+                  "session_id": 222
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 4265,
+                  "session_id": 239
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 4628,
+                  "session_id": 284
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 6592,
+                  "session_id": 298
+                }
+              ],
+              "period_ref": "2nd week"
+            },
+            "3": {
+              "total_steps": 75302,
+              "items": [
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 10546,
+                  "session_id": 306
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 13564,
+                  "session_id": 334
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 6678,
+                  "session_id": 355
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 11416,
+                  "session_id": 383
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 9222,
+                  "session_id": 406
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 11912,
+                  "session_id": 423
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 11964,
+                  "session_id": 450
+                }
+              ],
+              "period_ref": "3rd week"
+            },
+            "4": {
+              "total_steps": 64122,
+              "items": [
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 10142,
+                  "session_id": 469
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 7812,
+                  "session_id": 490
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 8187,
+                  "session_id": 515
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 7918,
+                  "session_id": 532
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 10087,
+                  "session_id": 558
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 13480,
+                  "session_id": 573
+                },
+                {
+                  "activity_type": "daily_steps",
+                  "step_count": 6496,
+                  "session_id": 596
+                }
+              ],
+              "period_ref": "4th week"
+            }
+          }
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "comparative_steps_max_week_605_eval_memory_presence_max_period_0",
+              "evaluation_question": "Does the response mention that the 3rd week had the most steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "comparative_steps_max_week_605_eval_memory_presence_max_value_0",
+              "evaluation_question": "Does the response mention the maximum step count of 75,302 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 2,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "comparative_goal_met_coffee_week_605",
+        "question": "How many weeks was I able to meet my coffee budget in this month?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "budget_timeline": {
+            "1": 40,
+            "15": 25
+          },
+          "periods_met": [],
+          "periods_exceeded": [
+            {
+              "period": 1,
+              "period_ref": "1st week",
+              "actual": 41.82,
+              "goal": 40,
+              "overspent": 1.8200000000000003
+            },
+            {
+              "period": 2,
+              "period_ref": "2nd week",
+              "actual": 67.38999999999999,
+              "goal": 40,
+              "overspent": 27.389999999999986
+            },
+            {
+              "period": 3,
+              "period_ref": "3rd week",
+              "actual": 69.71,
+              "goal": 25,
+              "overspent": 44.709999999999994
+            },
+            {
+              "period": 4,
+              "period_ref": "4th week",
+              "actual": 63.81,
+              "goal": 25,
+              "overspent": 38.81
+            }
+          ],
+          "periods_no_budget": [],
+          "total_periods": 4,
+          "met_count": 0,
+          "exceeded_count": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "comparative_goal_met_coffee_week_605_eval_memory_presence_met_count_0",
+              "evaluation_question": "Does the response mention that you met your coffee budget in 0 weeks?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_605",
+        "question": "How much have I spent on coffee this month?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 242.73000000000002,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.55,
+              "session_id": 1
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.81,
+              "session_id": 26
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.14,
+              "session_id": 30
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.49,
+              "session_id": 48
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.54,
+              "session_id": 77
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.36,
+              "session_id": 102
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.71,
+              "session_id": 116
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.22,
+              "session_id": 131
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.73,
+              "session_id": 152
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.96,
+              "session_id": 164
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.1,
+              "session_id": 193
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.8,
+              "session_id": 203
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.96,
+              "session_id": 207
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.33,
+              "session_id": 226
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.73,
+              "session_id": 233
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.64,
+              "session_id": 244
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.93,
+              "session_id": 254
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.33,
+              "session_id": 268
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.88,
+              "session_id": 290
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.78,
+              "session_id": 305
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.52,
+              "session_id": 309
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.76,
+              "session_id": 343
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.76,
+              "session_id": 348
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.89,
+              "session_id": 363
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.34,
+              "session_id": 372
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.3,
+              "session_id": 374
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.46,
+              "session_id": 396
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.62,
+              "session_id": 398
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.62,
+              "session_id": 416
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.54,
+              "session_id": 418
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.12,
+              "session_id": 437
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.37,
+              "session_id": 463
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.09,
+              "session_id": 489
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.16,
+              "session_id": 502
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.73,
+              "session_id": 521
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.62,
+              "session_id": 537
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.15,
+              "session_id": 541
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.94,
+              "session_id": 562
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.8,
+              "session_id": 564
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.84,
+              "session_id": 583
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.11,
+              "session_id": 585
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_605_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $242.73?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "comparative_coffee_max_week_605",
+        "question": "Which week in this month did I spend the most on coffee?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "max_period": 3,
+          "max_value": 69.71,
+          "period_breakdown": {
+            "1": {
+              "total_amount": 41.82,
+              "items": [
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.55,
+                  "session_id": 1
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.81,
+                  "session_id": 26
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.14,
+                  "session_id": 30
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.49,
+                  "session_id": 48
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 8.54,
+                  "session_id": 77
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.36,
+                  "session_id": 102
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.71,
+                  "session_id": 116
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.22,
+                  "session_id": 131
+                }
+              ],
+              "period_ref": "1st week"
+            },
+            "2": {
+              "total_amount": 67.38999999999999,
+              "items": [
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.73,
+                  "session_id": 152
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.96,
+                  "session_id": 164
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 5.1,
+                  "session_id": 193
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 8.8,
+                  "session_id": 203
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.96,
+                  "session_id": 207
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 8.33,
+                  "session_id": 226
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.73,
+                  "session_id": 233
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.64,
+                  "session_id": 244
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 5.93,
+                  "session_id": 254
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.33,
+                  "session_id": 268
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 5.88,
+                  "session_id": 290
+                }
+              ],
+              "period_ref": "2nd week"
+            },
+            "3": {
+              "total_amount": 69.71,
+              "items": [
+                {
+                  "expense_type": "coffee",
+                  "amount": 8.78,
+                  "session_id": 305
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.52,
+                  "session_id": 309
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.76,
+                  "session_id": 343
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.76,
+                  "session_id": 348
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.89,
+                  "session_id": 363
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.34,
+                  "session_id": 372
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.3,
+                  "session_id": 374
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.46,
+                  "session_id": 396
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.62,
+                  "session_id": 398
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.62,
+                  "session_id": 416
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 4.54,
+                  "session_id": 418
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.12,
+                  "session_id": 437
+                }
+              ],
+              "period_ref": "3rd week"
+            },
+            "4": {
+              "total_amount": 63.81,
+              "items": [
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.37,
+                  "session_id": 463
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 3.09,
+                  "session_id": 489
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.16,
+                  "session_id": 502
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 5.73,
+                  "session_id": 521
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.62,
+                  "session_id": 537
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.15,
+                  "session_id": 541
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.94,
+                  "session_id": 562
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 7.8,
+                  "session_id": 564
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 9.84,
+                  "session_id": 583
+                },
+                {
+                  "expense_type": "coffee",
+                  "amount": 6.11,
+                  "session_id": 585
+                }
+              ],
+              "period_ref": "4th week"
+            }
+          }
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "comparative_coffee_max_week_605_eval_memory_presence_max_period_0",
+              "evaluation_question": "Does the response mention that the 3rd week had the most coffee spending?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "comparative_coffee_max_week_605_eval_memory_presence_max_value_0",
+              "evaluation_question": "Does the response mention the maximum coffee spending amount of $69.71?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 2,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_605",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [
+                {
+                  "item": "Lauren Bacall",
+                  "session_id": 602
+                }
+              ],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "Lawrence of Arabia",
+                  "session_id": 70
+                },
+                {
+                  "item": "Chinatown",
+                  "session_id": 169
+                },
+                {
+                  "item": "Ben-Hur",
+                  "session_id": 431
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "Double Indemnity",
+                  "session_id": 234
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Humphrey Bogart",
+              "session_id": 94
+            },
+            {
+              "value": "historical",
+              "session_id": 141
+            },
+            {
+              "value": "Ernst Lubitsch",
+              "session_id": 263
+            },
+            {
+              "value": "Frank Capra",
+              "session_id": 414
+            },
+            {
+              "value": "John Sturges",
+              "session_id": 452
+            },
+            {
+              "value": "Cary Grant",
+              "session_id": 477
+            },
+            {
+              "value": "Rock Hudson",
+              "session_id": 488
+            },
+            {
+              "value": "Bette Davis",
+              "session_id": 602
+            }
+          ],
+          "total_forgotten_items": 8
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Lauren Bacall?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Lawrence of Arabia?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Chinatown?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Ben-Hur?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_memory_presence_dislike_4",
+              "evaluation_question": "Does the response avoid recommending Double Indemnity (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Humphrey Bogart?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for historical?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ernst Lubitsch?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_3",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Frank Capra?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_4",
+              "evaluation_question": "Does the response reflect or mention the user's preference for John Sturges?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_5",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Cary Grant?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_6",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Rock Hudson?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_605_eval_forgetting_7",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Bette Davis?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 13,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 8
+        }
+      },
+      {
+        "question_id": "pref_books_general_605",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "authors": {
+              "likes": [
+                {
+                  "item": "Ron Chernow",
+                  "session_id": 590
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "Carl Sagan",
+                  "session_id": 495
+                }
+              ]
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "anthropology",
+                  "session_id": 561
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "entrepreneurship",
+                  "session_id": 255
+                }
+              ]
+            },
+            "already_read_list": {
+              "likes": [
+                {
+                  "item": "Homo Deus",
+                  "session_id": 549
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "psychology",
+              "session_id": 21
+            },
+            {
+              "value": "Malcolm Gladwell",
+              "session_id": 179
+            },
+            {
+              "value": "Yuval Noah Harari",
+              "session_id": 269
+            },
+            {
+              "value": "Atul Gawande",
+              "session_id": 339
+            },
+            {
+              "value": "Erik Larson",
+              "session_id": 360
+            },
+            {
+              "value": "politics",
+              "session_id": 391
+            },
+            {
+              "value": "biography",
+              "session_id": 500
+            }
+          ],
+          "total_forgotten_items": 7
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Ron Chernow?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Carl Sagan (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for anthropology?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_memory_presence_dislike_3",
+              "evaluation_question": "Does the response avoid recommending entrepreneurship (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_memory_presence_like_4",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Homo Deus?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for psychology?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Malcolm Gladwell?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Yuval Noah Harari?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_3",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Atul Gawande?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_4",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Erik Larson?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_5",
+              "evaluation_question": "Does the response reflect or mention the user's preference for politics?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_605_eval_forgetting_6",
+              "evaluation_question": "Does the response reflect or mention the user's preference for biography?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 7
+        }
+      },
+      {
+        "question_id": "pref_music_general_605",
+        "question": "What music would you recommend?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "item_count": 4,
+          "memory_items": {
+            "genres": {
+              "likes": [
+                {
+                  "item": "gospel",
+                  "session_id": 570
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "smooth jazz",
+                  "session_id": 572
+                }
+              ]
+            },
+            "artists": {
+              "likes": [],
+              "dislikes": []
+            },
+            "decades": {
+              "likes": [
+                {
+                  "item": "1950s",
+                  "session_id": 41
+                }
+              ],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Come Away With Me",
+                  "session_id": 379
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Debussy",
+              "session_id": 118
+            },
+            {
+              "value": "Charlie Parker",
+              "session_id": 121
+            },
+            {
+              "value": "Chopin",
+              "session_id": 188
+            },
+            {
+              "value": "Miles Davis",
+              "session_id": 248
+            },
+            {
+              "value": "Mozart",
+              "session_id": 276
+            },
+            {
+              "value": "Duke Ellington",
+              "session_id": 319
+            },
+            {
+              "value": "Billie Holiday",
+              "session_id": 323
+            },
+            {
+              "value": "Itzhak Perlman",
+              "session_id": 326
+            },
+            {
+              "value": "Thelonious Monk",
+              "session_id": 510
+            }
+          ],
+          "total_forgotten_items": 9
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for gospel?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending smooth jazz (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for 1950s?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_memory_presence_dislike_3",
+              "evaluation_question": "Does the response avoid recommending Come Away With Me (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Debussy?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Charlie Parker?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Chopin?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_3",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Miles Davis?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_4",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Mozart?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_5",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Duke Ellington?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_6",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Billie Holiday?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_7",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Itzhak Perlman?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_605_eval_forgetting_8",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Thelonious Monk?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 13,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 9
+        }
+      },
+      {
+        "question_id": "pref_travel_general_605",
+        "question": "Can you suggest me a travel destination?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "destination_types": {
+              "likes": [],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Scandinavia",
+                  "session_id": 137
+                }
+              ]
+            },
+            "climates": {
+              "likes": [
+                {
+                  "item": "Mediterranean",
+                  "session_id": 525
+                }
+              ],
+              "dislikes": []
+            },
+            "already_visited_list": {
+              "likes": [
+                {
+                  "item": "Mont Saint-Michel Abbey, France",
+                  "session_id": 308
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Persia",
+              "session_id": 264
+            },
+            {
+              "value": "North Africa",
+              "session_id": 470
+            },
+            {
+              "value": "continental",
+              "session_id": 525
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Scandinavia (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Mediterranean?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Mont Saint-Michel Abbey, France?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Persia?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for North Africa?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_605_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for continental?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_movies_actors_605",
+        "question": "Can you recommend a movie with actors I like?",
+        "question_date": "2025-06-28",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "Lauren Bacall",
+                "session_id": 602
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "Lauren Bacall",
+              "session_id": 602
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Humphrey Bogart",
+              "session_id": 94
+            },
+            {
+              "value": "Cary Grant",
+              "session_id": 477
+            },
+            {
+              "value": "Rock Hudson",
+              "session_id": 488
+            },
+            {
+              "value": "Bette Davis",
+              "session_id": 602
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_actors_605_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Lauren Bacall?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_605_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Humphrey Bogart?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_605_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Cary Grant?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_605_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Rock Hudson?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_605_eval_forgetting_3",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Bette Davis?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 4
+        }
+      }
+    ]
+  }
+}

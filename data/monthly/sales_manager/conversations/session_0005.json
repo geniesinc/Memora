@@ -1,0 +1,83 @@
+{
+  "session_id": 5,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "lunch",
+      "amount": 11.71,
+      "created_at": "2025-06-01"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thank you. I'm just looking forward to seeing what the rest of the day brings.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great attitude to have! Did you know that a positive outlook can actually boost your immune system?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, really? That's interesting.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Yes, the mind-body connection is quite fascinating! Speaking of connections, have you been following any interesting tech news lately?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not particularly, but I'm curious what you've found interesting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Well, I've been keeping an eye on advancements in AI, especially how it's being used in healthcare for things like diagnostics and personalized treatment plans. Also, the progress in quantum computing is quite remarkable, with new breakthroughs happening all the time.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's really cool! I just spent $11.71 on lunch, so I'm hoping that investment in my well-being pays off too.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I hear you on that! It's always a good idea to fuel yourself properly.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Definitely. It's been great chatting with you today!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "It was a pleasure chatting with you too! Feel free to stop by again anytime.",
+      "share_memory": false
+    }
+  ]
+}

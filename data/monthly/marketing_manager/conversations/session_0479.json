@@ -1,0 +1,116 @@
+{
+  "session_id": 479,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_5",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Educational thought leadership post with data visualization",
+      "main_message": "Sharing insights from our recent student engagement analysis showing how personalized learning pathways increased course completion rates by 34% across our partner institutions.",
+      "hashtags": [
+        "#PersonalizedLearning",
+        "#EdTech",
+        "#StudentSuccess",
+        "#LearningAnalytics"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#LearningAnalytics",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 193,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 479,
+        "session_date": "2025-06-23",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! What's new in the world of AI today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Today, there's a lot of buzz around new advancements in AI ethics and responsible development.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Educational thought leadership post with data visualization.' I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What specific details about the social media post do you want to change?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#LearningAnalytics'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#LearningAnalytics' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a wonderful day!",
+      "share_memory": false
+    }
+  ]
+}

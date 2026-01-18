@@ -1,0 +1,113 @@
+{
+  "session_id": 46,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Accessibility Integration for Biotech Platform",
+      "agenda_items": [
+        "Defining KPIs for accessibility improvements",
+        "Discussion of regulatory compliance for North American biotech industry (ADA, Section 508, AODA)"
+      ],
+      "key_decisions": [
+        "Integrate automated accessibility testing tools into the CI/CD pipeline within the next development cycle."
+      ],
+      "attendees": [
+        "Dr. Ben Carter (CTO)",
+        "Anya Sharma (UX Lead)",
+        "Dr. Elias Vance (CEO, Founder)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate dedicated budget for external accessibility consultants for specialized audits and training over the next 6 months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Resource allocation for accessibility initiatives",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Accessibility Integration for Biotech Platform'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Allocate dedicated budget for external accessibility consultants for specialized audits and training over the next 6 months.' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the 'key_decisions' field. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Resource allocation for accessibility initiatives' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Resource allocation for accessibility initiatives' from the 'agenda_items' field. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The requested items have been removed from the meeting notes. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I might have more questions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "session_id": 93,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Regional Pharma Market Entry Strategy - Financial Projections Review",
+      "agenda_items": [
+        "Review of key performance indicators (KPIs) for financial tracking",
+        "Analysis of COGS and operational expenditure estimates for initial 12-month phase",
+        "Review of updated revenue forecasts for new product launch in target region",
+        "Discussion on potential funding sources and capital allocation strategies"
+      ],
+      "key_decisions": [
+        "Mandated a sensitivity analysis on pricing strategies and regulatory changes",
+        "Agreed to prioritize cost-saving initiatives for manufacturing and supply chain in the initial 6 months",
+        "Approved revised revenue forecast model incorporating recent market intelligence",
+        "Decided to explore a blend of internal capital and a secured credit facility for initial funding"
+      ],
+      "attendees": [
+        "Anya Sharma (Financial Analyst, Lead)",
+        "Dr. Ben Carter (Head of Regional Operations)",
+        "Elena Petrova (Corporate Finance Manager)",
+        "David Kim (Regional Business Development Lead)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Decided to explore a blend of internal capital and a secured credit facility for initial funding",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "David Kim (Regional Business Development Lead)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discussion on potential funding sources and capital allocation strategies",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 25,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 39,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 51,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      },
+      {
+        "session_id": 85,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      },
+      {
+        "session_id": 93,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain's structure and function. It's fascinating how it could lead to more efficient AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes titled 'Regional Pharma Market Entry Strategy - Financial Projections Review' to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For the 'key_decisions' field, please add: 'Decided to explore a blend of internal capital and a secured credit facility for initial funding'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Decided to explore a blend of internal capital and a secured credit facility for initial funding\" to the 'key_decisions' for your meeting notes. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please update the 'attendees' field to include 'David Kim (Regional Business Development Lead)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'David Kim (Regional Business Development Lead)' to the 'attendees'. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please update the 'agenda_items' to include 'Discussion on potential funding sources and capital allocation strategies'.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Discussion on potential funding sources and capital allocation strategies' to the 'agenda_items'. Anything else?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes with all the changes you provided.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks for your help! That was very efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm glad I could assist you efficiently.",
+      "share_memory": false
+    }
+  ]
+}

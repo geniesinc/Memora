@@ -1,0 +1,135 @@
+{
+  "session_id": 49,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Strategic Market Expansion Initiative: Central & Eastern European Manufacturing Solutions",
+      "project_description": "A comprehensive proposal to penetrate and secure significant market share in key Central and Eastern European regions, focusing on high-demand manufacturing sectors with our innovative product lines.",
+      "budget": 1700000,
+      "timeline": "Phased implementation over an 18-month period, with initial market entry in the first 6 months.",
+      "project_lead": "Lena Petrova, Regional Sales Director, EMEA",
+      "stakeholders": [
+        "Head of European Sales"
+      ],
+      "objectives": [
+        "Establish strategic partnerships with 3-5 key distributors in each target country."
+      ],
+      "deliverables": [
+        "Detailed CEE market entry strategy document.",
+        "Signed partnership agreements with target distributors."
+      ],
+      "market_analysis": "Recent studies indicate significant growth potential in CEE manufacturing sectors, driven by modernization and increased industrial output. Our innovative solutions are well-positioned to meet these evolving needs.",
+      "sales_strategy": "Hybrid approach combining direct sales engagement with strategic local distribution partnerships, supported by targeted digital marketing campaigns and industry event participation across the CEE region."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "objectives",
+        "removed_item": "Develop a robust sales infrastructure and support network across the expanded territories.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Logistics and Supply Chain Manager",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 1400000,
+        "reverted_to": 1700000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! What's new and exciting on your end?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Strategic Market Expansion Initiative: Central & Eastern European Manufacturing Solutions'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Develop a robust sales infrastructure and support network across the expanded territories.\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted the removal of that objective. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Logistics and Supply Chain Manager' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Logistics and Supply Chain Manager' from the stakeholders. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Actually, I want to revert the budget back to 1,700,000. It was mistakenly changed to 1,400,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $1,700,000. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing the specified objective and stakeholder, and reverting the budget to $1,700,000. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need any more assistance with this or other projects.",
+      "share_memory": false
+    }
+  ]
+}

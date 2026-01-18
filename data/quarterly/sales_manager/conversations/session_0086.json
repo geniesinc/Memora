@@ -1,0 +1,133 @@
+{
+  "session_id": 86,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Compliance Review & Sales Performance Alignment",
+      "agenda_items": [
+        "Upcoming training needs for sales team on updated compliance protocols"
+      ],
+      "key_decisions": [
+        "Implement bi-weekly compliance checkpoints for all international sales deals."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Senior Sales Director)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Chen Wei (Head of Compliance)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize Q3 sales efforts on high-margin, low-compliance-risk destinations.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Feedback session on recent regulatory changes impacting international bookings",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I've been learning a lot about the recent advancements in AI models and their applications in various fields. It's fascinating to see how they're being used to solve complex problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update some information in my meeting notes titled 'Strategic Compliance Review & Sales Performance Alignment'. I have some details to remove.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Chen Wei (Head of Compliance)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. Dr. Chen Wei has been removed from the attendees. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove 'Prioritize Q3 sales efforts on high-margin, low-compliance-risk destinations.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that decision from the key decisions. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please remove 'Feedback session on recent regulatory changes impacting international bookings' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, 'Feedback session on recent regulatory changes impacting international bookings' has been removed from the agenda items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from these meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been made to the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

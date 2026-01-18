@@ -1,0 +1,130 @@
+{
+  "session_id": 401,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "AI-Driven Workflow Streamlining for E-commerce Operations",
+      "project_description": "A pilot project to implement and validate an AI-powered solution for optimizing key workflow bottlenecks within a mid-sized North American e-commerce company, focusing on order fulfillment and customer service processes.",
+      "budget": 200000,
+      "timeline": "6 months, with a 3-month initial pilot phase followed by a 3-month optimization and scaling phase.",
+      "project_lead": "Dr. Anya Sharma, Lead AI Strategist",
+      "stakeholders": [
+        "Head of Customer Experience",
+        "Supply Chain Manager",
+        "IT Infrastructure Lead"
+      ],
+      "objectives": [
+        "Improve inventory accuracy by 10% through predictive analytics.",
+        "Decrease customer service response time for common inquiries by 20%."
+      ],
+      "deliverables": [
+        "Custom AI model for predictive inventory management and order routing.",
+        "Integration framework for existing e-commerce platforms (e.g., Shopify, Magento) and CRM systems."
+      ],
+      "competitive_analysis": [
+        "Larger enterprises are developing in-house capabilities, but mid-sized companies seek agile, cost-effective external solutions.",
+        "Existing solutions often require extensive custom development or lack industry-specific AI models."
+      ],
+      "risk_mitigation": "Risks include data quality issues, integration complexity with legacy systems, and user adoption resistance. Mitigation strategies involve thorough data validation, phased integration, robust API development, and comprehensive user training with dedicated support channels."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 225000,
+        "reverted_to": 200000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Post-pilot analysis and recommendations for full-scale implementation.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common applications of AI in everyday life that people might not even realize?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is in many places, like the algorithms recommending products online or the voice assistants on our phones. It's also used in navigation apps to find the best routes and in spam filters for our emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the 'AI-Driven Workflow Streamlining for E-commerce Operations' project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget for the project proposal from $225,000 back to $200,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the budget for the project proposal back to $200,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please delete 'Post-pilot analysis and recommendations for full-scale implementation.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Post-pilot analysis and recommendations for full-scale implementation' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding deletions from the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I have finished updating the project proposal by removing the specified elements.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm glad I could assist you with the project proposal.",
+      "share_memory": false
+    }
+  ]
+}

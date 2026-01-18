@@ -1,0 +1,138 @@
+{
+  "session_id": 413,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Pilot Program Review - Q3 Performance & Scaling Strategy",
+      "agenda_items": [
+        "Identification of key challenges and mitigation plans",
+        "Review of pilot program performance metrics (Q3)",
+        "Resource allocation and budget considerations for upcoming period",
+        "Discussion on scaling strategies for next phase of pilot expansion"
+      ],
+      "key_decisions": [
+        "Formulate a dedicated customer success team for pilot accounts to ensure retention.",
+        "Prioritize development of enhanced user onboarding module based on pilot feedback.",
+        "Initiate discussions with regulatory affairs for accelerated market entry in key target countries."
+      ],
+      "attendees": [
+        "Dr. Kenji Tanaka, Head of Product Development",
+        "Marcus Thorne, Regional Sales Director (Europe)",
+        "Isabelle Dubois, Global Marketing Director",
+        "Anya Sharma, Head of Sales Operations"
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "draft",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Customer feedback synthesis and analysis for product refinement",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Elena Petrova, Head of Clinical Development",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate additional sales support for the EMEA region to capitalize on early traction.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-19",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Pilot Program Review - Q3 Performance & Scaling Strategy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from those meeting notes. What specific details or sections would you like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Customer feedback synthesis and analysis for product refinement' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Customer feedback synthesis and analysis for product refinement' from the agenda items. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Dr. Elena Petrova, Head of Clinical Development' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Dr. Elena Petrova, Head of Clinical Development' from the attendees. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Allocate additional sales support for the EMEA region to capitalize on early traction.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Allocate additional sales support for the EMEA region to capitalize on early traction' from the key decisions. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from these notes, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I've completed all the requested removals from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "session_id": 127,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Alignment for AI-Driven Drug Discovery Initiatives",
+      "agenda_items": [
+        "Review of current AI model performance in early-stage compound screening",
+        "Discussion on data governance protocols for multi-institutional research collaborations"
+      ],
+      "key_decisions": [
+        "Establish a working group to develop a standardized data sharing framework for collaborations, with a focus on privacy-preserving techniques.",
+        "Allocate dedicated computational resources for exploratory research into quantum machine learning applications for protein folding prediction."
+      ],
+      "attendees": [
+        "Prof. Mei Ling (External Advisor, Machine Learning)",
+        "Dr. Anya Sharma (Lead Computational Biologist)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Kenji Tanaka (Head of Data Science)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 105,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 127,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my meeting notes titled 'Strategic Alignment for AI-Driven Drug Discovery Initiatives'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Kenji Tanaka (Head of Data Science)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Dr. Kenji Tanaka from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for the meeting notes right now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Confirmed: Dr. Kenji Tanaka has been removed from the attendees in the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks so much!",
+      "share_memory": false
+    }
+  ]
+}

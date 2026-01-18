@@ -1,0 +1,121 @@
+{
+  "session_id": 79,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review and Budget Reallocation Discussion",
+      "agenda_items": [
+        "Discussion on impact of fuel price fluctuations on logistics margins"
+      ],
+      "key_decisions": [
+        "Agreed to initiate a cost-benefit analysis for adopting alternative fuel vehicles within the next six months."
+      ],
+      "attendees": [
+        "Mei Lin (Financial Analyst)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Strategic planning for upcoming period's financial targets",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Elena Petrova (Director of Finance)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Javier Rodriguez (Senior Financial Analyst)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my meeting notes titled 'Q3 Financial Performance Review and Budget Reallocation Discussion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Strategic planning for upcoming period's financial targets\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. \"Strategic planning for upcoming period's financial targets\" has been removed from the agenda items. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Dr. Elena Petrova (Director of Finance)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, Dr. Elena Petrova has been removed from the attendees. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Javier Rodriguez (Senior Financial Analyst)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Javier Rodriguez has been removed from the attendees. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. The meeting notes have been updated with these removals. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "session_id": 26,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "lunch",
+      "amount": 16.46,
+      "created_at": "2025-06-02"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Could you explain what \"machine learning\" is in simple terms?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Machine learning is a field of artificial intelligence where computers learn from data without being explicitly programmed, allowing them to identify patterns and make predictions. It's like teaching a computer to recognize a cat by showing it many pictures of cats.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a great analogy! So, it learns from examples rather than specific rules?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly! It builds a model based on the data it processes, which then allows it to generalize and make decisions on new, unseen data.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For instance, machine learning is used in recommendation systems for products, spam detection in emails, and even in medical diagnoses.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's really interesting. What are some of the different types of machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "There are three main types: supervised learning, unsupervised learning, and reinforcement learning, each with different approaches to data and problem-solving.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Could you tell me a little more about supervised learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Supervised learning involves training a model on labeled data, where the desired output is already known, allowing the model to learn the mapping from input to output. It's often used for tasks like classification or regression.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Speaking of tasks, I just spent $16.46 on lunch today.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Thanks for sharing! I can add that to your food expenses.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Okay, I need to head out now.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Alright, have a great rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

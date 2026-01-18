@@ -1,0 +1,137 @@
+{
+  "session_id": 367,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Regional Market Expansion Strategy & Q3 Financial Review",
+      "agenda_items": [
+        "Review of Q3 regional sales performance vs. projections",
+        "Analysis of mobile-first market penetration in key strategic areas",
+        "Financial implications of supply chain optimization proposals",
+        "Discussion on potential new market entry costs and revenue forecasts for next business cycle"
+      ],
+      "key_decisions": [
+        "Prioritize mobile-first marketing spend in two specific high-growth regional markets for the upcoming period.",
+        "Allocate a contingency fund of [500000, 750000] for unexpected fluctuations in raw material costs within the next 6 months."
+      ],
+      "attendees": [
+        "Supply Chain Lead",
+        "Regional Sales Director",
+        "Head of Marketing (Digital & Mobile)",
+        "Senior Financial Analyst"
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Evaluation of current budget allocation for digital marketing initiatives",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Formulate a detailed financial model for market entry into a new target country over the next 18 months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Head of Finance (Regional)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Regional Market Expansion Strategy & Q3 Financial Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Evaluation of current budget allocation for digital marketing initiatives' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Evaluation of current budget allocation for digital marketing initiatives' from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Formulate a detailed financial model for market entry into a new target country over the next 18 months.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, 'Formulate a detailed financial model for market entry into a new target country over the next 18 months' has been removed from the key decisions. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Head of Finance (Regional)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, 'Head of Finance (Regional)' has been removed from the attendees. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for the meeting notes for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been applied to the meeting notes. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, but I might have more questions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime you have more questions or need assistance.",
+      "share_memory": false
+    }
+  ]
+}

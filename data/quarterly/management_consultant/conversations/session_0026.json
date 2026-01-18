@@ -1,0 +1,129 @@
+{
+  "session_id": 26,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Customer-Centric Transformation Pilot - Progress Review & Next Steps",
+      "agenda_items": [
+        "Review of pilot phase objectives and KPIs",
+        "Strategic planning for scaling the customer-centric model across the organization",
+        "Evaluation of technology integration challenges and opportunities"
+      ],
+      "key_decisions": [
+        "Approve the proposed framework for collecting and analyzing customer journey data."
+      ],
+      "action_items": [
+        "Prepare a revised budget projection for the next phase of the customer-centric transformation. (Owner: Mr. Javier Rios, Due: +21 days)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion of current process bottlenecks and pain points",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Schedule a workshop with the IT and Product teams to deep dive into data integration challenges. (Owner: Mr. Kai Chen, Due: +10 days)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate additional resources to the UX/UI team for iterating on the pilot's customer-facing features.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Customer-Centric Transformation Pilot - Progress Review & Next Steps'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Discussion of current process bottlenecks and pain points' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Discussion of current process bottlenecks and pain points\" from the agenda items. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, also remove 'Schedule a workshop with the IT and Product teams to deep dive into data integration challenges. (Owner: Mr. Kai Chen, Due: +10 days)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item. Is there anything else you'd like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Allocate additional resources to the UX/UI team for iterating on the pilot's customer-facing features.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that from the key decisions. Is there anything else you'd like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed all the requested items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

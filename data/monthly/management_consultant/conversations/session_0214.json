@@ -1,0 +1,139 @@
+{
+  "session_id": 214,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Strategic Alignment Workshop: Healthcare Efficiency Initiative Phase 1 Review",
+      "agenda_items": [
+        "Open forum for challenges and opportunities in scaling solutions",
+        "Presentation of preliminary recommendations for process optimization",
+        "Discussion on observed operational bottlenecks and root causes",
+        "Analysis of stakeholder feedback from clinical and administrative staff"
+      ],
+      "key_decisions": [
+        "Schedule follow-up workshops with individual site leadership to tailor recommendations.",
+        "Prioritize implementation of a standardized patient intake protocol across all pilot sites by next month."
+      ],
+      "action_items": [
+        "Client Leadership: Designate task force members for EHR interoperability initiative. (Due: +5 days)",
+        "Consultant Team: Document and distribute meeting minutes and decisions to all attendees. (Due: +1 day)",
+        "Consultant Team: Develop detailed implementation plan for standardized patient intake protocol. (Due: +7 days)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Approve the development of a cost-benefit analysis for proposed technology integration solutions.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of Phase 1 KPIs and performance metrics for pilot sites",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Consultant Team: Prepare initial draft of cost-benefit analysis for technology solutions. (Due: +14 days)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Alignment Workshop: Healthcare Efficiency Initiative Phase 1 Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Approve the development of a cost-benefit analysis for proposed technology integration solutions.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. I've removed that decision from the key decisions. Is there anything else you'd like to delete from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Review of Phase 1 KPIs and performance metrics for pilot sites' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Review of Phase 1 KPIs and performance metrics for pilot sites' from the agenda items. Is there anything else you'd like to delete from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Consultant Team: Prepare initial draft of cost-benefit analysis for technology solutions. (Due: +14 days)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that action item. Is there anything else you'd like to delete from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Confirmed. I have removed all the requested items from the meeting notes. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

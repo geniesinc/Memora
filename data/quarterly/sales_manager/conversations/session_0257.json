@@ -1,0 +1,183 @@
+{
+  "session_id": 257,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review & Pipeline Strategy Session",
+      "agenda_items": [
+        "Pipeline generation strategies for the upcoming period",
+        "Review of current quarter's sales performance against targets",
+        "Team training needs and skill development",
+        "Discussion on new market opportunities and competitive landscape",
+        "Analysis of key account health and potential risks"
+      ],
+      "key_decisions": [
+        "Allocate additional resources to support the pilot program for the new analytics integration within the next month.",
+        "Prioritize outreach to underperforming accounts in the Midwest region within the next two weeks.",
+        "Formulate a revised competitive positioning statement for our core offering by the end of the current period."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Account Manager)",
+        "Sarah Jenkins (Marketing Liaison)",
+        "Anya Sharma (Sales Director)",
+        "Kenji Tanaka (Sales Development Representative Lead)",
+        "David Chen (Senior Account Executive)"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Team training needs and skill development",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Formulate a revised competitive positioning statement for our core offering by the end of the current period.",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discussion on new market opportunities and competitive landscape",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Analysis of key account health and potential risks",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 130,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 167,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      },
+      {
+        "session_id": 257,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I hope you're having a good day so far. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm doing well, thank you! I was just wondering, what's a common misconception people have about AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A common misconception is that AI is always perfectly logical and objective; in reality, AI can inherit biases from the data it's trained on. What other aspects of AI are you curious about?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Q3 Performance Review & Pipeline Strategy Session'. I want to change some of the details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I need to update the agenda items to include 'Team training needs and skill development'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the agenda items to include 'Team training needs and skill development'. Is there anything else you'd like to update in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I also want to update the key decisions to include: 'Formulate a revised competitive positioning statement for our core offering by the end of the current period.'",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Formulate a revised competitive positioning statement for our core offering by the end of the current period\" to the key decisions. Is there anything else you'd like to update in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the agenda items to include 'Discussion on new market opportunities and competitive landscape'.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'Discussion on new market opportunities and competitive landscape' to the agenda items. Is there anything else you'd like to update in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the agenda items to include 'Analysis of key account health and potential risks'.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'Analysis of key account health and potential risks' to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Okay, the updates to the meeting notes have been applied. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "That was very helpful. Thanks for getting that done.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance or have more questions.",
+      "share_memory": false
+    }
+  ]
+}

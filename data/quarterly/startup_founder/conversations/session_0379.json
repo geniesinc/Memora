@@ -1,0 +1,117 @@
+{
+  "session_id": 379,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_10",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insightful Post",
+      "main_message": "Thrilled to share our latest breakthroughs in leveraging AI to personalize entertainment experiences across Europe. The journey of building a real-time platform in this dynamic industry presents unique challenges and immense opportunities for innovation.",
+      "hashtags": [
+        "FounderJourney",
+        "EntertainmentTech",
+        "RealTimeData",
+        "StartupLife",
+        "EuropeanTech"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "EuropeanTech",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 246,
+        "session_date": "2025-06-13",
+        "operation": "add"
+      },
+      {
+        "session_id": 379,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Insightful Post'. I want to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'EuropeanTech' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'EuropeanTech' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The social media post has been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That will be all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Sounds good! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

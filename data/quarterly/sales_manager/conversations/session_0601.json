@@ -1,0 +1,144 @@
+{
+  "session_id": 601,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_10",
+    "content_data": {
+      "project_title": "Automated E-commerce Fulfillment Optimization Pilot Program",
+      "project_description": "A pilot program to integrate advanced automation solutions into our North American e-commerce fulfillment process, aiming to enhance efficiency and reduce operational costs.",
+      "budget": 200000,
+      "timeline": "6-month pilot phase, followed by a 3-month evaluation and scaling strategy development.",
+      "project_lead": "Kai Chen, Senior Sales Manager",
+      "stakeholders": [
+        "VP of E-commerce",
+        "Finance Business Partner",
+        "Head of Operations, North America",
+        "Head of IT Infrastructure",
+        "Director of Supply Chain Logistics"
+      ],
+      "objectives": [
+        "Achieve a minimum 15% reduction in average order fulfillment time within the pilot region.",
+        "Improve order accuracy rates by 5% through automated quality checks.",
+        "Gather critical data for a scalable automation roadmap across all North American operations."
+      ],
+      "deliverables": [
+        "Detailed pilot program implementation plan and timeline.",
+        "Selection and integration of automated sorting and packing solutions.",
+        "Recommendations for enterprise-wide automation deployment strategy."
+      ],
+      "sales_strategy": "This project will serve as a lighthouse case study, demonstrating our commitment to cutting-edge operational efficiency. The sales team will leverage the pilot's success metrics to highlight improved delivery speeds and reliability in future client proposals, emphasizing our ability to meet evolving customer expectations. We will also explore opportunities to offer our automation expertise as a value-add service to key B2B clients.",
+      "revenue_targets": [
+        "Estimated annual savings from operational efficiencies post-scaling: $500,000 - $750,000."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 175000,
+        "reverted_to": 200000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "revenue_targets",
+        "removed_item": "Improved customer satisfaction leading to a 5% reduction in churn rate over the next 12 months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Decrease manual labor costs associated with fulfillment by 10-12% during the pilot.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-29",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'm doing well, thank you. I'm ready for your questions whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the 'Automated E-commerce Fulfillment Optimization Pilot Program' project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "What specific information do you want to delete from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please delete the 'Automated E-commerce Fulfillment Optimization Pilot Program' proposal and revert the budget to $200,000 for the main project since the cost reduction didn't work out.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've deleted the 'Automated E-commerce Fulfillment Optimization Pilot Program' proposal and updated the main project budget to $200,000. Is there anything else you'd like to delete or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Improved customer satisfaction leading to a 5% reduction in churn rate over the next 12 months.' from the revenue targets.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Improved customer satisfaction leading to a 5% reduction in churn rate over the next 12 months.' from the revenue targets. Is there anything else you'd like to delete or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Decrease manual labor costs associated with fulfillment by 10-12% during the pilot' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Decrease manual labor costs associated with fulfillment by 10-12% during the pilot' from the objectives. Is there anything else you'd like to delete or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I've removed 'Decrease manual labor costs associated with fulfillment by 10-12% during the pilot' from the objectives. Is there anything else you'd like to delete or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Decrease manual labor costs associated with fulfillment by 10-12% during the pilot' from the objectives. Is there anything else you'd like to delete or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

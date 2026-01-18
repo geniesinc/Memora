@@ -1,0 +1,112 @@
+{
+  "session_id": 112,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "To provide a preliminary financial analysis of the proposed pilot expansion to Mexico, outlining potential costs, revenue implications, and key financial considerations for scalability.",
+      "recipient_list": [
+        "Lead Project Manager - Mexico Pilot",
+        "Head of North American Operations",
+        "Director of Business Development"
+      ],
+      "key_points": [
+        "Funding strategies and capital allocation for the expanded pilot will require further discussion with the finance committee.",
+        "Key financial risks include currency fluctuation exposure, regulatory compliance costs, and potential for slower-than-anticipated market adoption."
+      ],
+      "call_to_action": "Please review the attached preliminary financial overview and be prepared to discuss these points during our strategy meeting next week to refine our financial modeling for the Mexico pilot."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Director of Business Development",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 104,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 112,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update an email titled 'To provide a preliminary financial analysis of the proposed pilot expansion to Mexico, outlining potential costs, revenue implications, and key financial considerations for scalability.' I have some changes for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information about it needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Director of Business Development' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'Director of Business Development' to the recipient list. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Confirming the update to the recipient list for the email. Is there anything else you need to update, or would you like a summary of the changes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'm good for now, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

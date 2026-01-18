@@ -1,0 +1,102 @@
+{
+  "session_id": 57,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Global Content Strategy Alignment for Upcoming Collection Launch",
+      "agenda_items": [
+        "Integration Points with Product Marketing & E-commerce Teams",
+        "Review Q3 Content Performance Metrics & Learnings"
+      ],
+      "key_decisions": [
+        "Adopt 'Conscious Craftsmanship' as the primary narrative pillar for the 'Ethereal Weave' collection's core content."
+      ],
+      "attendees": [
+        "Content Writer Persona (Content Writer)",
+        "Liam Chen (Product Marketing Lead)",
+        "Dr. Elara Vance (Head of Content Strategy)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize video-first content for social media campaigns in EMEA, focusing on short-form narratives.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common applications of AI in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is commonly used in navigation apps, personalized recommendations, and spam filters. It also powers virtual assistants and facial recognition technology.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I actually need to remove some information from my meeting notes titled 'Global Content Strategy Alignment for Upcoming Collection Launch'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you remove information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Prioritize video-first content for social media campaigns in EMEA, focusing on short-form narratives.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Prioritize video-first content for social media campaigns in EMEA, focusing on short-form narratives\" from the key decisions. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've updated the meeting notes by removing that specific key decision. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

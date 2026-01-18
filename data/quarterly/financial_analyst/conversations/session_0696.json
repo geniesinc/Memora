@@ -1,0 +1,113 @@
+{
+  "session_id": 696,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_6",
+    "content_data": {
+      "project_title": "North American Automotive UX Consulting Pilot Program",
+      "project_description": "Proposal for a pilot program to implement user-experience driven consulting services for key automotive clients across North America, focusing on measurable financial impact.",
+      "budget": 1150000,
+      "timeline": "Initial phase over 9 months, with potential for extension based on performance metrics.",
+      "project_lead": "Dr. Anya Sharma, Senior Financial Analyst",
+      "stakeholders": [
+        "VP of Product Development",
+        "Lead UX Strategist"
+      ],
+      "objectives": [
+        "Establish key performance indicators (KPIs) and metrics to quantitatively track the ROI of UX improvements for pilot clients."
+      ],
+      "deliverables": [
+        "Quarterly financial performance reviews for the pilot program."
+      ],
+      "compliance_requirements": [
+        "Review of intellectual property rights for any jointly developed solutions or methodologies."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Head of North American Operations (Automotive Division)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 850000,
+        "reverted_to": 1150000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-07-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'North American Automotive UX Consulting Pilot Program'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Head of North American Operations (Automotive Division)' from the stakeholders list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Head of North American Operations (Automotive Division)' from the stakeholders list. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget back to $1,150,000 from $850,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $1,150,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the proposal. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing the specified stakeholder and reverting the budget. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks so much!",
+      "share_memory": false
+    }
+  ]
+}

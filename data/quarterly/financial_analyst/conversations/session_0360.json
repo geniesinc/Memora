@@ -1,0 +1,104 @@
+{
+  "session_id": 360,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review & Strategic Capital Allocation",
+      "agenda_items": [
+        "Evaluation of current market conditions and their impact on revenue forecasts",
+        "Analysis of manufacturing efficiency and cost variances",
+        "Discussion on capital expenditure proposals for next fiscal period",
+        "Review of current quarter's financial performance against budget",
+        "Strategic planning for inventory optimization initiatives"
+      ],
+      "key_decisions": [
+        "Initiated a deep-dive analysis into raw material procurement strategies to mitigate supply chain risks",
+        "Approved allocation of contingency funds for critical equipment maintenance in Plant 3",
+        "Prioritized capital expenditure proposals for automation upgrades in assembly lines to be funded over an 18-month period"
+      ],
+      "action_items": [
+        "Schedule follow-up meeting with Operations to review CAPEX proposal impact on production efficiency, within next 21 days. (Assigned to VP of Finance)",
+        "Draft updated revenue forecast models incorporating recent market shifts, due in 14 days. (Assigned to Senior Financial Analyst)",
+        "Prepare detailed variance report for Q3 manufacturing costs, due in 7 days. (Assigned to Finance Analyst Team)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "action_items",
+        "added_item": "Prepare detailed variance report for Q3 manufacturing costs, due in 7 days. (Assigned to Finance Analyst Team)",
+        "action": "added"
+      }
+    ],
+    "session_count": 4
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Q3 Financial Performance Review & Strategic Capital Allocation' to reflect some changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes for 'Q3 Financial Performance Review & Strategic Capital Allocation'. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the action items to include: 'Prepare detailed variance report for Q3 manufacturing costs, due in 7 days. (Assigned to Finance Analyst Team)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Prepare detailed variance report for Q3 manufacturing costs, due in 7 days. (Assigned to Finance Analyst Team)' to the action items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You're all set. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

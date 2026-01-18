@@ -1,0 +1,118 @@
+{
+  "session_id": 240,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_4",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "In the fast-evolving e-commerce landscape, security isn't just a feature \u2013 it's the foundation of trust and sustained growth. Our strategic, security-enhanced solutions are designed to empower businesses globally, ensuring peace of mind while driving unprecedented revenue. Let's build a more secure digital future together.",
+      "hashtags": [
+        "#StartupSuccess",
+        "#ClientRelationships",
+        "#DigitalTrust",
+        "#Cybersecurity",
+        "#RevenueGrowth",
+        "#GlobalCommerce"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#GlobalCommerce",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 70,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 240,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'. I'd like to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include #GlobalCommerce.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added `#GlobalCommerce` to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Will do, thanks again!",
+      "share_memory": false
+    }
+  ]
+}

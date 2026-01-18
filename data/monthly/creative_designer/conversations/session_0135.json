@@ -1,0 +1,177 @@
+{
+  "session_id": 135,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "EduFlow: Gamified Learning Pathways for Early European Language Acquisition",
+      "project_description": "A pilot initiative to design and develop engaging, gamified digital learning pathways for primary school children across Europe, focusing on foundational language skills.",
+      "budget": 125000,
+      "timeline": "6 months, with an initial 3-month design and prototyping phase, followed by a 3-month development and user testing phase.",
+      "project_lead": "Lena Petrova, Senior Creative Designer",
+      "stakeholders": [
+        "Marketing & Communications Lead",
+        "Education Innovation Director"
+      ],
+      "objectives": [
+        "Increase student engagement in early language learning by 25% through gamification."
+      ],
+      "deliverables": [
+        "User journey maps and persona profiles for target age groups."
+      ],
+      "inspiration_references": [
+        "Toca Boca apps (intuitive UI/UX for children)",
+        "Khan Academy Kids (engaging educational content design)"
+      ],
+      "technical_specs": [
+        "Data tracking for user progress, engagement metrics, and learning outcomes."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 125000,
+        "updated_to": 100000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "stakeholders",
+        "added_item": "Education Innovation Director",
+        "action": "added"
+      },
+      {
+        "field": "budget",
+        "updated_from": 100000,
+        "updated_to": 125000,
+        "action": "budget_revised"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 11,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 42,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 78,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 118,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 135,
+        "session_date": "2025-06-07",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you for asking! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'EduFlow: Gamified Learning Pathways for Early European Language Acquisition'. I have a few changes to make to its details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'EduFlow: Gamified Learning Pathways for Early European Language Acquisition' project proposal. What specific details would you like to change?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the budget from $125,000 to $100,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for 'EduFlow: Gamified Learning Pathways for Early European Language Acquisition' to $100,000. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Education Innovation Director' to the list of stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Education Innovation Director' to the stakeholders for 'EduFlow: Gamified Learning Pathways for Early European Language Acquisition'. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update the budget from $100,000 to $125,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for 'EduFlow: Gamified Learning Pathways for Early European Language Acquisition' to $125,000. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Not at the moment, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Alright, feel free to reach out if anything else comes up!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do, thanks!",
+      "share_memory": false
+    }
+  ]
+}

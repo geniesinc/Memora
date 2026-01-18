@@ -1,0 +1,146 @@
+{
+  "session_id": 646,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_3",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Excited to share insights from our recent pilot program focused on AI-driven performance optimization within a mid-size European entertainment company. The initial results are incredibly promising, showcasing significant gains in operational efficiency and content engagement. This validates our approach to leveraging AI for tangible business impact in a dynamic industry.",
+      "hashtags": [
+        "#GrowthMindset",
+        "#AIinEntertainment",
+        "#StartupLife",
+        "#EntertainmentIndustry",
+        "#PerformanceOptimization",
+        "#EuropeanTech"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#EntertainmentIndustry",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#PerformanceOptimization",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#EuropeanTech",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 91,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 646,
+        "session_date": "2025-07-02",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-07-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'; I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'LinkedIn Thought Leadership Post.' What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#EntertainmentIndustry'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags to include '#EntertainmentIndustry.' Is there anything else you'd like to change for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#PerformanceOptimization' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#PerformanceOptimization' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#EuropeanTech' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#EuropeanTech' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. The hashtags for the social media post have been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, I'm good for now. I need to get going. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day, and feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

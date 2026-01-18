@@ -1,0 +1,160 @@
+{
+  "session_id": 448,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_9",
+    "content_data": {
+      "project_title": "IoT Gateway Modernization for Smart Building Infrastructure",
+      "project_description": "Migration of legacy IoT gateway systems to a cloud-native, mobile-first architecture supporting real-time sensor data aggregation and edge computing capabilities across regional smart building deployments.",
+      "budget": 300000,
+      "timeline": "14 months with Phase 1 (months 1-4) for architecture design and prototyping, Phase 2 (months 5-10) for core development, and Phase 3 (months 11-14) for deployment and optimization",
+      "project_lead": "Priya Sundaram, Senior IoT Solutions Architect",
+      "stakeholders": [
+        "Security and Compliance Team",
+        "IoT Platform Engineering",
+        "Client Success Managers",
+        "Mobile Development Squad",
+        "Infrastructure Operations"
+      ],
+      "objectives": [
+        "Reduce gateway latency by 60% through edge computing implementation",
+        "Enable real-time mobile monitoring and control for 500+ connected devices per gateway",
+        "Establish secure MQTT and CoAP protocol support with end-to-end encryption",
+        "Achieve 99.9% uptime across regional deployment zones"
+      ],
+      "deliverables": [
+        "Automated deployment pipeline with CI/CD integration",
+        "Technical documentation and architecture diagrams",
+        "Edge computing modules for local data processing",
+        "RESTful and GraphQL API documentation and SDK",
+        "Mobile-first dashboard application for iOS and Android",
+        "Training materials and knowledge transfer sessions",
+        "Security audit report and penetration testing results",
+        "Cloud-native IoT gateway platform with Kubernetes orchestration"
+      ],
+      "risk_assessment": "Medium-high risk due to complex integration with legacy building management systems, potential connectivity challenges across regional sites, and dependency on third-party IoT sensor manufacturers for protocol standardization."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 350000,
+        "updated_to": 300000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "budget",
+        "updated_from": 300000,
+        "updated_to": 325000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "budget",
+        "updated_from": 325000,
+        "updated_to": 300000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "objectives",
+        "added_item": "Achieve 99.9% uptime across regional deployment zones",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat and see what interesting things we can discuss today.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'IoT Gateway Modernization for Smart Building Infrastructure'. I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update 'IoT Gateway Modernization for Smart Building Infrastructure'. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the budget from $350,000 to $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted the budget change from $350,000 to $300,000. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Actually, change the budget from $300,000 to $325,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for 'IoT Gateway Modernization for Smart Building Infrastructure' from $300,000 to $325,000. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Let me revise that budget from $325,000 back to $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for 'IoT Gateway Modernization for Smart Building Infrastructure' from $325,000 to $300,000. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please update the objectives to include: 'Achieve 99.9% uptime across regional deployment zones'.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the objectives for 'IoT Gateway Modernization for Smart Building Infrastructure' to include 'Achieve 99.9% uptime across regional deployment zones'. Is there anything else you'd like to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted that's all for now regarding updates to 'IoT Gateway Modernization for Smart Building Infrastructure'. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thanks, that's everything for now.",
+      "share_memory": false
+    }
+  ]
+}

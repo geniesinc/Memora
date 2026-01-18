@@ -1,0 +1,77 @@
+{
+  "session_id": 443,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 9.1,
+      "created_at": "2025-06-22"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-22",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was curious about the history of artificial intelligence. What are some of the key milestones in its development?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "The Dartmouth Conference in 1956 is often considered the birth of AI, followed by expert systems in the 70s and the rise of machine learning in the 90s. More recently, deep learning and neural networks have driven significant advancements.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's an interesting overview. What do you think is the most exciting recent development in AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I find the progress in natural language processing and computer vision particularly exciting. These areas have led to many innovative applications we see today.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I just grabbed a coffee; it was $9.10.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a nice treat! Was that the only food expense you had today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, that was the only food expense today.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, glad I could help with your questions about AI today! Feel free to ask if anything else comes to mind later.",
+      "share_memory": false
+    }
+  ]
+}

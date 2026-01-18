@@ -1,0 +1,158 @@
+{
+  "session_id": 301,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review and Budget Reallocation Strategy",
+      "agenda_items": [
+        "Evaluation of potential investment opportunities in emerging markets within North America"
+      ],
+      "key_decisions": [
+        "Mandated a deep dive into Q3 operational costs to identify further optimization opportunities."
+      ],
+      "action_items": [
+        "Develop financial models for identified expansion properties, including projected ROI and cash flow analysis, by +14 days. (Owner: Finance Analyst)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Schedule follow-up meeting with Property Management to review maintenance budget allocation and impact by +10 days. (Owner: Senior Financial Manager)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritized detailed feasibility study for two identified expansion properties in growth regions.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved reallocation of [500000, 750000] from unspent marketing budget to enhance property maintenance for key assets.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 118,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 135,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 192,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      },
+      {
+        "session_id": 301,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going quite well, thank you for asking. I'm ready to chat and assist in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Q3 Financial Performance Review and Budget Reallocation Strategy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Schedule follow-up meeting with Property Management to review maintenance budget allocation and impact by +10 days. (Owner: Senior Financial Manager)\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood, that action item has been removed from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Prioritized detailed feasibility study for two identified expansion properties in growth regions.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, that key decision has been removed from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please also remove 'Approved reallocation of [500000, 750000] from unspent marketing budget to enhance property maintenance for key assets.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, that key decision has been removed. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all specified items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Sounds good! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

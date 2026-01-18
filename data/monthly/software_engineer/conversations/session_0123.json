@@ -1,0 +1,128 @@
+{
+  "session_id": 123,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "IoT Gateway Architecture Review and Q4 Sprint Planning",
+      "agenda_items": [
+        "Review current MQTT broker performance metrics and scalability concerns",
+        "Discuss edge computing implementation for predictive maintenance modules",
+        "Address technical debt in legacy communication protocols"
+      ],
+      "key_decisions": [
+        "Implement Redis caching layer to handle increased sensor data throughput from industrial automation clients",
+        "Migrate from monolithic architecture to microservices using Kubernetes for improved scalability across European client deployments"
+      ],
+      "attendees": [
+        "Fatima Al-Rashid, Engineering Manager",
+        "Lars Bergstr\u00f6m, DevOps Engineer",
+        "Priya Sharma, Senior Backend Engineer"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common applications of artificial intelligence in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is used in many common applications, from recommendation systems on streaming platforms to virtual assistants on our phones. It also powers things like spam filters in email and fraud detection in banking.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to add some meeting notes to my memory. Can you help me organize the attendees for an upcoming meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you add meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The meeting is for an IoT Gateway Architecture Review and Q4 Sprint Planning.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The agenda items include reviewing current MQTT broker performance and scalability, discussing edge computing for predictive maintenance, and addressing technical debt in legacy communication protocols.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We decided to implement a Redis caching layer for sensor data throughput and migrate to microservices with Kubernetes for scalability in European deployments.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Who attended the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "The attendees included Fatima Al-Rashid, our Engineering Manager, Lars Bergstr\u00f6m, the DevOps Engineer, and Priya Sharma, our Senior Backend Engineer.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Thank you. I have all the details for the meeting notes. Is there anything else you'd like to add or change?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

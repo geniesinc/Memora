@@ -1,0 +1,113 @@
+{
+  "session_id": 267,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "Robotics Integration Architecture Review: Phase 1 Learnings",
+      "agenda_items": [
+        "Planning for next iteration of hardware-in-the-loop testing"
+      ],
+      "key_decisions": [
+        "Allocate additional computational resources for real-time processing of LiDAR and camera data streams."
+      ],
+      "attendees": [
+        "Dr. Anya Sharma (Lead Researcher, Multi-Robot Systems)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current simulation environment performance metrics",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 207,
+        "session_date": "2025-06-10",
+        "operation": "add"
+      },
+      {
+        "session_id": 218,
+        "session_date": "2025-06-11",
+        "operation": "delete"
+      },
+      {
+        "session_id": 267,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Robotics Integration Architecture Review: Phase 1 Learnings'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review of current simulation environment performance metrics' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Review of current simulation environment performance metrics' from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing that agenda item. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate your help with this!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

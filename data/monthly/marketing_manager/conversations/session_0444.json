@@ -1,0 +1,147 @@
+{
+  "session_id": 444,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Q4 Brand Repositioning Strategy & Streaming Platform Partnership Review",
+      "agenda_items": [
+        "Discuss strategic partnership opportunities with emerging streaming platforms",
+        "Evaluate customer engagement data from innovation summit series",
+        "Review competitive landscape analysis in APAC and EMEA regions"
+      ],
+      "key_decisions": [
+        "Postponed launch of new website redesign to incorporate AI-driven personalization features",
+        "Agreed to shift 30% of traditional media budget to podcast sponsorships and webinar series"
+      ],
+      "action_items": [
+        "Coordinate with product team to align marketing narrative with upcoming innovation lab launch",
+        "Schedule focus groups with existing clients to validate new positioning framework within +30 days",
+        "Conduct A/B testing on revised brand messaging across LinkedIn and industry publications by +21 days",
+        "Develop detailed partnership proposal deck for streaming platform stakeholders by +14 days",
+        "Prepare ROI analysis comparing current campaign performance against industry benchmarks by +10 days"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Update customer journey maps to reflect insights from recent engagement data analysis by +28 days",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review performance metrics from recent multi-channel awareness campaign",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 383,
+        "session_date": "2025-06-18",
+        "operation": "add"
+      },
+      {
+        "session_id": 399,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      },
+      {
+        "session_id": 403,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      },
+      {
+        "session_id": 418,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      },
+      {
+        "session_id": 444,
+        "session_date": "2025-06-21",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, ready to chat. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Q4 Brand Repositioning Strategy & Streaming Platform Partnership Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Update customer journey maps to reflect insights from recent engagement data analysis by +28 days\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review performance metrics from recent multi-channel awareness campaign' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Review performance metrics from recent multi-channel awareness campaign\" from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified action item and agenda item from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything! Thanks for your help.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance again in the future.",
+      "share_memory": false
+    }
+  ]
+}

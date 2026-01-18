@@ -1,0 +1,111 @@
+{
+  "session_id": 325,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_2",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Update",
+      "main_message": "Excited to share our latest findings on optimizing resource allocation for long-term sustainability in aerospace logistics. Our computational models demonstrate significant potential for reducing operational overhead and environmental impact across European networks. We're eager to discuss these implications with industry leaders and fellow researchers.",
+      "hashtags": [
+        "#ComputationalScience",
+        "#EfficiencyOptimization",
+        "#NonProfitImpact",
+        "#SustainableAerospace",
+        "#AerospaceResearch"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#AerospaceResearch",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 79,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 325,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Update.' I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update it. What information in the 'LinkedIn Research Update' post needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#AerospaceResearch'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, the hashtag '#AerospaceResearch' has been added. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Confirmed. The social media post has been updated with the new hashtag.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Alright, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "session_id": 1771,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 6.63,
+      "created_at": "2025-08-23"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-08-23",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! What's the best way to get started using your features?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "To get started, you can explore the different functionalities listed in the main menu. Feel free to click on any feature to learn more about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Okay, so I should just browse the menu to see what's available?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Yes, browsing the menu is a great way to discover all the available tools and options. You can also use the search bar if you have something specific in mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "So, the search bar is for when I know what I'm looking for, and the menu is for browsing?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Exactly! The search bar helps when you have a specific task in mind, while the menu allows for broader exploration.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For example, if you want to create a document, you could search \"document creator,\" or browse the \"Creation Tools\" section in the menu.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I just spent $6.63 on coffee.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Thanks for sharing! I can help you keep track of that. Did you have any other food expenses today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for today. I need to go now.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Alright, have a great rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

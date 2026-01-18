@@ -1,0 +1,148 @@
+{
+  "session_id": 184,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Strategic Review: ERP System Integration for North American Pharmaceutical Operations",
+      "agenda_items": [
+        "Assess regulatory compliance implications for data synchronization in FDA-regulated environments",
+        "Discuss budget allocation for Phase 2 expansion to remaining facilities"
+      ],
+      "key_decisions": [
+        "Established cross-functional steering committee led by VP of Operations and Chief Information Officer",
+        "Approved expansion of integration pilot to five additional manufacturing sites pending successful validation at current locations",
+        "Mandated implementation of enhanced audit trail capabilities to meet 21 CFR Part 11 compliance requirements"
+      ],
+      "action_items": [
+        "Kwame Osei to coordinate with Quality Assurance on validation protocol for integrated systems by end of next month",
+        "Tatiana Volkov to develop comprehensive change management plan for end-user training across all sites within 6 weeks"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Approved expansion of integration pilot to five additional manufacturing sites pending successful validation at current locations",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Mandated implementation of enhanced audit trail capabilities to meet 21 CFR Part 11 compliance requirements",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Tatiana Volkov to develop comprehensive change management plan for end-user training across all sites within 6 weeks",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 93,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 170,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 184,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Strategic Review: ERP System Integration for North American Pharmaceutical Operations'. I have a few details to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key decisions to include: Approved expansion of integration pilot to five additional manufacturing sites pending successful validation at current locations.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key decisions. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the key decisions with: Mandated implementation of enhanced audit trail capabilities to meet 21 CFR Part 11 compliance requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've also added \"Mandated implementation of enhanced audit trail capabilities to meet 21 CFR Part 11 compliance requirements\" to the key decisions. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please update the action items to include: Tatiana Volkov to develop comprehensive change management plan for end-user training across all sites within 6 weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added Tatiana Volkov to the action items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for the updates in the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've applied all those updates to the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

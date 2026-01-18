@@ -1,0 +1,89 @@
+{
+  "session_id": 49,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 3.54,
+      "created_at": "2025-06-03"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm trying to decide between a few different types of smartwatches. Could you tell me about the main differences between them?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly! Many smartwatches differ in their operating systems, fitness tracking capabilities, and battery life. Some focus on seamless integration with specific phone brands, while others offer broader compatibility and advanced health sensors.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's helpful! Can you tell me more about the different operating systems?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "The main smartwatch operating systems are Apple's watchOS, Google's Wear OS, and various proprietary systems like those from Samsung (Tizen/Wear OS) and Fitbit. They each offer unique app ecosystems and user interfaces.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What are some of the key features or functionalities you're looking for in a smartwatch?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'm mainly interested in fitness tracking and getting notifications.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can help with that! Did you have any food expenses today you'd like to add?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I spent $3.54 on coffee today.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it! Anything else you'd like to add about your day?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

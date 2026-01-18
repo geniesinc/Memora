@@ -1,0 +1,118 @@
+{
+  "session_id": 281,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "Q3 Regional Energy Market Performance Review & Client Strategy",
+      "agenda_items": [
+        "Customer-specific strategic recommendations for revenue optimization and risk mitigation"
+      ],
+      "key_decisions": [
+        "Develop a tailored hedging strategy for Client B to mitigate exposure to fluctuating natural gas prices.",
+        "Prioritize deep-dive analysis into renewable energy investment opportunities for Client A given recent policy shifts."
+      ],
+      "attendees": [
+        "Carlos Ramirez (Financial Analyst, Market Research)",
+        "Sarah Chen (Client Relationship Manager, Key Accounts)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Planning for next client engagement round",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Aisha Khan (Senior Consultant, Energy Sector)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think is the most interesting recent scientific discovery?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! One of the most interesting recent discoveries is the detection of gravitational waves, which opened a new window to understanding the universe.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q3 Regional Energy Market Performance Review & Client Strategy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Planning for next client engagement round' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Planning for next client engagement round\" from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Aisha Khan (Senior Consultant, Energy Sector)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Aisha Khan from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks, that was very helpful.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you with your meeting notes.",
+      "share_memory": false
+    }
+  ]
+}

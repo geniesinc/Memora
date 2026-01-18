@@ -1,0 +1,130 @@
+{
+  "session_id": 143,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To provide a concise update on the 'Scalable Telehealth Integration Framework' pilot project's progress and highlight key findings.",
+      "recipient_list": [
+        "IT Infrastructure Team Leads",
+        "Healthcare Innovation Committee"
+      ],
+      "key_points": [
+        "Initial pilot phase successfully integrated with two regional clinics, demonstrating robust data transfer capabilities.",
+        "Identified key areas for optimization in user interface for clinical staff, based on early feedback."
+      ],
+      "call_to_action": "Please review the attached preliminary report and provide any feedback by end of next week to inform the next phase of development."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Identified key areas for optimization in user interface for clinical staff, based on early feedback.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Healthcare Innovation Committee",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 12,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 31,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 143,
+        "session_date": "2025-06-07",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update an email titled 'To provide a concise update on the 'Scalable Telehealth Integration Framework' pilot project's progress and highlight key findings.' I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: 'Identified key areas for optimization in user interface for clinical staff, based on early feedback.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Identified key areas for optimization in user interface for clinical staff, based on early feedback\" to the key points. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Healthcare Innovation Committee' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Healthcare Innovation Committee' to the recipient list. What other updates should I make to the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new key point and recipient. Is there anything else you need to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Glad I could assist you with the updates.",
+      "share_memory": false
+    }
+  ]
+}

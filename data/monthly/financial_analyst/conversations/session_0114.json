@@ -1,0 +1,177 @@
+{
+  "session_id": 114,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review and Budget Reallocation Discussion",
+      "agenda_items": [
+        "Discussion on impact of fuel price fluctuations on logistics margins",
+        "Strategic planning for upcoming period's financial targets",
+        "Analysis of key operational cost drivers",
+        "Proposal for budget reallocation for technology upgrades"
+      ],
+      "key_decisions": [
+        "Agreed to initiate a cost-benefit analysis for adopting alternative fuel vehicles within the next six months.",
+        "Approved reallocation of operating budget to prioritize fleet maintenance software implementation.",
+        "Decision to hold weekly finance-operations syncs to monitor expenditure variances more closely."
+      ],
+      "attendees": [
+        "Mei Lin (Financial Analyst)",
+        "Javier Rodriguez (Senior Financial Analyst)",
+        "Marcus Thorne (VP of Operations)",
+        "Dr. Elena Petrova (Director of Finance)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Strategic planning for upcoming period's financial targets",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Dr. Elena Petrova (Director of Finance)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Analysis of key operational cost drivers",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Proposal for budget reallocation for technology upgrades",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 63,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 79,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 104,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 114,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Q3 Financial Performance Review and Budget Reallocation Discussion'. I have a few details to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the agenda items to include \"Strategic planning for upcoming period's financial targets.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the agenda items to include \"Strategic planning for upcoming period's financial targets.\" Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Dr. Elena Petrova (Director of Finance)' to the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added 'Dr. Elena Petrova (Director of Finance)' to the attendees. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please also add 'Analysis of key operational cost drivers' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Analysis of key operational cost drivers' to the agenda items. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Proposal for budget reallocation for technology upgrades' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Proposal for budget reallocation for technology upgrades' to the agenda items. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes with all the changes you provided. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That's it for me, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

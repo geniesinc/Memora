@@ -1,0 +1,116 @@
+{
+  "session_id": 287,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_1",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Exploring how AI-driven insights are revolutionizing e-commerce sales strategies globally. It's about empowering our teams with smarter tools to anticipate customer needs and drive unparalleled growth.",
+      "hashtags": [
+        "#ECommerceStrategy",
+        "#GlobalECommerce",
+        "#ClientRelationships",
+        "#AISales"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#AISales",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 13,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 287,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'; I want to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you update the 'LinkedIn Thought Leadership Post'. What specific details do you want to change in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#AISales'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've added `#AISales` to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. The social media post has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Perfect, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more adjustments in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Will do! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

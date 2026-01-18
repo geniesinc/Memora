@@ -1,0 +1,113 @@
+{
+  "session_id": 358,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_9",
+    "content_data": {
+      "email_purpose": "Provide strategic update on enterprise-wide automation initiative and secure executive alignment on next phase investments in renewable energy integration.",
+      "recipient_list": [
+        "Head of Renewable Energy Division",
+        "Chief Operating Officer",
+        "VP of Energy Operations"
+      ],
+      "key_points": [
+        "Renewable energy integration phase requires capital allocation of $85-120M over the next 18 months to maintain competitive positioning"
+      ],
+      "call_to_action": "Review attached investment proposal and provide approval for Phase 2 budget allocation by end of next week to maintain project momentum and secure preferred vendor partnerships."
+    },
+    "pool_status": "completed",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Chief Operating Officer",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "VP of Energy Operations",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-17",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you for asking! I'm ready to chat and help out in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Provide strategic update on enterprise-wide automation initiative and secure executive alignment on next phase investments in renewable energy integration.' I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Chief Operating Officer' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added 'Chief Operating Officer' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'VP of Energy Operations' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added 'VP of Energy Operations' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, the email has been updated with both recipients. Is there anything else I can assist you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. I appreciate your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

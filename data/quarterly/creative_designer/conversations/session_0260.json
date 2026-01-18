@@ -1,0 +1,130 @@
+{
+  "session_id": 260,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To share initial visual concepts for the 'Future Food Connect' platform and gather feedback from key stakeholders.",
+      "recipient_list": [
+        "Client Relations Manager",
+        "Marketing Strategy Team"
+      ],
+      "key_points": [
+        "Overview of the strategic design thinking behind each concept, aligning with user research and business objectives.",
+        "Highlighting key interactive elements and user flow considerations embedded within the proposed designs."
+      ],
+      "call_to_action": "Please review the attached visual concepts and provide your feedback by the end of next week to facilitate design progression."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Highlighting key interactive elements and user flow considerations embedded within the proposed designs.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Marketing Strategy Team",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 85,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 185,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 260,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update an email titled 'To share initial visual concepts for the 'Future Food Connect' platform and gather feedback from key stakeholders.'; I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: 'Highlighting key interactive elements and user flow considerations embedded within the proposed designs.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key points to include that detail. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Marketing Strategy Team' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'Marketing Strategy Team' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new key point and recipient. Is there anything else you need help with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you so much for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    }
+  ]
+}

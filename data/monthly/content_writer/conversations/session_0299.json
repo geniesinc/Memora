@@ -1,0 +1,127 @@
+{
+  "session_id": 299,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To introduce our workflow optimization services and propose an exploratory discussion for improving operational efficiency in healthcare.",
+      "recipient_list": [
+        "Healthcare Executive Leadership",
+        "Head of Operations",
+        "Chief Medical Officer",
+        "Director of Patient Experience"
+      ],
+      "key_points": [
+        "Highlight common operational challenges in global healthcare settings.",
+        "Introduce our firm's expertise in data-driven workflow optimization."
+      ],
+      "call_to_action": "Schedule a 30-minute introductory call to discuss your organization's specific challenges and how our pilot program can deliver measurable improvements."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Chief Medical Officer",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Director of Patient Experience",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 293,
+        "session_date": "2025-06-14",
+        "operation": "add"
+      },
+      {
+        "session_id": 299,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat and help however I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To introduce our workflow optimization services and propose an exploratory discussion for improving operational efficiency in healthcare.' I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include 'Chief Medical Officer'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted the addition of 'Chief Medical Officer' to the recipients. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Director of Patient Experience' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Director of Patient Experience' to the recipients. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the recipient updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Recipients updated. Is there anything else you'd like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more adjustments or assistance in the future.",
+      "share_memory": false
+    }
+  ]
+}

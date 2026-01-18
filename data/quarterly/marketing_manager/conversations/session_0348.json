@@ -1,0 +1,110 @@
+{
+  "session_id": 348,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_1",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Excited to share insights on how data-driven performance optimization is transforming athlete training across European sports. Our latest pilot with elite cyclists demonstrates measurable improvements in recovery time and power output.",
+      "hashtags": [
+        "#EuropeanSports",
+        "#SportsPerformance",
+        "#PerformanceAnalytics",
+        "#SportsTech"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#SportsTech",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 33,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 348,
+        "session_date": "2025-06-16",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common applications of AI in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is commonly used in things like virtual assistants, recommendation systems for online shopping, and even in spam filters for email. It also powers facial recognition and predictive text on your phone.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'. I'd like to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes would you like to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#SportsTech'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#SportsTech' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for the social media post. Is there anything else you'd like to update, or are we all set?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We're all set, thanks!",
+      "share_memory": false
+    }
+  ]
+}

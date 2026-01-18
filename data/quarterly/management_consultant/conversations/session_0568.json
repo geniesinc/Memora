@@ -1,0 +1,124 @@
+{
+  "session_id": 568,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_1",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "In a rapidly evolving telecommunications landscape, customer experience isn't just a buzzword \u2013 it's the core differentiator. Our strategic approach helps global telcos innovate and optimize their CX strategies to drive sustainable growth.",
+      "hashtags": [
+        "#DigitalTransformation",
+        "#GlobalTelco",
+        "#CustomerExperience",
+        "#UserExperience",
+        "#ManagementConsulting",
+        "#Telecommunications"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#Telecommunications",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 21,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 568,
+        "session_date": "2025-06-27",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-27",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting recent advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Recent AI advancements include large language models like GPT-4 and the development of more sophisticated AI in areas like drug discovery and climate modeling. These innovations are expanding AI's capabilities in various fields.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'; I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#Telecommunications'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've added '#Telecommunications' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated. Is there anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Will do! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

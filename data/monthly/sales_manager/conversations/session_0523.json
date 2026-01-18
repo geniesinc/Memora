@@ -1,0 +1,124 @@
+{
+  "session_id": 523,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "Global Healthcare Provider Partnership Expansion Initiative",
+      "project_description": "A strategic proposal to forge new, high-value partnerships with leading global healthcare providers to expand our market reach and increase revenue.",
+      "budget": 850000,
+      "timeline": "Initial phase over 12 months, with ongoing engagement planned over 3 years.",
+      "project_lead": "Isabella Chen, Global Sales Director",
+      "stakeholders": [
+        "Regional Sales Directors"
+      ],
+      "objectives": [
+        "Diversify client portfolio to mitigate regional market risks."
+      ],
+      "deliverables": [
+        "Comprehensive market opportunity assessment report for target regions."
+      ],
+      "market_analysis": "Recent studies indicate significant growth opportunities in emerging healthcare markets, driven by increasing demand for digital health solutions and specialized medical services. Competitor analysis shows a gap in comprehensive, integrated partnership models.",
+      "revenue_targets": [
+        "Generate $5M in new recurring revenue within the first 12 months from new partnerships."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Legal and Compliance Department",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Secure 5 new strategic partnerships with top-tier global healthcare providers within the first year.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Some recent advancements include large language models becoming more sophisticated and improved capabilities in areas like computer vision and robotics. The development of AI for scientific discovery and medical applications is also seeing rapid progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Global Healthcare Provider Partnership Expansion Initiative'. We've had a change in plans.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Legal and Compliance Department' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Legal and Compliance Department' from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Secure 5 new strategic partnerships with top-tier global healthcare providers within the first year.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that objective. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing 'Legal and Compliance Department' from stakeholders and the objective to 'Secure 5 new strategic partnerships with top-tier global healthcare providers within the first year.' Would you like to do anything else with it?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

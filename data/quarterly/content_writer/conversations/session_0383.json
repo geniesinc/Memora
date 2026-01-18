@@ -1,0 +1,157 @@
+{
+  "session_id": 383,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Cost-Reduction Initiative",
+      "agenda_items": [
+        "Identification of low-performing content and potential sunsetting"
+      ],
+      "key_decisions": [
+        "Form a cross-functional task force to evaluate content tools for cost-efficiency."
+      ],
+      "attendees": [
+        "Anya Sharma, Lead Content Strategist"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Implement a standardized content brief template to streamline creation and reduce revision cycles.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Kai Chen, Head of Digital Marketing",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize repurposing existing high-performing evergreen content across multiple channels.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 117,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 227,
+        "session_date": "2025-06-11",
+        "operation": "delete"
+      },
+      {
+        "session_id": 289,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      },
+      {
+        "session_id": 312,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 383,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment for Cost-Reduction Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information should I remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Implement a standardized content brief template to streamline creation and reduce revision cycles.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Implement a standardized content brief template to streamline creation and reduce revision cycles\" from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Kai Chen, Head of Digital Marketing' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. Kai Chen has been removed from the attendees. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Prioritize repurposing existing high-performing evergreen content across multiple channels.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. \"Prioritize repurposing existing high-performing evergreen content across multiple channels\" has been removed from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed all the requested items. Is there anything else I can help you with regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks so much for your help with this!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Glad I could assist you with your meeting notes.",
+      "share_memory": false
+    }
+  ]
+}

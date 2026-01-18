@@ -1,0 +1,116 @@
+{
+  "session_id": 433,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_3",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Update",
+      "main_message": "Excited to share insights from our recent work on advanced pilot automation for telecommunications infrastructure. Our findings highlight key strategies for enhancing system reliability and operational efficiency in North American networks.",
+      "hashtags": [
+        "Automation",
+        "ComputerScience",
+        "NetworkReliability",
+        "NorthAmerica"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "NorthAmerica",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 80,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 433,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's great to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I'm good, thank you. I was wondering, what are some of the most common applications of artificial intelligence in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is used in things like voice assistants, recommendation systems for online shopping, and even in spam filters for email. It also plays a big role in navigation apps and fraud detection for banks.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Update'. I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What information in it needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add \"NorthAmerica\" to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"NorthAmerica\" to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, it has been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That was very helpful, thank you for your assistance!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "session_id": 364,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Audience Engagement Strategy for Regional Entertainment Venues",
+      "project_description": "A comprehensive content strategy proposal focused on enhancing audience engagement and optimizing digital presence for regional entertainment venues to drive ticket sales and foster community loyalty.",
+      "budget": 20000,
+      "timeline": "Over a 4-month period, including initial research, strategy development, and pilot content creation.",
+      "project_lead": "Isabella Chen, Lead Content Strategist",
+      "stakeholders": [
+        "Event Coordinators"
+      ],
+      "objectives": [
+        "Improve social media engagement rates by 20% across key platforms",
+        "Increase online ticket sales by 15% within the first 6 months of implementation",
+        "Establish clear brand voice guidelines for all digital communications",
+        "Develop a sustainable content calendar and editorial workflow for venue marketing teams"
+      ],
+      "deliverables": [
+        "Brand Voice and Tone Guidelines for digital communications",
+        "Pilot Content Package (e.g., 3 blog posts, 5 social media campaigns, 1 email newsletter template)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Venue Management Teams",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 15000,
+        "reverted_to": 20000,
+        "action": "budget_reverted"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 23,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 28,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 39,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 166,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 362,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      },
+      {
+        "session_id": 364,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to make some modifications to the 'Audience Engagement Strategy for Regional Entertainment Venues' project proposal. I want to remove some information from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the 'Audience Engagement Strategy for Regional Entertainment Venues' project proposal. What specific information would you like to remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Venue Management Teams' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Venue Management Teams' from the stakeholders. Is there anything else you'd like to remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I also need to revert the budget back to $20,000 from the current $15,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget change from $15,000 to $20,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for the project proposal to $20,000 and removed 'Venue Management Teams' from the stakeholders. Is there anything else you'd like to modify or remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,1435 @@
+{
+  "persona": "software_engineer",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_163",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Optimize database queries",
+              "session_id": 123
+            },
+            {
+              "value": "Schedule car maintenance",
+              "session_id": 146
+            }
+          ],
+          "task_count": 2
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Buy groceries",
+              "session_id": 33
+            },
+            {
+              "value": "Exercise for 30 minutes",
+              "session_id": 37
+            },
+            {
+              "value": "Setup home network security",
+              "session_id": 60
+            },
+            {
+              "value": "Refactor legacy code",
+              "session_id": 77
+            },
+            {
+              "value": "Configure development environment",
+              "session_id": 79
+            },
+            {
+              "value": "Book flight for vacation",
+              "session_id": 88
+            },
+            {
+              "value": "Setup CI/CD pipeline",
+              "session_id": 104
+            },
+            {
+              "value": "Fix critical bug",
+              "session_id": 114
+            },
+            {
+              "value": "Exercise for 30 minutes",
+              "session_id": 140
+            },
+            {
+              "value": "Fix critical bug",
+              "session_id": 152
+            }
+          ],
+          "total_forgotten_items": 10
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_163_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Optimize database queries?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_memory_presence_1",
+              "evaluation_question": "Is 'Schedule car maintenance' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the deleted task: Buy groceries?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_1",
+              "evaluation_question": "Is 'Exercise for 30 minutes' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_2",
+              "evaluation_question": "Does the response include Setup home network security in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_4",
+              "evaluation_question": "Does the response mention the deleted task: Refactor legacy code?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_5",
+              "evaluation_question": "Is 'Configure development environment' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_6",
+              "evaluation_question": "Does the response include Book flight for vacation in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_7",
+              "evaluation_question": "Is the completed/deleted task 'Setup CI/CD pipeline' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Fix critical bug?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_9",
+              "evaluation_question": "Is 'Exercise for 30 minutes' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_163_eval_forgetting_10",
+              "evaluation_question": "Does the response include Fix critical bug in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 10
+        }
+      },
+      {
+        "question_id": "activity_calendar_163",
+        "question": "What upcoming events do I have in my calendar?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "event_count": 1,
+          "calendar_events": [
+            {
+              "value": "Mechanic visit",
+              "session_id": 82
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "session_id": 163
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_calendar_163_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the upcoming event: Mechanic visit?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_calendar_163_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the past event: Sprint planning meeting?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 2,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_project_proposal_163_project_proposal_1",
+        "question": "Write a project proposal for 'Real-Time Order Orchestration Engine with Intelligent Routing'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Real-Time Order Orchestration Engine with Intelligent Routing",
+            "project_description": "Development of a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.",
+            "budget": 575000,
+            "timeline": "14 months with Phase 1: Architecture & Core Services (months 1-5), Phase 2: Integration & Testing (months 6-10), Phase 3: Rollout & Optimization (months 11-14)",
+            "project_lead": "Priya Nambiar, Principal Software Engineer",
+            "stakeholders": [
+              "QA and Testing Team",
+              "Data Engineering Team",
+              "Engineering Leadership"
+            ],
+            "objectives": [
+              "Decrease infrastructure costs by 25% through efficient resource utilization"
+            ],
+            "deliverables": [
+              "Mobile SDK updates for iOS and Android driver applications",
+              "Automated CI/CD pipeline with testing and deployment workflows",
+              "Cloud-native microservices architecture deployed on Kubernetes clusters",
+              "Performance monitoring dashboard with SLA tracking"
+            ],
+            "success_metrics": [
+              "Zero-downtime deployments achieved for all releases",
+              "System handles 500,000+ concurrent orders without degradation",
+              "Developer productivity increase with 40% faster feature deployment cycles"
+            ]
+          },
+          "session_history": [
+            66,
+            76,
+            117
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "objectives",
+              "value": "Enable real-time driver assignment with machine learning-based predictions",
+              "session_id": 76
+            },
+            {
+              "field": "success_metrics",
+              "value": "Average API response time under 150ms at 95th percentile",
+              "session_id": 117
+            },
+            {
+              "field": "stakeholders",
+              "value": "Product Management",
+              "session_id": 117
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Real-Time Order Orchestration Engine with Intelligent Routing?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'Development of a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 575000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '14 months with Phase 1: Architecture & Core Services (months 1-5), Phase 2: Integration & Testing (months 6-10), Phase 3: Rollout & Optimization (months 11-14)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Priya Nambiar, Principal Software Engineer?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'QA and Testing Team, Data Engineering Team, Engineering Leadership' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Decrease infrastructure costs by 25% through efficient resource utilization?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Mobile SDK updates for iOS and Android driver applications, Automated CI/CD pipeline with testing and deployment workflows, Cloud-native microservices architecture deployed on Kubernetes clusters, Performance monitoring dashboard with SLA tracking' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the success_metrics: Zero-downtime deployments achieved for all releases, System handles 500,000+ concurrent orders without degradation, Developer productivity increase with 40% faster feature deployment cycles?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted objectives: Enable real-time driver assignment with machine learning-based predictions?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed success_metrics information 'Average API response time under 150ms at 95th percentile' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the stakeholders 'Product Management' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 9,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "content_email_writeup_163_email_writeup_1",
+        "question": "Write an email about: Propose architectural improvements to reduce latency in the autonomous navigation system and request feedback on implementation approach.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "Propose architectural improvements to reduce latency in the autonomous navigation system and request feedback on implementation approach.",
+            "recipient_list": [
+              "Embedded Software Team"
+            ],
+            "key_points": [
+              "Benchmark results indicate 62% latency reduction with minimal impact on accuracy",
+              "Current navigation pipeline shows 340ms average latency, exceeding target threshold by 140ms"
+            ],
+            "call_to_action": "Review the attached technical proposal and provide feedback by end of next week so we can begin implementation in the upcoming sprint cycle."
+          },
+          "session_history": [
+            13,
+            64,
+            91
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "recipient_list",
+              "value": "Head of Engineering",
+              "session_id": 64
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: Propose architectural improvements to reduce latency in the autonomous navigation system and request feedback on implementation approach.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Embedded Software Team' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Benchmark results indicate 62% latency reduction with minimal impact on accuracy, Current navigation pipeline shows 340ms average latency, exceeding target threshold by 140ms?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Review the attached technical proposal and provide feedback by end of next week so we can begin implementation in the upcoming sprint cycle.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed recipient list information 'Head of Engineering' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_163_meeting_notes_2",
+        "question": "Write meeting notes for: Accessibility Compliance Review for VR Navigation Module",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Accessibility Compliance Review for VR Navigation Module",
+            "agenda_items": [
+              "Discuss screen reader compatibility with AR overlay rendering pipeline",
+              "Address performance bottlenecks in assistive technology API layer"
+            ],
+            "key_decisions": [
+              "Defer voice command integration to following development cycle due to resource constraints",
+              "Adopt WebXR accessibility extensions as primary framework for spatial navigation aids",
+              "Implement progressive enhancement approach for haptic feedback to maintain 90fps performance"
+            ],
+            "action_items": [
+              "Lars Bergstr\u00f6m to optimize rendering pipeline to accommodate real-time text scaling without frame drops by +21 days",
+              "Priya Deshmukh to coordinate with UX team on haptic pattern library for gesture alternatives by +7 days"
+            ]
+          },
+          "session_history": [
+            63,
+            90,
+            144
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "action_items",
+              "value": "Yuki Tanaka to refactor spatial audio engine to support binaural positioning for screen reader users by +14 days",
+              "session_id": 90
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Accessibility Compliance Review for VR Navigation Module?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Discuss screen reader compatibility with AR overlay rendering pipeline, Address performance bottlenecks in assistive technology API layer' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Defer voice command integration to following development cycle due to resource constraints, Adopt WebXR accessibility extensions as primary framework for spatial navigation aids, Implement progressive enhancement approach for haptic feedback to maintain 90fps performance?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's action items 'Lars Bergstr\u00f6m to optimize rendering pipeline to accommodate real-time text scaling without frame drops by +21 days, Priya Deshmukh to coordinate with UX team on haptic pattern library for gesture alternatives by +7 days' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed action items information 'Yuki Tanaka to refactor spatial audio engine to support binaural positioning for screen reader users by +14 days' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 1
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_163",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 24,
+          "total_amount": 258.22999999999996,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 3.41,
+              "session_id": 3
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 9.15,
+              "session_id": 6
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.35,
+              "session_id": 10
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 28.5,
+              "session_id": 24
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.91,
+              "session_id": 28
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.25,
+              "session_id": 32
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 9.84,
+              "session_id": 38
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 13.83,
+              "session_id": 47
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.45,
+              "session_id": 53
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 19.77,
+              "session_id": 57
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.33,
+              "session_id": 59
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 6.8,
+              "session_id": 68
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.48,
+              "session_id": 71
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.75,
+              "session_id": 80
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.94,
+              "session_id": 95
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.78,
+              "session_id": 102
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.79,
+              "session_id": 106
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 15.72,
+              "session_id": 109
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 23.03,
+              "session_id": 119
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.13,
+              "session_id": 121
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.94,
+              "session_id": 128
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 30.01,
+              "session_id": 131
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.77,
+              "session_id": 141
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 10.3,
+              "session_id": 147
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_163_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $258.23?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_163",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 51268,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 14096,
+              "session_id": 18
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7935,
+              "session_id": 27
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7640,
+              "session_id": 49
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 4502,
+              "session_id": 81
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6870,
+              "session_id": 111
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 5269,
+              "session_id": 124
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 4956,
+              "session_id": 163
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_163_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 51,268 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_coffee_163_0",
+        "question": "Am I meeting my coffee budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 30,
+          "actual_value": 79.49,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "over_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "coffee",
+            "value": 30
+          },
+          "goal_session": {
+            "session_id": 12,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 3,
+              "session_date": "2025-06-01",
+              "amount": 3.41,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 10,
+              "session_date": "2025-06-01",
+              "amount": 7.35,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 28,
+              "session_date": "2025-06-02",
+              "amount": 3.91,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 32,
+              "session_date": "2025-06-02",
+              "amount": 3.25,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 53,
+              "session_date": "2025-06-03",
+              "amount": 3.45,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 59,
+              "session_date": "2025-06-03",
+              "amount": 7.33,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 71,
+              "session_date": "2025-06-04",
+              "amount": 8.48,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 80,
+              "session_date": "2025-06-04",
+              "amount": 9.75,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 95,
+              "session_date": "2025-06-05",
+              "amount": 6.94,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 102,
+              "session_date": "2025-06-05",
+              "amount": 4.78,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 121,
+              "session_date": "2025-06-06",
+              "amount": 8.13,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 128,
+              "session_date": "2025-06-06",
+              "amount": 7.94,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 141,
+              "session_date": "2025-06-07",
+              "amount": 4.77,
+              "expense_type": "coffee"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the coffee budget goal of $30?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($79.49) compared to the budget goal ($30.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is OVER BUDGET (actual: $79.49 vs budget: $30.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_163_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 8000,
+          "actual_value": 7324.0,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "below_target"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 8000
+          },
+          "goal_session": {
+            "session_id": 16,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 18,
+              "session_date": "2025-06-01",
+              "step_count": 14096
+            },
+            {
+              "session_id": 27,
+              "session_date": "2025-06-02",
+              "step_count": 7935
+            },
+            {
+              "session_id": 49,
+              "session_date": "2025-06-03",
+              "step_count": 7640
+            },
+            {
+              "session_id": 81,
+              "session_date": "2025-06-04",
+              "step_count": 4502
+            },
+            {
+              "session_id": 111,
+              "session_date": "2025-06-05",
+              "step_count": 6870
+            },
+            {
+              "session_id": 124,
+              "session_date": "2025-06-06",
+              "step_count": 5269
+            },
+            {
+              "session_id": 163,
+              "session_date": "2025-06-07",
+              "step_count": 4956
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 8000 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (7,324 steps) compared to the goal (8,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was NOT MET (actual: 7,324 steps vs goal: 8,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_163",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 79.49,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 3.41,
+              "session_id": 3
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.35,
+              "session_id": 10
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.91,
+              "session_id": 28
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.25,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.45,
+              "session_id": 53
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.33,
+              "session_id": 59
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.48,
+              "session_id": 71
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.75,
+              "session_id": 80
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.94,
+              "session_id": 95
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.78,
+              "session_id": 102
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.13,
+              "session_id": 121
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.94,
+              "session_id": 128
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.77,
+              "session_id": 141
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_163_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $79.49?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_163",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 4,
+          "memory_items": {
+            "genres": {
+              "likes": [
+                {
+                  "item": "first contact",
+                  "session_id": 138
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "space colonization",
+                  "session_id": 74
+                }
+              ]
+            },
+            "actors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Philip K. Dick adaptors",
+                  "session_id": 92
+                }
+              ]
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "The Martian",
+                  "session_id": 86
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "virtual reality",
+              "session_id": 84
+            },
+            {
+              "value": "post-apocalyptic",
+              "session_id": 138
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for first contact?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending space colonization (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending Philip K. Dick adaptors (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Martian?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for virtual reality?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for post-apocalyptic?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_books_general_163",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 4,
+          "memory_items": {
+            "authors": {
+              "likes": [
+                {
+                  "item": "Alastair Reynolds",
+                  "session_id": 155
+                }
+              ],
+              "dislikes": []
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "parallel universes",
+                  "session_id": 100
+                },
+                {
+                  "item": "soft science fiction",
+                  "session_id": 115
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "genetic engineering",
+                  "session_id": 55
+                }
+              ]
+            },
+            "already_read_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Ann Leckie",
+              "session_id": 43
+            },
+            {
+              "value": "space opera",
+              "session_id": 100
+            },
+            {
+              "value": "Kim Stanley Robinson",
+              "session_id": 155
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Alastair Reynolds?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for parallel universes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for soft science fiction?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_dislike_3",
+              "evaluation_question": "Does the response avoid recommending genetic engineering (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ann Leckie?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for space opera?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Kim Stanley Robinson?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 7,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_music_general_163",
+        "question": "What music would you recommend?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "genres": {
+              "likes": [
+                {
+                  "item": "deep house",
+                  "session_id": 129
+                }
+              ],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [],
+              "dislikes": []
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Tri Repetae",
+                  "session_id": 98
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Bonobo",
+              "session_id": 30
+            },
+            {
+              "value": "2010s",
+              "session_id": 116
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for deep house?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Tri Repetae (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Bonobo?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for 2010s?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_travel_general_163",
+        "question": "Suggest me a place to visit based on my preferences.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "destination_types": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "outdoor camping",
+                  "session_id": 94
+                }
+              ]
+            },
+            "regions": {
+              "likes": [
+                {
+                  "item": "Alaska",
+                  "session_id": 161
+                }
+              ],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "challenging conditions",
+                  "session_id": 72
+                }
+              ]
+            },
+            "already_visited_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "trail running",
+              "session_id": 50
+            },
+            {
+              "value": "white-water rafting",
+              "session_id": 126
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending outdoor camping (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Alaska?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending challenging conditions (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for trail running?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for white-water rafting?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_movies_genres_163",
+        "question": "Can you recommend a movie in genres I enjoy?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "first contact",
+                "session_id": 138
+              }
+            ],
+            "dislikes": [
+              {
+                "item": "space colonization",
+                "session_id": 74
+              }
+            ]
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "first contact",
+              "session_id": 138
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "virtual reality",
+              "session_id": 84
+            },
+            {
+              "value": "post-apocalyptic",
+              "session_id": 138
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for first contact?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending space colonization (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for virtual reality?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for post-apocalyptic?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ]
+  }
+}

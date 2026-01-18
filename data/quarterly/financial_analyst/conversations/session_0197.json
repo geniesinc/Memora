@@ -1,0 +1,111 @@
+{
+  "session_id": 197,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review & Mobile-First Strategy Funding",
+      "agenda_items": [
+        "Review of Q3 financial performance against budget for mobile app development"
+      ],
+      "key_decisions": [
+        "Mandated a detailed cost-benefit analysis for scaling the mobile-first consulting model globally over the next 18 months.",
+        "Prioritized the development of a secure, compliant telehealth module for the pilot program."
+      ],
+      "attendees": [
+        "Dr. Anya Sharma, VP of Finance"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Resource allocation proposal for the upcoming period's strategic initiatives",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Mr. Omar Khan, Compliance & Regulatory Affairs Director",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q3 Performance Review & Mobile-First Strategy Funding'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Resource allocation proposal for the upcoming period's strategic initiatives' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Resource allocation proposal for the upcoming period's strategic initiatives' from the agenda items. Is there anything else you'd like to remove or modify regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Mr. Omar Khan, Compliance & Regulatory Affairs Director' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed Mr. Omar Khan from the attendees. Is there anything else you'd like to remove or modify regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing the specified agenda item and attendee. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 757,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "operation_converted": "update_to_no_memory",
+    "conversion_reason": "all_calendar_events_expired",
+    "fallback_session_type": "no_memory",
+    "message": "All 3 calendar events have expired. Converting to general conversation.",
+    "category": "calendar_event",
+    "expired_events_count": 3
+  },
+  "date": "2025-07-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready for any questions you might have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "What are some of the key differences between various types of AI assistant models?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Well, some key differences often lie in their core architectures, such as rule-based versus machine learning models, and their intended applications. This also influences how they process information and generate responses.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's interesting. Could you elaborate on what you mean by \"core architectures\" and how they differ?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Certainly! Core architectures refer to the fundamental design of an AI model, like whether it uses a pre-defined set of rules (rule-based) or learns patterns from data (machine learning). These approaches dictate how the AI operates and its capabilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What are some of the practical limitations of each of those architectural approaches?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Rule-based systems can be rigid, while machine learning models might struggle with entirely new or out-of-distribution data.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's a good summary. I've got to go now, but this was a very informative chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "It was a pleasure discussing this with you! I hope you have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

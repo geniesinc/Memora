@@ -1,0 +1,126 @@
+{
+  "session_id": 207,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_4",
+    "content_data": {
+      "email_purpose": "Requesting executive approval and cross-functional alignment for implementing an AI-driven property portfolio optimization platform across North American operations.",
+      "recipient_list": [
+        "Chief Financial Officer",
+        "Head of Digital Transformation",
+        "Regional Vice Presidents - North America"
+      ],
+      "key_points": [
+        "Required capital investment and change management strategy for transitioning legacy systems",
+        "Integration timeline of 14 months with phased rollout across three regional hubs"
+      ],
+      "call_to_action": "Please review the attached business case and provide feedback within the next 10 days so we can finalize the investment committee presentation scheduled for 3 weeks from now."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "VP of Property Operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Proposal to deploy machine learning algorithms for predictive maintenance and occupancy optimization across 2,400+ commercial properties",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 142,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 207,
+        "session_date": "2025-06-10",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Requesting executive approval and cross-functional alignment for implementing an AI-driven property portfolio optimization platform across North American operations.' Can you help me with that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you with that. What specific information would you like to remove or modify from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'VP of Property Operations' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, 'VP of Property Operations' has been removed from the recipient list for the email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove \"Proposal to deploy machine learning algorithms for predictive maintenance and occupancy optimization across 2,400+ commercial properties\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, \"Proposal to deploy machine learning algorithms for predictive maintenance and occupancy optimization across 2,400+ commercial properties\" has been removed from the key points. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the requested information from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

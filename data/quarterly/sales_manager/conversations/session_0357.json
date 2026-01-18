@@ -1,0 +1,148 @@
+{
+  "session_id": 357,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_9",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Thrilled to share insights from our recent client success story in the European media landscape! Our mobile-first strategy continues to deliver exceptional engagement and revenue growth. It's all about understanding our partners' needs and innovating together for mutual success across diverse markets.",
+      "hashtags": [
+        "RevenueGrowth",
+        "EuropeanMarket",
+        "DigitalTransformation",
+        "Partnership",
+        "SalesStrategy",
+        "MediaSales",
+        "MobileFirst",
+        "ClientSuccess"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "MediaSales",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "MobileFirst",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "ClientSuccess",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 208,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 357,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'. I'd like to change a few details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#MediaSales'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the hashtags to include '#MediaSales'. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'MobileFirst' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added '#MobileFirst' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#ClientSuccess' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added '#ClientSuccess' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for the hashtags.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Is there anything else you'd like to update for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

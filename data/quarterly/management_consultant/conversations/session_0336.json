@@ -1,0 +1,143 @@
+{
+  "session_id": 336,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Strategic AI Integration Steering Committee - Phase 1 Review",
+      "agenda_items": [
+        "Assessment of initial ROI and impact on production efficiency",
+        "Discussion on vendor selection for enterprise-wide AI platform",
+        "Roadmap planning for Phase 2: Pilot expansion and new use case validation",
+        "Identification of key risks and mitigation strategies for scaling AI",
+        "Review of Phase 1 AI PoC outcomes in manufacturing operations"
+      ],
+      "key_decisions": [
+        "Prioritized 'Vendor X' and 'Vendor Y' for final evaluation based on scalability and industry experience.",
+        "Established a cross-functional AI governance working group to standardize data protocols."
+      ],
+      "action_items": [
+        "Dr. Anya Sharma to finalize detailed Phase 2 pilot plan, including success metrics, by next week.",
+        "Ms. Isabella Rossi to draft the charter for the AI governance working group and schedule its inaugural meeting within two weeks.",
+        "Mr. David Chen to prepare a revised budget forecast incorporating AI talent acquisition costs for review at the next meeting."
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Mr. Kenji Tanaka to initiate deep-dive technical and security assessments for 'Vendor X' and 'Vendor Y' by end of next month.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocated additional budget for specialized AI talent acquisition over the next six months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved transition of successful AI PoC modules to pilot phase within two manufacturing plants.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-17",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was just wondering, what are some of the most common applications of AI in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is used in many everyday applications like virtual assistants, recommendation systems for online shopping, and even in spam filters for email. It constantly adapts and learns to improve these services.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic AI Integration Steering Committee - Phase 1 Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Mr. Kenji Tanaka to initiate deep-dive technical and security assessments for 'Vendor X' and 'Vendor Y' by end of next month.\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove \"Allocated additional budget for specialized AI talent acquisition over the next six months.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that from the key decisions. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Approved transition of successful AI PoC modules to pilot phase within two manufacturing plants.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that decision. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Confirmed. The requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

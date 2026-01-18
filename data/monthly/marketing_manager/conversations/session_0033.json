@@ -1,0 +1,116 @@
+{
+  "session_id": 33,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "Announce the launch of our new patient engagement campaign targeting chronic disease management and outline key deliverables for the upcoming rollout phase.",
+      "recipient_list": [
+        "Healthcare Partnership Team",
+        "Customer Success Leads",
+        "Regional Sales Directors"
+      ],
+      "key_points": [
+        "Multi-channel approach includes email nurture sequences, telehealth reminders, and provider portal integration",
+        "Regional customization required for compliance with state-specific healthcare regulations",
+        "Campaign focuses on improving patient adherence through personalized digital touchpoints and educational content"
+      ],
+      "call_to_action": "Review the attached campaign brief and submit your regional deployment plan within the next 10 days to ensure timely coordination with healthcare partners."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Regional Sales Directors",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 6,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 33,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! I recently learned about the incredible complexity of neural networks and how they mimic the human brain.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Announce the launch of our new patient engagement campaign targeting chronic disease management and outline key deliverables for the upcoming rollout phase.' I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What specific information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add 'Regional Sales Directors' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Regional Sales Directors' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, the email has been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a wonderful day.",
+      "share_memory": false
+    }
+  ]
+}

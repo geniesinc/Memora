@@ -1,0 +1,89 @@
+{
+  "session_id": 32,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 6.3,
+      "created_at": "2025-06-02"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I'd be happy to help! What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I was wondering about the different types of AI models out there.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "There are many types of AI models, such as machine learning, deep learning, and natural language processing models. Each type serves different purposes and excels in various applications.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's interesting. Could you tell me more about the differences between machine learning and deep learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Machine learning often requires human-engineered features, while deep learning uses neural networks to automatically learn features from data. Deep learning is a subfield of machine learning.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For instance, machine learning might involve training an algorithm to classify emails as spam based on specific keywords, whereas deep learning could categorize images by autonomously identifying patterns within the pixel data.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Just grabbed a coffee for $6.30, so that's another food expense for today.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. What else have you been up to today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Not much else, just getting ready to wrap things up for the day. Talk to you later!",
+      "share_memory": false
+    }
+  ]
+}

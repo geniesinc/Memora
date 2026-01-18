@@ -1,0 +1,121 @@
+{
+  "session_id": 280,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "Cross-Border Route Optimization and Fleet Modernization Initiative",
+      "project_description": "Strategic initiative to implement AI-driven route optimization technology and upgrade 35% of the fleet to improve cross-border delivery efficiency and reduce operational costs across North American operations.",
+      "budget": 2800000,
+      "timeline": "18 months with Phase 1 (months 1-6) for technology implementation, Phase 2 (months 7-12) for fleet acquisition, and Phase 3 (months 13-18) for integration and optimization",
+      "project_lead": "Priya Deshmukh, VP of Operations and Strategic Initiatives",
+      "stakeholders": [
+        "IT Infrastructure Team",
+        "Operations Management",
+        "Finance and Procurement"
+      ],
+      "objectives": [
+        "Enhance real-time visibility and tracking capabilities for enterprise clients",
+        "Improve on-time delivery performance to 96% across all North American corridors"
+      ],
+      "deliverables": [
+        "Comprehensive driver training program for new technology and vehicle systems",
+        "Real-time analytics dashboard for executive decision-making",
+        "35% fleet replacement with fuel-efficient vehicles meeting latest emission standards"
+      ],
+      "risk_assessment": "Medium-high risk due to technology integration complexity, potential supplier delays for vehicle procurement, and change management challenges across multiple facilities. Mitigation strategies include phased rollout, vendor diversification, and dedicated change management resources."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "objectives",
+        "removed_item": "Achieve ROI within 24 months through operational cost savings",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 3500000,
+        "reverted_to": 2800000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Cross-Border Route Optimization and Fleet Modernization Initiative'. Can you help me with that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Achieve ROI within 24 months through operational cost savings' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that objective. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, I'd like to revert the budget. Please change it from $3,500,000 back to $2,800,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $2,800,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the project proposal. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The project proposal has been updated with your requested changes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

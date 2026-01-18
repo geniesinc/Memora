@@ -1,0 +1,121 @@
+{
+  "session_id": 124,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "Proposing a strategic partnership for AI-driven fraud detection in regional fintech operations.",
+      "recipient_list": [
+        "Head of Strategic Partnerships",
+        "Legal Counsel"
+      ],
+      "key_points": [
+        "Outline of a phased integration approach tailored for regional fintech systems.",
+        "Demonstration of potential for significant reduction in fraud rates and operational costs.",
+        "Introduction of our AI-powered anomaly detection platform for financial transactions.",
+        "Request for a follow-up meeting to delve into technical and commercial specifics."
+      ],
+      "call_to_action": "Schedule a detailed discussion to explore the strategic and technical fit of our AI solution for your fraud detection needs."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Introduction of our AI-powered anomaly detection platform for financial transactions.",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Request for a follow-up meeting to delve into technical and commercial specifics.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 77,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 124,
+        "session_date": "2025-06-07",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Proposing a strategic partnership for AI-driven fraud detection in regional fintech operations.' I want to change some details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: 'Introduction of our AI-powered anomaly detection platform for financial transactions.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key points. Is there anything else you'd like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the key points to include: 'Request for a follow-up meeting to delve into technical and commercial specifics.'",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Request for a follow-up meeting to delve into technical and commercial specifics\" to the key points. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that covers all the updates for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, it's updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    }
+  ]
+}

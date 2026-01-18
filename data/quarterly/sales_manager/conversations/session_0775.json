@@ -1,0 +1,129 @@
+{
+  "session_id": 775,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_6",
+    "content_data": {
+      "project_title": "Regional Enterprise Mobility Solution Expansion Initiative",
+      "project_description": "Proposal to expand our mobile-first enterprise solution footprint within the regional automotive sector, focusing on key dealership groups and service networks to drive significant revenue growth and market share.",
+      "budget": 800000,
+      "timeline": "Implementation and ramp-up over the next 18 months, with initial phase completion within 6 months.",
+      "project_lead": "Priya Sharma, Regional Sales Manager",
+      "stakeholders": [
+        "Regional Sales Leadership",
+        "Marketing & Communications"
+      ],
+      "objectives": [
+        "Increase average revenue per user (ARPU) for mobile enterprise clients by 15% through upselling advanced features.",
+        "Secure partnerships with at least 5 new large automotive dealership groups within the next 9 months.",
+        "Enhance client retention rates for mobile solutions by 10% over the next 18 months."
+      ],
+      "deliverables": [
+        "Integrated client onboarding and support protocols for new mobile solution deployments.",
+        "Pilot program reports for initial key accounts."
+      ],
+      "revenue_targets": [
+        "Generate an additional $3.5M in new mobile solution revenue within the first 12 months."
+      ],
+      "sales_strategy": "Our strategy involves targeted account-based marketing, leveraging existing client relationships for referrals, and offering tailored solution demonstrations. We will focus on value-based selling, emphasizing ROI for automotive clients, and provide ongoing post-sales support to ensure high adoption and satisfaction."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 1050000,
+        "reverted_to": 800000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Achieve a 25% increase in regional mobile solution subscriptions within the next 12 months.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-07-08",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Regional Enterprise Mobility Solution Expansion Initiative'. We can go through the details of what needs to be removed.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget from $1,050,000 back to $800,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget change for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove \"Achieve a 25% increase in regional mobile solution subscriptions within the next 12 months\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. The objective has been removed. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for the removals from this project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The requested changes have been applied to the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

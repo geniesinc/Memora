@@ -1,0 +1,127 @@
+{
+  "session_id": 55,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Regional Expansion Initiative",
+      "agenda_items": [
+        "Discussion on mobile-first content opportunities in target markets"
+      ],
+      "key_decisions": [
+        "Prioritize short-form video and interactive content for initial regional outreach to leverage mobile engagement trends."
+      ],
+      "attendees": [
+        "Sofia Rodriguez, Regional Marketing Lead (APAC focus)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate a portion of the content budget for influencer collaborations specific to target regional demographics.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Omar Ali, Mobile Experience Architect",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current regional content performance metrics",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which aims to mimic the human brain's structure and function. It's fascinating how computers are evolving to process information more like biological systems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment for Regional Expansion Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Allocate a portion of the content budget for influencer collaborations specific to target regional demographics\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Allocate a portion of the content budget for influencer collaborations specific to target regional demographics\" from the key decisions for 'Content Strategy Alignment'. Is there anything else you'd like to delete or modify in those notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Omar Ali, Mobile Experience Architect' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Omar Ali, Mobile Experience Architect' from the attendees for the meeting notes. Is there anything else you'd like to delete or modify in those notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review of current regional content performance metrics' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Review of current regional content performance metrics' from the agenda items. Is there anything else you'd like to delete or modify in those notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for making those changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been made to the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

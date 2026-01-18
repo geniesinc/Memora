@@ -1,0 +1,138 @@
+{
+  "session_id": 409,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Regional Pharma Sales Force Optimization via Mobile-First Digital Engagement",
+      "project_description": "A comprehensive strategy and implementation project to enhance salesforce effectiveness and physician engagement across a key pharmaceutical region through the adoption of a mobile-first digital platform and refined processes.",
+      "budget": 400000,
+      "timeline": "6 months, comprising Discovery & Design (2 months), Pilot Development & Testing (2 months), and Rollout & Refinement (2 months)",
+      "project_lead": "Dr. Anya Sharma, Senior Management Consultant",
+      "stakeholders": [
+        "Regional Sales Director",
+        "Head of Marketing, Pharma Division",
+        "IT Director, Regional"
+      ],
+      "objectives": [
+        "Increase regional sales force efficiency by 15% through streamlined mobile workflows.",
+        "Establish a scalable mobile-first engagement model for potential broader adoption across other regions."
+      ],
+      "deliverables": [
+        "Mobile-First Solution Design Document (Platform & Workflow)",
+        "Pilot Performance Evaluation Report & Recommendations for Scale"
+      ],
+      "implementation_phases": "Phase 1: Discovery & Strategy Alignment (months 1-2); Phase 2: Solution Design & Development (months 3-4); Phase 3: Pilot Launch & Optimization (months 5-6); Phase 4: Regional Scale-Up (subsequent period).",
+      "risk_assessment": "Moderate risk, primarily due to potential user adoption challenges, integration complexities with existing CRM systems, and evolving regulatory landscape. Mitigation strategies include robust change management, phased rollout, and continuous stakeholder engagement."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Pilot Program Implementation Plan & Training Modules",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 325000,
+        "reverted_to": 400000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Medical Affairs Lead",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going? I was hoping you could help me with something today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'd be happy to help you with whatever you need today.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Regional Pharma Sales Force Optimization via Mobile-First Digital Engagement'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Pilot Program Implementation Plan & Training Modules' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Pilot Program Implementation Plan & Training Modules' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, I'd like to revert the budget. Please change it from $325,000 back to $400,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $400,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Medical Affairs Lead' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Medical Affairs Lead' from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing the requested elements. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now. I'll probably be back with more edits later.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

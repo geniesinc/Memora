@@ -1,0 +1,127 @@
+{
+  "session_id": 81,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Video Streaming Infrastructure Optimization Review",
+      "agenda_items": [
+        "Evaluate new object storage solution for media asset management",
+        "Discuss microservices migration strategy for legacy encoding pipeline",
+        "Plan database sharding approach for user analytics service"
+      ],
+      "key_decisions": [
+        "Agreed to implement Redis caching layer to reduce database load by 40%",
+        "Postponed GraphQL API migration until after current streaming optimization work completes"
+      ],
+      "technical_blockers": [
+        "Third-party analytics SDK causing memory leaks in mobile applications requiring immediate patch",
+        "Cross-region data replication lag exceeding acceptable thresholds for live content synchronization"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering, what are some of the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI has seen rapid progress in areas like large language models, computer vision, and reinforcement learning. These advancements are leading to more sophisticated applications across various industries.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to add some meeting notes; can you help me organize the attendees?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you with that.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The meeting was about the Video Streaming Infrastructure Optimization Review.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The agenda items included evaluating a new object storage solution for media asset management, discussing the microservices migration strategy for the legacy encoding pipeline, and planning the database sharding approach for the user analytics service.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "The key decisions included agreeing to implement a Redis caching layer to reduce database load by 40% and postponing the GraphQL API migration until after the current streaming optimization work completes.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "What about the technical blockers?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "The main technical blockers were a third-party analytics SDK causing memory leaks in mobile applications and cross-region data replication lag exceeding acceptable thresholds for live content synchronization.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "What action items resulted from the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thank you for helping me organize these notes! That was very efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist in organizing your meeting notes efficiently.",
+      "share_memory": false
+    }
+  ]
+}

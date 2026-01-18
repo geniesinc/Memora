@@ -1,0 +1,134 @@
+{
+  "session_id": 457,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Accessibility Initiative: Regional Fintech Rollout Planning",
+      "agenda_items": [
+        "Discussion on integration of WCAG 2.2 AA standards into development lifecycle"
+      ],
+      "key_decisions": [
+        "Adopt a phased approach for WCAG 2.2 AA compliance, starting with critical user journeys."
+      ],
+      "attendees": [
+        "Consultant (Self)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate a specific budget increment for accessibility training for development teams over the next six months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize screen reader compatibility and keyboard navigation enhancements for the next two product cycles.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 62,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 112,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 286,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 412,
+        "session_date": "2025-06-20",
+        "operation": "delete"
+      },
+      {
+        "session_id": 457,
+        "session_date": "2025-06-22",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat about anything interesting that comes to mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Accessibility Initiative: Regional Fintech Rollout Planning'. We can go through the specifics now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Allocate a specific budget increment for accessibility training for development teams over the next six months.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Prioritize screen reader compatibility and keyboard navigation enhancements for the next two product cycles.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding these meeting notes. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

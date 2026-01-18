@@ -1,0 +1,1372 @@
+{
+  "persona": "sales_manager",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "content_meeting_notes_163_meeting_notes_1",
+        "question": "Write meeting notes for: Strategic Account Review: TelcoConnect Group Integration & Expansion",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Strategic Account Review: TelcoConnect Group Integration & Expansion",
+            "agenda_items": [
+              "Identify key pain points and bottlenecks in current phase",
+              "Resource allocation and support requirements"
+            ],
+            "key_decisions": [
+              "Prioritize resolution of API latency issues identified in Phase 1 by end of next week."
+            ],
+            "attendees": [
+              "Maria Rodriguez (Technical Account Manager)",
+              "Aisha Rahman (Sales Executive)"
+            ]
+          },
+          "session_history": [
+            3,
+            25,
+            48
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "agenda_items",
+              "value": "Discuss roadmap for next phase of solution deployment",
+              "session_id": 25
+            },
+            {
+              "field": "attendees",
+              "value": "David Chen (Product Lead)",
+              "session_id": 25
+            },
+            {
+              "field": "agenda_items",
+              "value": "Next steps and ownership for critical actions",
+              "session_id": 48
+            },
+            {
+              "field": "key_decisions",
+              "value": "Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.",
+              "session_id": 48
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Strategic Account Review: TelcoConnect Group Integration & Expansion?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Identify key pain points and bottlenecks in current phase, Resource allocation and support requirements' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Prioritize resolution of API latency issues identified in Phase 1 by end of next week.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's attendees 'Maria Rodriguez (Technical Account Manager), Aisha Rahman (Sales Executive)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted agenda items: Discuss roadmap for next phase of solution deployment?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed attendees information 'David Chen (Product Lead)' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the agenda items 'Next steps and ownership for critical actions' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_1_eval_forgetting_3",
+              "evaluation_question": "Is the deleted meeting key decisions 'Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 8,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "content_project_proposal_163_project_proposal_1",
+        "question": "Write a project proposal for 'Global Healthcare Provider Partnership Expansion Initiative'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Global Healthcare Provider Partnership Expansion Initiative",
+            "project_description": "A strategic proposal to forge new, high-value partnerships with leading global healthcare providers to expand our market reach and increase revenue.",
+            "budget": 1150000,
+            "timeline": "Initial phase over 12 months, with ongoing engagement planned over 3 years.",
+            "project_lead": "Isabella Chen, Global Sales Director",
+            "stakeholders": [
+              "Executive Leadership Team",
+              "Product Development Leadership"
+            ],
+            "objectives": [
+              "Secure 5 new strategic partnerships with top-tier global healthcare providers within the first year.",
+              "Increase global sales revenue by 15% from new partnerships over the next 18 months."
+            ],
+            "deliverables": [
+              "Signed Memoranda of Understanding (MOUs) or partnership agreements.",
+              "Detailed partnership proposals tailored to specific healthcare provider needs.",
+              "Integration plans for new partners with our existing sales and support infrastructure."
+            ],
+            "success_metrics": [
+              "Cost of customer acquisition for new partners.",
+              "Number of new healthcare provider partnerships secured.",
+              "Total revenue generated from new partnerships."
+            ],
+            "market_analysis": "Recent studies indicate significant growth opportunities in emerging healthcare markets, driven by increasing demand for digital health solutions and specialized medical services. Competitor analysis shows a gap in comprehensive, integrated partnership models."
+          },
+          "session_history": [
+            31,
+            32,
+            93
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "stakeholders",
+              "value": "Legal and Compliance Department",
+              "session_id": 93
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Global Healthcare Provider Partnership Expansion Initiative?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A strategic proposal to forge new, high-value partnerships with leading global healthcare providers to expand our market reach and increase revenue.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 1150000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline 'Initial phase over 12 months, with ongoing engagement planned over 3 years.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Isabella Chen, Global Sales Director?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Executive Leadership Team, Product Development Leadership' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Secure 5 new strategic partnerships with top-tier global healthcare providers within the first year., Increase global sales revenue by 15% from new partnerships over the next 18 months.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Signed Memoranda of Understanding (MOUs) or partnership agreements., Detailed partnership proposals tailored to specific healthcare provider needs., Integration plans for new partners with our existing sales and support infrastructure.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the success_metrics: Cost of customer acquisition for new partners., Number of new healthcare provider partnerships secured., Total revenue generated from new partnerships.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_memory_presence_9",
+              "evaluation_question": "Is the market_analysis information 'Recent studies indicate significant growth opportunities in emerging healthcare markets, driven by increasing demand for digital health solutions and specialized medical services. Competitor analysis shows a gap in comprehensive, integrated partnership models.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted stakeholders: Legal and Compliance Department?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 11,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_project_proposal_163_project_proposal_2",
+        "question": "Write a project proposal for 'Regional 5G Enterprise Solutions Expansion Initiative'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Regional 5G Enterprise Solutions Expansion Initiative",
+            "project_description": "A strategic proposal to accelerate the adoption and deployment of advanced 5G enterprise solutions across key regional markets, focusing on B2B revenue growth and market share capture.",
+            "budget": 10700000,
+            "timeline": "Over the next 18 months, structured into three distinct phases of six months each.",
+            "project_lead": "Javier Mendoza, Regional Sales Director",
+            "stakeholders": [
+              "Product Development - Enterprise Solutions",
+              "Finance Department",
+              "Regional Leadership Team",
+              "Network Operations & Engineering",
+              "Marketing & Communications"
+            ],
+            "objectives": [
+              "Enhance market penetration in three identified high-potential regional sectors (e.g., manufacturing, logistics, healthcare).",
+              "Establish our company as the leading provider of enterprise 5G solutions in the region."
+            ],
+            "deliverables": [
+              "Dedicated regional sales enablement toolkit for 5G offerings.",
+              "Comprehensive regional market opportunity analysis report.",
+              "Quarterly performance reviews and strategic adjustments."
+            ],
+            "revenue_targets": [
+              "Secure recurring revenue streams from 70% of new enterprise clients within 6 months of contract signing."
+            ],
+            "market_analysis": "Recent studies indicate a rapidly expanding demand for private 5G networks and enhanced connectivity solutions among regional enterprises. Competitors are present but lack our integrated service offering and regional network density, presenting a significant opportunity for market capture."
+          },
+          "session_history": [
+            61,
+            119,
+            139
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [],
+          "total_forgotten_items": 0
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Regional 5G Enterprise Solutions Expansion Initiative?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A strategic proposal to accelerate the adoption and deployment of advanced 5G enterprise solutions across key regional markets, focusing on B2B revenue growth and market share capture.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 10700000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline 'Over the next 18 months, structured into three distinct phases of six months each.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Javier Mendoza, Regional Sales Director?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Product Development - Enterprise Solutions, Finance Department, Regional Leadership Team, Network Operations & Engineering, Marketing & Communications' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Enhance market penetration in three identified high-potential regional sectors (e.g., manufacturing, logistics, healthcare)., Establish our company as the leading provider of enterprise 5G solutions in the region.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Dedicated regional sales enablement toolkit for 5G offerings., Comprehensive regional market opportunity analysis report., Quarterly performance reviews and strategic adjustments.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the revenue_targets: Secure recurring revenue streams from 70% of new enterprise clients within 6 months of contract signing.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_163_project_proposal_2_eval_memory_presence_9",
+              "evaluation_question": "Is the market_analysis information 'Recent studies indicate a rapidly expanding demand for private 5G networks and enhanced connectivity solutions among regional enterprises. Competitors are present but lack our integrated service offering and regional network density, presenting a significant opportunity for market capture.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 10,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "content_email_writeup_163_email_writeup_1",
+        "question": "Write an email about: To provide an update on the Q3 performance for key enterprise accounts and outline strategic priorities for the upcoming period.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To provide an update on the Q3 performance for key enterprise accounts and outline strategic priorities for the upcoming period.",
+            "recipient_list": [
+              "Marketing Leadership"
+            ],
+            "key_points": [
+              "Analysis of key account health metrics and emerging trends in the telecommunications sector.",
+              "Identification of top performing accounts and areas requiring focused attention.",
+              "Review of Q3 revenue achievement against targets for strategic accounts."
+            ],
+            "call_to_action": "Please review the attached Q3 performance summary and be prepared to discuss these insights during our regional sync meeting next week to finalize our action plans."
+          },
+          "session_history": [
+            20,
+            38,
+            43
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "recipient_list",
+              "value": "VP Sales North America",
+              "session_id": 38
+            },
+            {
+              "field": "key_points",
+              "value": "Proposed strategic initiatives for cross-selling and upselling opportunities in the upcoming period.",
+              "session_id": 38
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To provide an update on the Q3 performance for key enterprise accounts and outline strategic priorities for the upcoming period.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Marketing Leadership' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Analysis of key account health metrics and emerging trends in the telecommunications sector., Identification of top performing accounts and areas requiring focused attention., Review of Q3 revenue achievement against targets for strategic accounts.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached Q3 performance summary and be prepared to discuss these insights during our regional sync meeting next week to finalize our action plans.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted recipient list: VP Sales North America?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_163_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed key points information 'Proposed strategic initiatives for cross-selling and upselling opportunities in the upcoming period.' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_163_meeting_notes_2",
+        "question": "Write meeting notes for: Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client",
+            "agenda_items": [
+              "Identify potential risks and mitigation strategies for upcoming contract renewals"
+            ],
+            "key_decisions": [
+              "Initiate discussions with legal and product teams regarding proactive solutions for anticipated regulatory shifts."
+            ],
+            "action_items": [
+              "Sales Rep A to schedule a technical deep-dive with client's compliance team to identify specific pain points. (Due: +7 days)",
+              "Sales Manager (self) to review Q3 sales forecasts and adjust pipeline for new compliance solutions. (Due: +5 days)"
+            ]
+          },
+          "session_history": [
+            4,
+            23
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "agenda_items",
+              "value": "Address recent regulatory changes impacting the manufacturing sector",
+              "session_id": 23
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Identify potential risks and mitigation strategies for upcoming contract renewals' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Initiate discussions with legal and product teams regarding proactive solutions for anticipated regulatory shifts.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's action items 'Sales Rep A to schedule a technical deep-dive with client's compliance team to identify specific pain points. (Due: +7 days), Sales Manager (self) to review Q3 sales forecasts and adjust pipeline for new compliance solutions. (Due: +5 days)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_163_meeting_notes_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted agenda items: Address recent regulatory changes impacting the manufacturing sector?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 1
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_163",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 22,
+          "total_amount": 377.3299999999999,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 5.49,
+              "session_id": 9
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 19.88,
+              "session_id": 12
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 24.47,
+              "session_id": 19
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.01,
+              "session_id": 42
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 5.56,
+              "session_id": 44
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.72,
+              "session_id": 47
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 44.38,
+              "session_id": 51
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.01,
+              "session_id": 55
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.34,
+              "session_id": 60
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 7.69,
+              "session_id": 62
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 24.0,
+              "session_id": 71
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 15.96,
+              "session_id": 78
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 9.34,
+              "session_id": 81
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.32,
+              "session_id": 83
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.91,
+              "session_id": 88
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.84,
+              "session_id": 105
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 29.95,
+              "session_id": 107
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 10.19,
+              "session_id": 125
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.78,
+              "session_id": 128
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 8.13,
+              "session_id": 149
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.33,
+              "session_id": 154
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 110.03,
+              "session_id": 163
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_163_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $377.33?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_163",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 65901,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 12595,
+              "session_id": 15
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6470,
+              "session_id": 52
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10800,
+              "session_id": 65
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 8548,
+              "session_id": 79
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7884,
+              "session_id": 122
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 5739,
+              "session_id": 143
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 13865,
+              "session_id": 150
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_163_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 65,901 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_coffee_163_0",
+        "question": "Am I meeting my coffee budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 50,
+          "actual_value": 67.75,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "over_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "coffee",
+            "value": 50
+          },
+          "goal_session": {
+            "session_id": 24,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 9,
+              "session_date": "2025-06-01",
+              "amount": 5.49,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 42,
+              "session_date": "2025-06-02",
+              "amount": 7.01,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 47,
+              "session_date": "2025-06-02",
+              "amount": 7.72,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 55,
+              "session_date": "2025-06-03",
+              "amount": 9.01,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 60,
+              "session_date": "2025-06-03",
+              "amount": 9.34,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 83,
+              "session_date": "2025-06-04",
+              "amount": 4.32,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 88,
+              "session_date": "2025-06-04",
+              "amount": 3.91,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 105,
+              "session_date": "2025-06-05",
+              "amount": 4.84,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 128,
+              "session_date": "2025-06-06",
+              "amount": 6.78,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 154,
+              "session_date": "2025-06-07",
+              "amount": 9.33,
+              "expense_type": "coffee"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the coffee budget goal of $50?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($67.75) compared to the budget goal ($50.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_163_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is OVER BUDGET (actual: $67.75 vs budget: $50.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_163_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 11000,
+          "actual_value": 9414.42857142857,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "below_target"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 11000
+          },
+          "goal_session": {
+            "session_id": 13,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 15,
+              "session_date": "2025-06-01",
+              "step_count": 12595
+            },
+            {
+              "session_id": 52,
+              "session_date": "2025-06-02",
+              "step_count": 6470
+            },
+            {
+              "session_id": 65,
+              "session_date": "2025-06-03",
+              "step_count": 10800
+            },
+            {
+              "session_id": 79,
+              "session_date": "2025-06-04",
+              "step_count": 8548
+            },
+            {
+              "session_id": 122,
+              "session_date": "2025-06-05",
+              "step_count": 7884
+            },
+            {
+              "session_id": 143,
+              "session_date": "2025-06-06",
+              "step_count": 5739
+            },
+            {
+              "session_id": 150,
+              "session_date": "2025-06-07",
+              "step_count": 13865
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 11000 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (9,414 steps) compared to the goal (11,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_163_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was NOT MET (actual: 9,414 steps vs goal: 11,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_163",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 67.75,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 5.49,
+              "session_id": 9
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.01,
+              "session_id": 42
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.72,
+              "session_id": 47
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.01,
+              "session_id": 55
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.34,
+              "session_id": 60
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.32,
+              "session_id": 83
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.91,
+              "session_id": 88
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.84,
+              "session_id": 105
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.78,
+              "session_id": 128
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.33,
+              "session_id": 154
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_163_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $67.75?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_163",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "genres": {
+              "likes": [
+                {
+                  "item": "war",
+                  "session_id": 155
+                }
+              ],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "Face/Off",
+                  "session_id": 8
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Ryan Reynolds",
+              "session_id": 41
+            },
+            {
+              "value": "Gal Gadot",
+              "session_id": 66
+            },
+            {
+              "value": "thriller",
+              "session_id": 117
+            },
+            {
+              "value": "superhero",
+              "session_id": 155
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for war?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Face/Off?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ryan Reynolds?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Gal Gadot?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for thriller?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_163_eval_forgetting_3",
+              "evaluation_question": "Does the response reflect or mention the user's preference for superhero?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "pref_books_general_163",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "authors": {
+              "likes": [
+                {
+                  "item": "Tess Gerritsen",
+                  "session_id": 22
+                }
+              ],
+              "dislikes": []
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "techno-thriller",
+                  "session_id": 130
+                }
+              ],
+              "dislikes": []
+            },
+            "already_read_list": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "The Bourne Identity",
+                  "session_id": 45
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "forensic science",
+              "session_id": 90
+            },
+            {
+              "value": "organized crime",
+              "session_id": 130
+            },
+            {
+              "value": "Tana French",
+              "session_id": 146
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Tess Gerritsen?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for techno-thriller?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending The Bourne Identity (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for forensic science?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for organized crime?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_163_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Tana French?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_music_general_163",
+        "question": "What music would you recommend?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 1,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Guns N' Roses",
+                  "session_id": 36
+                }
+              ]
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Queen",
+              "session_id": 36
+            },
+            {
+              "value": "post-rock",
+              "session_id": 120
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Guns N' Roses (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Queen?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for post-rock?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_travel_general_163",
+        "question": "I'm planning a trip. Any destination suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "destination_types": {
+              "likes": [
+                {
+                  "item": "live music venues",
+                  "session_id": 110
+                }
+              ],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Mediterranean",
+                  "session_id": 26
+                }
+              ]
+            },
+            "already_visited_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "South America",
+              "session_id": 74
+            },
+            {
+              "value": "Mediterranean",
+              "session_id": 162
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for live music venues?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Mediterranean (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for South America?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Mediterranean?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_movies_genres_163",
+        "question": "Can you recommend a movie in genres I enjoy?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "war",
+                "session_id": 155
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "war",
+              "session_id": 155
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "thriller",
+              "session_id": 117
+            },
+            {
+              "value": "superhero",
+              "session_id": 155
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for war?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for thriller?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_genres_163_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for superhero?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ]
+  }
+}

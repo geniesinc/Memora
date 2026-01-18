@@ -1,0 +1,65 @@
+{
+  "session_id": 1907,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "operation_converted": "update_to_no_memory",
+    "conversion_reason": "all_calendar_events_expired",
+    "fallback_session_type": "no_memory",
+    "message": "All 4 calendar events have expired. Converting to general conversation.",
+    "category": "calendar_event",
+    "expired_events_count": 4
+  },
+  "date": "2025-08-31",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat when you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Hi! I recently learned about the incredible complexity of neural networks and how they're used in AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, that sounds fascinating. What are some of the key components of a neural network?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Neural networks are made up of interconnected layers, including an input layer, hidden layers, and an output layer. Each layer contains nodes, or artificial neurons, that process and transmit information.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's pretty complex.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Yes, they are quite intricate, but that complexity allows them to perform amazing tasks like image recognition and natural language processing.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's really interesting. Thanks for sharing!",
+      "share_memory": false
+    }
+  ]
+}

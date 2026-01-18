@@ -1,0 +1,123 @@
+{
+  "session_id": 283,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To outline strategies for enhancing client engagement and driving revenue growth through long-term efficiency.",
+      "recipient_list": [
+        "Head of Business Development"
+      ],
+      "key_points": [
+        "Proposing a cross-functional strategy for identifying and nurturing high-potential accounts."
+      ],
+      "call_to_action": "Review the attached strategy document and prepare for a collaborative workshop next week to refine these approaches."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Regional Sales Directors",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Reaffirming our commitment to efficiency-driven client solutions within the media sector.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 258,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 283,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing well, thank you! I'm ready to chat and help out in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to make some modifications to the email titled 'To outline strategies for enhancing client engagement and driving revenue growth through long-term efficiency.' I'd like to remove some information from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Regional Sales Directors' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Regional Sales Directors' from the recipient list. Is there anything else you'd like to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Reaffirming our commitment to efficiency-driven client solutions within the media sector.' from the key messages.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Reaffirming our commitment to efficiency-driven client solutions within the media sector.' from the key messages. Is there anything else you'd like to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all the removals I wanted to make for this email.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made those removals to the email. Is there anything else I can help you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

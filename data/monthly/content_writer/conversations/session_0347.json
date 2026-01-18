@@ -1,0 +1,115 @@
+{
+  "session_id": 347,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_5",
+    "content_data": {
+      "email_purpose": "To provide an update on the content strategy workshop outcomes and outline next steps for implementation across European markets.",
+      "recipient_list": [
+        "Product Marketing Managers (Education Platforms)",
+        "Learning Design Team Leads",
+        "Regional Marketing Leads (EU)"
+      ],
+      "key_points": [
+        "Review of key insights from the recent content strategy workshop focusing on storytelling and audience engagement.",
+        "Proposed framework for integrating new content pillars into existing educational offerings.",
+        "Overview of required resources and potential cross-functional collaborations to ensure successful implementation."
+      ],
+      "call_to_action": "Please review the attached workshop summary and proposed framework, and be prepared to discuss specific regional implementation plans during our follow-up meeting next week."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Identification of pilot programs for initial content strategy roll-out in key European regions.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 257,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 320,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 347,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready for our conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'To provide an update on the content strategy workshop outcomes and outline next steps for implementation across European markets.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the email. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Identification of pilot programs for initial content strategy roll-out in key European regions.' from the 'key_points' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Identification of pilot programs for initial content strategy roll-out in key European regions.' from the 'key_points' field for that email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

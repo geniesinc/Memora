@@ -1,0 +1,150 @@
+{
+  "session_id": 814,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Multi-Modal Sensor Fusion for Robust Human-Robot Collaboration in Industrial Settings",
+      "project_description": "This project aims to develop a novel multi-modal sensor fusion framework to enhance the robustness and safety of human-robot collaboration (HRC) in dynamic industrial environments, focusing on applications relevant to the European robotics industry.",
+      "budget": 1100000,
+      "timeline": "24 months, structured into four phases of 6 months each, focusing on fundamental research, prototype development, system integration, and rigorous testing.",
+      "project_lead": "Dr. Anya Sharma, Senior Research Fellow in Robotics and AI",
+      "stakeholders": [
+        "University Robotics Department Head",
+        "Laboratory Technicians",
+        "Industrial Robotics Consortium Partners (e.g., KUKA, ABB)",
+        "Head of Research Funding Office"
+      ],
+      "objectives": [
+        "Integrate and validate the fusion framework on a state-of-the-art collaborative robotic platform.",
+        "Quantify improvements in human-robot interaction safety and efficiency compared to existing methods.",
+        "Develop a real-time, low-latency multi-modal sensor fusion algorithm for perception of human intent and motion.",
+        "Contribute to standardization efforts for HRC safety protocols within the European context."
+      ],
+      "deliverables": [
+        "Peer-reviewed publications in top-tier robotics and AI conferences/journals.",
+        "Software library for multi-modal sensor fusion (open-source where applicable).",
+        "Demonstrator system showcasing safe and efficient HRC in a simulated industrial task.",
+        "Technical reports detailing algorithm design, experimental results, and performance benchmarks.",
+        "Robust perception module for human state estimation (pose, velocity, intent)."
+      ],
+      "publication_plan": "Results will be disseminated through high-impact, peer-reviewed publications in leading international conferences (e.g., ICRA, IROS, RSS) and journals (e.g., IEEE Transactions on Robotics, Science Robotics). A doctoral thesis will be produced, and open-source code releases will accompany key publications. Engagement with industry consortia and workshops will ensure knowledge transfer and impact.",
+      "significance_impact": "This project will significantly advance the state-of-the-art in robust human-robot collaboration, leading to safer, more efficient, and more adaptable robotic systems in industry. It will foster innovation in the European robotics sector, contribute to the development of new HRC standards, and potentially reduce operational costs and workplace accidents. The research outcomes will underpin future advancements in smart manufacturing and Industry 5.0 initiatives."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "European Robotics Institute (ERI) Liaison",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Doctoral and Postdoctoral Researchers",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 116,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 247,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 465,
+        "session_date": "2025-06-22",
+        "operation": "update"
+      },
+      {
+        "session_id": 769,
+        "session_date": "2025-07-07",
+        "operation": "update"
+      },
+      {
+        "session_id": 814,
+        "session_date": "2025-07-09",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-07-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there, I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Multi-Modal Sensor Fusion for Robust Human-Robot Collaboration in Industrial Settings'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove information from the project proposal. What specific details would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'European Robotics Institute (ERI) Liaison' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'European Robotics Institute (ERI) Liaison' from the stakeholders. Is there anything else you'd like to remove or update in this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Doctoral and Postdoctoral Researchers' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Doctoral and Postdoctoral Researchers' from the stakeholders. Is there anything else you'd like to remove or update in this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing those stakeholders. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

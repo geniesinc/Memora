@@ -1,0 +1,123 @@
+{
+  "session_id": 160,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_3",
+    "content_data": {
+      "email_purpose": "To summarize key findings from recent competitor content analysis and propose strategic adjustments for our upcoming content calendar.",
+      "recipient_list": [
+        "Product Marketing Manager"
+      ],
+      "key_points": [
+        "Highlighted areas where our existing content can be optimized for better search visibility and engagement."
+      ],
+      "call_to_action": "Please review the attached detailed analysis and be prepared to discuss these strategic content adjustments during our weekly sync, which is scheduled for later this week."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "SEO Specialist",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Identified three primary content gaps where competitors are outperforming us in specific e-commerce niches.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 116,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 160,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well, thanks! I need to remove some information from my email titled 'To summarize key findings from recent competitor content analysis and propose strategic adjustments for our upcoming content calendar.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"SEO Specialist\" from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood, I've removed \"SEO Specialist\" from the recipient list. Is there anything else you'd like to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove \"Identified three primary content gaps where competitors are outperforming us in specific e-commerce niches\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. \"Identified three primary content gaps where competitors are outperforming us in specific e-commerce niches\" has been removed from the key points. Is there anything else you'd like to remove or modify in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, the requested removals have been made to the email. Is there anything else I can assist you with regarding your content memory?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

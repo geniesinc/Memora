@@ -1,0 +1,160 @@
+{
+  "session_id": 121,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To provide a preliminary summary of key findings and proposed next steps for the pilot workflow optimization project.",
+      "recipient_list": [
+        "Project Steering Committee",
+        "Regional Hub Managers",
+        "Logistics Operations Leadership"
+      ],
+      "key_points": [
+        "Preliminary analysis suggests significant opportunities for efficiency gains through revised staging protocols and optimized resource allocation.",
+        "Proposed a phased implementation strategy for scaling validated improvements across global operations.",
+        "Identified critical bottlenecks in current inbound processing workflows, leading to an average 15% delay in container unloading."
+      ],
+      "call_to_action": "Please review the attached preliminary findings and schedule a follow-up discussion within the next week to align on the detailed implementation roadmap."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Proposed a phased implementation strategy for scaling validated improvements across global operations.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Regional Hub Managers",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Logistics Operations Leadership",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Identified critical bottlenecks in current inbound processing workflows, leading to an average 15% delay in container unloading.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 35,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 65,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 121,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you for asking! I'm ready to chat and help in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To provide a preliminary summary of key findings and proposed next steps for the pilot workflow optimization project.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: \"Proposed a phased implementation strategy for scaling validated improvements across global operations.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the key points. Is there anything else you'd like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Regional Hub Managers' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Regional Hub Managers' to the recipient list. What other updates do you have for the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please also add 'Logistics Operations Leadership' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Logistics Operations Leadership' to the recipient list. What other updates do you have for the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I also want to update the key points to include: 'Identified critical bottlenecks in current inbound processing workflows, leading to an average 15% delay in container unloading.'",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the key points. What else would you like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Understood. The email has been updated with your specified changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thank you for your help.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "session_id": 451,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Q3 Strategic Review: North American Renewable Energy Portfolio Expansion",
+      "agenda_items": [
+        "Assessment of hydrogen infrastructure investment opportunities across key industrial corridors",
+        "Partnership evaluation with regional utilities for grid modernization initiatives",
+        "Competitive positioning analysis against European energy majors entering North American markets"
+      ],
+      "key_decisions": [
+        "Established joint venture framework with three Midwest utilities for distributed energy resource deployment over 18 months"
+      ],
+      "action_items": [
+        "General Counsel to conduct comprehensive review of regulatory compliance requirements for offshore wind projects with findings due in 6 weeks",
+        "SVP Business Development to initiate formal partnership discussions with identified utility partners and report preliminary terms within 45 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Authorized feasibility study for green hydrogen production facility in Gulf Coast region with completion timeline of 6 months",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Regulatory landscape analysis for carbon capture and storage projects in Alberta and Texas",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think is the most interesting recent scientific discovery?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! One fascinating recent discovery is the direct imaging of exoplanets, which helps us understand planetary systems beyond our own.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my meeting notes titled 'Q3 Strategic Review: North American Renewable Energy Portfolio Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you delete information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Authorized feasibility study for green hydrogen production facility in Gulf Coast region with completion timeline of 6 months\" from the `key_decisions` field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Authorized feasibility study for green hydrogen production facility in Gulf Coast region with completion timeline of 6 months\" from the `key_decisions` field. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Regulatory landscape analysis for carbon capture and storage projects in Alberta and Texas' from the `agenda_items` field.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Regulatory landscape analysis for carbon capture and storage projects in Alberta and Texas' from the `agenda_items` field. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, I've made those removals from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

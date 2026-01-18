@@ -1,0 +1,102 @@
+{
+  "session_id": 100,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_3",
+    "content_data": {
+      "email_purpose": "Proposing architecture changes to improve scalability and reduce latency in our patient data processing pipeline",
+      "recipient_list": [
+        "DevOps Lead"
+      ],
+      "key_points": [
+        "Requires infrastructure investment and 2 additional backend engineers during transition period"
+      ],
+      "call_to_action": "Please review the attached technical design document and provide feedback within 5 days so we can discuss implementation approach in our next architecture review meeting"
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Engineering Manager",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Implementation can be done incrementally over 5 months without service disruption",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Proposing architecture changes to improve scalability and reduce latency in our patient data processing pipeline'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Engineering Manager' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Engineering Manager' from the recipient list for that email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'd like to remove 'Implementation can be done incrementally over 5 months without service disruption' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Implementation can be done incrementally over 5 months without service disruption\" from the key points. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed the requested information from the email. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

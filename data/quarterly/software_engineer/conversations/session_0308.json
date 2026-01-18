@@ -1,0 +1,164 @@
+{
+  "session_id": 308,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Robotics Vision System Architecture Review and Sprint Planning",
+      "agenda_items": [
+        "Plan integration testing strategy for multi-robot coordination framework",
+        "Address performance bottlenecks in real-time object detection module",
+        "Evaluate cloud infrastructure requirements for edge deployment across European facilities",
+        "Review current status of computer vision pipeline for autonomous navigation",
+        "Discuss ROS2 migration timeline and dependency updates"
+      ],
+      "key_decisions": [
+        "Adopt YOLOv8 architecture for improved detection accuracy while maintaining real-time performance requirements",
+        "Implement hybrid edge-cloud architecture with primary processing on-device and telemetry aggregation in Azure",
+        "Allocate additional GPU resources to development environment for parallel model training experiments",
+        "Postpone full ROS2 migration by 6 weeks to allow for comprehensive testing of critical safety systems"
+      ],
+      "attendees": [
+        "Lars Bergstr\u00f6m (Lead Software Architect)",
+        "Nadia Kowalski (Engineering Manager)",
+        "Jamal Osei (Embedded Systems Engineer)",
+        "Ravi Patel (QA Automation Lead)",
+        "Priya Sharma (Senior Robotics Engineer)",
+        "Chiara Fontana (Computer Vision Specialist)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Review current status of computer vision pipeline for autonomous navigation",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Chiara Fontana (Computer Vision Specialist)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discuss ROS2 migration timeline and dependency updates",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 126,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 228,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 239,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 308,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Robotics Vision System Architecture Review and Sprint Planning' to change a few details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the `agenda_items` to include: \"Review current status of computer vision pipeline for autonomous navigation.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Review current status of computer vision pipeline for autonomous navigation\" to the agenda items. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Chiara Fontana (Computer Vision Specialist)' to the `attendees`.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Chiara Fontana (Computer Vision Specialist) to the attendees. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add \"Discuss ROS2 migration timeline and dependency updates\" to the `agenda_items`.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Discuss ROS2 migration timeline and dependency updates\" to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All updates to the meeting notes have been made.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great! I'll see you around then.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Have a great day, and feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

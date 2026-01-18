@@ -1,0 +1,148 @@
+{
+  "session_id": 543,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_8",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Highlight",
+      "main_message": "Excited to share our recent findings on advanced predictive analytics for enhanced robotic autonomy in critical government applications. Our work explores novel methods for real-time decision-making and ethical AI integration within strategic operational frameworks.",
+      "hashtags": [
+        "#ComputerScienceResearch",
+        "#NorthAmericaTech",
+        "#MachineLearning",
+        "#GovernmentTech",
+        "#AutonomousSystems",
+        "#PredictiveAnalytics",
+        "#AIethics",
+        "#Robotics"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#PredictiveAnalytics",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#AIethics",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#Robotics",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 164,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 543,
+        "session_date": "2025-06-26",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What are some of the most interesting recent advancements in robotics?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI: Hello! Some interesting recent advancements in robotics include more sophisticated AI for autonomous decision-making and improved dexterous manipulation for complex tasks. What aspects of robotics do you find most fascinating?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Highlight'. I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update it. What information in the social media post needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For the hashtags, please add '#PredictiveAnalytics'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#PredictiveAnalytics' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also add '#AIethics' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#AIethics' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#Robotics' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#Robotics' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Alright, all the hashtag updates for the social media post have been made. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything! Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

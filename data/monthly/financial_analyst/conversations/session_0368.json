@@ -1,0 +1,182 @@
+{
+  "session_id": 368,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "Global Anti-Bribery and Corruption Program Enhancement",
+      "project_description": "Proposal to upgrade and standardize our global anti-bribery and corruption (ABC) compliance framework, integrating advanced analytics for risk detection and reporting.",
+      "budget": 1050000,
+      "timeline": "18 months, with a review milestone at 9 months",
+      "project_lead": "Dr. Lena Petrova, Senior Financial Analyst",
+      "stakeholders": [
+        "Global Compliance Department",
+        "Regional Finance Directors",
+        "Legal Affairs",
+        "IT Security"
+      ],
+      "objectives": [
+        "Streamline compliance reporting processes, reducing manual effort by 30% through automation.",
+        "Achieve 100% adherence to all relevant international ABC regulations across all jurisdictions within the next 18 months."
+      ],
+      "deliverables": [
+        "Post-implementation audit report assessing program effectiveness.",
+        "Automated reporting dashboards for key ABC metrics and regulatory submissions.",
+        "Implementation of a new centralized ABC risk assessment and monitoring platform."
+      ],
+      "risk_analysis": [
+        "Employee Resistance to Change: Ensuring full adoption of new policies and systems across diverse cultural contexts."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 775000,
+        "updated_to": 1050000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "stakeholders",
+        "added_item": "IT Security",
+        "action": "added"
+      },
+      {
+        "field": "deliverables",
+        "added_item": "Implementation of a new centralized ABC risk assessment and monitoring platform.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 88,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 92,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 147,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 244,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 280,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 368,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain's structure and function. It's fascinating how researchers are trying to replicate biological intelligence in silicon.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the budget for the 'Global Anti-Bribery and Corruption Program Enhancement' project proposal. The budget needs to change from $775,000 to $1,050,000.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific section or field of the proposal needs to be updated?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The budget for the 'Global Anti-Bribery and Corruption Program Enhancement' project proposal needs to be updated from $775,000 to $1,050,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted the budget update for the 'Global Anti-Bribery and Corruption Program Enhancement' project proposal from $775,000 to $1,050,000. Is there anything else you need to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'IT Security' to the list of stakeholders for this proposal.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. Is there anything else you need to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please add 'Implementation of a new centralized ABC risk assessment and monitoring platform' to the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. What other deliverables should I add?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. I have updated the project proposal with the new deliverable. Is there anything else you need to update for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

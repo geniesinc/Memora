@@ -1,0 +1,112 @@
+{
+  "session_id": 261,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_5",
+    "content_data": {
+      "email_purpose": "To disseminate critical findings from recent research on optimizing telecommunications network efficiency and solicit feedback for future work.",
+      "recipient_list": [
+        "Doctoral Researchers in Network Optimization",
+        "Network Engineering Department Leads",
+        "Telecommunications Research Faculty"
+      ],
+      "key_points": [
+        "Implications of these findings for long-term university telecommunications infrastructure planning and industry partnerships.",
+        "Discussion of novel algorithms developed for dynamic bandwidth management in highly congested environments."
+      ],
+      "call_to_action": "Please review the attached preliminary report and provide feedback on the methodologies and potential applications within the next two weeks. We also invite expressions of interest for collaboration on the next phase of this research."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Telecommunications Research Faculty",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 252,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 261,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update an existing email titled 'To disseminate critical findings from recent research on optimizing telecommunications network efficiency and solicit feedback for future work.' I'd like to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the email. What specific information would you like to change in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Telecommunications Research Faculty' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Telecommunications Research Faculty' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. The email has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Okay, I need to go now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. Have a great rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

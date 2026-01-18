@@ -1,0 +1,126 @@
+{
+  "session_id": 48,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: TelcoConnect Group Integration & Expansion",
+      "agenda_items": [
+        "Identify key pain points and bottlenecks in current phase",
+        "Resource allocation and support requirements"
+      ],
+      "key_decisions": [
+        "Prioritize resolution of API latency issues identified in Phase 1 by end of next week."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Technical Account Manager)",
+        "Aisha Rahman (Sales Executive)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Next steps and ownership for critical actions",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 3,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 25,
+        "session_date": "2025-06-01",
+        "operation": "delete"
+      },
+      {
+        "session_id": 48,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey! I'm doing great, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Account Review: TelcoConnect Group Integration & Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Next steps and ownership for critical actions' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've noted to remove 'Next steps and ownership for critical actions' from the agenda items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted to remove \"Schedule follow-up with client's Head of Infrastructure to present updated integration timeline\" from the key decisions. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've processed your request to remove those items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything. Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

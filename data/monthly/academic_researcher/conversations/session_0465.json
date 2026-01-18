@@ -1,0 +1,130 @@
+{
+  "session_id": 465,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_1",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Update",
+      "main_message": "Excited to share insights from our latest paper on human-robot interaction in advanced manufacturing! Our findings highlight key considerations for seamless integration of collaborative robotics in European industrial settings. We're exploring how adaptive interfaces can boost efficiency and safety. #Robotics #HRI #AdvancedManufacturing #Industry40 #EuropeanInnovation",
+      "hashtags": [
+        "EuropeanInnovation",
+        "UniversityResearch",
+        "AdvancedManufacturing",
+        "PilotUniversity",
+        "Robotics",
+        "AIinRobotics",
+        "HumanRobotInteraction"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "AIinRobotics",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "HumanRobotInteraction",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 50,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 465,
+        "session_date": "2025-06-21",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Update.' I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Let's update the hashtags. Please add \"AIinRobotics\" to the existing list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"AIinRobotics\" to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add \"HumanRobotInteraction\" to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"HumanRobotInteraction\" to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the hashtags.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Confirmed. Is there anything else you'd like to update for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, sounds good! Feel free to reach out if you need anything else down the line.",
+      "share_memory": false
+    }
+  ]
+}

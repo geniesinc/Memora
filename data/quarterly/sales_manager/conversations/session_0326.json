@@ -1,0 +1,112 @@
+{
+  "session_id": 326,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "Q3 Pilot Integration Review: Progress & Next Steps for Key Accounts",
+      "agenda_items": [
+        "Review current pilot status for top 3 enterprise accounts"
+      ],
+      "key_decisions": [
+        "Prioritize dedicated engineering support for the 'Aurora Telecom' integration over the next 2 weeks to unblock critical path items."
+      ],
+      "attendees": [
+        "Maria Rodriguez, Senior Account Executive, Strategic Accounts",
+        "David Chen, Director of Enterprise Solutions",
+        "Omar Khan, Solutions Architect Lead"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Formulate a revised value proposition for 'Northstar Communications' focusing on ROI from network optimization, to be presented in the upcoming period.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Strategize on competitive landscape and differentiation",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to make some adjustments to the meeting notes titled 'Q3 Pilot Integration Review: Progress & Next Steps for Key Accounts'. I'll be removing some information from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Formulate a revised value proposition for 'Northstar Communications' focusing on ROI from network optimization, to be presented in the upcoming period.' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that item from the 'key_decisions' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Strategize on competitive landscape and differentiation' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Strategize on competitive landscape and differentiation\" from the 'agenda_items' field. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding removals. I think the meeting notes are good to go.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks, that was really helpful!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I'm glad I could assist you. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

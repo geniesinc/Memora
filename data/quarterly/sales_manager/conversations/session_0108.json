@@ -1,0 +1,145 @@
+{
+  "session_id": 108,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_3",
+    "content_data": {
+      "project_title": "North American Telecommunication Performance Optimization Pilot",
+      "project_description": "A focused pilot program to implement and evaluate a performance-optimization solution within key North American telecommunications accounts, aiming to demonstrate tangible ROI and pave the way for broader deployment.",
+      "budget": 250000,
+      "timeline": "6 months, with a 3-month pilot phase and 3 months for evaluation and strategic planning.",
+      "project_lead": "Kai Chen, Senior Sales Manager",
+      "stakeholders": [
+        "Key Account Managers (Telecommunications)",
+        "Product Development Lead (Optimization Solutions)"
+      ],
+      "objectives": [
+        "Secure commitment for a larger-scale deployment from at least 3 pilot clients.",
+        "Generate comprehensive case studies and testimonials from successful pilot deployments."
+      ],
+      "deliverables": [
+        "Client testimonials and success stories (written and/or video).",
+        "Weekly performance reports and optimization metrics tracking."
+      ],
+      "revenue_targets": [
+        "Secure an initial contract value of at least $500,000 from pilot clients within the following 12 months."
+      ],
+      "sales_strategy": "Leverage existing strategic partnerships and high-value accounts for pilot selection. Focus on demonstrating clear, measurable ROI through a consultative sales approach, supported by technical expertise and dedicated customer success resources. Post-pilot, utilize success stories for targeted outreach and industry events."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 225000,
+        "reverted_to": 250000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Marketing Strategy Team",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Scalable rollout strategy document for North American expansion.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'North American Telecommunication Performance Optimization Pilot'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help with deleting information from the 'North American Telecommunication Performance Optimization Pilot' project proposal. What specific information would you like to remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Since we're deleting project proposal 3, please revert the budget back to the original $250,000 from the current $225,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted the budget change for the project proposal back to $250,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Marketing Strategy Team' from the stakeholders field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Marketing Strategy Team' from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Scalable rollout strategy document for North American expansion' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Scalable rollout strategy document for North American expansion' from the deliverables. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding this project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the 'North American Telecommunication Performance Optimization Pilot' project proposal by removing 'Marketing Strategy Team' from stakeholders and 'Scalable rollout strategy document for North American expansion' from deliverables, and reverting the budget to $250,000. Is there anything else I can help you with regarding this project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that covers everything for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any further assistance with this or other project proposals.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "I'll keep that in mind!",
+      "share_memory": false
+    }
+  ]
+}

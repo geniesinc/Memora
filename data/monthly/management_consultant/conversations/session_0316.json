@@ -1,0 +1,141 @@
+{
+  "session_id": 316,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Predictive Maintenance Pilot - Phase 1 Review & Next Steps",
+      "agenda_items": [
+        "Evaluation of potential ROI and scalability for broader European rollout",
+        "Analysis of model accuracy and data quality issues identified",
+        "Defining scope and objectives for Phase 2",
+        "Discussion on integration challenges with existing MES/ERP systems",
+        "Review of Phase 1 Predictive Maintenance Pilot results (Manufacturing Line 3)"
+      ],
+      "key_decisions": [
+        "Prioritize data cleansing and standardization efforts before Phase 2 model deployment.",
+        "Form a dedicated cross-functional task force to address MES/ERP integration roadblocks.",
+        "Initiate a detailed cost-benefit analysis for a full-scale European implementation.",
+        "Proceed with Phase 2, focusing on expanding to two additional manufacturing lines within a European facility."
+      ],
+      "action_items": [
+        "Prepare a detailed Phase 1 performance report for executive review by next week (Consultant Team).",
+        "Research potential third-party data visualization tools to enhance reporting capabilities (Dr. Kai Chen).",
+        "Draft a proposal outlining the scope, resources, and timeline for Phase 2 (Consultant Team lead).",
+        "Circulate minutes and key decisions to all attendees within 24 hours (Meeting Coordinator).",
+        "Schedule a workshop with IT and Operations to define data integration requirements for Phase 2 (Ana Rodriguez)."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Proceed with Phase 2, focusing on expanding to two additional manufacturing lines within a European facility.",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Schedule a workshop with IT and Operations to define data integration requirements for Phase 2 (Ana Rodriguez).",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 101,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 238,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 316,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think is the most interesting recent scientific discovery?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! The discovery of gravitational waves by LIGO in 2015, confirming a major prediction of Einstein's theory of relativity, was incredibly significant.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes titled 'Predictive Maintenance Pilot - Phase 1 Review & Next Steps' with some changed details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the key decisions to include: 'Proceed with Phase 2, focusing on expanding to two additional manufacturing lines within a European facility.'",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the key decisions. Is there anything else you'd like to change in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add \"Schedule a workshop with IT and Operations to define data integration requirements for Phase 2 (Ana Rodriguez)\" to the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Schedule a workshop with IT and Operations to define data integration requirements for Phase 2 (Ana Rodriguez)\" to the action items. Anything else for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're all set then. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

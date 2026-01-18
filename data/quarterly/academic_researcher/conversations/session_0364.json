@@ -1,0 +1,127 @@
+{
+  "session_id": 364,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Data-Driven University Initiative: Initial Research Pilot Planning",
+      "agenda_items": [
+        "Identification of key research questions for the pilot phase",
+        "Establishment of communication protocols with industry collaborators",
+        "Discussion of ethical considerations for data handling and privacy in academic research"
+      ],
+      "key_decisions": [
+        "Formulate a joint university-industry data governance committee for oversight and dispute resolution.",
+        "Prioritize real-time sensor data from smart grid infrastructure for initial pilot due to high impact potential.",
+        "Assign Dr. Anya Sharma as lead for data anonymization and privacy-preserving techniques.",
+        "Focus initial research on predictive maintenance and energy consumption optimization algorithms."
+      ],
+      "action_items": [
+        "Ms. Patel (Research Assistant): Compile a literature review on recent advancements in AI for energy grid optimization within the next 2 weeks.",
+        "Dr. Sharma (Computer Science): Schedule a follow-up meeting with industry legal counsel to discuss data anonymization strategies within the next 10 days.",
+        "Dr. Rodriguez (Ethics & Law): Draft a data sharing agreement template for academic-industry collaboration by next month.",
+        "Dr. Chen (Computer Science): Develop initial data ingestion pipeline specifications for sensor data within the next 3 weeks."
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Allocation of preliminary research tasks and responsibilities",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of proposed data sources from energy industry partners",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-17",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! Can you help me with something today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! Yes, I can certainly help you today. What can I do for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Data-Driven University Initiative: Initial Research Pilot Planning'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Allocation of preliminary research tasks and responsibilities' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Allocation of preliminary research tasks and responsibilities' from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review of proposed data sources from energy industry partners' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Review of proposed data sources from energy industry partners' from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items from the agenda. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

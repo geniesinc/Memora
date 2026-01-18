@@ -1,0 +1,134 @@
+{
+  "session_id": 640,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Technical Insight Post",
+      "main_message": "Implemented zero-trust architecture across our global media platform, reducing unauthorized access attempts by 87% while maintaining sub-50ms latency. Key lessons: defense-in-depth matters more than perimeter security in distributed systems.",
+      "hashtags": [
+        "#DistributedSystems",
+        "#MediaTech",
+        "#SystemArchitecture",
+        "#SecureByDesign",
+        "#ZeroTrust"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#SecureByDesign",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#ZeroTrust",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 296,
+        "session_date": "2025-06-15",
+        "operation": "add"
+      },
+      {
+        "session_id": 640,
+        "session_date": "2025-07-02",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-07-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! Do you have any thoughts on the future of artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is rapidly evolving, with advancements in machine learning and neural networks pointing towards increasingly sophisticated applications. I think we will see AI become even more integrated into our daily lives, from personalized assistants to complex problem-solving in various industries.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Technical Insight Post'. I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#SecureByDesign'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the hashtags to include '#SecureByDesign'. Is there anything else you'd like to update in the post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#ZeroTrust' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#ZeroTrust' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated with the new hashtags. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Not right now, but I appreciate your help and I'll keep that in mind for future updates!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime you need assistance with your social media posts or anything else.",
+      "share_memory": false
+    }
+  ]
+}

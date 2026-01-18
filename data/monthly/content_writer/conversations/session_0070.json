@@ -1,0 +1,122 @@
+{
+  "session_id": 70,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for European Market Expansion",
+      "agenda_items": [
+        "Brainstorming session for new content initiatives targeting specific European sub-markets",
+        "Feedback on recently published thought leadership pieces"
+      ],
+      "key_decisions": [
+        "Integrate user-generated content (testimonials, success stories) more prominently into marketing funnels"
+      ],
+      "action_items": [
+        "Content Strategist (Dr. Anya Sharma): Develop framework for case study development, due in 7 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Content Writer (Elias Vance): Draft localized content plan for Germany and France, due in 5 days",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize localized content creation for German and French markets for the next three months",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion on competitive analysis findings for entertainment workflow optimization platforms",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to answer any questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment for European Market Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Content Writer (Elias Vance): Draft localized content plan for Germany and France, due in 5 days\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Content Writer (Elias Vance): Draft localized content plan for Germany and France, due in 5 days\" from the action items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Prioritize localized content creation for German and French markets for the next three months' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Prioritize localized content creation for German and French markets for the next three months' from the key decisions. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Discussion on competitive analysis findings for entertainment workflow optimization platforms' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Discussion on competitive analysis findings for entertainment workflow optimization platforms' from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed all the specified items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "session_id": 316,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_9",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Industry Insight Post",
+      "main_message": "Predictive analytics is transforming aerospace supply chain resilience, enabling enterprises to anticipate disruptions months in advance and optimize global operations with unprecedented precision.",
+      "hashtags": [
+        "#PredictiveAnalytics",
+        "#AerospaceInnovation",
+        "#AerospaceTech",
+        "#EnterpriseStrategy"
+      ],
+      "executive_insights": "Our recent deployment of advanced predictive models across international manufacturing hubs has reduced unplanned downtime by significant margins while improving forecasting accuracy for critical component availability. The integration of real-time data streams with machine learning capabilities positions aerospace enterprises to navigate increasingly complex global supply networks."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#EnterpriseStrategy",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 204,
+        "session_date": "2025-06-10",
+        "operation": "add"
+      },
+      {
+        "session_id": 316,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey! I'm doing well, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Industry Insight Post'. I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'LinkedIn Industry Insight Post'. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the hashtags. Please add '#EnterpriseStrategy' to the existing list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#EnterpriseStrategy' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Alright, the social media post has been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

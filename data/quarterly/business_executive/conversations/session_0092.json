@@ -1,0 +1,171 @@
+{
+  "session_id": 92,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Q3 Regional Logistics Performance Review and Strategic Planning Session",
+      "agenda_items": [
+        "Budget allocation for fleet modernization and sustainability initiatives",
+        "Discussion of technology investment priorities for route optimization",
+        "Competitive landscape assessment and market positioning strategy"
+      ],
+      "key_decisions": [
+        "Approved capital investment of $2.8M for upgrading warehouse management systems at three primary facilities",
+        "Delayed expansion into secondary markets until current operations achieve 95% on-time delivery target"
+      ],
+      "attendees": [
+        "Fatima Al-Rashid, Head of Customer Experience",
+        "Thomas Kowalski, VP of Technology and Innovation",
+        "Elena Rodriguez, Director of Strategic Planning",
+        "James Chen, Director of Fleet Management",
+        "Marcus Okonkwo, Chief Financial Officer"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Competitive landscape assessment and market positioning strategy",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Delayed expansion into secondary markets until current operations achieve 95% on-time delivery target",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "James Chen, Director of Fleet Management",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Marcus Okonkwo, Chief Financial Officer",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 2,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 34,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 92,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Q3 Regional Logistics Performance Review and Strategic Planning Session'. I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the agenda items to include 'Competitive landscape assessment and market positioning strategy'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the key decisions to include: \"Delayed expansion into secondary markets until current operations achieve 95% on-time delivery target.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'James Chen, Director of Fleet Management' to the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added James Chen, Director of Fleet Management to the attendees. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Marcus Okonkwo, Chief Financial Officer' to the attendees as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Marcus Okonkwo, Chief Financial Officer to the attendees. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for the meeting notes updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, all updates for the meeting notes have been applied. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

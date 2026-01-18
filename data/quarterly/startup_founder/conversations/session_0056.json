@@ -1,0 +1,128 @@
+{
+  "session_id": 56,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Biotech Pilot Project: Phase 1 Review & AI Integration Strategy",
+      "agenda_items": [
+        "Review of Phase 1 pilot results and key learnings",
+        "Discussion of initial data synthesis from biotech partners",
+        "Defining success metrics for expanded regional rollout",
+        "Resource allocation and timeline adjustments for next iteration"
+      ],
+      "key_decisions": [
+        "Prioritize refining the anomaly detection algorithm based on observed inconsistencies in initial biotech data sets.",
+        "Allocate additional engineering resources to optimize data ingestion pipelines for diverse biomarker data types.",
+        "Initiate discussions with the regional biotech partner for a deeper dive into their proprietary data structures next month."
+      ],
+      "action_items": [
+        "Founder: Draft an internal memo outlining strategic adjustments based on pilot feedback and communicate to core team; deadline: within the next 3 days.",
+        "Dr. Anya Sharma: Lead a deep-dive analysis of Phase 1 data anomalies; deadline: within the next 7 days.",
+        "Kai Chen: Develop a preliminary proposal for optimizing data ingestion for varied data formats; deadline: within the next 10 days."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Initiate discussions with the regional biotech partner for a deeper dive into their proprietary data structures next month.",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Kai Chen: Develop a preliminary proposal for optimizing data ingestion for varied data formats; deadline: within the next 10 days.",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Resource allocation and timeline adjustments for next iteration",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to update my meeting notes for 'Biotech Pilot Project: Phase 1 Review & AI Integration Strategy'. I want to change some details within those notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key decisions to include: 'Initiate discussions with the regional biotech partner for a deeper dive into their proprietary data structures next month.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key decisions. Is there anything else you'd like to change in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the action items to include: 'Kai Chen: Develop a preliminary proposal for optimizing data ingestion for varied data formats; deadline: within the next 10 days.'",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added that action item. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Resource allocation and timeline adjustments for next iteration' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Resource allocation and timeline adjustments for next iteration' to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're all set then! Let me know if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "You're welcome! Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

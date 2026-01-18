@@ -1,0 +1,137 @@
+{
+  "session_id": 304,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_8",
+    "content_data": {
+      "email_purpose": "To summarize the initial findings and proposed next steps from the innovation strategy workshop regarding global healthcare solutions.",
+      "recipient_list": [
+        "Chief Strategy Officer",
+        "Head of R&D",
+        "Regional Healthcare Leads",
+        "Global Innovation Steering Committee"
+      ],
+      "key_points": [
+        "Identified three high-potential innovation pathways for expansion in emerging markets.",
+        "Proposed a phased approach for pilot programs focusing on digital health integration.",
+        "Highlighted critical gaps in current market intelligence for personalized medicine applications.",
+        "Emphasized the need for a cross-functional task force to drive initial concept development."
+      ],
+      "call_to_action": "Please review the attached summary document and be prepared to discuss the proposed next steps during our follow-up meeting next week to align on resource allocation and timelines."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Global Innovation Steering Committee",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Emphasized the need for a cross-functional task force to drive initial concept development.",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 240,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 282,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      },
+      {
+        "session_id": 304,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was just wondering, what are some of the most common applications for AI in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is used in navigation apps, personalized recommendations for online shopping, and even in spam filters for email. It also powers virtual assistants and facial recognition on phones.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To summarize the initial findings and proposed next steps from the innovation strategy workshop regarding global healthcare solutions.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include 'Global Innovation Steering Committee'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Recipient list updated to include 'Global Innovation Steering Committee'. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add \"Emphasized the need for a cross-functional task force to drive initial concept development\" to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Key points updated. Anything else for the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. The email has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

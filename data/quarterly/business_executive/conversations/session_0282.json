@@ -1,0 +1,114 @@
+{
+  "session_id": 282,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_8",
+    "content_data": {
+      "meeting_title": "Q3 European Network Expansion Strategy Review",
+      "agenda_items": [
+        "Discuss partnership opportunities with regional carriers",
+        "Review budget allocation for infrastructure investments",
+        "Evaluate technology platform integration readiness"
+      ],
+      "key_decisions": [
+        "Selected strategic partnership with regional last-mile delivery network to improve rural coverage"
+      ],
+      "action_items": [
+        "Commission third-party assessment of technology infrastructure scalability - Dimitri Volkov within 6 weeks",
+        "Negotiate partnership terms with selected carriers and present draft agreements - Amara Okonkwo within 30 days",
+        "Develop change management plan for operational teams affected by automation - Priya Sharma within 4 weeks"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Address operational bottlenecks in cross-border deliveries",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved phased rollout of automated sorting facilities in three new markets over 18 months",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thank you. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm good, thanks! I need to remove some information from my meeting notes for the 'Q3 European Network Expansion Strategy Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Address operational bottlenecks in cross-border deliveries' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Address operational bottlenecks in cross-border deliveries' from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Approved phased rollout of automated sorting facilities in three new markets over 18 months\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Approved phased rollout of automated sorting facilities in three new markets over 18 months\" from the key decisions. Anything else to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified items from the meeting notes. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

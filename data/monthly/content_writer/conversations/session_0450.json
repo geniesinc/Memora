@@ -1,0 +1,118 @@
+{
+  "session_id": 450,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Elevating Travel Narratives: A Content Strategy for Immersive Customer Journeys",
+      "project_description": "A comprehensive content strategy proposal focused on creating compelling, engaging narratives across multiple touchpoints to enhance customer experience and drive deeper engagement with our travel offerings.",
+      "budget": 100000,
+      "timeline": "6 months, with an initial 3-month development phase and a 3-month implementation and optimization phase.",
+      "project_lead": "Isabella Chen, Lead Content Strategist",
+      "stakeholders": [
+        "Product Development Team",
+        "Sales Operations",
+        "Customer Experience Manager"
+      ],
+      "objectives": [
+        "Increase organic traffic to key travel destinations by 20% over the next period.",
+        "Establish the company as a thought leader in unique and sustainable travel experiences."
+      ],
+      "deliverables": [
+        "Sample Immersive Travel Story Series (3-5 pieces across various formats)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 90000,
+        "reverted_to": 100000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Workshop for internal teams on storytelling best practices",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, and I'm ready to assist you with any questions you might have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Elevating Travel Narratives: A Content Strategy for Immersive Customer Journeys'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget from $90,000 back to $100,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for 'Elevating Travel Narratives' back to $100,000. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Workshop for internal teams on storytelling best practices' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Workshop for internal teams on storytelling best practices' from the deliverables. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding removals from the proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Confirmed. The deliverables for the project proposal have been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "session_id": 890,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_2",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insightful Post",
+      "main_message": "Exploring the evolving landscape of sustainable fashion materials. Design innovation isn't just about aesthetics; it's about responsible sourcing and impact. What are your thoughts on the future of eco-conscious textiles in high fashion?",
+      "hashtags": [
+        "#SustainableFashion",
+        "#CreativeDesign",
+        "#FutureOfFashion",
+        "#FashionConsulting",
+        "#MaterialScience"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#MaterialScience",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 151,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 890,
+        "session_date": "2025-07-14",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-07-14",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I was wondering, what are some of the most interesting recent advancements in renewable energy technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Some exciting advancements include perovskite solar cells, advanced battery storage like solid-state batteries, and more efficient offshore wind turbine designs.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'd like to update my social media post titled 'LinkedIn Insightful Post'. I need to change some of the details there.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#MaterialScience'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#MaterialScience' to the hashtags for your 'LinkedIn Insightful Post'. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've updated the social media post.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great, I'll talk to you later!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, talk to you later! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "session_id": 287,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Account Growth & Q3 Performance Review",
+      "agenda_items": [
+        "Team training needs and professional development opportunities"
+      ],
+      "key_decisions": [
+        "Prioritize upselling fiber optic solutions to enterprise clients in the APAC region."
+      ],
+      "attendees": [
+        "Dr. Javier Morales (Head of Sales)",
+        "Aisha Rahman (Sales Manager)",
+        "Elena Petrova (Sales Operations Lead)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Deep dive into key strategic accounts and potential for expansion",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "David Chen (Account Executive, Enterprise Segment)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm hoping you can help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Account Growth & Q3 Performance Review'. We need to modify some details within those notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove or modify details from the meeting notes. What specific information would you like to remove or change within it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Deep dive into key strategic accounts and potential for expansion\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Deep dive into key strategic accounts and potential for expansion\" from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'David Chen (Account Executive, Enterprise Segment)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed David Chen from the attendees. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That covers all the removals for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified agenda item and attendee from the meeting notes. Is there anything else you need to update or modify in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

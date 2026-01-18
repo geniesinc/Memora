@@ -1,0 +1,113 @@
+{
+  "session_id": 280,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To disseminate preliminary findings from recent research on optimizing computational fluid dynamics simulations for aerospace applications and propose next steps for agency integration.",
+      "recipient_list": [
+        "Lead Aerospace Engineers",
+        "Computational Modelling Department",
+        "Head of Research & Development"
+      ],
+      "key_points": [
+        "Preliminary validation suggests applicability across multiple agency projects, particularly in Wing Design and Propulsion Systems optimization."
+      ],
+      "call_to_action": "Requesting a meeting within the next two weeks to discuss these findings in detail and outline a collaborative pilot project for further validation and integration."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Head of Research & Development",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 259,
+        "session_date": "2025-06-13",
+        "operation": "add"
+      },
+      {
+        "session_id": 279,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      },
+      {
+        "session_id": 280,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To disseminate preliminary findings from recent research on optimizing computational fluid dynamics simulations for aerospace applications and propose next steps for agency integration.' I'd like to change some details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What specific information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Head of Research & Development' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've added 'Head of Research & Development' to the recipient list. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Confirmed. The email has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks for your help! I'll be in touch if I need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "session_id": 33,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Optimizing Pharmaceutical Supply Chain Resilience through Digital Transformation",
+      "project_description": "A comprehensive proposal for enhancing the client's North American pharmaceutical supply chain through strategic digital integration and process re-engineering to mitigate disruptions and improve operational efficiency.",
+      "budget": 2100000,
+      "timeline": "Approximately 18 months, structured into three distinct phases over the next period.",
+      "project_lead": "Dr. Anya Sharma, Senior Management Consultant",
+      "stakeholders": [
+        "Head of Regulatory Affairs",
+        "Head of North American Operations",
+        "VP of Supply Chain Management"
+      ],
+      "objectives": [
+        "Enhance resilience to unforeseen disruptions (e.g., natural disasters, geopolitical events) by 20%.",
+        "Optimize inventory management to reduce carrying costs while maintaining product availability."
+      ],
+      "deliverables": [
+        "Technology Stack Recommendation and Implementation Roadmap.",
+        "Standard Operating Procedures (SOPs) for new digital processes.",
+        "Current State Assessment Report of North American Supply Chain Operations."
+      ],
+      "risk_assessment": "Medium-high risk due to the complexity of integrating legacy systems, potential resistance to change within the organization, and the dynamic nature of pharmaceutical regulations. Mitigation strategies will focus on robust change management and modular implementation.",
+      "success_metrics": [
+        "95% on-time, in-full (OTIF) delivery rate.",
+        "15% reduction in average lead time for key products.",
+        "20% improvement in supply chain resilience index score."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 2350000,
+        "reverted_to": 2100000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "CFO - North America",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Achieve compliance with evolving regulatory requirements for pharmaceutical supply chain integrity.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Optimizing Pharmaceutical Supply Chain Resilience through Digital Transformation'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget for this proposal from $2,350,000 back to $2,100,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget change for 'Optimizing Pharmaceutical Supply Chain Resilience' back to $2,100,000. Is there anything else you'd like to remove or modify in this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'CFO - North America' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'CFO - North America' from the stakeholders. Is there anything else you'd like to remove or modify in this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Achieve compliance with evolving regulatory requirements for pharmaceutical supply chain integrity.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Achieve compliance with evolving regulatory requirements for pharmaceutical supply chain integrity\" from the objectives. Is there anything else you'd like to remove or modify in this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding this proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing the specified objective, stakeholder, and reverting the budget. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything for now. Thanks!",
+      "share_memory": false
+    }
+  ]
+}

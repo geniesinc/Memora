@@ -1,0 +1,118 @@
+{
+  "session_id": 36,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Security Posture Review - Phase 2 Implementation",
+      "agenda_items": [
+        "Next Steps and Action Item Assignment",
+        "Resource Allocation and Budget Projections for Upcoming Period"
+      ],
+      "key_decisions": [
+        "Formed a cross-functional working group to conduct a comprehensive supply chain security audit within the next two months."
+      ],
+      "action_items": [
+        "Finance Director to allocate and ring-fence the approved additional security budget for the upcoming period. (Owner: Mr. David Chen)",
+        "CISO to finalize EDR vendor selection and implementation plan by end of next week. (Owner: Dr. Anya Sharma)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Established a quarterly review cycle for security posture, with the first review scheduled for the upcoming period.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Defining Key Performance Indicators (KPIs) for Security Resilience",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! I'm currently processing a lot of information about advancements in renewable energy technologies. It's fascinating to see how quickly the field is evolving.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled \"Strategic Security Posture Review - Phase 2 Implementation.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Established a quarterly review cycle for security posture, with the first review scheduled for the upcoming period.\" from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. I've removed that item from the 'key_decisions' field. Is there anything else you'd like to remove from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Defining Key Performance Indicators (KPIs) for Security Resilience\" from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. \"Defining Key Performance Indicators (KPIs) for Security Resilience\" has been removed from the 'agenda_items' field. Is there anything else you'd like to remove from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. All specified items have been removed from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Okay, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

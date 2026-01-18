@@ -1,0 +1,112 @@
+{
+  "session_id": 14,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Secure AI-Driven Personalized Learning Pathways for North American Education",
+      "project_description": "A proposal for developing and integrating a secure, adaptive AI platform that tailors learning experiences and content delivery for students in strategic mid-size educational institutions across North America, enhancing engagement and academic outcomes.",
+      "budget": 1400000,
+      "timeline": "Initial deployment over 15 months, with iterative development phases over 3 years.",
+      "project_lead": "Kai Chen, Founder & CEO, EduAI Innovations Inc.",
+      "stakeholders": [
+        "Head of Digital Learning Initiatives"
+      ],
+      "objectives": [
+        "Improve average student retention rates by 10% through personalized intervention strategies."
+      ],
+      "deliverables": [
+        "Deployment and Training Modules for institutional staff.",
+        "Performance Analytics Dashboard for administrators and educators.",
+        "Pilot Program Evaluation Report with key performance indicators (KPIs)."
+      ],
+      "growth_projections": "We project capturing 5% of the target market within the first 3 years, leading to a 300% revenue increase over the initial 5-year period, driven by successful pilot programs and strong word-of-mouth within the education sector.",
+      "risk_mitigation": "Risks include data privacy concerns (mitigated by 'security-by-design' architecture and third-party audits), slow institutional adoption (mitigated by comprehensive training and dedicated integration support), and competitive pressures (mitigated by continuous innovation and strong intellectual property protection)."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Student Success Department Leads",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Increase student engagement metrics by 20% within the first academic cycle post-implementation.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks. I'm ready to assist with any questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Secure AI-Driven Personalized Learning Pathways for North American Education'. We can discuss the specifics shortly.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Student Success Department Leads' from the 'stakeholders' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Student Success Department Leads' from the stakeholders for the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Could you also remove 'Increase student engagement metrics by 20% within the first academic cycle post-implementation.' from the 'objectives' field?",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that objective from the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding removals from the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the requested stakeholders and objectives from the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks, that's everything for now!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "session_id": 249,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Robotics Innovation Ecosystem - European Strategy Alignment",
+      "agenda_items": [
+        "Identifying key technological gaps and opportunities in industrial and service robotics"
+      ],
+      "key_decisions": [
+        "Initiate preliminary discussions with European Commission representatives regarding a dedicated funding instrument for ethical robotics development."
+      ],
+      "attendees": [
+        "Dr. Ling Chen (Lead AI Scientist, KUKA Robotics Europe)",
+        "Dr. Elena Petrova (Senior Researcher, Robotics and Autonomous Systems Group, University of Cambridge)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current EU robotics funding landscapes and strategic priorities",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Professor Kai M\u00fcller (Director, Institute for Advanced Robotics, Technical University of Munich)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting recent advancements in renewable energy technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Some exciting advancements include perovskite solar cells, advanced battery storage like solid-state batteries, and breakthroughs in green hydrogen production.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Robotics Innovation Ecosystem - European Strategy Alignment'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review of current EU robotics funding landscapes and strategic priorities' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Review of current EU robotics funding landscapes and strategic priorities' from the agenda items for the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Professor Kai M\u00fcller (Director, Institute for Advanced Robotics, Technical University of Munich)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed Professor Kai M\u00fcller from the attendees. Anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, I've removed those items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance again in the future.",
+      "share_memory": false
+    }
+  ]
+}

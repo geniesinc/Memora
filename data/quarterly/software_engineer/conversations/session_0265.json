@@ -1,0 +1,131 @@
+{
+  "session_id": 265,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Learning Platform API Refactoring Sprint Planning",
+      "agenda_items": [
+        "Define database schema changes for student progress tracking",
+        "Discuss migration strategy from monolithic to microservices architecture"
+      ],
+      "key_decisions": [
+        "Migrate authentication to OAuth 2.0 with JWT tokens within the next 6 weeks"
+      ],
+      "action_items": [
+        "Leila Al-Rashid to research and present OAuth provider comparison within 1 week"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Marcus Okonkwo to set up staging environment with Redis cluster within 5 days",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Priya Nambiar to create technical design document for GraphQL schema by end of week",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 142,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 264,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      },
+      {
+        "session_id": 265,
+        "session_date": "2025-06-14",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat and assist in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Learning Platform API Refactoring Sprint Planning'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Marcus Okonkwo to set up staging environment with Redis cluster within 5 days\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Marcus Okonkwo to set up staging environment with Redis cluster within 5 days\" from the action items. Is there anything else you'd like to remove or modify regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Priya Nambiar to create technical design document for GraphQL schema by end of week\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Priya Nambiar to create technical design document for GraphQL schema by end of week\" from the action items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the action items.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed those action items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

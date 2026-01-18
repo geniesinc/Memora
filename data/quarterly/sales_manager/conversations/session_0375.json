@@ -1,0 +1,134 @@
+{
+  "session_id": 375,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_7",
+    "content_data": {
+      "email_purpose": "To provide a strategic update on recent client engagements and outline key next steps for achieving revenue targets within the European market.",
+      "recipient_list": [
+        "Regional Sales Managers - Germany",
+        "Compliance Officer - EU"
+      ],
+      "key_points": [
+        "Emphasis on cross-functional collaboration with product and compliance teams."
+      ],
+      "call_to_action": "Please review the attached Q3 performance brief and be prepared to discuss specific territory strategies during our sync call next week. Your input on compliance integration is crucial."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Introduction of new strategic initiatives for expanding market share in upcoming periods.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Sales Leadership Team - EU",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 176,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 197,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      },
+      {
+        "session_id": 260,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 375,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to make some modifications to the email titled 'To provide a strategic update on recent client engagements and outline key next steps for achieving revenue targets within the European market.' I want to remove some information from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the email. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Introduction of new strategic initiatives for expanding market share in upcoming periods.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Introduction of new strategic initiatives for expanding market share in upcoming periods\" from the key points of the email. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Sales Leadership Team - EU' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Sales Leadership Team - EU' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding removals from this email.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've completed removing the requested information from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a wonderful day.",
+      "share_memory": false
+    }
+  ]
+}

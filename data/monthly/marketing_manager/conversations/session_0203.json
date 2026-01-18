@@ -1,0 +1,137 @@
+{
+  "session_id": 203,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Fan360: Integrated Multi-Platform Engagement Ecosystem",
+      "project_description": "A comprehensive digital engagement strategy to deepen fan connections across North American markets through personalized content, gamification, and real-time interactive experiences during live sporting events.",
+      "budget": 450000,
+      "timeline": "12 months with Phase 1 (months 1-4) focusing on platform development, Phase 2 (months 5-8) on content creation and testing, and Phase 3 (months 9-12) on full market rollout",
+      "project_lead": "Priya Nakamura, Senior Marketing Manager - Digital Engagement",
+      "stakeholders": [
+        "Digital Product Team"
+      ],
+      "objectives": [
+        "Create new revenue streams through premium digital content offerings"
+      ],
+      "deliverables": [
+        "Interactive social media campaign framework for 50+ game days",
+        "Comprehensive analytics dashboard for engagement tracking"
+      ],
+      "success_metrics": [
+        "Social media engagement rate improvement of 40%"
+      ],
+      "competitive_analysis": "Recent analysis shows regional competitors have increased digital engagement budgets by 35% with focus on mobile-first experiences and Gen Z targeting. Our proposal addresses current gaps in personalization and real-time engagement while leveraging our unique venue access and athlete partnerships that competitors cannot replicate."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 525000,
+        "reverted_to": 450000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "success_metrics",
+        "removed_item": "Mobile app downloads exceeding 250,000 within first 6 months",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Analytics and Insights Group",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm doing great, thanks for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to remove some information from my project proposal, \"Fan360: Integrated Multi-Platform Engagement Ecosystem.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget from $525,000 back to $450,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. The budget for Fan360 has been reverted to $450,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Mobile app downloads exceeding 250,000 within first 6 months\" from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Mobile app downloads exceeding 250,000 within first 6 months\" from the success metrics. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Analytics and Insights Group' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Analytics and Insights Group' from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been processed for the project proposal. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could help.",
+      "share_memory": false
+    }
+  ]
+}

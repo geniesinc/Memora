@@ -1,0 +1,119 @@
+{
+  "session_id": 43,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To provide an update on the Q3 performance for key enterprise accounts and outline strategic priorities for the upcoming period.",
+      "recipient_list": [
+        "Marketing Leadership"
+      ],
+      "key_points": [
+        "Analysis of key account health metrics and emerging trends in the telecommunications sector.",
+        "Identification of top performing accounts and areas requiring focused attention.",
+        "Review of Q3 revenue achievement against targets for strategic accounts."
+      ],
+      "call_to_action": "Please review the attached Q3 performance summary and be prepared to discuss these insights during our regional sync meeting next week to finalize our action plans."
+    },
+    "pool_status": "completed",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Identification of top performing accounts and areas requiring focused attention.",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Review of Q3 revenue achievement against targets for strategic accounts.",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I'm curious, what are some of the latest advancements in AI technology that you find particularly interesting?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I find the progress in natural language processing and computer vision quite fascinating, especially how they're being applied in various industries. The development of more adaptive and efficient learning algorithms is also very intriguing.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my email titled 'To provide an update on the Q3 performance for key enterprise accounts and outline strategic priorities for the upcoming period.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What specific details would you like to change?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: Identification of top-performing accounts and areas requiring focused attention.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key points to include the identification of top-performing accounts and areas requiring focused attention. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I also need to add 'Review of Q3 revenue achievement against targets for strategic accounts.' to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Review of Q3 revenue achievement against targets for strategic accounts\" to the key points. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for the email. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

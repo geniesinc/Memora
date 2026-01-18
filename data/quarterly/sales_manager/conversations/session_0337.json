@@ -1,0 +1,160 @@
+{
+  "session_id": 337,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_5",
+    "content_data": {
+      "email_purpose": "To provide a strategic update on key client accounts and upcoming growth initiatives, ensuring alignment across the sales team.",
+      "recipient_list": [
+        "Regional Sales Directors",
+        "VP of Sales",
+        "Sales Team Leads"
+      ],
+      "key_points": [
+        "Discussion of market trends impacting our North American client base.",
+        "Introduction of new strategy for targeting emerging media tech companies.",
+        "Review of recent successes in client retention and upselling within the media sector."
+      ],
+      "call_to_action": "Please review the attached strategic overview and be prepared to discuss during our next team sync later this week."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Introduction of new strategy for targeting emerging media tech companies.",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Review of recent successes in client retention and upselling within the media sector.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "VP of Sales",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Sales Team Leads",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 90,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 132,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 337,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To provide a strategic update on key client accounts and upcoming growth initiatives, ensuring alignment across the sales team.' I have some changes to the content.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: 'Introduction of new strategy for targeting emerging media tech companies.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key points to include the new strategy. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the key points to include 'Review of recent successes in client retention and upselling within the media sector.'",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Review of recent successes in client retention and upselling within the media sector\" to the key points. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'VP of Sales' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'VP of Sales' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, also add 'Sales Team Leads' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Sales Team Leads' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The email has been updated with the new key points and recipients.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Great! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

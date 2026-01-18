@@ -1,0 +1,146 @@
+{
+  "session_id": 336,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_6",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insightful Post",
+      "main_message": "In a competitive media landscape, strategic automation isn't just an advantage, it's essential for scaling growth and deepening client engagement globally. Our recent advancements are proving this.",
+      "hashtags": [
+        "#MediaTech",
+        "#ClientSuccess",
+        "#InnovationInMedia",
+        "#GlobalSales",
+        "#RevenueGrowth",
+        "#Automation"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#GlobalSales",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#RevenueGrowth",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#Automation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 68,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 336,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Insightful Post'; I want to change some of its details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Alright, I can help you update that social media post. What changes would you like to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#GlobalSales'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#GlobalSales' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#RevenueGrowth' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#RevenueGrowth' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, update the hashtags to include '#Automation'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#Automation' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for it. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

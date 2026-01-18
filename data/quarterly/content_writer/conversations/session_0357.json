@@ -1,0 +1,162 @@
+{
+  "session_id": 357,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Q3 European Market Growth",
+      "agenda_items": [
+        "Defining content requirements for upcoming product launches and promotional campaigns"
+      ],
+      "key_decisions": [
+        "Allocate resources for external content creators specializing in niche European e-commerce segments.",
+        "Prioritize localized content for the German and French markets for the next business cycle.",
+        "Implement A/B testing for headline variations across all new marketing content."
+      ],
+      "action_items": [
+        "**SEO Specialist**: Conduct a keyword gap analysis for key product categories in target European markets, due in 14 days.",
+        "**Product Marketing Lead**: Provide updated product feature roadmaps to inform future content creation, due in 5 days.",
+        "**Marketing Manager**: Research and present 3-5 external content creator agencies with European market expertise, due in 10 days.",
+        "**Content Writer (Self)**: Develop a detailed content calendar for localized German and French campaigns, due in 7 days."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Launch a series of interactive content pieces (quizzes, configurators) to improve user dwell time.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current content performance metrics across key European markets (Germany, France, UK)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "**Content Writer (Self)**: Draft initial concepts for interactive content pieces, due in 12 days.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 235,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 238,
+        "session_date": "2025-06-12",
+        "operation": "delete"
+      },
+      {
+        "session_id": 302,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 314,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 357,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment for Q3 European Market Growth'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Launch a series of interactive content pieces (quizzes, configurators) to improve user dwell time\" from the `key_decisions` field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Launch a series of interactive content pieces (quizzes, configurators) to improve user dwell time\" from the `key_decisions` field for your meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review of current content performance metrics across key European markets (Germany, France, UK)' from the `agenda_items` field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Review of current content performance metrics across key European markets (Germany, France, UK)' from the `agenda_items` field. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Content Writer (Self): Draft initial concepts for interactive content pieces, due in 12 days.' from the `action_items` field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Content Writer (Self): Draft initial concepts for interactive content pieces, due in 12 days.' from the `action_items` field. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been applied to the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great! I'm glad I could assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "I'm glad I could assist you too! Feel free to reach out anytime if you need further help with your notes or anything else.",
+      "share_memory": false
+    }
+  ]
+}

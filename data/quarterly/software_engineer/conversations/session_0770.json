@@ -1,0 +1,121 @@
+{
+  "session_id": 770,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_10",
+    "content_data": {
+      "project_title": "Real-Time Spatial Analytics Engine for Immersive Environments",
+      "project_description": "Development of a high-performance analytics engine that processes user interaction data within AR/VR environments to generate predictive insights for content optimization and user behavior modeling.",
+      "budget": 350000,
+      "timeline": "14 months with Phase 1: Architecture & Prototyping (months 1-4), Phase 2: Core Development (months 5-10), Phase 3: Integration & Testing (months 11-14)",
+      "project_lead": "Priya Venkataraman, Senior Software Architect",
+      "stakeholders": [
+        "Engineering Team"
+      ],
+      "objectives": [
+        "Implement machine learning pipeline for real-time predictive analytics within immersive sessions"
+      ],
+      "deliverables": [
+        "Performance benchmarking report and optimization recommendations",
+        "Cloud-native spatial analytics engine with Kubernetes orchestration",
+        "Technical architecture documentation and system design specifications",
+        "Automated CI/CD pipeline with comprehensive test coverage above 85%"
+      ],
+      "success_metrics": [
+        "Zero critical security vulnerabilities in production deployment"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 300000,
+        "updated_to": 350000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "deliverables",
+        "added_item": "Automated CI/CD pipeline with comprehensive test coverage above 85%",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-07-08",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you for asking! I'm ready to chat and help in any way I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'Real-Time Spatial Analytics Engine for Immersive Environments'; specifically, I need to update the budget from $300,000 to $350,000.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What other details of the 'Real-Time Spatial Analytics Engine for Immersive Environments' proposal need to be updated?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the budget from $300,000 to $350,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. What other details of the 'Real-Time Spatial Analytics Engine for Immersive Environments' proposal need to be updated?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please add 'Automated CI/CD pipeline with comprehensive test coverage above 85%' to the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. What other deliverables need to be added or updated for the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted the budget update to $350,000 and the new deliverable. Is there anything else you'd like to update for the project proposal at this time?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Not right now, but I might have more updates later.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more updates or need assistance with anything else.",
+      "share_memory": false
+    }
+  ]
+}

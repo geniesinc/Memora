@@ -1,0 +1,150 @@
+{
+  "session_id": 338,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Mobile-First Destination Discovery Campaign for Southeast Asia Markets",
+      "project_description": "Comprehensive digital marketing initiative to increase brand awareness and drive mobile app engagement among millennial and Gen-Z travelers exploring Southeast Asian destinations.",
+      "budget": 200000,
+      "timeline": "12 months with Phase 1 (months 1-4) for research and creative development, Phase 2 (months 5-8) for campaign launch and optimization, and Phase 3 (months 9-12) for scaling and performance analysis",
+      "project_lead": "Priya Nakamura, Senior Marketing Manager",
+      "stakeholders": [
+        "Customer Experience Team",
+        "Product Development Team",
+        "Chief Marketing Officer",
+        "Data Analytics Department"
+      ],
+      "objectives": [
+        "Improve mobile booking conversion rates by 28%"
+      ],
+      "deliverables": [
+        "Influencer partnership program with performance tracking dashboard",
+        "Interactive mobile app features including AR destination previews",
+        "Series of 15 destination-focused video stories optimized for mobile viewing",
+        "Comprehensive mobile-first content strategy and editorial calendar"
+      ],
+      "campaign_channels": [
+        "Instagram Stories and Reels",
+        "Travel blog partnerships and native content",
+        "WhatsApp Business for customer engagement",
+        "Spotify podcast sponsorships targeting travel enthusiasts"
+      ],
+      "success_metrics": [
+        "Brand awareness lift measured through pre and post-campaign surveys",
+        "Mobile app download volume and attribution by channel",
+        "Mobile booking conversion rate and revenue attribution",
+        "Social media reach, impressions, and engagement rate"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "success_metrics",
+        "removed_item": "Mobile engagement rate including session duration and screen depth",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 175000,
+        "reverted_to": 200000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Establish strategic partnerships with 8-10 regional travel influencers",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thank you. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the project proposal titled 'Mobile-First Destination Discovery Campaign for Southeast Asia Markets'. Can you help me with that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you with that. What specific information would you like to remove or modify from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Mobile engagement rate including session duration and screen depth' from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood, 'Mobile engagement rate including session duration and screen depth' has been removed from the success metrics for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget back to $200,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $200,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Establish strategic partnerships with 8-10 regional travel influencers' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Establish strategic partnerships with 8-10 regional travel influencers\" from the objectives for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "The project proposal has been updated with your requested removals. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's it for now, but I'll definitely reach out if I need more help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "session_id": 623,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_6",
+    "content_data": {
+      "project_title": "Connected Vehicle Telematics Integration Platform",
+      "project_description": "Build a scalable microservices architecture to integrate real-time telematics data from connected vehicles, enabling personalized driver experiences and predictive maintenance capabilities across regional markets.",
+      "budget": 325000,
+      "timeline": "14 months with Phase 1: Architecture & Core Services (months 1-5), Phase 2: Integration & Testing (months 6-10), Phase 3: Deployment & Optimization (months 11-14)",
+      "project_lead": "Priya Nambiar, Senior Software Engineer",
+      "stakeholders": [
+        "Vehicle Integration Partners",
+        "Data Privacy & Compliance Officer",
+        "UX Research Division",
+        "Product Engineering Team",
+        "Customer Success Team",
+        "Regional Operations Manager"
+      ],
+      "objectives": [
+        "Implement driver behavior analytics engine to personalize in-vehicle experiences"
+      ],
+      "deliverables": [
+        "Security audit documentation and penetration testing results"
+      ],
+      "risk_assessment": "Medium-high risk due to complex third-party vehicle system integrations and stringent real-time performance requirements; mitigation includes phased rollout approach and extensive load testing protocols."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 350000,
+        "updated_to": 300000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "stakeholders",
+        "added_item": "Regional Operations Manager",
+        "action": "added"
+      },
+      {
+        "field": "budget",
+        "updated_from": 300000,
+        "updated_to": 325000,
+        "action": "budget_revised"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 354,
+        "session_date": "2025-06-16",
+        "operation": "add"
+      },
+      {
+        "session_id": 393,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      },
+      {
+        "session_id": 425,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      },
+      {
+        "session_id": 601,
+        "session_date": "2025-06-27",
+        "operation": "update"
+      },
+      {
+        "session_id": 613,
+        "session_date": "2025-06-28",
+        "operation": "delete"
+      },
+      {
+        "session_id": 623,
+        "session_date": "2025-06-28",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-28",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'Connected Vehicle Telematics Integration Platform'; I have some changes for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific changes do you have for the 'Connected Vehicle Telematics Integration Platform' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the budget from $350,000 to $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. What other changes do you have for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I also need to update the stakeholders; please add 'Regional Operations Manager' to the list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, 'Regional Operations Manager' has been added to the stakeholders. What other changes do you have for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Actually, change the budget from $300,000 to $325,000 instead.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. What other changes do you have for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "What other changes do you have for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Alright, great! I've noted all those changes for you. Have a productive day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "session_id": 312,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "Regional Fan Engagement Campaign Strategy & Integration Review",
+      "agenda_items": [
+        "Review current fan engagement metrics across digital and stadium touchpoints",
+        "Assess social media campaign performance for upcoming season launch",
+        "Budget allocation for influencer partnerships and content creation",
+        "Discuss CRM integration timeline with ticketing and merchandise platforms"
+      ],
+      "key_decisions": [
+        "Greenlit partnership with regional broadcast network for co-branded content series",
+        "Committed to monthly community events in three key metro areas to drive local engagement",
+        "Decided to prioritize mobile app enhancements over web portal updates in current phase",
+        "Approved budget increase for multi-platform fan loyalty program rollout over the next 6 months"
+      ],
+      "campaign_metrics": "Current fan engagement rate at 34% across digital channels with 28% increase in mobile app usage over the past 8 weeks. Email open rates averaging 41% with merchandise click-through at 12%, while social media reach expanded by 52K followers during pre-season promotional period."
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Evaluate partnership opportunities with local sports retailers and broadcasters",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Selected integrated marketing platform to unify CRM, email, and social media analytics",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Plan youth outreach initiatives and community activation events",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-15",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological processes for more efficient AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes for 'Regional Fan Engagement Campaign Strategy & Integration Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Evaluate partnership opportunities with local sports retailers and broadcasters' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that item from the agenda. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Selected integrated marketing platform to unify CRM, email, and social media analytics' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that decision from the key decisions. Anything else to remove or modify in the notes for the 'Regional Fan Engagement' meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Plan youth outreach initiatives and community activation events' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that agenda item. Anything else to remove or modify in the notes for the 'Regional Fan Engagement' meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

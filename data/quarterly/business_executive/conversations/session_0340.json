@@ -1,0 +1,110 @@
+{
+  "session_id": 340,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_5",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Strategic Insight Post",
+      "main_message": "Proud to share that our regional operational excellence initiative has delivered 23% improvement in production efficiency across our EMEA manufacturing facilities. Strategic investments in smart automation and cross-functional collaboration are transforming how we deliver value to customers.",
+      "hashtags": [
+        "#OperationalExcellence",
+        "#DigitalTransformation",
+        "#AutomotiveInnovation"
+      ],
+      "call_to_action": "Interested in how leading automotive manufacturers are driving operational transformation? Let's connect and exchange insights on building resilient, high-performance operations."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#AutomotiveInnovation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 141,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 340,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi, I need to update my social media post titled 'LinkedIn Strategic Insight Post'. I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update your social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#AutomotiveInnovation'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the hashtags to include '#AutomotiveInnovation'. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that is all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's everything for now, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

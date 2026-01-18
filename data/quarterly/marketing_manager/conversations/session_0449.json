@@ -1,0 +1,107 @@
+{
+  "session_id": 449,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_7",
+    "content_data": {
+      "email_purpose": "Quarterly campaign performance review and strategy alignment for upcoming seasonal collection launch targeting Gen Z and Millennial consumers.",
+      "recipient_list": [
+        "Creative Director",
+        "Brand Partnerships Lead",
+        "Digital Marketing Team"
+      ],
+      "key_points": [
+        "Budget reallocation needed for expanded TikTok and Instagram Reels content production"
+      ],
+      "call_to_action": "Review attached performance data and submit your team's input on seasonal campaign priorities within 10 days for budget finalization."
+    },
+    "pool_status": "completed",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Brand Partnerships Lead",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Digital Marketing Team",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-22",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing well, thank you! I'm ready to chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Quarterly campaign performance review and strategy alignment for upcoming seasonal collection launch targeting Gen Z and Millennial consumers.' I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Brand Partnerships Lead' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Brand Partnerships Lead' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Also, please add 'Digital Marketing Team' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've added 'Digital Marketing Team' to the recipient list. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the recipient list.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "The recipient list for the email has been updated. What other changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks, that's all I needed for now!",
+      "share_memory": false
+    }
+  ]
+}

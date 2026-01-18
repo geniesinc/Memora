@@ -1,0 +1,132 @@
+{
+  "session_id": 403,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_10",
+    "content_data": {
+      "email_purpose": "To provide an update on the progress of our pilot program with 'HealthConnect Solutions' and outline next steps for broader European engagement.",
+      "recipient_list": [
+        "Legal & Compliance Department",
+        "Executive Leadership Team",
+        "Product Development Lead",
+        "Head of European Sales"
+      ],
+      "key_points": [
+        "Successful initial phase of the pilot with 'HealthConnect Solutions' in Germany, exceeding initial engagement metrics.",
+        "Positive feedback received regarding the real-time data insights and operational efficiency gains.",
+        "Request for resources to support accelerated market entry and localized solution adaptation.",
+        "Identified key areas for platform optimization based on pilot user experience.",
+        "Strategic overview of potential expansion into two additional European markets within the upcoming period."
+      ],
+      "call_to_action": "Schedule a follow-up meeting within the next two weeks to discuss the pilot's comprehensive findings and finalize the European expansion roadmap."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Head of European Sales",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Strategic overview of potential expansion into two additional European markets within the upcoming period.",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 388,
+        "session_date": "2025-06-19",
+        "operation": "add"
+      },
+      {
+        "session_id": 395,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      },
+      {
+        "session_id": 403,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To provide an update on the progress of our pilot program with 'HealthConnect Solutions' and outline next steps for broader European engagement.' I have some details I'd like to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Head of European Sales' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Head of European Sales' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Strategic overview of potential expansion into two additional European markets within the upcoming period.' to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Noted. I've added that to the key points. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new recipient and key point. Do you need to make any other changes to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that should be everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

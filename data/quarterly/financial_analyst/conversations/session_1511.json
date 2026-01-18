@@ -1,0 +1,87 @@
+{
+  "session_id": 1511,
+  "session_type": "goal",
+  "operation": "add",
+  "operation_details": {
+    "subcategory": "grocery",
+    "item": 750,
+    "actual_operation": "update",
+    "old_value": 600
+  },
+  "date": "2025-08-10",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there, I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was hoping you could compare some popular smart home devices for me.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly! What types of smart home devices are you interested in comparing?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'm curious about smart speakers and smart displays.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great! We can definitely compare those. What aspects of smart speakers and smart displays are you most interested in exploring?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Are you interested in their functionalities, privacy features, or compatibility with other smart home devices?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'm most interested in their functionalities and how they differ.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can help with that! What are your goals for food expenses, specifically for groceries?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "My goal is to spend under $750 per week on groceries; I'm hoping it will help me save more money.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'm sorry, I have to go now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "No problem at all! Have a great rest of your day, and feel free to reach out if you need anything else later.",
+      "share_memory": false
+    }
+  ]
+}

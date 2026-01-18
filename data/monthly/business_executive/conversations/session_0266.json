@@ -1,0 +1,174 @@
+{
+  "session_id": 266,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Predictive Patient Readmission Analytics Platform",
+      "project_description": "Implementation of machine learning-driven predictive analytics to reduce hospital readmission rates and optimize care pathways across European healthcare facilities. This pilot will validate the platform's effectiveness in mid-size healthcare organizations before broader deployment.",
+      "budget": 475000,
+      "timeline": "18 months with Phase 1: Requirements & Data Integration (months 1-4), Phase 2: Model Development & Testing (months 5-12), Phase 3: Pilot Deployment & Validation (months 13-18)",
+      "project_lead": "Katarina Novak, Chief Strategy Officer",
+      "stakeholders": [
+        "Medical Directors from Pilot Facilities",
+        "Patient Care Quality Committee",
+        "Finance and Procurement",
+        "Clinical Operations Leadership",
+        "Data Privacy and Compliance Officer",
+        "IT Infrastructure Team"
+      ],
+      "objectives": [
+        "Reduce 30-day readmission rates by 15-20% across pilot facilities",
+        "Build internal analytics capability and train clinical staff on platform usage"
+      ],
+      "deliverables": [
+        "Pilot program performance report with ROI analysis and scaling recommendations"
+      ],
+      "risk_assessment": "Medium-high risk primarily due to data integration complexity across disparate healthcare systems and stringent GDPR compliance requirements. Additional concerns include clinical staff adoption resistance and potential model accuracy variations across different patient populations."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Staff training materials and change management framework",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Clinical decision support dashboard for care teams",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 525000,
+        "reverted_to": 475000,
+        "action": "budget_reverted"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 92,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 121,
+        "session_date": "2025-06-06",
+        "operation": "update"
+      },
+      {
+        "session_id": 192,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 231,
+        "session_date": "2025-06-11",
+        "operation": "delete"
+      },
+      {
+        "session_id": 253,
+        "session_date": "2025-06-12",
+        "operation": "update"
+      },
+      {
+        "session_id": 266,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! I'm ready for our conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the 'Predictive Patient Readmission Analytics Platform' project proposal. We can go through the details together.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information do you want to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Staff training materials and change management framework' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Staff training materials and change management framework' from the deliverables for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I also need to remove 'Clinical decision support dashboard for care teams' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Clinical decision support dashboard for care teams' from the deliverables. Is there anything else you'd like to remove or modify for the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget from $525,000 back to $475,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to $475,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Confirmed. The specified changes have been made to the project proposal. Let me know if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Okay, great. I'll talk to you later then!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Have a great rest of your day, and I'll be here if you need me.",
+      "share_memory": false
+    }
+  ]
+}

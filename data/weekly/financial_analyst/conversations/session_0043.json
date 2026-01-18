@@ -1,0 +1,96 @@
+{
+  "session_id": 43,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Financial Performance Review & Strategic Capital Allocation",
+      "agenda_items": [
+        "Evaluation of Proposed Capital Expenditures for Upcoming Development Projects",
+        "Forecasting and Risk Assessment for the Next Operating Period",
+        "Discussion on Current Market Conditions and Impact on Real Estate Investments"
+      ],
+      "key_decisions": [
+        "Approved reallocation of capital from Project Evergreen (Region 4) to Project Horizon (Region 2) due to higher projected ROI."
+      ],
+      "action_items": [
+        "Conduct a comprehensive sensitivity analysis for Project Horizon's projected returns, due in 10 days. (Assigned to: Senior Financial Analyst)",
+        "Prepare a revised forecast incorporating the approved capital reallocation, due by end of next week. (Assigned to: Financial Analyst Team)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Mandated a detailed cost-benefit analysis for all new development proposals exceeding a specified investment threshold.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Financial Performance Review & Strategic Capital Allocation'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Mandated a detailed cost-benefit analysis for all new development proposals exceeding a specified investment threshold.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that decision from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I have removed that from the meeting notes. Is there anything else I can help you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

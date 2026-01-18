@@ -1,0 +1,119 @@
+{
+  "session_id": 255,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_8",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Q3 E-commerce Campaigns",
+      "agenda_items": [
+        "Brainstorming content themes for upcoming product launches",
+        "Review of recent content performance metrics (engagement, conversions)",
+        "Planning for cross-channel content distribution strategies",
+        "Defining content requirements for new workflow automation features",
+        "Discussion on optimizing existing content for SEO and user experience"
+      ],
+      "key_decisions": [
+        "Prioritize long-form content for high-value product categories to improve organic search rankings.",
+        "Allocate resources to A/B test new headline formats for product pages.",
+        "Standardize content brief templates for external collaborators."
+      ],
+      "action_items": [
+        "Content Writer Team: Research and present best practices for interactive content formats at the next meeting.",
+        "Product Marketing Lead: Share product roadmap updates relevant to content creation within the next few days.",
+        "Content Writer Team: Develop detailed content briefs for Q3 campaigns by next week.",
+        "Marketing Manager: Finalize content distribution calendar for the upcoming period."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Integrate user-generated content initiatives into upcoming campaign plans.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "SEO Specialist: Provide updated keyword research for key product categories by end of this week.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment for Q3 E-commerce Campaigns'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Integrate user-generated content initiatives into upcoming campaign plans.\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Integrate user-generated content initiatives into upcoming campaign plans\" from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove \"SEO Specialist: Provide updated keyword research for key product categories by end of this week.\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"SEO Specialist: Provide updated keyword research for key product categories by end of this week.\" from the action items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. All requested removals from the meeting notes have been completed.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help! I appreciate it, and I'll keep that in mind for next time.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm here to help whenever you need assistance again.",
+      "share_memory": false
+    }
+  ]
+}

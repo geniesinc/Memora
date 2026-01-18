@@ -1,0 +1,143 @@
+{
+  "session_id": 530,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_10",
+    "content_data": {
+      "project_title": "Mobile-First Destination Discovery Campaign for Southeast Asia Markets",
+      "project_description": "Comprehensive digital marketing initiative to increase brand awareness and drive mobile app engagement among millennial and Gen-Z travelers exploring Southeast Asian destinations.",
+      "budget": 225000,
+      "timeline": "12 months with Phase 1 (months 1-4) for research and creative development, Phase 2 (months 5-8) for campaign launch and optimization, and Phase 3 (months 9-12) for scaling and performance analysis",
+      "project_lead": "Priya Nakamura, Senior Marketing Manager",
+      "stakeholders": [
+        "Product Development Team",
+        "Data Analytics Department",
+        "Customer Experience Team"
+      ],
+      "objectives": [
+        "Drive a 50% increase in user-generated content and social engagement"
+      ],
+      "deliverables": [
+        "Social media content library with 200+ mobile-optimized assets",
+        "User persona development and customer journey mapping",
+        "Localized campaign assets for 5 regional markets",
+        "Comprehensive mobile-first content strategy and editorial calendar"
+      ],
+      "risk_mitigation": "To address potential challenges including influencer partnership delays, budget overruns, and platform algorithm changes, we will maintain a diversified channel mix, establish backup influencer relationships, implement agile sprint methodology for rapid creative iteration, and allocate 15% contingency budget for performance optimization and emerging opportunities.",
+      "campaign_channels": [
+        "Spotify podcast sponsorships targeting travel enthusiasts",
+        "In-app messaging and push notifications",
+        "Programmatic mobile display advertising"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 250000,
+        "reverted_to": 225000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "campaign_channels",
+        "removed_item": "TikTok branded content and challenges",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Increase mobile app downloads by 45% across target regional markets",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Mobile-First Destination Discovery Campaign for Southeast Asia Markets'. Can you help me with that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget from $250,000 back to $225,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for the proposal back to $225,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'TikTok branded content and challenges' from the campaign channels.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'TikTok branded content and challenges' from the campaign channels. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Increase mobile app downloads by 45% across target regional markets' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that objective. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I've completed all the requested removals and modifications for the project proposal. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's great! I appreciate your help with all of that.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "session_id": 518,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Taste Connect: Multi-Channel Brand Awareness & Customer Acquisition Initiative",
+      "project_description": "Integrated marketing campaign to establish brand presence across European markets and drive user acquisition through personalized food-tech storytelling and community engagement.",
+      "budget": 250000,
+      "timeline": "12 months with Phase 1 (months 1-4) for brand foundation, Phase 2 (months 5-8) for campaign launch, and Phase 3 (months 9-12) for optimization and scaling",
+      "project_lead": "Ines Kowalski, Senior Marketing Manager",
+      "stakeholders": [
+        "Content Creation Team",
+        "Customer Experience Director",
+        "Regional Market Leads",
+        "Data Analytics Department"
+      ],
+      "objectives": [
+        "Build engaged community of 25,000+ social media followers",
+        "Establish thought leadership in sustainable food-tech innovation",
+        "Acquire 75,000 new active users through integrated campaigns",
+        "Achieve 35% improvement in customer engagement metrics",
+        "Increase brand awareness by 45% across target European markets"
+      ],
+      "deliverables": [
+        "Multi-language content library with 200+ assets across formats",
+        "Interactive digital experience hub on website",
+        "Monthly performance dashboards and optimization reports",
+        "Comprehensive brand positioning framework and messaging guidelines",
+        "Influencer partnership program with 30+ food-tech advocates",
+        "Customer storytelling video series featuring real user experiences"
+      ],
+      "success_metrics": [
+        "Social media engagement rate exceeding 4.5%"
+      ],
+      "competitive_analysis": "Analysis of 12 European food-tech competitors reveals opportunities in authentic user storytelling and sustainability messaging, where current market leaders show limited differentiation and engagement depth."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 200000,
+        "reverted_to": 250000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "success_metrics",
+        "removed_item": "User retention rate of 60% after 90 days",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 8,
+    "completion_threshold": 8,
+    "session_history": [
+      {
+        "session_id": 115,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 157,
+        "session_date": "2025-06-08",
+        "operation": "update"
+      },
+      {
+        "session_id": 180,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      },
+      {
+        "session_id": 235,
+        "session_date": "2025-06-12",
+        "operation": "delete"
+      },
+      {
+        "session_id": 336,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      },
+      {
+        "session_id": 381,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      },
+      {
+        "session_id": 412,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      },
+      {
+        "session_id": 518,
+        "session_date": "2025-06-25",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I am doing well, thank you. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Taste Connect: Multi-Channel Brand Awareness & Customer Acquisition Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget to $250,000; it was incorrectly updated to $200,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $250,000 for the 'Taste Connect' proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'User retention rate of 60% after 90 days' from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"User retention rate of 60% after 90 days\" from the success metrics. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the project proposal has been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    }
+  ]
+}

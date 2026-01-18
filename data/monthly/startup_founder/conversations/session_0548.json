@@ -1,0 +1,130 @@
+{
+  "session_id": 548,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_3",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Thrilled to share insights on how AI is revolutionizing cost reduction in the gaming industry across Europe. Our recent analysis highlights a significant opportunity for studios to optimize operational expenses without compromising innovation or player experience. The key lies in smart, data-driven automation.",
+      "hashtags": [
+        "CostReduction",
+        "AIfinGaming",
+        "Entrepreneurship",
+        "Innovation",
+        "GamingIndustry",
+        "TechForGood",
+        "StartupLife"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "TechForGood",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "StartupLife",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 125,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 548,
+        "session_date": "2025-06-26",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological structures.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'; I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'LinkedIn Thought Leadership Post'. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add 'TechForGood' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'TechForGood' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'StartupLife' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, 'StartupLife' has been added to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, the social media post has been updated with the new hashtags. Is there anything else you need assistance with?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all for me, thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

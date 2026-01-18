@@ -1,0 +1,136 @@
+{
+  "session_id": 305,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_4",
+    "content_data": {
+      "email_purpose": "To provide an update on the progress of the 'Predictive Biomarker Discovery' research initiative and highlight upcoming milestones.",
+      "recipient_list": [
+        "Head of Research & Development",
+        "Senior Data Scientists - Oncology Division"
+      ],
+      "key_points": [
+        "Identified critical gaps in current publicly available datasets for rare disease cohorts.",
+        "Preliminary results from early-stage predictive model show promising accuracy for disease progression."
+      ],
+      "call_to_action": "Please review the attached preliminary report and provide feedback by end of next week to prepare for the upcoming steering committee meeting."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Preliminary results from early-stage predictive model show promising accuracy for disease progression.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Senior Data Scientists - Oncology Division",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 142,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 179,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 305,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the incredible complexity of fungal networks and their role in ecosystems. They're far more interconnected than I imagined!",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To provide an update on the progress of the 'Predictive Biomarker Discovery' research initiative and highlight upcoming milestones.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include: 'Preliminary results from early-stage predictive model show promising accuracy for disease progression.'",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key points. Is there anything else you'd like to change in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include 'Senior Data Scientists - Oncology Division'.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the recipient list to include 'Senior Data Scientists - Oncology Division'. Is there anything else you'd like to change?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. The email has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

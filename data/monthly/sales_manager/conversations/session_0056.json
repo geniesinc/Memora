@@ -1,0 +1,136 @@
+{
+  "session_id": 56,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To provide an update on the pilot program's initial findings and next steps, focusing on user experience and manufacturing efficiency.",
+      "recipient_list": [
+        "Product Development Lead"
+      ],
+      "key_points": [
+        "Pilot program initial user feedback is overwhelmingly positive for new interface features.",
+        "Proposed a phased rollout strategy for broader implementation across North American facilities.",
+        "Identified two critical areas for minor UI refinement based on user testing."
+      ],
+      "call_to_action": "Please review the attached preliminary report and be prepared to discuss the next phase of implementation during our meeting next week."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Manufacturing Operations Manager",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Customer Success Team Leads",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 24,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 39,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 56,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. Do you have any thoughts on the role of AI in creative fields?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI can be a powerful tool for creative fields, assisting with tasks like generating ideas, automating repetitive processes, and even creating initial drafts. It can free up human artists to focus on higher-level conceptualization and refinement.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'To provide an update on the pilot program's initial findings and next steps, focusing on user experience and manufacturing efficiency.'",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Manufacturing Operations Manager' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Manufacturing Operations Manager' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Customer Success Team Leads' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Customer Success Team Leads' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email by removing those recipients. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

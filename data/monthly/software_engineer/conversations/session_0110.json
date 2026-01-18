@@ -1,0 +1,118 @@
+{
+  "session_id": 110,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "Proposing architectural changes to improve database sharding strategy for handling projected order volume growth across North American distribution centers.",
+      "recipient_list": [
+        "Platform Architecture Team"
+      ],
+      "key_points": [
+        "Requires coordination with DevOps for Kubernetes cluster expansion and monitoring setup",
+        "Current PostgreSQL setup will hit performance limits at 3x current order volume based on load testing results"
+      ],
+      "call_to_action": "Review the attached technical design document and provide feedback within 1 week so we can finalize the implementation roadmap for the upcoming sprint cycle."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Estimated infrastructure cost increase of 18% offset by improved query performance and reduced latency",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "VP of Engineering",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 40,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 110,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Proposing architectural changes to improve database sharding strategy for handling projected order volume growth across North American distribution centers.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Estimated infrastructure cost increase of 18% offset by improved query performance and reduced latency\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Estimated infrastructure cost increase of 18% offset by improved query performance and reduced latency\" from the key points. Is there anything else you'd like to remove or modify in that email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'VP of Engineering' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'VP of Engineering' from the recipient list. Is there anything else you'd like to remove or modify in that email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. All requested removals have been completed for the email.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Alright, sounds good! Thanks for your help today.",
+      "share_memory": false
+    }
+  ]
+}

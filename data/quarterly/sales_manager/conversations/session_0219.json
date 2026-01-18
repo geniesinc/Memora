@@ -1,0 +1,130 @@
+{
+  "session_id": 219,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_5",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Optimizing our European sales strategy through data-driven insights is crucial for sustained growth in the manufacturing sector. By leveraging analytics to understand market dynamics and client needs, we can refine our approach and deliver exceptional value.",
+      "hashtags": [
+        "#ManufacturingIndustry",
+        "#EuropeanMarket",
+        "#DataDrivenSales",
+        "#Leadership",
+        "#RevenueGrowth",
+        "#ClientRelationships",
+        "#SalesStrategy"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#ClientRelationships",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#SalesStrategy",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 66,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 219,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to answer any questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled \"LinkedIn Thought Leadership Post.\" I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update your social media post. What information would you like to change in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add '#ClientRelationships' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#ClientRelationships' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, also add '#SalesStrategy' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added '#SalesStrategy' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the social media post has been updated. Is there anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That was very helpful, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    }
+  ]
+}

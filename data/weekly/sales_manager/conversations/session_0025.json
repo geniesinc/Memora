@@ -1,0 +1,114 @@
+{
+  "session_id": 25,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: TelcoConnect Group Integration & Expansion",
+      "agenda_items": [
+        "Identify key pain points and bottlenecks in current phase",
+        "Resource allocation and support requirements",
+        "Next steps and ownership for critical actions"
+      ],
+      "key_decisions": [
+        "Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.",
+        "Prioritize resolution of API latency issues identified in Phase 1 by end of next week."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Technical Account Manager)",
+        "Aisha Rahman (Sales Executive)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Discuss roadmap for next phase of solution deployment",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "David Chen (Product Lead)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there, I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Account Review: TelcoConnect Group Integration & Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Discuss roadmap for next phase of solution deployment\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Discuss roadmap for next phase of solution deployment\" from the agenda items. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'David Chen (Product Lead)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'David Chen (Product Lead)' from the attendees. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made those removals to the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

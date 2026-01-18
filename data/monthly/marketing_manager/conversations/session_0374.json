@@ -1,0 +1,152 @@
+{
+  "session_id": 374,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "StreamSync: Cross-Platform Audience Engagement Initiative",
+      "project_description": "Integrated marketing campaign to boost viewer retention and expand audience reach across streaming and social media platforms through personalized content recommendations and interactive experiences.",
+      "budget": 325000,
+      "timeline": "9 months with Phase 1 (months 1-3) focusing on research and strategy, Phase 2 (months 4-6) on campaign execution, and Phase 3 (months 7-9) on optimization and analysis",
+      "project_lead": "Priya Deshmukh, Senior Marketing Manager",
+      "stakeholders": [
+        "Revenue Operations",
+        "Creative Services",
+        "Data Analytics Department"
+      ],
+      "objectives": [
+        "Increase cross-platform audience engagement by 35% through targeted content strategies",
+        "Establish measurable attribution models connecting marketing touchpoints to conversions"
+      ],
+      "deliverables": [
+        "Post-campaign analysis report with actionable recommendations",
+        "Real-time marketing dashboard tracking campaign performance metrics",
+        "Interactive mobile app features promoting viewer engagement"
+      ],
+      "campaign_channels": [
+        "Mobile push notifications",
+        "YouTube pre-roll and mid-roll advertising"
+      ],
+      "success_metrics": [
+        "4.2 million incremental impressions across paid and organic channels",
+        "20% improvement in content discovery through personalized recommendations",
+        "15% reduction in monthly subscriber attrition"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "campaign_channels",
+        "removed_item": "Podcast sponsorships",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "campaign_channels",
+        "removed_item": "Programmatic display advertising",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 300000,
+        "reverted_to": 325000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'StreamSync: Cross-Platform Audience Engagement Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the 'StreamSync: Cross-Platform Audience Engagement Initiative' project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Podcast sponsorships' from the 'campaign_channels' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Podcast sponsorships' from the campaign channels. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Programmatic display advertising' from the 'campaign_channels' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. 'Programmatic display advertising' has been removed from the campaign channels. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Actually, I need to revert the budget. Please change it back to $325,000 from $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've changed the budget back to $325,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Confirmed. I've updated the project proposal by removing the specified campaign channels and reverting the budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance with your project proposal in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

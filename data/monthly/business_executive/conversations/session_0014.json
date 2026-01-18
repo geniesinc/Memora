@@ -1,0 +1,131 @@
+{
+  "session_id": 14,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Cost Optimization Initiative - European Operations Review",
+      "agenda_items": [
+        "Analysis of procurement savings through centralized supplier negotiations",
+        "Assessment of R&D portfolio rationalization and resource reallocation",
+        "Review of manufacturing footprint consolidation across European sites"
+      ],
+      "key_decisions": [
+        "Approved market exit strategy for operations in three smaller European markets with consistent underperformance"
+      ],
+      "attendees": [
+        "Paolo Conti, President European Commercial Operations",
+        "Katarina Novak, Chief Executive Officer",
+        "Dr. Elif Y\u0131lmaz, Chief Scientific Officer"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Henrik Svendsen, Chief Financial Officer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Authorized procurement team to initiate centralized negotiations with top 20 API suppliers targeting 12-15% cost reduction",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved consolidation of manufacturing operations from five sites to three core facilities over 18 months",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Cost Optimization Initiative - European Operations Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Henrik Svendsen, Chief Financial Officer' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Henrik Svendsen from the attendees. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Authorized procurement team to initiate centralized negotiations with top 20 API suppliers targeting 12-15% cost reduction' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that decision from the key decisions. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Approved consolidation of manufacturing operations from five sites to three core facilities over 18 months' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that decision from the key decisions. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed the specified items from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

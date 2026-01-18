@@ -1,0 +1,110 @@
+{
+  "session_id": 943,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-14",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What kind of things are you interested in discussing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm interested in discussing anything from current events and technology to science and general knowledge. What topics are on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Technology sounds interesting. What exactly does \"quantum computing\" refer to?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Quantum computing uses quantum-mechanical phenomena like superposition and entanglement to perform computations, offering the potential to solve certain problems much faster than classical computers. It's a fascinating area of research with many potential applications.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds really complex. Can you explain superposition and entanglement in simpler terms?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly! Superposition means a quantum bit can be both 0 and 1 simultaneously, unlike a classical bit which is either 0 or 1. Entanglement is when two or more quantum bits become linked, so the state of one instantly influences the others, no matter the distance between them.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For example, imagine a spinning coin (superposition) that is both heads and tails until it lands. Entanglement is like having two of these special coins, and if one lands on heads, you instantly know the other one landed on tails, even if they're far apart.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's a helpful analogy. What are some of the potential applications of quantum computing that you mentioned?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Quantum computing could revolutionize fields like medicine with new drug discovery, material science for advanced materials, and artificial intelligence for more powerful algorithms. It also holds promise for breaking current encryption methods and creating new, unhackable ones.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's quite a range of applications. How far away are we from seeing these applications become a reality?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "While significant progress has been made, widespread practical applications are still likely decades away, as the technology faces challenges in stability and error correction. However, research and development continue at a rapid pace.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's really interesting, but I have to go now. Thanks for the chat!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I enjoyed our discussion about quantum computing. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

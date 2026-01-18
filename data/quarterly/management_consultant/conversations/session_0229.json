@@ -1,0 +1,129 @@
+{
+  "session_id": 229,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_7",
+    "content_data": {
+      "project_title": "AI-Driven Predictive Maintenance and Production Optimization Framework",
+      "project_description": "Strategic transformation initiative to implement AI-powered predictive maintenance systems and optimize production workflows across European manufacturing facilities. This program will enhance operational efficiency, reduce downtime, and establish data-driven decision-making capabilities.",
+      "budget": 425000,
+      "timeline": "14 months with Phase 1 (months 1-4), Phase 2 (months 5-10), and Phase 3 (months 11-14)",
+      "project_lead": "Katarina Novak, Senior Management Consultant",
+      "stakeholders": [
+        "IT Director",
+        "Head of Manufacturing",
+        "Plant Managers across European facilities"
+      ],
+      "objectives": [
+        "Develop internal AI competency and upskill operational teams",
+        "Optimize production scheduling and resource allocation through AI-driven analytics",
+        "Establish real-time monitoring infrastructure across all European manufacturing sites"
+      ],
+      "deliverables": [
+        "Post-implementation support plan and continuous improvement roadmap",
+        "Training programs and knowledge transfer materials for operational staff",
+        "Data governance framework and standard operating procedures",
+        "Integrated production optimization platform with real-time dashboards",
+        "Performance measurement framework with KPI tracking system"
+      ],
+      "methodology": "Structured consulting approach combining diagnostic assessment, co-creation workshops with cross-functional teams, agile implementation sprints, and iterative change management. Methodology includes stakeholder interviews, process mapping, technology evaluation, pilot deployment at selected facilities, scaled rollout, and embedded capability building with operational teams.",
+      "success_metrics": [
+        "Data quality scores reaching 95% accuracy for critical manufacturing parameters",
+        "ROI achievement within 18-24 months of full deployment",
+        "Overall Equipment Effectiveness (OEE) improvement of 15-20% across facilities"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 550000,
+        "reverted_to": 425000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Data Analytics Team",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'AI-Driven Predictive Maintenance and Production Optimization Framework'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget from $550,000 back to $425,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget change for your project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Data Analytics Team' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Data Analytics Team' from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for making those changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the project proposal by reverting the budget and removing the 'Data Analytics Team' from the stakeholders. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

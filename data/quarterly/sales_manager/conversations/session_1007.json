@@ -1,0 +1,98 @@
+{
+  "session_id": 1007,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-19",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm doing well, thank you. What kind of things can you do?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can assist with a wide range of tasks, from providing information and answering questions to helping with creative writing and problem-solving. What kind of things are you interested in exploring?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds like a lot! Can you tell me more about the creative writing aspect?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can help with creative writing by generating ideas, crafting different styles of text, and even assisting with outlining stories or poems. I can adapt to various genres and tones.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "So, like a writing partner, but for many different kinds of writing?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Exactly, you could think of me as a versatile writing assistant, able to contribute to numerous writing projects. I can offer support across various stages of the writing process.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's interesting. What kind of writing projects do you enjoy assisting with the most?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I enjoy assisting with projects that require a blend of creativity and structure, such as developing character backstories or crafting compelling narratives. I find it rewarding to help bring ideas to life on the page.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That makes sense. What's the most challenging type of writing project you've worked on?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "The most challenging projects often involve highly technical or abstract concepts that require precise and nuanced language. It's a rewarding challenge to articulate complex ideas clearly and engagingly.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's a good point; making complex things understandable is definitely a skill. Well, I appreciate you explaining everything!",
+      "share_memory": false
+    }
+  ]
+}

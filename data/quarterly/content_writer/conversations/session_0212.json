@@ -1,0 +1,113 @@
+{
+  "session_id": 212,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment: Q4 E-commerce Campaigns & Security Messaging",
+      "agenda_items": [
+        "Discussion on audience segmentation for targeted content delivery",
+        "Defining key performance indicators (KPIs) for new content streams"
+      ],
+      "key_decisions": [
+        "Implement A/B testing for security messaging within product descriptions."
+      ],
+      "action_items": [
+        "Content Writer (Persona): Research competitor security messaging and present findings at the next content sync.",
+        "Analytics Team: Provide Q3 content performance report with security-related engagement metrics, due in 3 days.",
+        "Content Strategist: Develop a comprehensive audience segmentation report, due in 10 days."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize storytelling around secure transaction processes for high-value product launches.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current content performance for Q3 campaigns",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment: Q4 E-commerce Campaigns & Security Messaging'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove some information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Prioritize storytelling around secure transaction processes for high-value product launches\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Prioritize storytelling around secure transaction processes for high-value product launches\" from the key decisions in your meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review of current content performance for Q3 campaigns' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Review of current content performance for Q3 campaigns' from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've removed the requested items from the meeting notes. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That was very helpful, thank you for your assistance today!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you today.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "session_id": 420,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review & Mobile-First Strategy Funding",
+      "agenda_items": [
+        "Review of Q3 financial performance against budget for mobile app development"
+      ],
+      "key_decisions": [
+        "Prioritized the development of a secure, compliant telehealth module for the pilot program."
+      ],
+      "attendees": [
+        "Dr. Anya Sharma, VP of Finance",
+        "Mr. Kenji Tanaka, Head of Mobile Innovation",
+        "Ms. Isabella Rossi, Global Strategy Lead"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Analysis of current market trends in mobile health and pharmaceutical delivery",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Mr. Omar Khan, Compliance & Regulatory Affairs Director",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 186,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 197,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 258,
+        "session_date": "2025-06-12",
+        "operation": "delete"
+      },
+      {
+        "session_id": 363,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      },
+      {
+        "session_id": 420,
+        "session_date": "2025-06-20",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to modify some information in my meeting notes for 'Q3 Performance Review & Mobile-First Strategy Funding'. There are a few details I'd like to remove or update.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Analysis of current market trends in mobile health and pharmaceutical delivery' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Analysis of current market trends in mobile health and pharmaceutical delivery\" from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Mr. Omar Khan, Compliance & Regulatory Affairs Director' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed Omar Khan from the attendees. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding removals.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed those items from the meeting notes. Is there anything else you'd like to update or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help!",
+      "share_memory": false
+    }
+  ]
+}

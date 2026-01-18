@@ -1,0 +1,167 @@
+{
+  "session_id": 228,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "To provide an update on the progress of the Automated Compliance Workflow initiative and outline next steps for key stakeholders.",
+      "recipient_list": [
+        "Head of Operations",
+        "Chief Risk Officer",
+        "Fintech Automation Steering Committee"
+      ],
+      "key_points": [
+        "Resource allocation for the upcoming phase needs re-evaluation based on recent security architecture reviews.",
+        "Successful completion of Phase 1 Proof-of-Concept for automated regulatory reporting.",
+        "Initial assessment indicates potential for 30-40% reduction in manual compliance review time post-full implementation.",
+        "Identified critical integration points with legacy core banking systems for Phase 2."
+      ],
+      "call_to_action": "Please review the attached Phase 1 summary and preliminary Phase 2 roadmap. We will schedule a follow-up discussion within the next two weeks to finalize resource commitments and address any concerns."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Initial assessment indicates potential for 30-40% reduction in manual compliance review time post-full implementation.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Chief Risk Officer",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Fintech Automation Steering Committee",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Identified critical integration points with legacy core banking systems for Phase 2.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 82,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 93,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      },
+      {
+        "session_id": 228,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To provide an update on the progress of the Automated Compliance Workflow initiative and outline next steps for key stakeholders.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I want to update the 'key_points' to include: 'Initial assessment indicates potential for 30-40% reduction in manual compliance review time post-full implementation.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `key_points` with the new assessment detail. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Chief Risk Officer' to the `recipient_list`.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Chief Risk Officer' to the `recipient_list`. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please add 'Fintech Automation Steering Committee' to the `recipient_list` as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Fintech Automation Steering Committee' to the `recipient_list`. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Identified critical integration points with legacy core banking systems for Phase 2.' to the `key_points`.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Identified critical integration points with legacy core banking systems for Phase 2.' to the `key_points`. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've made all the requested updates to the email.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Great, I appreciate your help with these updates. I'll definitely be in touch if I need more assistance.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sounds good! I'm here to help whenever you need assistance.",
+      "share_memory": false
+    }
+  ]
+}

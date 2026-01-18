@@ -1,0 +1,116 @@
+{
+  "session_id": 256,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Data-Driven University Initiative: Initial Research Pilot Planning",
+      "agenda_items": [
+        "Allocation of preliminary research tasks and responsibilities",
+        "Identification of key research questions for the pilot phase",
+        "Review of proposed data sources from energy industry partners",
+        "Establishment of communication protocols with industry collaborators"
+      ],
+      "key_decisions": [
+        "Formulate a joint university-industry data governance committee for oversight and dispute resolution.",
+        "Prioritize real-time sensor data from smart grid infrastructure for initial pilot due to high impact potential.",
+        "Assign Dr. Anya Sharma as lead for data anonymization and privacy-preserving techniques."
+      ],
+      "action_items": [
+        "Ms. Patel (Research Assistant): Compile a literature review on recent advancements in AI for energy grid optimization within the next 2 weeks.",
+        "Dr. Sharma (Computer Science): Schedule a follow-up meeting with industry legal counsel to discuss data anonymization strategies within the next 10 days."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Assign Dr. Anya Sharma as lead for data anonymization and privacy-preserving techniques.",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Establishment of communication protocols with industry collaborators",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Data-Driven University Initiative: Initial Research Pilot Planning'. I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What specific information needs to be changed in them?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the key decisions, please add: 'Assign Dr. Anya Sharma as lead for data anonymization and privacy-preserving techniques.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Assign Dr. Anya Sharma as lead for data anonymization and privacy-preserving techniques' to the key decisions. Is there anything else you'd like to update in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, for the agenda items, please add: 'Establishment of communication protocols with industry collaborators'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Establishment of communication protocols with industry collaborators' to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the meeting notes. Is there anything else I can help you with regarding them?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance with your meeting notes or anything else.",
+      "share_memory": false
+    }
+  ]
+}

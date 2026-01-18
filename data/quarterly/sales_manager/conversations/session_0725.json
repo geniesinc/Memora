@@ -1,0 +1,86 @@
+{
+  "session_id": 725,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help with whatever questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Great! I was wondering, what are the main differences between a smart home device and a traditional appliance?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Smart home devices offer connectivity and automation, while traditional appliances operate independently. The key difference lies in their ability to interact with other devices and be controlled remotely.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. So, would you say smart home devices are more like a computer or a regular appliance in terms of their complexity?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's an interesting comparison! Smart home devices are often more complex than traditional appliances, incorporating elements of computing for their advanced functionalities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For example, a smart thermostat can learn your preferences and adjust the temperature automatically, unlike a basic thermostat. Similarly, smart lighting can be controlled via an app.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a good point about the thermostat. So, are these devices generally more expensive than their traditional counterparts?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's a good question.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Generally, smart home devices do tend to be more expensive due to their advanced features and technology. I hope this conversation was helpful, and I'm here if you have more questions later!",
+      "share_memory": false
+    }
+  ]
+}

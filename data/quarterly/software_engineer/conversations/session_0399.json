@@ -1,0 +1,145 @@
+{
+  "session_id": 399,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_10",
+    "content_data": {
+      "email_purpose": "Technical architecture proposal for implementing a distributed document processing pipeline to handle high-volume legal contract analysis.",
+      "recipient_list": [
+        "Product Manager - Legal Analytics",
+        "Platform Architecture Team",
+        "VP of Engineering",
+        "Machine Learning Team Lead"
+      ],
+      "key_points": [
+        "Infrastructure cost analysis indicating monthly cloud compute savings of 25% with proposed optimization",
+        "Proposed microservices architecture using event-driven design to scale contract processing from 500 to 50,000 documents daily",
+        "Integration strategy for NLP models with existing legal knowledge graph infrastructure",
+        "Security considerations for handling sensitive legal data including encryption at rest and in transit",
+        "Performance benchmarks showing 40% reduction in processing latency through parallel document chunking",
+        "Migration plan with zero-downtime deployment strategy over 6-week implementation period"
+      ],
+      "call_to_action": "Please review the technical specifications and provide feedback within 5 days so we can finalize the implementation roadmap for next sprint planning."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Performance benchmarks showing 40% reduction in processing latency through parallel document chunking",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Migration plan with zero-downtime deployment strategy over 6-week implementation period",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 381,
+        "session_date": "2025-06-19",
+        "operation": "add"
+      },
+      {
+        "session_id": 390,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      },
+      {
+        "session_id": 399,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the latest advancements in AI technology that you find most interesting?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! I'm particularly interested in the progress made in natural language processing and the development of more sophisticated AI models like large language models.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Technical architecture proposal for implementing a distributed document processing pipeline to handle high-volume legal contract analysis.' I have some changes for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For the key points, please add: 'Performance benchmarks showing 40% reduction in processing latency through parallel document chunking'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Performance benchmarks showing 40% reduction in processing latency through parallel document chunking\" to the key points. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Migration plan with zero-downtime deployment strategy over 6-week implementation period' to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Migration plan with zero-downtime deployment strategy over 6-week implementation period\" to the key points. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for the key points.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. Is there anything else you'd like to update in the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Great! I'm glad I could help you with the updates. Have a wonderful day!",
+      "share_memory": false
+    }
+  ]
+}

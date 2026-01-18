@@ -1,0 +1,98 @@
+{
+  "session_id": 1205,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-27",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm ready too. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I was wondering, what are some of the most interesting technological advancements you've heard about recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's a great question! I've been hearing a lot about advancements in AI and machine learning lately.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's fascinating! What are some of the practical applications of these AI and machine learning advancements that you find particularly impactful?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I think things like predictive analytics and natural language processing are quite impactful.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Predictive analytics and natural language processing are definitely making a huge difference in various industries. It's amazing how much data AI can process to identify patterns and generate insights.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "It really is. How do you see these technologies evolving in the future?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I believe these technologies will become even more integrated into our daily lives, making interactions with technology more intuitive and personalized. We might see further breakthroughs in areas like autonomous systems and personalized medicine.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Personalized medicine sounds really interesting. What exactly does that involve?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "ai: Personalized medicine involves tailoring medical treatment to each patient's individual characteristics, often using genetic or genomic information to optimize therapies.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's very insightful, thank you! It's been a great conversation.",
+      "share_memory": false
+    }
+  ]
+}

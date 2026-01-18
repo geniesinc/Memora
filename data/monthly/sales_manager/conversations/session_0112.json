@@ -1,0 +1,83 @@
+{
+  "session_id": 112,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "dinner",
+      "amount": 48.49,
+      "created_at": "2025-06-05"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm doing well, thank you. What kind of things can you do?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can answer questions, summarize information, and even generate creative text formats. Did you know that the first AI program was written in 1951?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's an interesting fact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It is! AI has certainly come a long way since then. What other technological advancements do you find particularly fascinating?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's true. I'm curious about how AI is being used in everyday life now.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "AI is integrated into many daily applications, like smartphone assistants, recommendation algorithms on streaming services, and even smart home devices. It's constantly evolving to make our lives more efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Speaking of making life efficient, I spent $48.49 on dinner tonight.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sounds like a delicious dinner! Did you try a new restaurant or an old favorite?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "It was good, but I actually need to go now.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "No problem at all! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "session_id": 60,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Security Posture Review - Phase 2 Implementation",
+      "agenda_items": [
+        "Next Steps and Action Item Assignment",
+        "Resource Allocation and Budget Projections for Upcoming Period"
+      ],
+      "key_decisions": [
+        "Formed a cross-functional working group to conduct a comprehensive supply chain security audit within the next two months."
+      ],
+      "action_items": [
+        "Finance Director to allocate and ring-fence the approved additional security budget for the upcoming period. (Owner: Mr. David Chen)",
+        "CISO to finalize EDR vendor selection and implementation plan by end of next week. (Owner: Dr. Anya Sharma)",
+        "Management Consultant to prepare a draft framework for security resilience KPIs for review at the next strategic meeting. (Owner: Management Consultant)",
+        "Head of Procurement to initiate supply chain security audit with key suppliers within the next two weeks. (Owner: Mr. Kenji Tanaka)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "action_items",
+        "added_item": "Management Consultant to prepare a draft framework for security resilience KPIs for review at the next strategic meeting. (Owner: Management Consultant)",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Head of Procurement to initiate supply chain security audit with key suppliers within the next two weeks. (Owner: Mr. Kenji Tanaka)",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's great to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm doing well. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological processes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes titled 'Strategic Security Posture Review - Phase 2 Implementation'. I'd like to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update those meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the 'action_items' field with: 'Management Consultant to prepare a draft framework for security resilience KPIs for review at the next strategic meeting. (Owner: Management Consultant)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `action_items` for the 'Strategic Security Posture Review - Phase 2 Implementation' notes. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the 'action_items' with: 'Head of Procurement to initiate supply chain security audit with key suppliers within the next two weeks. (Owner: Mr. Kenji Tanaka)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added that action item. Is there anything else you'd like to update for the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're all set then! Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

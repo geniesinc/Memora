@@ -1,0 +1,91 @@
+{
+  "session_id": 334,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To provide a preliminary financial analysis of a proposed security enhancement for a new healthcare client engagement.",
+      "recipient_list": [
+        "Healthcare Sector Lead"
+      ],
+      "key_points": [
+        "Initial cost estimates for enhanced security protocols align with projected budget ranges."
+      ],
+      "call_to_action": "Please review the attached preliminary financial analysis and be prepared to discuss during our project kickoff meeting later this week."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Recommended a multi-phase budgeting approach for better financial oversight.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat about whatever you'd like.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my email titled 'To provide a preliminary financial analysis of a proposed security enhancement for a new healthcare client engagement.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Recommended a multi-phase budgeting approach for better financial oversight\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Recommended a multi-phase budgeting approach for better financial oversight\" from the key points of that email. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I have updated the email by removing that key point. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a fantastic rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

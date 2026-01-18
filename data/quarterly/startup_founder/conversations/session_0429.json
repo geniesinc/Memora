@@ -1,0 +1,102 @@
+{
+  "session_id": 429,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_7",
+    "content_data": {
+      "project_title": "Entertainment AI: Personalized Content Recommendation Engine",
+      "project_description": "A mobile-first AI-driven recommendation system to enhance user engagement and content discovery for a regional entertainment platform.",
+      "budget": 1100000,
+      "timeline": "Over 15 months, with an initial MVP launch within 6 months and full feature rollout by month 12.",
+      "project_lead": "Dr. Anya Sharma, Founder & CEO",
+      "stakeholders": [
+        "Marketing & Growth Team"
+      ],
+      "objectives": [
+        "Establish a scalable AI infrastructure capable of supporting future feature expansions."
+      ],
+      "deliverables": [
+        "A/B testing framework for continuous optimization of recommendation algorithms."
+      ],
+      "competitive_analysis": [
+        "Global streaming giants offer advanced AI, but often lack regional content depth and cultural nuances."
+      ],
+      "risk_mitigation": "Risks include data privacy concerns, algorithm bias, and integration complexities. Mitigation strategies involve robust data anonymization, continuous bias detection and correction, and phased integration with extensive testing."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 900000,
+        "reverted_to": 1100000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Entertainment AI: Personalized Content Recommendation Engine'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for the proposal from $900,000 back to $1,100,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to $1,100,000 for the project proposal. Is there anything else you'd like to adjust or remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the budget for the project proposal has been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

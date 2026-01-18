@@ -1,0 +1,180 @@
+{
+  "session_id": 333,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_4",
+    "content_data": {
+      "email_purpose": "Quarterly campaign performance review and strategic recommendations for upcoming multi-channel media activation across European markets.",
+      "recipient_list": [
+        "Brand Strategy Team",
+        "Chief Marketing Officer",
+        "Customer Insights Manager",
+        "Regional Marketing Directors",
+        "Media Planning Lead"
+      ],
+      "key_points": [
+        "Recommendation to reallocate 22% of traditional media budget toward programmatic and social channels",
+        "Brand sentiment tracking shows positive momentum with 41-point net promoter score improvement",
+        "Customer acquisition cost decreased by 18% while maintaining quality score above target threshold",
+        "Cross-channel campaign delivered 34% increase in engagement across DACH region with strongest performance in digital video"
+      ],
+      "call_to_action": "Review attached performance dashboard and provide feedback on proposed budget reallocation by end of next week to inform upcoming planning cycle."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Regional Marketing Directors",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Media Planning Lead",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Customer acquisition cost decreased by 18% while maintaining quality score above target threshold",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "Cross-channel campaign delivered 34% increase in engagement across DACH region with strongest performance in digital video",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 18,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 133,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 292,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      },
+      {
+        "session_id": 333,
+        "session_date": "2025-06-16",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Quarterly campaign performance review and strategic recommendations for upcoming multi-channel media activation across European markets.' I'd like to change some details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include 'Regional Marketing Directors'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the recipient list to include 'Regional Marketing Directors'. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Media Planning Lead' to the recipient list as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Media Planning Lead' to the recipient list. What other updates do you have for this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include 'Customer acquisition cost decreased by 18% while maintaining quality score above target threshold'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the key points. What else would you like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please update the key points to include 'Cross-channel campaign delivered 34% increase in engagement across DACH region with strongest performance in digital video'.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Cross-channel campaign delivered 34% increase in engagement across DACH region with strongest performance in digital video\" to the key points. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all the updates for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "I've updated the email with all the changes you've provided. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Sounds good, have a great day!",
+      "share_memory": false
+    }
+  ]
+}

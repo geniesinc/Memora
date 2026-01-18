@@ -1,0 +1,143 @@
+{
+  "session_id": 541,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Strategic Performance Review: Regional Pharma Operations",
+      "agenda_items": [
+        "Recommendations for optimizing resource allocation for the upcoming period",
+        "Review of current financial performance against targets for the last operating period",
+        "Analysis of key cost drivers and revenue streams within the regional pharmaceutical market",
+        "Assessment of market trends and competitive landscape impact on profitability",
+        "Discussion on potential efficiency improvements and cost-saving initiatives"
+      ],
+      "key_decisions": [
+        "Established a cross-functional task force to evaluate the feasibility of consolidating regional distribution centers.",
+        "Approved initiation of a detailed spend analysis across R&D and manufacturing departments to identify areas for optimization.",
+        "Prioritized investment in digital transformation tools for sales and marketing within the region to enhance market penetration."
+      ],
+      "action_items": [
+        "Prepare comprehensive financial projections for the next 12-month period, incorporating new market data. (Owner: Finance Department, Due: +14 days)",
+        "Draft a proposal for the digital transformation investment, outlining ROI and implementation roadmap. (Owner: Strategy Team, Due: +30 days)",
+        "Conduct a benchmark analysis of regional competitors' operational costs and pricing strategies. (Owner: Market Intelligence, Due: +21 days)",
+        "Schedule follow-up meeting with R&D and Manufacturing leads to discuss specific cost-reduction strategies identified. (Owner: Financial Analyst, Due: +10 days)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Assessment of market trends and competitive landscape impact on profitability",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discussion on potential efficiency improvements and cost-saving initiatives",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 338,
+        "session_date": "2025-06-16",
+        "operation": "add"
+      },
+      {
+        "session_id": 346,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      },
+      {
+        "session_id": 401,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      },
+      {
+        "session_id": 442,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      },
+      {
+        "session_id": 541,
+        "session_date": "2025-06-25",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Strategic Performance Review: Regional Pharma Operations'. I want to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the agenda items to include \"Assessment of market trends and competitive landscape impact on profitability.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add \"Discussion on potential efficiency improvements and cost-saving initiatives\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Discussion on potential efficiency improvements and cost-saving initiatives\" to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the agenda items for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the agenda items have been updated. Is there anything else you'd like to change in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help!",
+      "share_memory": false
+    }
+  ]
+}

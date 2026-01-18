@@ -1,0 +1,143 @@
+{
+  "session_id": 124,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Q3 Patient Education Campaign Review and HIPAA Compliance Alignment",
+      "agenda_items": [
+        "Review patient education campaign performance metrics across regional clinics"
+      ],
+      "key_decisions": [
+        "Selected diabetes awareness initiative to launch in 8 weeks with phased regional rollout"
+      ],
+      "action_items": [
+        "Marcus Thompson to coordinate compliance audit scheduling with legal team by +5 days",
+        "Schedule stakeholder presentation on campaign ROI and compliance metrics for +30 days"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Address feedback from compliance team on social media content guidelines",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved transition to new HIPAA-compliant email platform within 6 weeks",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Update all landing page privacy policies and obtain legal approval within +14 days",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 113,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 124,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat and assist with anything you need.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q3 Patient Education Campaign Review and HIPAA Compliance Alignment'. I'll tell you what needs to be removed.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Address feedback from compliance team on social media content guidelines' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Address feedback from compliance team on social media content guidelines\" from the agenda items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Approved transition to new HIPAA-compliant email platform within 6 weeks' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Approved transition to new HIPAA-compliant email platform within 6 weeks' from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Update all landing page privacy policies and obtain legal approval within 14 days' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Update all landing page privacy policies and obtain legal approval within 14 days' from the action items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I have removed all the requested items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that will be all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

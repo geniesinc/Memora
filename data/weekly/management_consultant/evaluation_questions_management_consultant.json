@@ -1,0 +1,1467 @@
+{
+  "persona": "management_consultant",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_157",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Review project budget",
+              "session_id": 137
+            },
+            {
+              "value": "Update professional certifications",
+              "session_id": 152
+            }
+          ],
+          "task_count": 2
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Plan vacation days",
+              "session_id": 29
+            },
+            {
+              "value": "Update home organization",
+              "session_id": 40
+            },
+            {
+              "value": "Schedule exercise time",
+              "session_id": 45
+            },
+            {
+              "value": "Plan weekend activities",
+              "session_id": 46
+            },
+            {
+              "value": "Update consulting framework",
+              "session_id": 51
+            },
+            {
+              "value": "Complete client assessment report",
+              "session_id": 90
+            },
+            {
+              "value": "Schedule exercise time",
+              "session_id": 106
+            },
+            {
+              "value": "Complete client assessment report",
+              "session_id": 144
+            },
+            {
+              "value": "Plan conference attendance",
+              "session_id": 145
+            },
+            {
+              "value": "Schedule medical appointments",
+              "session_id": 153
+            }
+          ],
+          "total_forgotten_items": 10
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_157_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Review project budget?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_memory_presence_1",
+              "evaluation_question": "Is 'Update professional certifications' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the deleted task: Plan vacation days?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_1",
+              "evaluation_question": "Is 'Update home organization' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_2",
+              "evaluation_question": "Does the response include Schedule exercise time in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_3",
+              "evaluation_question": "Is the completed/deleted task 'Plan weekend activities' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_4",
+              "evaluation_question": "Does the response mention the deleted task: Update consulting framework?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_5",
+              "evaluation_question": "Is 'Complete client assessment report' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_6",
+              "evaluation_question": "Does the response include Schedule exercise time in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_7",
+              "evaluation_question": "Is the completed/deleted task 'Complete client assessment report' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Plan conference attendance?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_157_eval_forgetting_9",
+              "evaluation_question": "Is 'Schedule medical appointments' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 10
+        }
+      },
+      {
+        "question_id": "content_project_proposal_157_project_proposal_2",
+        "question": "Write a project proposal for 'Pan-European Digital Health Ecosystem Integration Strategy'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Pan-European Digital Health Ecosystem Integration Strategy",
+            "project_description": "A strategic initiative to unify disparate digital health platforms across key European markets, enhancing patient data interoperability and improving care coordination.",
+            "budget": 750000,
+            "timeline": "18 months, with a phased rollout over the first year and optimization in the subsequent six months.",
+            "project_lead": "Dr. Elara Vance, Senior Management Consultant",
+            "stakeholders": [
+              "National Health Ministries Representatives"
+            ],
+            "objectives": [
+              "Establish clear ROI metrics for digital health investments across the continent.",
+              "Develop a harmonized digital health data model for cross-border patient information exchange.",
+              "Formulate a scalable governance framework for a pan-European digital health ecosystem."
+            ],
+            "deliverables": [
+              "Financial Impact Assessment and Investment Roadmap for full-scale rollout.",
+              "Target Operating Model (TOM) for Pan-European Digital Health Ecosystem."
+            ],
+            "risk_assessment": "High complexity due to regulatory divergence across countries, data privacy concerns, and the need for extensive stakeholder alignment. Mitigation strategies include a dedicated legal and compliance workstream and a robust communication plan.",
+            "methodology": "Leveraging a blend of Agile principles for rapid prototyping and iterative development, combined with a structured Waterfall approach for foundational strategic planning and compliance adherence. This includes comprehensive stakeholder workshops, expert interviews, and a robust change management program."
+          },
+          "session_history": [
+            66,
+            123,
+            124,
+            130
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "stakeholders",
+              "value": "Digital Health Product Owners",
+              "session_id": 124
+            },
+            {
+              "field": "deliverables",
+              "value": "Detailed Integration Blueprint and API Strategy Document.",
+              "session_id": 124
+            },
+            {
+              "field": "stakeholders",
+              "value": "IT Infrastructure & Security Teams",
+              "session_id": 130
+            },
+            {
+              "field": "objectives",
+              "value": "Identify and evaluate key integration points for existing national digital health platforms.",
+              "session_id": 130
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Pan-European Digital Health Ecosystem Integration Strategy?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A strategic initiative to unify disparate digital health platforms across key European markets, enhancing patient data interoperability and improving care coordination.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 750000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '18 months, with a phased rollout over the first year and optimization in the subsequent six months.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Dr. Elara Vance, Senior Management Consultant?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'National Health Ministries Representatives' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Establish clear ROI metrics for digital health investments across the continent., Develop a harmonized digital health data model for cross-border patient information exchange., Formulate a scalable governance framework for a pan-European digital health ecosystem.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Financial Impact Assessment and Investment Roadmap for full-scale rollout., Target Operating Model (TOM) for Pan-European Digital Health Ecosystem.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the risk_assessment: High complexity due to regulatory divergence across countries, data privacy concerns, and the need for extensive stakeholder alignment. Mitigation strategies include a dedicated legal and compliance workstream and a robust communication plan.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_memory_presence_9",
+              "evaluation_question": "Is the methodology information 'Leveraging a blend of Agile principles for rapid prototyping and iterative development, combined with a structured Waterfall approach for foundational strategic planning and compliance adherence. This includes comprehensive stakeholder workshops, expert interviews, and a robust change management program.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted stakeholders: Digital Health Product Owners?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed deliverables information 'Detailed Integration Blueprint and API Strategy Document.' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the stakeholders 'IT Infrastructure & Security Teams' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_157_project_proposal_2_eval_forgetting_3",
+              "evaluation_question": "Is the deleted project objectives 'Identify and evaluate key integration points for existing national digital health platforms.' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 14,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_157_meeting_notes_1",
+        "question": "Write meeting notes for: Strategic AI Integration Steering Committee - Phase 1 Review",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Strategic AI Integration Steering Committee - Phase 1 Review",
+            "agenda_items": [
+              "Assessment of initial ROI and impact on production efficiency"
+            ],
+            "key_decisions": [
+              "Established a cross-functional AI governance working group to standardize data protocols."
+            ],
+            "attendees": [
+              "Mr. David Chen, CFO"
+            ]
+          },
+          "session_history": [
+            4,
+            27,
+            48
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_decisions",
+              "value": "Approved transition of successful AI PoC modules to pilot phase within two manufacturing plants.",
+              "session_id": 27
+            },
+            {
+              "field": "attendees",
+              "value": "Dr. Anya Sharma, VP of Global Operations",
+              "session_id": 27
+            },
+            {
+              "field": "attendees",
+              "value": "Ms. Lena Petrov, Lead Management Consultant",
+              "session_id": 27
+            },
+            {
+              "field": "agenda_items",
+              "value": "Discussion on vendor selection for enterprise-wide AI platform",
+              "session_id": 48
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Strategic AI Integration Steering Committee - Phase 1 Review?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Assessment of initial ROI and impact on production efficiency' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Established a cross-functional AI governance working group to standardize data protocols.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's attendees 'Mr. David Chen, CFO' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key decisions: Approved transition of successful AI PoC modules to pilot phase within two manufacturing plants.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed attendees information 'Dr. Anya Sharma, VP of Global Operations' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the attendees 'Ms. Lena Petrov, Lead Management Consultant' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_157_meeting_notes_1_eval_forgetting_3",
+              "evaluation_question": "Is the deleted meeting agenda items 'Discussion on vendor selection for enterprise-wide AI platform' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 8,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "content_email_writeup_157_email_writeup_1",
+        "question": "Write an email about: To summarize the initial findings and proposed next steps for enhancing the strategic security posture of the regional manufacturing operations.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To summarize the initial findings and proposed next steps for enhancing the strategic security posture of the regional manufacturing operations.",
+            "recipient_list": [
+              "Chief Operations Officer",
+              "IT Security Lead"
+            ],
+            "key_points": [
+              "Identified critical vulnerabilities in current supply chain digital interfaces.",
+              "Proposed a phased implementation of enhanced access controls and monitoring systems."
+            ],
+            "call_to_action": "Schedule a follow-up discussion to review these findings in detail and align on the proposed action plan within the next few business days."
+          },
+          "session_history": [
+            43,
+            82,
+            91
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_points",
+              "value": "Highlighted potential cost savings through proactive threat mitigation over the next period.",
+              "session_id": 91
+            },
+            {
+              "field": "recipient_list",
+              "value": "Head of Regional Manufacturing",
+              "session_id": 91
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To summarize the initial findings and proposed next steps for enhancing the strategic security posture of the regional manufacturing operations.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Chief Operations Officer, IT Security Lead' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Identified critical vulnerabilities in current supply chain digital interfaces., Proposed a phased implementation of enhanced access controls and monitoring systems.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Schedule a follow-up discussion to review these findings in detail and align on the proposed action plan within the next few business days.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key points: Highlighted potential cost savings through proactive threat mitigation over the next period.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed recipient list information 'Head of Regional Manufacturing' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_email_writeup_157_email_writeup_2",
+        "question": "Write an email about: To provide an update on the pilot innovation-focused fintech enterprise and outline next steps for key stakeholders.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To provide an update on the pilot innovation-focused fintech enterprise and outline next steps for key stakeholders.",
+            "recipient_list": [
+              "Regional Market Leads (EMEA, APAC, Americas)",
+              "Global Head of Digital Transformation"
+            ],
+            "key_points": [
+              "Strategic alignment review confirms continued potential for significant market disruption and revenue growth."
+            ],
+            "call_to_action": "Please review the attached pilot summary report and prepare for a strategic review meeting planned for next week to discuss the proposed scale-up plan."
+          },
+          "session_history": [
+            107,
+            135
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_points",
+              "value": "Successful completion of the initial three-month pilot phase for the FinTech innovation enterprise.",
+              "session_id": 135
+            },
+            {
+              "field": "key_points",
+              "value": "Initial data indicates strong user engagement and positive market reception in test regions.",
+              "session_id": 135
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To provide an update on the pilot innovation-focused fintech enterprise and outline next steps for key stakeholders.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Regional Market Leads (EMEA, APAC, Americas), Global Head of Digital Transformation' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Strategic alignment review confirms continued potential for significant market disruption and revenue growth.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached pilot summary report and prepare for a strategic review meeting planned for next week to discuss the proposed scale-up plan.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key points: Successful completion of the initial three-month pilot phase for the FinTech innovation enterprise.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_157_email_writeup_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed key points information 'Initial data indicates strong user engagement and positive market reception in test regions.' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_157",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 25,
+          "total_amount": 334.48,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.98,
+              "session_id": 1
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 5.65,
+              "session_id": 6
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 34.86,
+              "session_id": 10
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.88,
+              "session_id": 12
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.5,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.47,
+              "session_id": 34
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 23.31,
+              "session_id": 39
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 8.83,
+              "session_id": 41
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 13.92,
+              "session_id": 44
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.18,
+              "session_id": 47
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.88,
+              "session_id": 49
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 9.94,
+              "session_id": 70
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 40.48,
+              "session_id": 73
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.06,
+              "session_id": 76
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.39,
+              "session_id": 78
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.82,
+              "session_id": 93
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 13.47,
+              "session_id": 97
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.69,
+              "session_id": 99
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 20.84,
+              "session_id": 102
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 8.29,
+              "session_id": 118
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 24.45,
+              "session_id": 120
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.31,
+              "session_id": 127
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 35.24,
+              "session_id": 139
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.72,
+              "session_id": 142
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.32,
+              "session_id": 146
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_157_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $334.48?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_157",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 70177,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 12372,
+              "session_id": 13
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10013,
+              "session_id": 24
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 5326,
+              "session_id": 65
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 13611,
+              "session_id": 71
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 12299,
+              "session_id": 108
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9728,
+              "session_id": 131
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6828,
+              "session_id": 154
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_157_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 70,177 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_breakfast_157_0",
+        "question": "Am I meeting my breakfast budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 45,
+          "actual_value": 46.18,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "over_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "breakfast",
+            "value": 45
+          },
+          "goal_session": {
+            "session_id": 14,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 6,
+              "session_date": "2025-06-01",
+              "amount": 5.65,
+              "expense_type": "breakfast"
+            },
+            {
+              "session_id": 41,
+              "session_date": "2025-06-03",
+              "amount": 8.83,
+              "expense_type": "breakfast"
+            },
+            {
+              "session_id": 70,
+              "session_date": "2025-06-04",
+              "amount": 9.94,
+              "expense_type": "breakfast"
+            },
+            {
+              "session_id": 97,
+              "session_date": "2025-06-05",
+              "amount": 13.47,
+              "expense_type": "breakfast"
+            },
+            {
+              "session_id": 118,
+              "session_date": "2025-06-06",
+              "amount": 8.29,
+              "expense_type": "breakfast"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_breakfast_157_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the breakfast budget goal of $45?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_breakfast_157_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($46.18) compared to the budget goal ($45.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_breakfast_157_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is OVER BUDGET (actual: $46.18 vs budget: $45.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_157_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 6000,
+          "actual_value": 10025.285714285714,
+          "goal_status": {
+            "is_goal_met": true,
+            "status": "goal_met"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 6000
+          },
+          "goal_session": {
+            "session_id": 5,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 13,
+              "session_date": "2025-06-01",
+              "step_count": 12372
+            },
+            {
+              "session_id": 24,
+              "session_date": "2025-06-02",
+              "step_count": 10013
+            },
+            {
+              "session_id": 65,
+              "session_date": "2025-06-03",
+              "step_count": 5326
+            },
+            {
+              "session_id": 71,
+              "session_date": "2025-06-04",
+              "step_count": 13611
+            },
+            {
+              "session_id": 108,
+              "session_date": "2025-06-05",
+              "step_count": 12299
+            },
+            {
+              "session_id": 131,
+              "session_date": "2025-06-06",
+              "step_count": 9728
+            },
+            {
+              "session_id": 154,
+              "session_date": "2025-06-07",
+              "step_count": 6828
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_157_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 6000 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_157_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (10,025 steps) compared to the goal (6,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_157_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was MET (actual: 10,025 steps vs goal: 6,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_157",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 83.50999999999999,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.98,
+              "session_id": 1
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.88,
+              "session_id": 12
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.5,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.47,
+              "session_id": 34
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.18,
+              "session_id": 47
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.88,
+              "session_id": 49
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.06,
+              "session_id": 76
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.39,
+              "session_id": 78
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.82,
+              "session_id": 93
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.31,
+              "session_id": 127
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.72,
+              "session_id": 142
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.32,
+              "session_id": 146
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_157_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $83.51?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_157",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "courtroom drama",
+                  "session_id": 56
+                },
+                {
+                  "item": "western",
+                  "session_id": 60
+                },
+                {
+                  "item": "literary adaptation",
+                  "session_id": 151
+                }
+              ]
+            },
+            "actors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [
+                {
+                  "item": "George Stevens",
+                  "session_id": 114
+                }
+              ],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "The Apartment",
+                  "session_id": 9
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Victor Fleming",
+              "session_id": 85
+            },
+            {
+              "value": "Ernst Lubitsch",
+              "session_id": 114
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending courtroom drama (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending western (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending literary adaptation (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for George Stevens?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_memory_presence_like_4",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Apartment?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Victor Fleming?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_157_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ernst Lubitsch?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 7,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_books_general_157",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "authors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "topics": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "technology",
+                  "session_id": 98
+                }
+              ]
+            },
+            "already_read_list": {
+              "likes": [
+                {
+                  "item": "Becoming",
+                  "session_id": 2
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Yuval Noah Harari",
+              "session_id": 67
+            },
+            {
+              "value": "mindfulness",
+              "session_id": 121
+            },
+            {
+              "value": "Ta-Nehisi Coates",
+              "session_id": 157
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_157_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending technology (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_157_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Becoming?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_157_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Yuval Noah Harari?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_157_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for mindfulness?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_157_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ta-Nehisi Coates?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_music_general_157",
+        "question": "Suggest me some music based on my preferences.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [
+                {
+                  "item": "Yo-Yo Ma",
+                  "session_id": 111
+                }
+              ],
+              "dislikes": []
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "2000s",
+                  "session_id": 64
+                }
+              ]
+            },
+            "already_listened_list": {
+              "likes": [
+                {
+                  "item": "The Well-Tempered Clavier",
+                  "session_id": 87
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Ella Fitzgerald",
+              "session_id": 35
+            },
+            {
+              "value": "1970s",
+              "session_id": 64
+            },
+            {
+              "value": "Duke Ellington",
+              "session_id": 111
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Yo-Yo Ma?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending 2000s (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Well-Tempered Clavier?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ella Fitzgerald?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for 1970s?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_157_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Duke Ellington?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_travel_general_157",
+        "question": "Where should I travel next?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "destination_types": {
+              "likes": [],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [
+                {
+                  "item": "Scandinavia",
+                  "session_id": 88
+                }
+              ],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_visited_list": {
+              "likes": [
+                {
+                  "item": "Sagrada Familia, Barcelona",
+                  "session_id": 50
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "cultural ceremonies",
+              "session_id": 23
+            },
+            {
+              "value": "monsoon",
+              "session_id": 150
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_157_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Scandinavia?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_157_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Sagrada Familia, Barcelona?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_157_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for cultural ceremonies?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_157_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for monsoon?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_movies_directors_157",
+        "question": "Can you recommend a movie by directors I prefer?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "George Stevens",
+                "session_id": 114
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "George Stevens",
+              "session_id": 114
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Victor Fleming",
+              "session_id": 85
+            },
+            {
+              "value": "Ernst Lubitsch",
+              "session_id": 114
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_directors_157_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for George Stevens?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_directors_157_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Victor Fleming?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_directors_157_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ernst Lubitsch?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ]
+  }
+}

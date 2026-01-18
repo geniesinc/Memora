@@ -1,0 +1,93 @@
+{
+  "session_id": 432,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "UI/UX Alignment Session: 'Quantum Leap' Onboarding Flow",
+      "agenda_items": [
+        "Brainstorm interactive elements for user engagement"
+      ],
+      "key_decisions": [
+        "Confirm 'Quantum Leap' as the working title for the new user acquisition initiative."
+      ],
+      "attendees": [
+        "Maria Rossi (Creative Designer)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Mei Ling (Product Owner)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-22",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'UI/UX Alignment Session: 'Quantum Leap' Onboarding Flow'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Mei Ling (Product Owner)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Mei Ling has been removed from the attendees. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for the meeting notes for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. The meeting notes have been updated by removing Mei Ling from the attendees. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks for your help! That was very efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you efficiently. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,1336 @@
+{
+  "persona": "content_writer",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_151",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Exercise/walk for inspiration",
+              "session_id": 109
+            },
+            {
+              "value": "Plan content series",
+              "session_id": 132
+            },
+            {
+              "value": "Plan weekend reading time",
+              "session_id": 136
+            },
+            {
+              "value": "Submit article to publication",
+              "session_id": 138
+            }
+          ],
+          "task_count": 4
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Plan literary event attendance",
+              "session_id": 40
+            },
+            {
+              "value": "Visit local bookstore",
+              "session_id": 42
+            },
+            {
+              "value": "Update content calendar",
+              "session_id": 45
+            },
+            {
+              "value": "Plan literary event attendance",
+              "session_id": 48
+            },
+            {
+              "value": "Edit website copy",
+              "session_id": 98
+            },
+            {
+              "value": "Review content analytics",
+              "session_id": 114
+            },
+            {
+              "value": "Update author bio",
+              "session_id": 144
+            }
+          ],
+          "total_forgotten_items": 7
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_151_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Exercise/walk for inspiration?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_memory_presence_1",
+              "evaluation_question": "Is 'Plan content series' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_memory_presence_2",
+              "evaluation_question": "Does the response include Plan weekend reading time in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_memory_presence_3",
+              "evaluation_question": "Is the todo item 'Submit article to publication' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the deleted task: Plan literary event attendance?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_1",
+              "evaluation_question": "Is 'Visit local bookstore' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_2",
+              "evaluation_question": "Does the response include Update content calendar in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_3",
+              "evaluation_question": "Is the completed/deleted task 'Plan literary event attendance' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_5",
+              "evaluation_question": "Is 'Edit website copy' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_6",
+              "evaluation_question": "Does the response include Review content analytics in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_151_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Update author bio?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 11,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 7
+        }
+      },
+      {
+        "question_id": "content_email_writeup_151_email_writeup_1",
+        "question": "Write an email about: To introduce optimized content workflow strategies for our fashion industry clients and solicit feedback.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To introduce optimized content workflow strategies for our fashion industry clients and solicit feedback.",
+            "recipient_list": [
+              "Creative Directors"
+            ],
+            "key_points": [
+              "Invitation to a complimentary strategy session to discuss specific brand needs."
+            ],
+            "call_to_action": "Schedule a personalized 30-minute consultation within the next two weeks to explore how our workflow optimization can transform your content strategy."
+          },
+          "session_history": [
+            30,
+            62,
+            80
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_points",
+              "value": "Case study highlighting a regional brand's success with our pilot program.",
+              "session_id": 62
+            },
+            {
+              "field": "recipient_list",
+              "value": "Regional Sales Directors",
+              "session_id": 80
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To introduce optimized content workflow strategies for our fashion industry clients and solicit feedback.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Creative Directors' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Invitation to a complimentary strategy session to discuss specific brand needs.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Schedule a personalized 30-minute consultation within the next two weeks to explore how our workflow optimization can transform your content strategy.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key points: Case study highlighting a regional brand's success with our pilot program.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed recipient list information 'Regional Sales Directors' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_151_meeting_notes_1",
+        "question": "Write meeting notes for: Global Content Strategy Alignment for Upcoming Collection Launch",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Global Content Strategy Alignment for Upcoming Collection Launch",
+            "agenda_items": [
+              "Review Q3 Content Performance Metrics & Learnings"
+            ],
+            "key_decisions": [
+              "Adopt 'Conscious Craftsmanship' as the primary narrative pillar for the 'Ethereal Weave' collection's core content."
+            ],
+            "attendees": [
+              "Liam Chen (Product Marketing Lead)"
+            ]
+          },
+          "session_history": [
+            17,
+            57,
+            67
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_decisions",
+              "value": "Prioritize video-first content for social media campaigns in EMEA, focusing on short-form narratives.",
+              "session_id": 57
+            },
+            {
+              "field": "attendees",
+              "value": "Content Writer Persona (Content Writer)",
+              "session_id": 67
+            },
+            {
+              "field": "agenda_items",
+              "value": "Integration Points with Product Marketing & E-commerce Teams",
+              "session_id": 67
+            },
+            {
+              "field": "attendees",
+              "value": "Dr. Elara Vance (Head of Content Strategy)",
+              "session_id": 67
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Global Content Strategy Alignment for Upcoming Collection Launch?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Review Q3 Content Performance Metrics & Learnings' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Adopt 'Conscious Craftsmanship' as the primary narrative pillar for the 'Ethereal Weave' collection's core content.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's attendees 'Liam Chen (Product Marketing Lead)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key decisions: Prioritize video-first content for social media campaigns in EMEA, focusing on short-form narratives.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed attendees information 'Content Writer Persona (Content Writer)' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the agenda items 'Integration Points with Product Marketing & E-commerce Teams' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_151_meeting_notes_1_eval_forgetting_3",
+              "evaluation_question": "Is the deleted meeting attendees 'Dr. Elara Vance (Head of Content Strategy)' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 8,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "activity_calendar_151",
+        "question": "What upcoming events do I have in my calendar?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "event_count": 1,
+          "calendar_events": [
+            {
+              "value": "Mom's birthday",
+              "session_id": 60
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "session_id": 151
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_calendar_151_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the upcoming event: Mom's birthday?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_calendar_151_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the past event: Content performance review?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 2,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_email_writeup_151_email_writeup_2",
+        "question": "Write an email about: To summarize key insights from a recent real-time consulting engagement and propose next steps for enhanced educational strategy.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To summarize key insights from a recent real-time consulting engagement and propose next steps for enhanced educational strategy.",
+            "recipient_list": [
+              "Lead Academic Advisor"
+            ],
+            "key_points": [
+              "Presented a framework for integrating adaptive learning technologies to improve outcomes."
+            ],
+            "call_to_action": "Schedule a follow-up meeting within the next two weeks to discuss the detailed proposal and implementation plan."
+          },
+          "session_history": [
+            84,
+            88
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "recipient_list",
+              "value": "Director of Curriculum Development",
+              "session_id": 88
+            },
+            {
+              "field": "key_points",
+              "value": "Highlighted opportunities for personalized learning pathways based on real-time student feedback.",
+              "session_id": 88
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To summarize key insights from a recent real-time consulting engagement and propose next steps for enhanced educational strategy.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Lead Academic Advisor' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Presented a framework for integrating adaptive learning technologies to improve outcomes.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Schedule a follow-up meeting within the next two weeks to discuss the detailed proposal and implementation plan.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted recipient list: Director of Curriculum Development?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_151_email_writeup_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed key points information 'Highlighted opportunities for personalized learning pathways based on real-time student feedback.' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_151",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 20,
+          "total_amount": 246.04999999999998,
+          "food_expenses": [
+            {
+              "expense_type": "dinner",
+              "amount": 39.89,
+              "session_id": 2
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.88,
+              "session_id": 6
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.06,
+              "session_id": 12
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 37.36,
+              "session_id": 29
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 11.08,
+              "session_id": 36
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.75,
+              "session_id": 38
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.02,
+              "session_id": 49
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 15.62,
+              "session_id": 52
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.85,
+              "session_id": 55
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.23,
+              "session_id": 70
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.63,
+              "session_id": 72
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 13.64,
+              "session_id": 74
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 10.97,
+              "session_id": 97
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.29,
+              "session_id": 100
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 13.1,
+              "session_id": 110
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.29,
+              "session_id": 116
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.14,
+              "session_id": 134
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 11.49,
+              "session_id": 137
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 23.67,
+              "session_id": 145
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.09,
+              "session_id": 149
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_151_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $246.05?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_151",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 64527,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 11550,
+              "session_id": 8
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7669,
+              "session_id": 33
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 14616,
+              "session_id": 56
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 4471,
+              "session_id": 92
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 11968,
+              "session_id": 93
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10244,
+              "session_id": 115
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 4009,
+              "session_id": 133
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_151_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 64,527 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_coffee_151_0",
+        "question": "Am I meeting my coffee budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 50,
+          "actual_value": 69.23000000000002,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "over_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "coffee",
+            "value": 50
+          },
+          "goal_session": {
+            "session_id": 14,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 6,
+              "session_date": "2025-06-01",
+              "amount": 7.88,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 12,
+              "session_date": "2025-06-01",
+              "amount": 3.06,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 38,
+              "session_date": "2025-06-02",
+              "amount": 3.75,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 49,
+              "session_date": "2025-06-03",
+              "amount": 9.02,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 55,
+              "session_date": "2025-06-03",
+              "amount": 5.85,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 70,
+              "session_date": "2025-06-04",
+              "amount": 6.23,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 72,
+              "session_date": "2025-06-04",
+              "amount": 8.63,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 100,
+              "session_date": "2025-06-05",
+              "amount": 8.29,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 116,
+              "session_date": "2025-06-06",
+              "amount": 5.29,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 134,
+              "session_date": "2025-06-07",
+              "amount": 8.14,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 149,
+              "session_date": "2025-06-07",
+              "amount": 3.09,
+              "expense_type": "coffee"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_151_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the coffee budget goal of $50?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_151_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($69.23) compared to the budget goal ($50.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_151_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is OVER BUDGET (actual: $69.23 vs budget: $50.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_151_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 8500,
+          "actual_value": 9218.142857142857,
+          "goal_status": {
+            "is_goal_met": true,
+            "status": "goal_met"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 8500
+          },
+          "goal_session": {
+            "session_id": 21,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 8,
+              "session_date": "2025-06-01",
+              "step_count": 11550
+            },
+            {
+              "session_id": 33,
+              "session_date": "2025-06-02",
+              "step_count": 7669
+            },
+            {
+              "session_id": 56,
+              "session_date": "2025-06-03",
+              "step_count": 14616
+            },
+            {
+              "session_id": 92,
+              "session_date": "2025-06-04",
+              "step_count": 4471
+            },
+            {
+              "session_id": 93,
+              "session_date": "2025-06-05",
+              "step_count": 11968
+            },
+            {
+              "session_id": 115,
+              "session_date": "2025-06-06",
+              "step_count": 10244
+            },
+            {
+              "session_id": 133,
+              "session_date": "2025-06-07",
+              "step_count": 4009
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_151_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 8500 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_151_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (9,218 steps) compared to the goal (8,500 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_151_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was MET (actual: 9,218 steps vs goal: 8,500 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_151",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 69.23000000000002,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 7.88,
+              "session_id": 6
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.06,
+              "session_id": 12
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.75,
+              "session_id": 38
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.02,
+              "session_id": 49
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.85,
+              "session_id": 55
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.23,
+              "session_id": 70
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.63,
+              "session_id": 72
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.29,
+              "session_id": 100
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.29,
+              "session_id": 116
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.14,
+              "session_id": 134
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.09,
+              "session_id": 149
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_151_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $69.23?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_151",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Spike Jonze",
+                  "session_id": 102
+                }
+              ]
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "The Florida Project",
+                  "session_id": 11
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "Minari",
+                  "session_id": 85
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "psychological thriller",
+              "session_id": 78
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_151_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Spike Jonze (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_151_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Florida Project?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_151_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending Minari (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_151_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for psychological thriller?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "pref_books_general_151",
+        "question": "What book would you recommend?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "authors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Milan Kundera",
+                  "session_id": 23
+                }
+              ]
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "modernism",
+                  "session_id": 121
+                },
+                {
+                  "item": "industrialization",
+                  "session_id": 129
+                }
+              ],
+              "dislikes": []
+            },
+            "already_read_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "war and conflict",
+              "session_id": 113
+            },
+            {
+              "value": "philosophical themes",
+              "session_id": 129
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_151_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Milan Kundera (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_151_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for modernism?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_151_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for industrialization?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_151_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for war and conflict?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_151_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for philosophical themes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_music_general_151",
+        "question": "Suggest me some music based on my preferences.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "genres": {
+              "likes": [
+                {
+                  "item": "art rock",
+                  "session_id": 64
+                }
+              ],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [
+                {
+                  "item": "The National",
+                  "session_id": 1
+                },
+                {
+                  "item": "Interpol",
+                  "session_id": 24
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "The Smiths",
+                  "session_id": 89
+                }
+              ]
+            },
+            "decades": {
+              "likes": [
+                {
+                  "item": "2000s",
+                  "session_id": 135
+                }
+              ],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "1980s",
+              "session_id": 124
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for art rock?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The National?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Interpol?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_memory_presence_dislike_3",
+              "evaluation_question": "Does the response avoid recommending The Smiths (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_memory_presence_like_4",
+              "evaluation_question": "Does the response reflect or align with the user's preference for 2000s?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_151_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for 1980s?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "pref_travel_general_151",
+        "question": "Suggest me a place to visit based on my preferences.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "destination_types": {
+              "likes": [
+                {
+                  "item": "museums and galleries",
+                  "session_id": 151
+                }
+              ],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_visited_list": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Mont Saint-Michel Abbey, France",
+                  "session_id": 130
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "continental",
+              "session_id": 58
+            },
+            {
+              "value": "Eastern Europe",
+              "session_id": 106
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_151_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for museums and galleries?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_151_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Mont Saint-Michel Abbey, France (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_151_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for continental?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_151_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Eastern Europe?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_books_topics_151",
+        "question": "Can you recommend a book on topics I'm interested in?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "modernism",
+                "session_id": 121
+              },
+              {
+                "item": "industrialization",
+                "session_id": 129
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 2,
+          "specific_items": [
+            {
+              "item": "modernism",
+              "session_id": 121
+            },
+            {
+              "item": "industrialization",
+              "session_id": 129
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "war and conflict",
+              "session_id": 113
+            },
+            {
+              "value": "philosophical themes",
+              "session_id": 129
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_topics_151_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for modernism?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_topics_151_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for industrialization?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_topics_151_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for war and conflict?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_topics_151_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for philosophical themes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "session_id": 187,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts",
+      "agenda_items": [
+        "Review of Q2 financial performance for top 5 manufacturing clients"
+      ],
+      "key_decisions": [
+        "Agreed to present revised financial forecasts to Client C within the next two weeks to reflect recent material cost increases",
+        "Decided to initiate a feasibility study for a new supply chain optimization project with Client B",
+        "Approved reallocation of marketing budget towards digital transformation initiatives for Client A"
+      ],
+      "action_items": [
+        "Prepare detailed variance analysis report for Client D's Q2 budget by end of next week. (Assigned to: Analyst Team)",
+        "Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Decided to initiate a feasibility study for a new supply chain optimization project with Client B",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Approved reallocation of marketing budget towards digital transformation initiatives for Client A",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-09",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts'. I'd like to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key decisions to include: 'Decided to initiate a feasibility study for a new supply chain optimization project with Client B'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the key decisions. Is there anything else you'd like to change in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add to the key decisions: 'Approved reallocation of marketing budget towards digital transformation initiatives for Client A'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added that decision. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add to the action items: 'Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added that action item. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You got it. I've updated the meeting notes with all the changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, talk to you later!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You too! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

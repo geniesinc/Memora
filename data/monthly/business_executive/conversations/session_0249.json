@@ -1,0 +1,87 @@
+{
+  "session_id": 249,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Predictive Analytics Pilot: Regional Implementation Strategy Review",
+      "agenda_items": [
+        "Assess integration challenges with existing fintech infrastructure"
+      ],
+      "key_decisions": [
+        "Selected DataSphere Analytics as primary vendor partner for advanced ML model development"
+      ],
+      "action_items": [
+        "Kenji Nakamura to establish KPI dashboard for pilot monitoring and present baseline metrics in 10 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Priya Sundaram to finalize vendor contract terms and present for executive approval within 3 weeks",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-12",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there, I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Predictive Analytics Pilot: Regional Implementation Strategy Review'. There are some details I'd like to modify or delete.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove or modify details from the meeting notes. What specific information would you like to delete or change?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Priya Sundaram to finalize vendor contract terms and present for executive approval within 3 weeks\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The action item has been removed from the meeting notes. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's it for now, thanks!",
+      "share_memory": false
+    }
+  ]
+}

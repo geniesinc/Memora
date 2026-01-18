@@ -1,0 +1,169 @@
+{
+  "session_id": 766,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_8",
+    "content_data": {
+      "project_title": "Global Anti-Bribery and Corruption Program Enhancement",
+      "project_description": "Proposal to upgrade and standardize our global anti-bribery and corruption (ABC) compliance framework, integrating advanced analytics for risk detection and reporting.",
+      "budget": 1050000,
+      "timeline": "18 months, with a review milestone at 9 months",
+      "project_lead": "Dr. Lena Petrova, Senior Financial Analyst",
+      "stakeholders": [
+        "Regional Finance Directors",
+        "IT Security",
+        "Internal Audit",
+        "Global Compliance Department",
+        "Legal Affairs"
+      ],
+      "objectives": [
+        "Achieve 100% adherence to all relevant international ABC regulations across all jurisdictions within the next 18 months.",
+        "Enhance training and awareness programs for all relevant employees globally.",
+        "Streamline compliance reporting processes, reducing manual effort by 30% through automation."
+      ],
+      "deliverables": [
+        "Updated Global ABC Policy Document, approved by Legal and Compliance.",
+        "Implementation of a new centralized ABC risk assessment and monitoring platform.",
+        "Comprehensive training modules for all high-risk employee groups.",
+        "Automated reporting dashboards for key ABC metrics and regulatory submissions."
+      ],
+      "roi_projection": [
+        "Projected reduction in compliance-related fines and penalties by an estimated 8-15% annually.",
+        "Enhanced investor confidence and brand reputation, indirectly supporting market valuation and access to capital.",
+        "Efficiency gains from automated reporting and reduced manual oversight, equating to approximately 2.5 FTEs saved per year.",
+        "Avoidance of significant legal costs associated with potential ABC violations."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Post-implementation audit report assessing program effectiveness.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Reduce potential financial penalties and reputational damage by proactively identifying and mitigating ABC risks.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 7,
+    "completion_threshold": 7,
+    "session_history": [
+      {
+        "session_id": 169,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 525,
+        "session_date": "2025-06-24",
+        "operation": "update"
+      },
+      {
+        "session_id": 584,
+        "session_date": "2025-06-27",
+        "operation": "update"
+      },
+      {
+        "session_id": 636,
+        "session_date": "2025-06-30",
+        "operation": "update"
+      },
+      {
+        "session_id": 667,
+        "session_date": "2025-07-01",
+        "operation": "delete"
+      },
+      {
+        "session_id": 678,
+        "session_date": "2025-07-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 766,
+        "session_date": "2025-07-05",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-07-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Global Anti-Bribery and Corruption Program Enhancement'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Post-implementation audit report assessing program effectiveness\" from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Post-implementation audit report assessing program effectiveness\" from the deliverables for the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Reduce potential financial penalties and reputational damage by proactively identifying and mitigating ABC risks.\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Reduce potential financial penalties and reputational damage by proactively identifying and mitigating ABC risks.\" from the objectives. Anything else to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding this proposal. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing those objectives and deliverables. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

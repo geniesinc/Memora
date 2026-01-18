@@ -1,0 +1,132 @@
+{
+  "session_id": 348,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Supply Chain Resilience and Cost Optimization Initiative",
+      "project_description": "A proposal to enhance supply chain robustness, reduce operational costs, and improve inventory management across North American manufacturing facilities through strategic technology integration and process re-engineering.",
+      "budget": 825000,
+      "timeline": "Phased implementation over 18 months: Discovery & Planning (months 1-3), Solution Development & Pilot (months 4-12), Rollout & Optimization (months 13-18).",
+      "project_lead": "Ms. Anya Sharma, Senior Financial Analyst",
+      "stakeholders": [
+        "Regional Plant Managers",
+        "IT Director",
+        "Procurement Leadership",
+        "Chief Financial Officer"
+      ],
+      "objectives": [
+        "Improve inventory turnover ratio by 15% within the first 12 months."
+      ],
+      "deliverables": [
+        "Training modules for relevant operational and procurement teams."
+      ],
+      "risk_analysis": [
+        "Budget overruns due to scope creep or unexpected technical issues (Low-Medium)."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "risk_analysis",
+        "removed_item": "Resistance to new processes from entrenched operational teams (Medium).",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Performance Dashboards for key supply chain metrics.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 900000,
+        "reverted_to": 825000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today? I'm hoping you can assist me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'd be happy to assist you with your questions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Supply Chain Resilience and Cost Optimization Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Resistance to new processes from entrenched operational teams (Medium)\" from the risk analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Resistance to new processes from entrenched operational teams (Medium)\" from the risk analysis. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Performance Dashboards for key supply chain metrics.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Performance Dashboards for key supply chain metrics' from the deliverables. Anything else?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I'd like to revert the budget for the proposal from $900,000 back to $825,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to $825,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, the project proposal has been updated with your requested changes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks so much for your help! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

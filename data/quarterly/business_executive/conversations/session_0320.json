@@ -1,0 +1,161 @@
+{
+  "session_id": 320,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "Strategic update on the company's 18-month accessibility roadmap for European market expansion and regulatory compliance alignment.",
+      "recipient_list": [
+        "Regional Sales Directors",
+        "Head of European Operations"
+      ],
+      "key_points": [
+        "Competitive positioning strengthened through early compliance and innovation leadership in accessible mobility",
+        "New EU accessibility regulations require vehicle interface updates across three product lines within 14 months",
+        "Proposed investment of \u20ac2.8M to upgrade manufacturing facilities for accessible vehicle modifications",
+        "Partnership opportunity with adaptive technology supplier to enhance our mid-size vehicle portfolio",
+        "Customer feedback analysis shows 23% increase in accessibility feature requests from fleet operators"
+      ],
+      "call_to_action": "Review the attached roadmap and provide strategic input by the end of next week to finalize budget allocation and implementation timeline for the upcoming board meeting."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Director of Regulatory Compliance",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Chief Operating Officer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "VP of Product Development",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 213,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 227,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      },
+      {
+        "session_id": 318,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 320,
+        "session_date": "2025-06-15",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the advanced capabilities of AI in solving complex scientific problems, which I find fascinating. It's incredible how AI can accelerate discoveries in various fields.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Strategic update on the company's 18-month accessibility roadmap for European market expansion and regulatory compliance alignment.'",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Director of Regulatory Compliance' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Director of Regulatory Compliance' from the recipients. Is there anything else you would like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Chief Operating Officer' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. 'Chief Operating Officer' has been removed from the recipients. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'VP of Product Development' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, 'VP of Product Development' has been removed from the recipients. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all the removals I have for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested recipients have been removed from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That's all for now, but I'm sure I'll have more for you another time.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Great, I look forward to assisting you again whenever you need me!",
+      "share_memory": false
+    }
+  ]
+}

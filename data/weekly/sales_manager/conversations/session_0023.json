@@ -1,0 +1,109 @@
+{
+  "session_id": 23,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client",
+      "agenda_items": [
+        "Identify potential risks and mitigation strategies for upcoming contract renewals"
+      ],
+      "key_decisions": [
+        "Initiate discussions with legal and product teams regarding proactive solutions for anticipated regulatory shifts."
+      ],
+      "action_items": [
+        "Sales Rep A to schedule a technical deep-dive with client's compliance team to identify specific pain points. (Due: +7 days)",
+        "Sales Manager (self) to review Q3 sales forecasts and adjust pipeline for new compliance solutions. (Due: +5 days)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Address recent regulatory changes impacting the manufacturing sector",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 4,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 23,
+        "session_date": "2025-06-01",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Address recent regulatory changes impacting the manufacturing sector' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Address recent regulatory changes impacting the manufacturing sector' from the agenda items for those meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing that agenda item. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

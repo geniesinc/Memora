@@ -1,0 +1,160 @@
+{
+  "session_id": 177,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Autonomous Vehicle Fleet Intelligence Platform - EMEA Expansion",
+      "project_description": "Strategic initiative to deploy AI-driven predictive maintenance and fleet optimization systems across European, Middle Eastern, and African markets. This platform will integrate real-time vehicle telemetry with machine learning algorithms to reduce operational costs and enhance customer satisfaction.",
+      "budget": 13650000,
+      "timeline": "24 months with Phase 1 (months 1-8) focusing on infrastructure and pilot deployment, Phase 2 (months 9-16) for market expansion, and Phase 3 (months 17-24) for optimization and scaling",
+      "project_lead": "Priya Kulkarni, Executive Vice President of Global Innovation",
+      "stakeholders": [
+        "Data Science and AI Division",
+        "Strategic Partnership Office",
+        "VP of Manufacturing Operations",
+        "Regional Managing Directors - EMEA"
+      ],
+      "objectives": [
+        "Build strategic partnerships with regional automotive suppliers and technology providers"
+      ],
+      "deliverables": [
+        "Pilot program completion with 5,000 connected vehicles across three initial markets",
+        "Comprehensive training programs for regional sales teams and service partners",
+        "Executive-level business case and ROI analysis for subsequent global expansion phases"
+      ],
+      "risk_assessment": "Medium-high risk profile due to complex regulatory environments across multiple jurisdictions, data privacy requirements under GDPR, and dependency on third-party technology integrations. Mitigation strategies include phased rollout approach, dedicated compliance taskforce, and contingency budget allocation of 15%."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "objectives",
+        "removed_item": "Generate new recurring revenue streams through platform-as-a-service offerings to B2B customers",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Fully operational AI platform with real-time analytics dashboard and predictive algorithms",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 7,
+    "completion_threshold": 7,
+    "session_history": [
+      {
+        "session_id": 37,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 52,
+        "session_date": "2025-06-03",
+        "operation": "update"
+      },
+      {
+        "session_id": 87,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 115,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 116,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 175,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      },
+      {
+        "session_id": 177,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my project proposal titled 'Autonomous Vehicle Fleet Intelligence Platform - EMEA Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Generate new recurring revenue streams through platform-as-a-service offerings to B2B customers\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that objective. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Fully operational AI platform with real-time analytics dashboard and predictive algorithms' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that deliverable. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now for this proposal. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed the objective and the deliverable from the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "You've been very helpful, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you today.",
+      "share_memory": false
+    }
+  ]
+}

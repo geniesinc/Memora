@@ -1,0 +1,137 @@
+{
+  "session_id": 521,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Regional Patient Engagement Platform Enhancement Initiative",
+      "project_description": "Proposal to upgrade our current patient engagement platform to improve user experience, streamline communication, and increase patient retention across our regional healthcare facilities.",
+      "budget": 875000,
+      "timeline": "12 months, phased implementation over the next year",
+      "project_lead": "Aisha Rahman, Regional Sales Director",
+      "stakeholders": [
+        "IT Infrastructure Team"
+      ],
+      "objectives": [
+        "Expand telehealth service adoption by 30% through improved platform accessibility"
+      ],
+      "deliverables": [
+        "Pilot program deployment in two key regional facilities"
+      ],
+      "success_metrics": [
+        "Patient retention rates year-over-year"
+      ],
+      "market_analysis": "Recent market trends indicate a strong demand for integrated, user-friendly digital health platforms. Competitors are actively investing in similar solutions, and our regional patient base expects modern, accessible healthcare interactions."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 1150000,
+        "reverted_to": 875000,
+        "action": "budget_reverted"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 98,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 178,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 291,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 354,
+        "session_date": "2025-06-16",
+        "operation": "update"
+      },
+      {
+        "session_id": 374,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      },
+      {
+        "session_id": 521,
+        "session_date": "2025-06-23",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello, I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Regional Patient Engagement Platform Enhancement Initiative'. We have some outdated details that need to be cleared out.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for the proposal from $1,150,000 to $875,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to $875,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "The budget for the project proposal has been updated. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if anything else comes up.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "session_id": 48,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Upcoming Product Launch",
+      "agenda_items": [
+        "Brainstorming content formats and channels for launch campaign"
+      ],
+      "key_decisions": [
+        "Establish bi-weekly content syncs with Product and Marketing teams",
+        "Allocate dedicated budget for influencer collaborations over the next period",
+        "Prioritize long-form blog content and interactive guides for early-stage awareness",
+        "Focus on user-generated content (UGC) integration for social proof"
+      ],
+      "attendees": [
+        "Head of Marketing",
+        "Social Media Manager",
+        "Product Marketing Manager"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate dedicated budget for influencer collaborations over the next period",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Prioritize long-form blog content and interactive guides for early-stage awareness",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Social Media Manager",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Focus on user-generated content (UGC) integration for social proof",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Product Marketing Manager",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today? I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'd be happy to help with whatever you need.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Content Strategy Alignment for Upcoming Product Launch'. I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the key decisions, please add: 'Allocate dedicated budget for influencer collaborations over the next period'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Allocate dedicated budget for influencer collaborations over the next period' to the key decisions. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Prioritize long-form blog content and interactive guides for early-stage awareness' to the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Prioritize long-form blog content and interactive guides for early-stage awareness' to the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Social Media Manager' to the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Social Media Manager' to the attendees list. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Focus on user-generated content (UGC) integration for social proof' to the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Focus on user-generated content (UGC) integration for social proof' to the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Product Marketing Manager' to the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Product Marketing Manager' to the attendees list. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated it. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "No, that will be all for now. Thank you for your help!",
+      "share_memory": false
+    }
+  ]
+}

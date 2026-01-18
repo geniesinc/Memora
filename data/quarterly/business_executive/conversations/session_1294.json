@@ -1,0 +1,71 @@
+{
+  "session_id": 1294,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 8.21,
+      "created_at": "2025-08-01"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-08-01",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering, what are some of the key differences between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence encompasses broader goals like human-like intelligence, while machine learning is a subset focused on systems learning from data to make predictions or decisions. Machine learning is a tool used to achieve AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's an interesting distinction.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Indeed, it's a fundamental difference in the field.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I just grabbed a coffee for $8.21.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a nice treat! Was that your only food expense today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, it was. Thanks for the chat!",
+      "share_memory": false
+    }
+  ]
+}

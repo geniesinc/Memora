@@ -1,0 +1,126 @@
+{
+  "session_id": 145,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Q4 Fan Engagement Campaign Strategy & Performance Review",
+      "agenda_items": [
+        "Budget reallocation for social media advertising in emerging markets",
+        "Timeline alignment for product launch tie-in campaigns"
+      ],
+      "key_decisions": [
+        "Greenlit partnership with three emerging athletes for authentic storytelling campaign"
+      ],
+      "campaign_metrics": "Current campaign showing 23% increase in social engagement globally, with 1.8M impressions across platforms. Email open rates at 34%, conversion rates up 12% compared to previous period. Mobile app downloads increased 41% in target demographics, with average session time of 8.5 minutes."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved 15% budget increase for influencer partnerships in Southeast Asian markets",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review current campaign performance metrics across global markets",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Postponed stadium signage refresh to reallocate funds toward digital channels",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q4 Fan Engagement Campaign Strategy & Performance Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Approved 15% budget increase for influencer partnerships in Southeast Asian markets\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed that decision from the meeting notes. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Review current campaign performance metrics across global markets' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Review current campaign performance metrics across global markets' from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Postponed stadium signage refresh to reallocate funds toward digital channels' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Postponed stadium signage refresh to reallocate funds toward digital channels' from the key decisions. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from these meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested removals have been made. Is there anything else you need help with regarding these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for these notes. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

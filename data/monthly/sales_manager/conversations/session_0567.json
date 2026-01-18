@@ -1,0 +1,136 @@
+{
+  "session_id": 567,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: Global Healthcare Solutions Division",
+      "agenda_items": [
+        "Action item review from previous meeting",
+        "Address competitive landscape and market shifts in mobile health",
+        "Discuss pipeline health and forecast adjustments for upcoming periods",
+        "Review QTD performance against targets for key global accounts"
+      ],
+      "key_decisions": [
+        "Prioritize Q4 focus on expanding mobile telehealth integration for top 3 EMEA accounts",
+        "Initiate competitive intelligence deep dive on emerging mobile EHR providers in North America within the next two weeks",
+        "Mandate weekly forecast syncs with regional sales leads for the next month to ensure accuracy",
+        "Allocate additional resources to accelerate pilot program for new chronic disease management platform in APAC region"
+      ],
+      "attendees": [
+        "Dr. Chen Wei, VP of Product Strategy (Mobile Health)",
+        "Kenji Tanaka, APAC Sales Lead",
+        "Samantha Lee, Sales Operations Analyst",
+        "Maria Rodriguez, EMEA Sales Lead"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Aisha Khan, Head of Global Sales",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Brainstorm strategies for improving client retention and satisfaction",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "David Miller, North America Sales Lead",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Account Review: Global Healthcare Solutions Division'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove Aisha Khan, Head of Global Sales, from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted the removal of Aisha Khan from the attendees. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Brainstorm strategies for improving client retention and satisfaction\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Brainstorm strategies for improving client retention and satisfaction\" from the agenda items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please also remove David Miller, North America Sales Lead, from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed David Miller from the attendees. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for the meeting notes for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've processed all your removal requests for the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Goodbye!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

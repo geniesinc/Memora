@@ -1,0 +1,158 @@
+{
+  "session_id": 240,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Content Strategy for Predictive Analytics Pilot Launch",
+      "agenda_items": [
+        "Review of current content landscape for predictive analytics in healthcare",
+        "Discussion of target audience personas for the pilot program",
+        "Brainstorming content themes and messaging for early adoption"
+      ],
+      "key_decisions": [
+        "Content to emphasize patient outcomes, operational efficiency, and cost savings",
+        "Focus on two primary personas: Clinical Directors and Hospital Administrators for initial outreach"
+      ],
+      "attendees": [
+        "Chloe Davis (Marketing Lead)",
+        "Elena Petrova (Data Scientist)",
+        "Dr. Ben Carter (Chief Medical Officer)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Defining key performance indicators (KPIs) for content success",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Develop a series of blog posts, a white paper, and social media snippets for the pilot launch",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Resource allocation and content creation timeline for initial phase",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 126,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 209,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      },
+      {
+        "session_id": 240,
+        "session_date": "2025-06-11",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-11",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "There have been exciting developments in areas like large language models and AI for scientific discovery. We're seeing AI being applied to increasingly complex problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy for Predictive Analytics Pilot Launch'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Defining key performance indicators (KPIs) for content success\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Defining key performance indicators (KPIs) for content success\" from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove \"Develop a series of blog posts, a white paper, and social media snippets for the pilot launch\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Develop a series of blog posts, a white paper, and social media snippets for the pilot launch\" from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Resource allocation and content creation timeline for initial phase' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Resource allocation and content creation timeline for initial phase\" from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "The requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

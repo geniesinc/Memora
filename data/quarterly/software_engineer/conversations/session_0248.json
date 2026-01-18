@@ -1,0 +1,130 @@
+{
+  "session_id": 248,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_5",
+    "content_data": {
+      "email_purpose": "Proposing IoT sensor network architecture optimization to reduce data transmission costs and improve real-time analytics performance for aviation clients.",
+      "recipient_list": [
+        "Client Success Manager",
+        "DevOps Engineering Team"
+      ],
+      "key_points": [
+        "New MQTT broker configuration enables sub-100ms latency for critical flight parameter monitoring",
+        "Architecture changes require coordination with firmware team for sensor node updates"
+      ],
+      "call_to_action": "Review the attached technical specification and provide feedback within 5 days so we can schedule implementation planning session with the client."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Architecture changes require coordination with firmware team for sensor node updates",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "DevOps Engineering Team",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 188,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 247,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 248,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Proposing IoT sensor network architecture optimization to reduce data transmission costs and improve real-time analytics performance for aviation clients.' I'd like to change some details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What specific information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the key points, please add: 'Architecture changes require coordination with firmware team for sensor node updates'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Architecture changes require coordination with firmware team for sensor node updates\" to the key points. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'DevOps Engineering Team' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'DevOps Engineering Team' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new key point and recipient. Is there anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

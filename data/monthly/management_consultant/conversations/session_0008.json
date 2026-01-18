@@ -1,0 +1,89 @@
+{
+  "session_id": 8,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "breakfast",
+      "amount": 7.29,
+      "created_at": "2025-06-01"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-01",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, ready to chat. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! I was just thinking about different types of tech, like smartwatches versus fitness trackers. What are your thoughts on those?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a great topic! Smartwatches offer more comprehensive features like notifications and apps, while fitness trackers typically focus on health metrics and are often more budget-friendly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. It's interesting how specialized some tech can be, while others try to be all-in-one.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It's true, that specialization versus generalization often reflects different user needs and priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For example, a dedicated e-reader excels at reading, while a tablet offers a wider range of functions, but might not be as comfortable for extended reading.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a good point about e-readers. I wonder if there are other areas where that specialization really shines.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Speaking of specialization, what did you spend on food today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I spent $7.29 on breakfast this morning.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it! What other activities have you been up to today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Nothing much else, but thanks for the chat!",
+      "share_memory": false
+    }
+  ]
+}

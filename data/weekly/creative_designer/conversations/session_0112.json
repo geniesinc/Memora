@@ -1,0 +1,104 @@
+{
+  "session_id": 112,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 2,
+      "total_items_processed": 2,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-06-05",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat and help out.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! I was wondering, can you tell me what \"quantum computing\" is?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Quantum computing uses quantum-mechanical phenomena like superposition and entanglement to perform computations. Unlike classical computers that use bits, quantum computers use qubits, which can represent 0, 1, or both simultaneously.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds really complex! Could you explain what \"superposition\" and \"entanglement\" mean in simpler terms?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Superposition means a qubit can be in multiple states at once, like a coin spinning in the air showing both heads and tails. Entanglement is when two or more qubits become linked, so the state of one instantly affects the others, no matter how far apart they are.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For superposition, imagine a quantum coin that is both heads and tails until you look at it. For entanglement, think of two linked coins; if one lands on heads, you instantly know the other is tails without looking.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a really interesting way to put it. So, how does that actually help a computer solve problems faster?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "These principles allow quantum computers to process vast amounts of information simultaneously and explore many possible solutions in parallel, which can be much faster for certain complex problems than classical computers. This parallel processing capability is where the speed advantage comes from for specific types of computations.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "So, what kind of problems are they particularly good at solving?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "They excel at tasks like drug discovery, materials science, financial modeling, and breaking certain types of encryption. These problems often involve exploring a vast number of possibilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's fascinating, but I need to go now. Thank you for the explanation!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I enjoyed our chat, and I hope you have a great day.",
+      "share_memory": false
+    }
+  ]
+}

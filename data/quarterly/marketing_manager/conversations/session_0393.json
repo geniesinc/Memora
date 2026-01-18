@@ -1,0 +1,140 @@
+{
+  "session_id": 393,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Q4 Campaign Strategy & Fan Engagement Initiative Review",
+      "agenda_items": [
+        "Security protocols for customer data collection in loyalty programs"
+      ],
+      "key_decisions": [
+        "Agreed to postpone email campaign launch by 3 weeks to align with product availability"
+      ],
+      "action_items": [
+        "Dmitri Volkov to negotiate media buy rates with sports broadcast partners within 3 weeks"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Discuss brand partnership opportunities with regional sports teams",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Selected hybrid approach combining traditional sports media with digital-first content strategy",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 86,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 117,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 140,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 363,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      },
+      {
+        "session_id": 393,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q4 Campaign Strategy & Fan Engagement Initiative Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Discuss brand partnership opportunities with regional sports teams\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Discuss brand partnership opportunities with regional sports teams\" from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Selected hybrid approach combining traditional sports media with digital-first content strategy' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, \"Selected hybrid approach combining traditional sports media with digital-first content strategy\" has been removed from the key decisions. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding these meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thank you for your help with this!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to ask if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

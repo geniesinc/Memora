@@ -1,0 +1,130 @@
+{
+  "session_id": 192,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review and Budget Reallocation Strategy",
+      "agenda_items": [
+        "Evaluation of potential investment opportunities in emerging markets within North America"
+      ],
+      "key_decisions": [
+        "Approved reallocation of [500000, 750000] from unspent marketing budget to enhance property maintenance for key assets.",
+        "Prioritized detailed feasibility study for two identified expansion properties in growth regions.",
+        "Mandated a deep dive into Q3 operational costs to identify further optimization opportunities."
+      ],
+      "action_items": [
+        "Schedule follow-up meeting with Property Management to review maintenance budget allocation and impact by +10 days. (Owner: Senior Financial Manager)",
+        "Develop financial models for identified expansion properties, including projected ROI and cash flow analysis, by +14 days. (Owner: Finance Analyst)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Prioritized detailed feasibility study for two identified expansion properties in growth regions.",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Mandated a deep dive into Q3 operational costs to identify further optimization opportunities.",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Develop financial models for identified expansion properties, including projected ROI and cash flow analysis, by +14 days. (Owner: Finance Analyst)",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Q3 Financial Performance Review and Budget Reallocation Strategy.' I have a few details to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the 'key_decisions' field to include: 'Prioritized detailed feasibility study for two identified expansion properties in growth regions.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the 'key_decisions' for the notes. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Mandated a deep dive into Q3 operational costs to identify further optimization opportunities.' to the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added that to the 'key_decisions' field. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update 'action_items' with: 'Develop financial models for identified expansion properties, including projected ROI and cash flow analysis, by +14 days. (Owner: Finance Analyst)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the 'action_items' field. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for the updates to these meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've applied all the updates to the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's great! I'm sure I'll have more updates or questions for you soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good! I'll be here whenever you need assistance.",
+      "share_memory": false
+    }
+  ]
+}

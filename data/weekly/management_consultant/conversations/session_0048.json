@@ -1,0 +1,107 @@
+{
+  "session_id": 48,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic AI Integration Steering Committee - Phase 1 Review",
+      "agenda_items": [
+        "Assessment of initial ROI and impact on production efficiency"
+      ],
+      "key_decisions": [
+        "Established a cross-functional AI governance working group to standardize data protocols."
+      ],
+      "attendees": [
+        "Mr. David Chen, CFO"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion on vendor selection for enterprise-wide AI platform",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 4,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 27,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 48,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat and assist.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from my meeting notes titled 'Strategic AI Integration Steering Committee - Phase 1 Review'. Can you help me with that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Discussion on vendor selection for enterprise-wide AI platform\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Discussion on vendor selection for enterprise-wide AI platform\" from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing that agenda item. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

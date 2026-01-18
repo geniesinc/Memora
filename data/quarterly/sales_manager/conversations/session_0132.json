@@ -1,0 +1,108 @@
+{
+  "session_id": 132,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_5",
+    "content_data": {
+      "email_purpose": "To provide a strategic update on key client accounts and upcoming growth initiatives, ensuring alignment across the sales team.",
+      "recipient_list": [
+        "Regional Sales Directors"
+      ],
+      "key_points": [
+        "Discussion of market trends impacting our North American client base."
+      ],
+      "call_to_action": "Please review the attached strategic overview and be prepared to discuss during our next team sync later this week."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Review of recent successes in client retention and upselling within the media sector.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "VP of Sales",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my email titled 'Strategic Update on Key Client Accounts and Growth Initiatives'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review of recent successes in client retention and upselling within the media sector.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Review of recent successes in client retention and upselling within the media sector\" from the key points of the email. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'VP of Sales' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'VP of Sales' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, I've removed the specified key point and recipient. Is there anything else I can help you with regarding this email or other content?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

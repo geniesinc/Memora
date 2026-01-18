@@ -1,0 +1,123 @@
+{
+  "session_id": 505,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Pan-European Market Expansion for Novel Oncology Therapeutic",
+      "project_description": "Proposal for a strategic initiative to penetrate key European markets with our lead oncology therapeutic, leveraging data-driven insights for optimized sales and market share growth.",
+      "budget": 1100000,
+      "timeline": "18 months, with initial market entry in the first 6 months and full regional rollout over the subsequent 12 months.",
+      "project_lead": "Isabelle Dubois, Senior Sales Manager",
+      "stakeholders": [
+        "Marketing Director, Oncology Division"
+      ],
+      "objectives": [
+        "Achieve significant market penetration in 5 target European countries within the first year.",
+        "Exceed initial revenue targets for the novel therapeutic by 15% within the first 18 months."
+      ],
+      "deliverables": [
+        "KOL engagement plan and initial relationship establishment reports.",
+        "Regional sales team structure and hiring recommendations.",
+        "Comprehensive sales training program for European sales teams, tailored to the new product."
+      ],
+      "success_metrics": [
+        "Percentage of target physicians prescribing the therapeutic."
+      ],
+      "revenue_targets": [
+        "Generate \u20ac30M in cumulative revenue by the end of the 18-month project timeline."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "success_metrics",
+        "removed_item": "Market share growth within target indications.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Optimize sales force effectiveness and resource allocation based on real-time market data.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-24",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well, thanks! I need to remove some information from the project proposal titled 'Pan-European Market Expansion for Novel Oncology Therapeutic'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Market share growth within target indications\" from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Market share growth within target indications\" from the success metrics for the 'Pan-European Market Expansion' proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Optimize sales force effectiveness and resource allocation based on real-time market data' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Optimize sales force effectiveness and resource allocation based on real-time market data\" from the objectives. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed those items from the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

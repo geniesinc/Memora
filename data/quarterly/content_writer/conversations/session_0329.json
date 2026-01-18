@@ -1,0 +1,153 @@
+{
+  "session_id": 329,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_8",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Q3 E-commerce Campaigns",
+      "agenda_items": [
+        "Brainstorming content themes for upcoming product launches",
+        "Review of recent content performance metrics (engagement, conversions)",
+        "Planning for cross-channel content distribution strategies",
+        "Defining content requirements for new workflow automation features",
+        "Discussion on optimizing existing content for SEO and user experience"
+      ],
+      "key_decisions": [
+        "Allocate resources to A/B test new headline formats for product pages.",
+        "Standardize content brief templates for external collaborators."
+      ],
+      "action_items": [
+        "Product Marketing Lead: Share product roadmap updates relevant to content creation within the next few days.",
+        "Content Writer Team: Develop detailed content briefs for Q3 campaigns by next week.",
+        "Marketing Manager: Finalize content distribution calendar for the upcoming period."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize long-form content for high-value product categories to improve organic search rankings.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Content Writer Team: Research and present best practices for interactive content formats at the next meeting.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 173,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 203,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      },
+      {
+        "session_id": 251,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      },
+      {
+        "session_id": 255,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      },
+      {
+        "session_id": 329,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering, what are some of the latest advancements in AI technology that you find most interesting?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I find the advancements in large language models and their ability to understand and generate human-like text quite fascinating. Also, the progress in AI ethics and responsible AI development is incredibly important.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to make some modifications to the meeting notes titled 'Content Strategy Alignment for Q3 E-commerce Campaigns'. There's some information that needs to be removed.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Prioritize long-form content for high-value product categories to improve organic search rankings.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Content Writer Team: Research and present best practices for interactive content formats at the next meeting.' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that action item. Is there anything else you'd like to remove or modify regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the meeting notes. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. I've removed the specified items from the meeting notes. Is there anything else you need assistance with?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

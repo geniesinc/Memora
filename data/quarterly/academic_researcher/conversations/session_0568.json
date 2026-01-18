@@ -1,0 +1,123 @@
+{
+  "session_id": 568,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_2",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insightful Post",
+      "main_message": "Optimizing strategic workflows in robotics non-profits requires a nuanced understanding of both technological capabilities and organizational culture. Our ongoing research explores how tailored AI solutions can significantly enhance operational efficiency without compromising ethical considerations or community engagement.",
+      "hashtags": [
+        "#ComputerScienceResearch",
+        "#Robotics",
+        "#KnowledgeAdvancement",
+        "#NonProfitEfficiency",
+        "#WorkflowOptimization",
+        "#AIinRobotics"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#WorkflowOptimization",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#AIinRobotics",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 19,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 568,
+        "session_date": "2025-06-27",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-27",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled \"LinkedIn Insightful Post.\" I'd like to change some of its details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes would you like to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#WorkflowOptimization'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the hashtags to include '#WorkflowOptimization'. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#AIinRobotics' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#AIinRobotics' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for the social media post. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

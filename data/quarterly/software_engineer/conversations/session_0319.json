@@ -1,0 +1,174 @@
+{
+  "session_id": 319,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "AR Rendering Pipeline Optimization & Unity Integration Review",
+      "agenda_items": [
+        "Address WebXR deployment strategy for client demo environment",
+        "Discuss Unity 6 migration timeline and compatibility issues"
+      ],
+      "key_decisions": [
+        "Adopt Manomotion SDK for hand tracking rather than building custom solution in-house",
+        "Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features",
+        "Postpone iOS deployment until spatial computing APIs stabilize over the next 6 weeks"
+      ],
+      "action_items": [
+        "Document API endpoints and data schemas for client integration by next sprint",
+        "Prepare technical proof-of-concept for WebXR implementation within 10 days"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Discuss Unity 6 migration timeline and compatibility issues",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Prepare technical proof-of-concept for WebXR implementation within 10 days",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Postpone iOS deployment until spatial computing APIs stabilize over the next 6 weeks",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 274,
+        "session_date": "2025-06-14",
+        "operation": "add"
+      },
+      {
+        "session_id": 301,
+        "session_date": "2025-06-15",
+        "operation": "delete"
+      },
+      {
+        "session_id": 319,
+        "session_date": "2025-06-16",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes for 'AR Rendering Pipeline Optimization & Unity Integration Review'; I have a few changes to make.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to add an agenda item: 'Discuss Unity 6 migration timeline and compatibility issues'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Discuss Unity 6 migration timeline and compatibility issues' to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please update the key decisions to include: 'Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the key decisions. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Prepare technical proof-of-concept for WebXR implementation within 10 days' to the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've added 'Prepare technical proof-of-concept for WebXR implementation within 10 days' to the action items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Postpone iOS deployment until spatial computing APIs stabilize over the next 6 weeks' to the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I've added \"Postpone iOS deployment until spatial computing APIs stabilize over the next 6 weeks\" to the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes. Is there anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That's great, thanks for all your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

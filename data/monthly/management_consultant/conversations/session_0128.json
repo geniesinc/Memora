@@ -1,0 +1,128 @@
+{
+  "session_id": 128,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Strategic Innovation Roadmap for Electrification Transition",
+      "project_description": "A comprehensive proposal to guide an automotive OEM through the strategic and operational challenges of transitioning to an electrified vehicle portfolio, focusing on market differentiation and sustainable growth.",
+      "budget": 1250000,
+      "timeline": "Over an 18-month period, with key milestones at 6, 12, and 18 months.",
+      "project_lead": "Dr. Anya Sharma, Senior Strategy Consultant",
+      "stakeholders": [
+        "Chief Strategy Officer (CSO)"
+      ],
+      "objectives": [
+        "Optimize internal processes and supply chain for electrification components."
+      ],
+      "deliverables": [
+        "Strategic Innovation Roadmap with phased implementation plan",
+        "Detailed Market Opportunity Analysis Report (including competitive landscape and customer segmentation)",
+        "Financial Impact Projections & ROI Model for Electrification Initiatives"
+      ],
+      "success_metrics": [
+        "Positive ROI on electrification investments within 36 months.",
+        "Achieved market share percentage for new EV models within 24 months of launch."
+      ],
+      "methodology": "Our approach combines rigorous market analysis, internal capability assessments, stakeholder workshops, and scenario planning. We leverage proprietary frameworks for strategic innovation and organizational agility, tailored to the automotive sector's unique challenges."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 1150000,
+        "reverted_to": 1250000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "VP of Manufacturing Operations",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing well, thank you! I'm ready to chat and help out.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the project proposal titled 'Strategic Innovation Roadmap for Electrification Transition'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information do you want to remove from the 'Strategic Innovation Roadmap for Electrification Transition' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please delete the budget value of $1,150,000 and revert it to $1,250,000 for the 'Strategic Innovation Roadmap for Electrification Transition' project proposal.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I understand. You want to revert the budget for 'Strategic Innovation Roadmap for Electrification Transition' from $1,150,000 back to $1,250,000. Is there anything else you'd like to remove or modify regarding the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please delete 'VP of Manufacturing Operations' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted to delete 'VP of Manufacturing Operations' from the stakeholders. Anything else I can remove or modify for this project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted all the changes for the 'Strategic Innovation Roadmap for Electrification Transition' project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any further assistance.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

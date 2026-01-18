@@ -1,0 +1,139 @@
+{
+  "session_id": 528,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Real-Time Social Media Sentiment Analytics Engine for European Markets",
+      "project_description": "Development of a distributed microservices platform that processes social media data streams in real-time to deliver actionable sentiment insights for consulting clients across European markets. The system will support multi-language processing and comply with GDPR requirements.",
+      "budget": 325000,
+      "timeline": "14 months with Phase 1: Architecture & Core Services (months 1-5), Phase 2: ML Integration & Language Support (months 6-10), Phase 3: Testing & Deployment (months 11-14)",
+      "project_lead": "Priya Nambiar, Principal Software Engineer",
+      "stakeholders": [
+        "Data Engineering Team"
+      ],
+      "objectives": [
+        "Ensure full GDPR compliance with data anonymization and retention policies"
+      ],
+      "deliverables": [
+        "Infrastructure-as-Code templates for containerized deployment"
+      ],
+      "risk_assessment": "Medium-high risk due to complex real-time processing requirements, multi-language ML model accuracy challenges, and strict GDPR compliance constraints. Mitigation includes phased rollout, extensive load testing, and dedicated legal review cycles."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 300000,
+        "reverted_to": 325000,
+        "action": "budget_reverted"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 7,
+    "completion_threshold": 7,
+    "session_history": [
+      {
+        "session_id": 18,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 20,
+        "session_date": "2025-06-01",
+        "operation": "delete"
+      },
+      {
+        "session_id": 24,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 403,
+        "session_date": "2025-06-20",
+        "operation": "delete"
+      },
+      {
+        "session_id": 404,
+        "session_date": "2025-06-20",
+        "operation": "delete"
+      },
+      {
+        "session_id": 505,
+        "session_date": "2025-06-25",
+        "operation": "delete"
+      },
+      {
+        "session_id": 528,
+        "session_date": "2025-06-26",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Real-Time Social Media Sentiment Analytics Engine for European Markets'. We can discuss the specifics shortly.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget for the proposal from \u20ac300,000 back to \u20ac325,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to \u20ac325,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "The budget for the project proposal has been updated. Is there anything else you'd like to adjust or remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

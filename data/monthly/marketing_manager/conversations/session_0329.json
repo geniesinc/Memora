@@ -1,0 +1,77 @@
+{
+  "session_id": 329,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "lunch",
+      "amount": 22.9,
+      "created_at": "2025-06-16"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering what the main differences are between artificial intelligence and machine learning.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines executing tasks smartly, while machine learning is a subset of AI that allows systems to learn from data without explicit programming. Machine learning is essentially one of the methods used to achieve artificial intelligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear distinction.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I'm glad I could clarify that for you! Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not really, but I did just spend $22.90 on lunch.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, thanks for letting me know! How was your lunch?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "It was pretty good. Thanks for the chat!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I enjoyed our chat as well.",
+      "share_memory": false
+    }
+  ]
+}

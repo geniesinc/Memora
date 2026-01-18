@@ -1,0 +1,113 @@
+{
+  "session_id": 391,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Q3 Financial Performance Review & Strategic Capital Allocation",
+      "agenda_items": [
+        "Evaluation of current market conditions and their impact on revenue forecasts",
+        "Analysis of manufacturing efficiency and cost variances",
+        "Discussion on capital expenditure proposals for next fiscal period",
+        "Review of current quarter's financial performance against budget",
+        "Strategic planning for inventory optimization initiatives"
+      ],
+      "key_decisions": [
+        "Approved allocation of contingency funds for critical equipment maintenance in Plant 3"
+      ],
+      "action_items": [
+        "Schedule follow-up meeting with Operations to review CAPEX proposal impact on production efficiency, within next 21 days. (Assigned to VP of Finance)",
+        "Draft updated revenue forecast models incorporating recent market shifts, due in 14 days. (Assigned to Senior Financial Analyst)",
+        "Prepare detailed variance report for Q3 manufacturing costs, due in 7 days. (Assigned to Finance Analyst Team)"
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritized capital expenditure proposals for automation upgrades in assembly lines to be funded over an 18-month period",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Initiated a deep-dive analysis into raw material procurement strategies to mitigate supply chain risks",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-18",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q3 Financial Performance Review & Strategic Capital Allocation'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Prioritized capital expenditure proposals for automation upgrades in assembly lines to be funded over an 18-month period' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Initiated a deep-dive analysis into raw material procurement strategies to mitigate supply chain risks' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed both items from the key decisions in the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    }
+  ]
+}

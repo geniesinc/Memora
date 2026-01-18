@@ -1,0 +1,110 @@
+{
+  "session_id": 41,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Campaign Performance Review & European Expansion Strategy",
+      "agenda_items": [
+        "Discuss customer engagement trends and retention data from pilot workflow optimization platform",
+        "Plan influencer partnership program for sustainable food-tech initiatives"
+      ],
+      "key_decisions": [
+        "Committed to implementing AI-powered customer segmentation tool within the next 2 months",
+        "Approved 15% budget increase for digital advertising in Nordic markets based on strong conversion rates"
+      ],
+      "campaign_metrics": "Current campaign showing 23% increase in customer acquisition, 4.2% conversion rate across EU markets, 67% email open rate, and 890K social media impressions with engagement rate of 5.8%"
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Integration of workflow automation tools into marketing operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Agreed to shift focus from B2C to B2B marketing for enterprise workflow solutions",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological processes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Campaign Performance Review & European Expansion Strategy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Integration of workflow automation tools into marketing operations\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Integration of workflow automation tools into marketing operations\" from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Agreed to shift focus from B2C to B2B marketing for enterprise workflow solutions\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Agreed to shift focus from B2C to B2B marketing for enterprise workflow solutions\" from the key decisions. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

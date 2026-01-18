@@ -1,0 +1,148 @@
+{
+  "session_id": 706,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_7",
+    "content_data": {
+      "project_title": "Regional E-commerce Market Penetration Initiative: Southeast Asia",
+      "project_description": "A strategic proposal to significantly expand our e-commerce market share within key Southeast Asian regions through optimized user experience and targeted sales engagements.",
+      "budget": 225000,
+      "timeline": "Over the next 12 months, with initial rollout in the first 3 months.",
+      "project_lead": "Kai Chen, Regional Sales Director",
+      "stakeholders": [
+        "Head of Product Strategy",
+        "Data Analytics Team",
+        "VP of Marketing"
+      ],
+      "objectives": [
+        "Establish strategic partnerships with 3-5 key local online retailers/marketplaces.",
+        "Increase average customer lifetime value (CLTV) by 10% in target regions.",
+        "Achieve a 20% increase in regional customer acquisition within the first 6 months."
+      ],
+      "deliverables": [
+        "Comprehensive market entry strategy for 2 new regional markets."
+      ],
+      "sales_strategy": "Our strategy involves a two-pronged approach: first, an intensive focus on localizing the user experience to reduce friction and improve conversion; second, building strong regional sales partnerships and direct outreach to key customer segments through localized campaigns and sales incentives.",
+      "revenue_targets": [
+        "Secure recurring revenue streams from new partnerships totaling $500K annually.",
+        "Generate an additional $1.5M in regional revenue during the first year.",
+        "Achieve a positive ROI on project investment within 18 months."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 200000,
+        "reverted_to": 225000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Training modules for regional sales and support teams on new platform features and market specifics.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Improve conversion rates by 15% through enhanced localized UX.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-07-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neural plasticity,\" which is how the brain can reorganize itself by forming new neural connections. It's fascinating how adaptable our brains are throughout life.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Regional E-commerce Market Penetration Initiative: Southeast Asia.' We need to modify some details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you modify the project proposal by removing some information. What specific details within it would you like to remove or change?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please revert the budget from $200,000 back to $225,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for the 'Regional E-commerce Market Penetration Initiative' back to $225,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove 'Training modules for regional sales and support teams on new platform features and market specifics.' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Training modules for regional sales and support teams on new platform features and market specifics' from the deliverables. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please remove 'Improve conversion rates by 15% through enhanced localized UX.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Improve conversion rates by 15% through enhanced localized UX' from the objectives. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from this project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Confirmed. All requested removals have been made to the project proposal. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

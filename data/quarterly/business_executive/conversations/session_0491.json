@@ -1,0 +1,149 @@
+{
+  "session_id": 491,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_10",
+    "content_data": {
+      "email_purpose": "Quarterly review of predictive analytics platform performance and strategic recommendations for expanding regional market penetration.",
+      "recipient_list": [
+        "VP of Analytics and Data Science",
+        "Strategic Planning Team",
+        "Regional Operations Director",
+        "Chief Technology Officer"
+      ],
+      "key_points": [
+        "Resource allocation needed for machine learning infrastructure upgrades within next 6 months",
+        "Recommend increasing investment in commercial real estate predictive models by 40%",
+        "Platform accuracy improved by 23% in forecasting property valuations across metropolitan markets"
+      ],
+      "call_to_action": "Review attached strategic analysis and provide feedback within 10 days for inclusion in upcoming executive planning session."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Partnership opportunity with regional MLS providers to enhance data quality and coverage",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Head of Product Development",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Identified three high-growth submarkets showing 15-18% appreciation potential over next 24 months",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 350,
+        "session_date": "2025-06-17",
+        "operation": "add"
+      },
+      {
+        "session_id": 387,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      },
+      {
+        "session_id": 418,
+        "session_date": "2025-06-20",
+        "operation": "update"
+      },
+      {
+        "session_id": 491,
+        "session_date": "2025-06-23",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Quarterly review of predictive analytics platform performance and strategic recommendations for expanding regional market penetration.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove or modify from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please delete 'Partnership opportunity with regional MLS providers to enhance data quality and coverage' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Partnership opportunity with regional MLS providers to enhance data quality and coverage\" from the key points. Is there anything else you'd like to remove or modify from this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Head of Product Development' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Head of Product Development' from the recipient list. Is there anything else you'd like to remove or modify from this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Identified three high-growth submarkets showing 15-18% appreciation potential over next 24 months' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Identified three high-growth submarkets showing 15-18% appreciation potential over next 24 months' from the key points. Is there anything else you'd like to remove or modify from this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made all the requested removals from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks, that's everything for now. Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

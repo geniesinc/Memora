@@ -1,0 +1,139 @@
+{
+  "session_id": 184,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Regional Biosecurity Data Integration Initiative - Technical Working Group",
+      "agenda_items": [
+        "Review of current mobile data collection protocols for pathogen surveillance"
+      ],
+      "key_decisions": [
+        "Prioritize the development of a secure API for regional data exchange over direct database access.",
+        "Adopt FHIR-based data standards for all new mobile data collection applications within the next 3 months.",
+        "Allocate dedicated computational resources for the AI model training and validation sandbox environment."
+      ],
+      "attendees": [
+        "Dr. Omar Khan, Research Program Manager (Regional Initiatives)",
+        "Dr. Kenji Tanaka, Lead Software Architect (Mobile Platforms)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate dedicated computational resources for the AI model training and validation sandbox environment.",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Dr. Kenji Tanaka, Lead Software Architect (Mobile Platforms)",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 46,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 62,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 184,
+        "session_date": "2025-06-09",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's a common misconception people have about artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A common misconception is that AI is always conscious or has emotions, like humans. In reality, most AI operates based on algorithms and data without true understanding or feelings.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes for 'Regional Biosecurity Data Integration Initiative - Technical Working Group'. I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the 'key_decisions' field to include: 'Allocate dedicated computational resources for the AI model training and validation sandbox environment.'",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `key_decisions` to include \"Allocate dedicated computational resources for the AI model training and validation sandbox environment.\" Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Dr. Kenji Tanaka, Lead Software Architect (Mobile Platforms)' to the 'attendees' list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Dr. Kenji Tanaka to the attendees. Is there anything else you'd like to update for these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've updated the meeting notes as requested.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a wonderful day.",
+      "share_memory": false
+    }
+  ]
+}

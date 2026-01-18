@@ -1,0 +1,128 @@
+{
+  "session_id": 429,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Reflecting on our automation journey across European markets\u2014strategic investment in intelligent payment infrastructure is transforming how enterprises manage cross-border transactions while maintaining regulatory compliance.",
+      "hashtags": [
+        "#PaymentAutomation",
+        "#FintechInnovation",
+        "#DigitalTransformation",
+        "#EuropeanFinance"
+      ],
+      "executive_insights": "Recent implementations demonstrate that combining AI-driven compliance monitoring with real-time settlement systems reduces operational friction by over 40% while strengthening our position in evolving regulatory landscapes across multiple jurisdictions."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#DigitalTransformation",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#EuropeanFinance",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 162,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 429,
+        "session_date": "2025-06-21",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to update my social media post titled 'LinkedIn Thought Leadership Post.' I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you need to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#DigitalTransformation'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#DigitalTransformation' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please also add '#EuropeanFinance' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#EuropeanFinance' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the hashtags.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the hashtags for the social media post have been updated. Is there anything else you'd like to change for it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks, that was very helpful!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm glad I could help.",
+      "share_memory": false
+    }
+  ]
+}

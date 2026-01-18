@@ -1,0 +1,128 @@
+{
+  "session_id": 91,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "To disseminate preliminary findings from our recent cost-reduction research and solicit feedback for further refinement.",
+      "recipient_list": [
+        "Financial Planning Department",
+        "Operations Management",
+        "Grant Funding Committee",
+        "Clinical Directors"
+      ],
+      "key_points": [
+        "Initial analysis identifies three key areas for significant cost reduction without impacting patient care quality.",
+        "Further research and pilot programs are required to validate these findings and tailor solutions to specific regional needs.",
+        "Proposed interventions focus on optimizing supply chain logistics, enhancing telemedicine adoption, and streamlining administrative processes."
+      ],
+      "call_to_action": "Please review the attached preliminary report and provide your insights or questions within the next 10 business days to inform the next phase of this research."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Proposed interventions focus on optimizing supply chain logistics, enhancing telemedicine adoption, and streamlining administrative processes.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Clinical Directors",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 64,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 91,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well, thanks! I need to update my email titled 'To disseminate preliminary findings from our recent cost-reduction research and solicit feedback for further refinement.' I want to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the key points to: 'Proposed interventions focus on optimizing supply chain logistics, enhancing telemedicine adoption, and streamlining administrative processes.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. The key points have been updated. Is there anything else you'd like to change in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Clinical Directors' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Clinical Directors' to the recipient list. Is there anything else you'd like to change in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The email has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's great to hear! It was a pleasure assisting you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'm glad I could help! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

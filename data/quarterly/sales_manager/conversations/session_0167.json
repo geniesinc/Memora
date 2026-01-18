@@ -1,0 +1,133 @@
+{
+  "session_id": 167,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review & Pipeline Strategy Session",
+      "agenda_items": [
+        "Pipeline generation strategies for the upcoming period",
+        "Review of current quarter's sales performance against targets"
+      ],
+      "key_decisions": [
+        "Allocate additional resources to support the pilot program for the new analytics integration within the next month.",
+        "Prioritize outreach to underperforming accounts in the Midwest region within the next two weeks."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Account Manager)",
+        "Sarah Jenkins (Marketing Liaison)",
+        "Anya Sharma (Sales Director)",
+        "Kenji Tanaka (Sales Development Representative Lead)",
+        "David Chen (Senior Account Executive)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "attendees",
+        "added_item": "Kenji Tanaka (Sales Development Representative Lead)",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Prioritize outreach to underperforming accounts in the Midwest region within the next two weeks.",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "David Chen (Senior Account Executive)",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to update the meeting notes titled 'Q3 Performance Review & Pipeline Strategy Session' because there are a few details that need to be changed.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What information in the meeting notes needs to be updated?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the attendees to include Kenji Tanaka (Sales Development Representative Lead).",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. Kenji Tanaka has been added to the attendees. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, I also need to update the key decisions to include: Prioritize outreach to underperforming accounts in the Midwest region within the next two weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. The key decisions now include prioritizing outreach to underperforming accounts in the Midwest region. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add David Chen (Senior Account Executive) to the attendees list as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, David Chen has been added to the attendees. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "session_id": 320,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Strategic Review: Renewable Energy Portfolio Expansion and Grid Integration",
+      "agenda_items": [
+        "Strategic alignment on battery storage capacity expansion timeline"
+      ],
+      "key_decisions": [
+        "Greenlit partnership with three regional utilities for hydrogen production and distribution network"
+      ],
+      "action_items": [
+        "Head of Renewable Assets to prepare detailed implementation roadmap for offshore wind projects within 60 days"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Evaluate grid modernization requirements for renewable integration in emerging markets",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which aims to mimic the human brain's structure and function for more efficient processing. It's fascinating how technology is constantly evolving to replicate biological systems.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Review: Renewable Energy Portfolio Expansion and Grid Integration'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Evaluate grid modernization requirements for renewable integration in emerging markets' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Evaluate grid modernization requirements for renewable integration in emerging markets\" from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. The agenda item has been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

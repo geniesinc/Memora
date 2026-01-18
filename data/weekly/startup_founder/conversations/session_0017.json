@@ -1,0 +1,103 @@
+{
+  "session_id": 17,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To introduce a strategic partnership proposal for integrating advanced AI automation solutions into the recipient's educational platform.",
+      "recipient_list": [
+        "Chief Learning Officer",
+        "Head of Digital Transformation",
+        "Director of Educational Technology"
+      ],
+      "key_points": [
+        "Identified synergy with their long-term automation goals in the global education market",
+        "Potential for significant impact on student engagement and administrative cost reduction"
+      ],
+      "call_to_action": "Schedule a follow-up discussion to explore specific integration points and define a pilot project scope within the next two weeks."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Director of Educational Technology",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 7,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 17,
+        "session_date": "2025-06-01",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'To introduce a strategic partnership proposal for integrating advanced AI automation solutions into the recipient's educational platform.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Director of Educational Technology' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Director of Educational Technology' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, the email has been updated. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

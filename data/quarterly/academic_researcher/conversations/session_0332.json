@@ -1,0 +1,118 @@
+{
+  "session_id": 332,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Cross-Departmental Working Group on AI Ethics and Data Governance",
+      "agenda_items": [
+        "Presentation of preliminary findings from the 'Explainable AI in Network Management' study.",
+        "Identification of potential ethical risks in new data collection methodologies.",
+        "Discussion on the implications of upcoming compliance frameworks for ongoing research projects."
+      ],
+      "key_decisions": [
+        "Mandate a pre-submission ethical review for all research projects involving novel data processing techniques.",
+        "Allocate resources for specialized legal counsel consultation on complex data governance issues."
+      ],
+      "action_items": [
+        "All research leads to submit a brief impact assessment of new data collection methods on compliance by the end of the following month.",
+        "Professor Elara Vance to coordinate with legal department for a briefing on upcoming EU regulations within the next month.",
+        "Dr. Anya Sharma to draft terms of reference for the AI Ethics and Data Governance sub-committee by end of next week."
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate resources for specialized legal counsel consultation on complex data governance issues.",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Dr. Anya Sharma to draft terms of reference for the AI Ethics and Data Governance sub-committee by end of next week.",
+        "action": "added"
+      }
+    ],
+    "session_count": 4
+  },
+  "date": "2025-06-16",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Cross-Departmental Working Group on AI Ethics and Data Governance'. I'd like to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the `key_decisions` to include: 'Allocate resources for specialized legal counsel consultation on complex data governance issues.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the `key_decisions` to include \"Allocate resources for specialized legal counsel consultation on complex data governance issues.\" Is there anything else you'd like to update in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Dr. Anya Sharma to draft terms of reference for the AI Ethics and Data Governance sub-committee by end of next week.' to the `action_items`.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Dr. Anya Sharma to draft terms of reference for the AI Ethics and Data Governance sub-committee by end of next week\" to the `action_items`. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The updates to the meeting notes have been applied. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, sounds good! Have a great rest of your day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,1379 @@
+{
+  "persona": "financial_analyst",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_156",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Buy groceries",
+              "session_id": 14
+            },
+            {
+              "value": "Exercise at gym",
+              "session_id": 24
+            },
+            {
+              "value": "Plan weekend activities",
+              "session_id": 30
+            },
+            {
+              "value": "Track monthly expenses",
+              "session_id": 64
+            },
+            {
+              "value": "Update financial forecasting model",
+              "session_id": 70
+            },
+            {
+              "value": "Update budget spreadsheet",
+              "session_id": 95
+            },
+            {
+              "value": "Review audit findings",
+              "session_id": 115
+            },
+            {
+              "value": "Research new investment options",
+              "session_id": 123
+            },
+            {
+              "value": "Plan vacation budget",
+              "session_id": 126
+            },
+            {
+              "value": "Call parents",
+              "session_id": 153
+            }
+          ],
+          "task_count": 10
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Reconcile account balances",
+              "session_id": 75
+            },
+            {
+              "value": "Schedule dentist appointment",
+              "session_id": 108
+            },
+            {
+              "value": "Read financial news",
+              "session_id": 154
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Buy groceries?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_1",
+              "evaluation_question": "Is 'Exercise at gym' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_2",
+              "evaluation_question": "Does the response include Plan weekend activities in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_3",
+              "evaluation_question": "Is the todo item 'Track monthly expenses' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_4",
+              "evaluation_question": "Does the response mention the task: Update financial forecasting model?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_5",
+              "evaluation_question": "Is 'Update budget spreadsheet' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_6",
+              "evaluation_question": "Does the response include Review audit findings in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_7",
+              "evaluation_question": "Is the todo item 'Research new investment options' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_8",
+              "evaluation_question": "Does the response mention the task: Plan vacation budget?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_9",
+              "evaluation_question": "Is 'Call parents' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_2",
+              "evaluation_question": "Does the response include Reconcile account balances in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_3",
+              "evaluation_question": "Is the completed/deleted task 'Schedule dentist appointment' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_5",
+              "evaluation_question": "Is 'Read financial news' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 13,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "content_project_proposal_156_project_proposal_1",
+        "question": "Write a project proposal for 'Regional Logistics Network Optimization Initiative'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Regional Logistics Network Optimization Initiative",
+            "project_description": "A proposal to enhance operational efficiency and cost-effectiveness across our regional logistics network through strategic infrastructure upgrades and process re-engineering.",
+            "budget": 1150000,
+            "timeline": "18 months, with key milestones at 6, 12, and 18-month intervals",
+            "project_lead": "Anya Sharma, Senior Financial Analyst",
+            "stakeholders": [
+              "Executive Leadership",
+              "IT Infrastructure Team"
+            ],
+            "objectives": [
+              "Reduce average delivery times by 15% across the regional network within the next 12 months.",
+              "Enhance regional warehouse utilization by 20% through optimized layout and material handling processes.",
+              "Achieve a 10% reduction in fuel and maintenance costs through route optimization and fleet modernization over 18 months."
+            ],
+            "deliverables": [
+              "Updated operational procedures and training modules for logistics personnel."
+            ],
+            "risk_analysis": [
+              "Potential for initial operational disruption during system integration and process changes.",
+              "Fluctuations in capital expenditure costs due to market volatility for equipment and technology."
+            ]
+          },
+          "session_history": [
+            16,
+            32,
+            38
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "deliverables",
+              "value": "Comprehensive cost-benefit analysis report for proposed infrastructure investments.",
+              "session_id": 38
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Regional Logistics Network Optimization Initiative?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A proposal to enhance operational efficiency and cost-effectiveness across our regional logistics network through strategic infrastructure upgrades and process re-engineering.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 1150000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '18 months, with key milestones at 6, 12, and 18-month intervals' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Anya Sharma, Senior Financial Analyst?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Executive Leadership, IT Infrastructure Team' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Reduce average delivery times by 15% across the regional network within the next 12 months., Enhance regional warehouse utilization by 20% through optimized layout and material handling processes., Achieve a 10% reduction in fuel and maintenance costs through route optimization and fleet modernization over 18 months.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Updated operational procedures and training modules for logistics personnel.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the risk_analysis: Potential for initial operational disruption during system integration and process changes., Fluctuations in capital expenditure costs due to market volatility for equipment and technology.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted deliverables: Comprehensive cost-benefit analysis report for proposed infrastructure investments.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 10,
+          "memory_presence_questions": 9,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_project_proposal_156_project_proposal_2",
+        "question": "Write a project proposal for 'AI-Driven Credit Risk Scoring Model Enhancement'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "AI-Driven Credit Risk Scoring Model Enhancement",
+            "project_description": "Proposing an initiative to significantly enhance our long-term credit risk scoring capabilities through the integration of advanced predictive analytics and alternative data sources, aiming for improved accuracy and reduced default rates in our fintech lending products.",
+            "budget": 1550000,
+            "timeline": "15 months, structured into three distinct phases over the next period.",
+            "project_lead": "Dr. Anya Sharma, Senior Financial Analyst",
+            "stakeholders": [
+              "Head of Lending Operations",
+              "Head of Product Development",
+              "Chief Risk Officer (CRO)",
+              "Data Science Lead"
+            ],
+            "objectives": [
+              "Increase credit risk model predictive accuracy by at least 15% within the next 12 months."
+            ],
+            "deliverables": [
+              "Developed and validated AI-driven credit risk scoring model prototype within nine months.",
+              "Detailed performance monitoring dashboard and automated alert system for model drift.",
+              "Full model integration plan and API documentation for existing lending platforms.",
+              "Final project report including impact analysis and recommendations for future enhancements."
+            ],
+            "risk_analysis": [
+              "Model explainability and interpretability for regulatory scrutiny (Medium)."
+            ]
+          },
+          "session_history": [
+            56,
+            60,
+            89
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "risk_analysis",
+              "value": "Availability of specialized AI/ML engineering talent for implementation (Medium).",
+              "session_id": 60
+            },
+            {
+              "field": "objectives",
+              "value": "Reduce non-performing loan (NPL) rates by 5-7% over the next two years through better risk assessment.",
+              "session_id": 60
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: AI-Driven Credit Risk Scoring Model Enhancement?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'Proposing an initiative to significantly enhance our long-term credit risk scoring capabilities through the integration of advanced predictive analytics and alternative data sources, aiming for improved accuracy and reduced default rates in our fintech lending products.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 1550000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '15 months, structured into three distinct phases over the next period.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Dr. Anya Sharma, Senior Financial Analyst?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Head of Lending Operations, Head of Product Development, Chief Risk Officer (CRO), Data Science Lead' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Increase credit risk model predictive accuracy by at least 15% within the next 12 months.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Developed and validated AI-driven credit risk scoring model prototype within nine months., Detailed performance monitoring dashboard and automated alert system for model drift., Full model integration plan and API documentation for existing lending platforms., Final project report including impact analysis and recommendations for future enhancements.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the risk_analysis: Model explainability and interpretability for regulatory scrutiny (Medium).?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted risk_analysis: Availability of specialized AI/ML engineering talent for implementation (Medium).?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed objectives information 'Reduce non-performing loan (NPL) rates by 5-7% over the next two years through better risk assessment.' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 11,
+          "memory_presence_questions": 9,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_email_writeup_156_email_writeup_1",
+        "question": "Write an email about: To provide a preliminary financial analysis of the regional AI pilot program's performance and outline key considerations for the next phase.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To provide a preliminary financial analysis of the regional AI pilot program's performance and outline key considerations for the next phase.",
+            "recipient_list": [
+              "Head of Innovation",
+              "Head of Operations"
+            ],
+            "key_points": [
+              "Identified areas for further cost optimization in infrastructure and data processing."
+            ],
+            "call_to_action": "Please review the attached preliminary financial report and be prepared to discuss these findings at our strategy meeting next week."
+          },
+          "session_history": [
+            27,
+            58,
+            67
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_points",
+              "value": "Recommendations for scaling the pilot to additional regions and potential budgetary impacts.",
+              "session_id": 58
+            },
+            {
+              "field": "recipient_list",
+              "value": "Regional Leadership Team",
+              "session_id": 58
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To provide a preliminary financial analysis of the regional AI pilot program's performance and outline key considerations for the next phase.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Head of Innovation, Head of Operations' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Identified areas for further cost optimization in infrastructure and data processing.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached preliminary financial report and be prepared to discuss these findings at our strategy meeting next week.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key points: Recommendations for scaling the pilot to additional regions and potential budgetary impacts.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_156_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed recipient list information 'Regional Leadership Team' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_156_meeting_notes_2",
+        "question": "Write meeting notes for: Financial Performance Review & Strategic Capital Allocation",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Financial Performance Review & Strategic Capital Allocation",
+            "agenda_items": [
+              "Evaluation of Proposed Capital Expenditures for Upcoming Development Projects",
+              "Forecasting and Risk Assessment for the Next Operating Period",
+              "Discussion on Current Market Conditions and Impact on Real Estate Investments"
+            ],
+            "key_decisions": [
+              "Approved reallocation of capital from Project Evergreen (Region 4) to Project Horizon (Region 2) due to higher projected ROI.",
+              "Mandated a detailed cost-benefit analysis for all new development proposals exceeding a specified investment threshold."
+            ],
+            "action_items": [
+              "Conduct a comprehensive sensitivity analysis for Project Horizon's projected returns, due in 10 days. (Assigned to: Senior Financial Analyst)",
+              "Prepare a revised forecast incorporating the approved capital reallocation, due by end of next week. (Assigned to: Financial Analyst Team)"
+            ]
+          },
+          "session_history": [
+            11,
+            43,
+            102
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [],
+          "total_forgotten_items": 0
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Financial Performance Review & Strategic Capital Allocation?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Evaluation of Proposed Capital Expenditures for Upcoming Development Projects, Forecasting and Risk Assessment for the Next Operating Period, Discussion on Current Market Conditions and Impact on Real Estate Investments' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Approved reallocation of capital from Project Evergreen (Region 4) to Project Horizon (Region 2) due to higher projected ROI., Mandated a detailed cost-benefit analysis for all new development proposals exceeding a specified investment threshold.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's action items 'Conduct a comprehensive sensitivity analysis for Project Horizon's projected returns, due in 10 days. (Assigned to: Senior Financial Analyst), Prepare a revised forecast incorporating the approved capital reallocation, due by end of next week. (Assigned to: Financial Analyst Team)' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_156",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 21,
+          "total_amount": 399.84,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 9.5,
+              "session_id": 4
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.83,
+              "session_id": 13
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 73.78,
+              "session_id": 20
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 10.82,
+              "session_id": 29
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 47.15,
+              "session_id": 31
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.29,
+              "session_id": 33
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.96,
+              "session_id": 36
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.97,
+              "session_id": 49
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 9.41,
+              "session_id": 68
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 42.37,
+              "session_id": 73
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.38,
+              "session_id": 76
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.33,
+              "session_id": 78
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 61.58,
+              "session_id": 84
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 6.01,
+              "session_id": 101
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.89,
+              "session_id": 107
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.45,
+              "session_id": 111
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 17.18,
+              "session_id": 119
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 41.42,
+              "session_id": 122
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.0,
+              "session_id": 125
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 8.94,
+              "session_id": 141
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.58,
+              "session_id": 144
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_156_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $399.84?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_156",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 61961,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10000,
+              "session_id": 10
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 11434,
+              "session_id": 41
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10151,
+              "session_id": 48
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6700,
+              "session_id": 69
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 5836,
+              "session_id": 103
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9045,
+              "session_id": 121
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 8795,
+              "session_id": 156
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_156_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 61,961 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_lunch_156_0",
+        "question": "Am I meeting my lunch budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 60,
+          "actual_value": 38.42,
+          "goal_status": {
+            "is_goal_met": true,
+            "status": "under_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "lunch",
+            "value": 60
+          },
+          "goal_session": {
+            "session_id": 17,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 13,
+              "session_date": "2025-06-01",
+              "amount": 11.83,
+              "expense_type": "lunch"
+            },
+            {
+              "session_id": 68,
+              "session_date": "2025-06-04",
+              "amount": 9.41,
+              "expense_type": "lunch"
+            },
+            {
+              "session_id": 119,
+              "session_date": "2025-06-06",
+              "amount": 17.18,
+              "expense_type": "lunch"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_lunch_156_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the lunch budget goal of $60?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_lunch_156_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($38.42) compared to the budget goal ($60.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_lunch_156_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is UNDER BUDGET (actual: $38.42 vs budget: $60.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_156_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 13000,
+          "actual_value": 8851.57142857143,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "below_target"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 13000
+          },
+          "goal_session": {
+            "session_id": 22,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 10,
+              "session_date": "2025-06-01",
+              "step_count": 10000
+            },
+            {
+              "session_id": 41,
+              "session_date": "2025-06-02",
+              "step_count": 11434
+            },
+            {
+              "session_id": 48,
+              "session_date": "2025-06-03",
+              "step_count": 10151
+            },
+            {
+              "session_id": 69,
+              "session_date": "2025-06-04",
+              "step_count": 6700
+            },
+            {
+              "session_id": 103,
+              "session_date": "2025-06-05",
+              "step_count": 5836
+            },
+            {
+              "session_id": 121,
+              "session_date": "2025-06-06",
+              "step_count": 9045
+            },
+            {
+              "session_id": 156,
+              "session_date": "2025-06-07",
+              "step_count": 8795
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 13000 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (8,852 steps) compared to the goal (13,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was NOT MET (actual: 8,852 steps vs goal: 13,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_156",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 69.35,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 9.5,
+              "session_id": 4
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.29,
+              "session_id": 33
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.96,
+              "session_id": 36
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.97,
+              "session_id": 49
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.38,
+              "session_id": 76
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.33,
+              "session_id": 78
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 9.89,
+              "session_id": 107
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.45,
+              "session_id": 111
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.0,
+              "session_id": 125
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.58,
+              "session_id": 144
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_156_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $69.35?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_156",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 1,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [
+                {
+                  "item": "Jodie Foster",
+                  "session_id": 134
+                }
+              ],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "J.J. Abrams",
+              "session_id": 66
+            },
+            {
+              "value": "Rian Johnson",
+              "session_id": 72
+            },
+            {
+              "value": "Sandra Bullock",
+              "session_id": 134
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Jodie Foster?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for J.J. Abrams?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Rian Johnson?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Sandra Bullock?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_books_general_156",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "authors": {
+              "likes": [
+                {
+                  "item": "Mary Roach",
+                  "session_id": 149
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "Michio Kaku",
+                  "session_id": 47
+                }
+              ]
+            },
+            "topics": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_read_list": {
+              "likes": [
+                {
+                  "item": "The Tipping Point",
+                  "session_id": 93
+                },
+                {
+                  "item": "Thinking, Fast and Slow",
+                  "session_id": 106
+                },
+                {
+                  "item": "Silent Spring",
+                  "session_id": 132
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Ta-Nehisi Coates",
+              "session_id": 47
+            },
+            {
+              "value": "Malcolm Gladwell",
+              "session_id": 149
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Mary Roach?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Michio Kaku (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Tipping Point?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Thinking, Fast and Slow?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_like_4",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Silent Spring?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ta-Nehisi Coates?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Malcolm Gladwell?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 7,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_music_general_156",
+        "question": "Can you suggest me some music?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 1,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "ragtime",
+                  "session_id": 130
+                }
+              ]
+            },
+            "artists": {
+              "likes": [],
+              "dislikes": []
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Count Basie",
+              "session_id": 51
+            },
+            {
+              "value": "1990s",
+              "session_id": 150
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending ragtime (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Count Basie?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for 1990s?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_travel_general_156",
+        "question": "Where should I travel next?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "destination_types": {
+              "likes": [],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [
+                {
+                  "item": "French Riviera",
+                  "session_id": 140
+                }
+              ],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Mediterranean",
+                  "session_id": 146
+                }
+              ]
+            },
+            "already_visited_list": {
+              "likes": [
+                {
+                  "item": "North Island Lodge, Seychelles",
+                  "session_id": 3
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "temperate",
+              "session_id": 74
+            },
+            {
+              "value": "Swiss Alps",
+              "session_id": 140
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for French Riviera?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Mediterranean (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for North Island Lodge, Seychelles?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for temperate?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Swiss Alps?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_books_authors_156",
+        "question": "Can you recommend a book by authors I like?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "Mary Roach",
+                "session_id": 149
+              }
+            ],
+            "dislikes": [
+              {
+                "item": "Michio Kaku",
+                "session_id": 47
+              }
+            ]
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "Mary Roach",
+              "session_id": 149
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Ta-Nehisi Coates",
+              "session_id": 47
+            },
+            {
+              "value": "Malcolm Gladwell",
+              "session_id": 149
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_authors_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Mary Roach?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_authors_156_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending Michio Kaku (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_authors_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Ta-Nehisi Coates?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_authors_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Malcolm Gladwell?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ]
+  }
+}

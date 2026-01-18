@@ -1,0 +1,128 @@
+{
+  "session_id": 577,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_5",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insight Post",
+      "main_message": "Analyzing the financial implications of mobile-first strategies in the European energy sector. Our pilot program shows promising efficiency gains and cost reductions, particularly in operational data collection and real-time asset management.",
+      "hashtags": [
+        "#FinancialAnalysis",
+        "#EuropeanEnergy",
+        "#EfficiencyGains",
+        "#PilotProject",
+        "#MobileFirst"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#PilotProject",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#MobileFirst",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 301,
+        "session_date": "2025-06-14",
+        "operation": "add"
+      },
+      {
+        "session_id": 577,
+        "session_date": "2025-06-27",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-27",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Insight Post'. I'd like to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update your 'LinkedIn Insight Post'. What information would you like to change in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include `#PilotProject`.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the hashtags to include `#PilotProject`. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please also add `#MobileFirst` to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added `#MobileFirst` to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the hashtags for it. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

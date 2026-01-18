@@ -1,0 +1,132 @@
+{
+  "session_id": 122,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Regional Market Performance Review & Strategic Capital Allocation",
+      "agenda_items": [
+        "Discussion on capital expenditure proposals for upcoming manufacturing upgrades",
+        "Assessment of foreign exchange impacts on profitability for the next period",
+        "Review of current regional sales performance and market share analysis for the past period",
+        "Strategic planning for inventory optimization and supply chain resilience in the region"
+      ],
+      "key_decisions": [
+        "Mandated a deep dive into Q3 operating expenses to identify areas for cost reduction."
+      ],
+      "action_items": [
+        "Regional Sales Directors to provide a comprehensive market share analysis for the past 3 months, highlighting growth opportunities and competitive threats, due in 1 week. (Owner: Regional Sales Directors)",
+        "Supply Chain Finance to collaborate with Operations on an inventory optimization report, due in 3 weeks. (Owner: David Chen)",
+        "Treasury department to present a revised FX hedging strategy proposal for key currencies within the next 10 days. (Owner: Treasury Lead)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "action_items",
+        "added_item": "Treasury department to present a revised FX hedging strategy proposal for key currencies within the next 10 days. (Owner: Treasury Lead)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Review of current regional sales performance and market share analysis for the past period",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Strategic planning for inventory optimization and supply chain resilience in the region",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Regional Market Performance Review & Strategic Capital Allocation'. I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the action items to include: 'Treasury department to present a revised FX hedging strategy proposal for key currencies within the next 10 days. (Owner: Treasury Lead)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the action items. Is there anything else you'd like to update in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the agenda items to include: 'Review of current regional sales performance and market share analysis for the past period'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added \"Review of current regional sales performance and market share analysis for the past period\" to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update the agenda items with: 'Strategic planning for inventory optimization and supply chain resilience in the region'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Strategic planning for inventory optimization and supply chain resilience in the region\" to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the meeting notes as requested. Is there anything else you'd like to do?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

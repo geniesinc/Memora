@@ -1,0 +1,146 @@
+{
+  "session_id": 585,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_2",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Social Media Post",
+      "main_message": "Excited to share how our team's recent strategic initiatives are driving significant growth in our regional manufacturing sector. Our data-driven approach continues to strengthen client relationships and optimize production efficiency. Let's connect to discuss how we can partner for mutual success!",
+      "hashtags": [
+        "#RegionalManufacturing",
+        "#ClientRelationships",
+        "#SalesManager",
+        "#SalesGrowth",
+        "#DataDriven",
+        "#ManufacturingExcellence"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#SalesGrowth",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#DataDriven",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#ManufacturingExcellence",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 49,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 585,
+        "session_date": "2025-06-26",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which designs computer chips to mimic the human brain. It's fascinating how technology is advancing to replicate biological processes.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Social Media Post'. I'd like to change a few details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update your social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#SalesGrowth'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#SalesGrowth' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#DataDriven' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#DataDriven' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#ManufacturingExcellence' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#ManufacturingExcellence' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. The hashtags for the social media post have been updated. Is there anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That's it for now, thanks!",
+      "share_memory": false
+    }
+  ]
+}

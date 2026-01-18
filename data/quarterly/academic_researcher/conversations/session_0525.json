@@ -1,0 +1,134 @@
+{
+  "session_id": 525,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_3",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Highlight",
+      "main_message": "Excited to share our recent findings on secure multi-party computation for privacy-preserving data analysis. This work explores novel cryptographic protocols to enable collaborative research without compromising sensitive information, a critical step for trusted data sharing in education and beyond. #CyberSecurity #DataPrivacy",
+      "hashtags": [
+        "Research",
+        "DataPrivacy",
+        "PrivacyPreservingAI",
+        "Academic",
+        "SecureComputation"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "Academic",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "SecureComputation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 27,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 525,
+        "session_date": "2025-06-25",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was just wondering, what are some of the most interesting recent advancements in AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Some recent advancements include large language models, AI art generators, and new developments in robotics.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Highlight'. I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the social media post. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add 'Academic' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Academic' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'SecureComputation' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added 'SecureComputation' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for it. Is there anything else you'd like to do with this social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "session_id": 300,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "Outline strategic priorities for accelerating customer-centric transformation across European operations and secure leadership alignment on investment decisions.",
+      "recipient_list": [
+        "Chief Commercial Officer",
+        "VP of Customer Experience",
+        "Regional Operations Directors",
+        "Executive Leadership Team",
+        "Head of Digital Transformation"
+      ],
+      "key_points": [
+        "Competitive landscape analysis shows mid-size players gaining market share through superior customer experience differentiation",
+        "Proposed investment of \u20ac3.2M over 18 months to expand digital customer engagement platforms across all European markets",
+        "Integration of real-time energy consumption analytics will enhance personalized service offerings and strengthen customer retention",
+        "Organizational restructuring required to embed customer-centric decision-making across commercial and operations functions",
+        "Customer satisfaction scores have increased by 18% following pilot programs in Nordic markets, demonstrating viability of scaled deployment"
+      ],
+      "call_to_action": "Review the attached strategic framework and provide input on investment priorities and resource allocation by end of next week to maintain project timeline."
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Executive Leadership Team",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Head of Digital Transformation",
+        "action": "added"
+      }
+    ],
+    "session_count": 3,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 263,
+        "session_date": "2025-06-12",
+        "operation": "add"
+      },
+      {
+        "session_id": 274,
+        "session_date": "2025-06-13",
+        "operation": "update"
+      },
+      {
+        "session_id": 300,
+        "session_date": "2025-06-14",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-14",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Outline strategic priorities for accelerating customer-centric transformation across European operations and secure leadership alignment on investment decisions.' I want to change a few details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the recipient list to include the Executive Leadership Team.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. The recipient list for that email will now include the Executive Leadership Team. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Head of Digital Transformation' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've also added 'Head of Digital Transformation' to the recipient list. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. The recipient list for the email has been updated. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "session_id": 36,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Destination Discovery: AI-Driven Personalization Campaign for Emerging Travel Markets",
+      "project_description": "Multi-channel marketing initiative leveraging machine learning to deliver personalized travel recommendations and content to millennial and Gen Z travelers across North America. The campaign aims to increase brand engagement and drive bookings through hyper-targeted messaging and immersive digital experiences.",
+      "budget": 350000,
+      "timeline": "12 months with Phase 1 (months 1-4) for research and creative development, Phase 2 (months 5-8) for campaign launch and optimization, and Phase 3 (months 9-12) for scaling and performance analysis",
+      "project_lead": "Priya Sundaram, Senior Marketing Manager",
+      "stakeholders": [
+        "External Creative Agency",
+        "IT and Technology Partners",
+        "Customer Experience Team",
+        "Digital Marketing Team",
+        "Chief Marketing Officer",
+        "Data Analytics Department"
+      ],
+      "objectives": [
+        "Establish thought leadership in sustainable and experiential travel segments",
+        "Build predictive customer journey models to enhance future marketing efforts",
+        "Drive 50% growth in qualified leads through personalized content engagement",
+        "Improve customer acquisition cost efficiency by 25% compared to previous campaigns",
+        "Increase brand awareness among travelers aged 25-40 by 35% in target markets"
+      ],
+      "deliverables": [
+        "Multi-channel creative assets including video, interactive content, and social media campaigns",
+        "Comprehensive market segmentation analysis and persona development",
+        "AI-powered content recommendation engine integrated with existing platforms"
+      ],
+      "competitive_analysis": "Recent analysis reveals three primary competitors dominating the North American travel marketing space with strong personalization capabilities. Our differentiation lies in combining AI-driven recommendations with authentic storytelling and sustainable travel positioning, addressing a gap where competitors focus primarily on price-driven messaging rather than experiential value and responsible tourism.",
+      "risk_mitigation": "Key risks include technology integration delays, data privacy compliance challenges, and potential market saturation in digital channels. Mitigation strategies include phased rollout with built-in testing periods, dedicated legal review of all data practices to ensure compliance, contingency budget allocation of 15% for unexpected costs, and diversified channel mix to reduce dependency on any single platform."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 300000,
+        "reverted_to": 350000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "deliverables",
+        "removed_item": "Personalized email nurture sequences with dynamic content blocks",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Destination Discovery: AI-Driven Personalization Campaign for Emerging Travel Markets'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "No problem, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for the proposal to $350,000 from $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for 'Destination Discovery' back to $350,000. Is there anything else you'd like to remove or modify for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Personalized email nurture sequences with dynamic content blocks' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Personalized email nurture sequences with dynamic content blocks\" from the deliverables. Is there anything else you'd like to remove or modify for this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, I've updated the project proposal by removing the specified deliverable and adjusting the budget. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if anything else comes up.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

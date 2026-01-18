@@ -1,0 +1,142 @@
+{
+  "session_id": 345,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Strategic AI Integration Roadmap for European Media Expansion",
+      "agenda_items": [
+        "Review of current AI content generation pipeline performance in pilot markets",
+        "Resource allocation and team structure for upcoming AI initiatives",
+        "Discussion on competitive landscape analysis for AI-driven media solutions across Europe",
+        "Defining key metrics for success for the next growth phase",
+        "Brainstorming session: identifying new AI applications for personalized content delivery"
+      ],
+      "key_decisions": [
+        "Initiate a strategic partnership exploration with a leading European data analytics firm to enhance audience segmentation capabilities."
+      ],
+      "attendees": [
+        "Isabelle Dubois, Head of European Operations",
+        "Dr. Anya Sharma, Head of AI Research",
+        "Marco Rossi, Chief Product Officer",
+        "Sofia Rodriguez, VP of Business Development"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Kenji Tanaka, Lead Data Scientist",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize development of the multilingual AI content localization module for immediate rollout in two new markets.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 215,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 219,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      },
+      {
+        "session_id": 343,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      },
+      {
+        "session_id": 345,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic AI Integration Roadmap for European Media Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Kenji Tanaka, Lead Data Scientist' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. Kenji Tanaka has been removed from the attendees. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Prioritize development of the multilingual AI content localization module for immediate rollout in two new markets.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The decision regarding the multilingual AI content localization module has been removed from the key decisions. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the meeting notes for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, all specified removals have been made to the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

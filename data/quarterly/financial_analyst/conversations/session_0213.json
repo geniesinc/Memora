@@ -1,0 +1,133 @@
+{
+  "session_id": 213,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_6",
+    "content_data": {
+      "project_title": "North American Automotive UX Consulting Pilot Program",
+      "project_description": "Proposal for a pilot program to implement user-experience driven consulting services for key automotive clients across North America, focusing on measurable financial impact.",
+      "budget": 900000,
+      "timeline": "Initial phase over 9 months, with potential for extension based on performance metrics.",
+      "project_lead": "Dr. Anya Sharma, Senior Financial Analyst",
+      "stakeholders": [
+        "VP of Product Development",
+        "Head of North American Operations (Automotive Division)"
+      ],
+      "objectives": [
+        "Establish key performance indicators (KPIs) and metrics to quantitatively track the ROI of UX improvements for pilot clients."
+      ],
+      "deliverables": [
+        "Risk assessment and mitigation strategy document for service line expansion.",
+        "Comprehensive financial impact analysis report for each pilot client.",
+        "Quarterly financial performance reviews for the pilot program."
+      ],
+      "compliance_requirements": [
+        "Review of intellectual property rights for any jointly developed solutions or methodologies.",
+        "Adherence to regional automotive industry data privacy regulations (e.g., CCPA, PIPEDA for relevant client data)."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 775000,
+        "reverted_to": 900000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Develop and refine a scalable financial model for UX consulting services in the automotive sector.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Chief Marketing Officer (CMO)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal, \"North American Automotive UX Consulting Pilot Program.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget for the \"North American Automotive UX Consulting Pilot Program\" from $775,000 back to $900,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. The budget for the \"North American Automotive UX Consulting Pilot Program\" has been reverted to $900,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove \"Develop and refine a scalable financial model for UX consulting services in the automotive sector\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that objective. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Chief Marketing Officer (CMO)' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Chief Marketing Officer (CMO)' from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested removals and modifications have been made to the project proposal. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Nope, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "session_id": 93,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Connected Vehicle Telemetry Processing Platform",
+      "project_description": "Development of a real-time telemetry data processing system to enhance UX insights from connected vehicles across European markets. The platform will enable predictive analytics and personalized driver experience optimization.",
+      "budget": 300000,
+      "timeline": "14 months with Phase 1 (months 1-4) for architecture design, Phase 2 (months 5-10) for core development, and Phase 3 (months 11-14) for testing and deployment",
+      "project_lead": "Naledi Okonkwo, Senior Software Architect",
+      "stakeholders": [
+        "UX Research Team"
+      ],
+      "objectives": [
+        "Establish GDPR-compliant data pipelines for European automotive clients",
+        "Build scalable microservices architecture to process 50M+ telemetry events daily from connected vehicles"
+      ],
+      "deliverables": [
+        "Real-time analytics dashboard with customizable UX metrics",
+        "Technical architecture documentation and deployment runbooks"
+      ],
+      "resources_needed": [
+        "Cloud infrastructure budget for AWS services including EKS, MSK, and RDS",
+        "Performance testing tools and monitoring platform subscriptions",
+        "2 DevOps engineers with Kubernetes and AWS expertise",
+        "1 data privacy compliance specialist"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "resources_needed",
+        "added_item": "1 data privacy compliance specialist",
+        "action": "added"
+      },
+      {
+        "field": "budget",
+        "updated_from": 300000,
+        "updated_to": 325000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "budget",
+        "updated_from": 325000,
+        "updated_to": 300000,
+        "action": "budget_revised"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'm doing well, thanks for asking. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'Connected Vehicle Telemetry Processing Platform'. I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, what specific details would you like to change in the 'Connected Vehicle Telemetry Processing Platform' proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the `resources_needed` field to include '1 data privacy compliance specialist'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. Is there anything else you'd like to update in the 'Connected Vehicle Telemetry Processing Platform' proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Actually, the budget was $300,000, but we need to increase it to $325,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. Is there anything else you'd like to update for the 'Connected Vehicle Telemetry Processing Platform' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Actually, the budget was $325,000, but we need to reduce it to $300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. Is there anything else you'd like to update for the 'Connected Vehicle Telemetry Processing Platform' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, I have one more update. The budget for 'Connected Vehicle Telemetry Processing Platform' needs to be set at $325,000, not $300,000.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. Is there anything else you'd like to update for the 'Connected Vehicle Telemetry Processing Platform' project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I'm glad I could assist you with the updates.",
+      "share_memory": false
+    }
+  ]
+}

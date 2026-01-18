@@ -1,0 +1,119 @@
+{
+  "session_id": 17,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts",
+      "agenda_items": [
+        "Evaluation of new cost-saving opportunities within client operations",
+        "Review of Q2 financial performance for top 5 manufacturing clients"
+      ],
+      "key_decisions": [
+        "Agreed to present revised financial forecasts to Client C within the next two weeks to reflect recent material cost increases"
+      ],
+      "action_items": [
+        "Prepare detailed variance analysis report for Client D's Q2 budget by end of next week. (Assigned to: Analyst Team)",
+        "Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-01",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to add some meeting notes to my memory. Can you help me organize the attendees for them?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you organize the attendees for your meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The meeting was for the Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The agenda items included the evaluation of new cost-saving opportunities within client operations and a review of Q2 financial performance for the top 5 manufacturing clients.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We agreed to present revised financial forecasts to Client C within the next two weeks to reflect recent material cost increases.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "What are the action items from this meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The action items are to prepare a detailed variance analysis report for Client D's Q2 budget by the end of next week, assigned to the Analyst Team, and to schedule a follow-up meeting with Client E to discuss the proposed capital expenditure plan within the next 10 days, assigned to the Lead Analyst.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Thank you. What follow-up actions were decided for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That sounds like a good summary of the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Great! I'm glad I could help you organize your meeting notes. Let me know if you need anything else!",
+      "share_memory": false
+    }
+  ]
+}

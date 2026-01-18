@@ -1,0 +1,132 @@
+{
+  "session_id": 115,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Autonomous Vehicle Fleet Intelligence Platform - EMEA Expansion",
+      "project_description": "Strategic initiative to deploy AI-driven predictive maintenance and fleet optimization systems across European, Middle Eastern, and African markets. This platform will integrate real-time vehicle telemetry with machine learning algorithms to reduce operational costs and enhance customer satisfaction.",
+      "budget": 17950000,
+      "timeline": "24 months with Phase 1 (months 1-8) focusing on infrastructure and pilot deployment, Phase 2 (months 9-16) for market expansion, and Phase 3 (months 17-24) for optimization and scaling",
+      "project_lead": "Priya Kulkarni, Executive Vice President of Global Innovation",
+      "stakeholders": [
+        "Data Science and AI Division",
+        "Strategic Partnership Office",
+        "VP of Customer Experience",
+        "VP of Manufacturing Operations",
+        "Regional Managing Directors - EMEA"
+      ],
+      "objectives": [
+        "Generate new recurring revenue streams through platform-as-a-service offerings to B2B customers",
+        "Build strategic partnerships with regional automotive suppliers and technology providers",
+        "Achieve 35% reduction in unplanned vehicle downtime through predictive maintenance capabilities"
+      ],
+      "deliverables": [
+        "Regulatory compliance framework and data governance protocols for EMEA markets",
+        "Pilot program completion with 5,000 connected vehicles across three initial markets",
+        "Fully operational AI platform with real-time analytics dashboard and predictive algorithms",
+        "Comprehensive training programs for regional sales teams and service partners",
+        "Executive-level business case and ROI analysis for subsequent global expansion phases"
+      ],
+      "risk_assessment": "Medium-high risk profile due to complex regulatory environments across multiple jurisdictions, data privacy requirements under GDPR, and dependency on third-party technology integrations. Mitigation strategies include phased rollout approach, dedicated compliance taskforce, and contingency budget allocation of 15%."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 15400000,
+        "reverted_to": 17950000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Establish market leadership in AI-powered fleet management across 15 EMEA markets",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'm doing well. I'm ready to answer any questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Autonomous Vehicle Fleet Intelligence Platform - EMEA Expansion'. We need to make a few adjustments to its content.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove or modify from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget for the proposal from 15,400,000 back to 17,950,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for 'Autonomous Vehicle Fleet Intelligence Platform - EMEA Expansion' back to 17,950,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Establish market leadership in AI-powered fleet management across 15 EMEA markets' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Establish market leadership in AI-powered fleet management across 15 EMEA markets\" from the objectives. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made those updates to the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. I appreciate your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

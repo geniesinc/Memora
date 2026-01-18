@@ -1,0 +1,154 @@
+{
+  "session_id": 394,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Real-Time Network Anomaly Detection Engine for Telecom Infrastructure",
+      "project_description": "Development of a machine learning-powered system to predict and identify network anomalies across European telecommunications infrastructure, reducing downtime and improving service quality through proactive intervention.",
+      "budget": 300000,
+      "timeline": "14 months with Phase 1 (months 1-4) for architecture and data pipeline setup, Phase 2 (months 5-10) for ML model development and testing, and Phase 3 (months 11-14) for deployment and optimization",
+      "project_lead": "Priya Nambiar, Senior Software Engineer",
+      "stakeholders": [
+        "Chief Technology Officer",
+        "Telecom Infrastructure Partners"
+      ],
+      "objectives": [
+        "Ensure GDPR compliance and data privacy standards across all European markets",
+        "Create comprehensive API layer for integration with existing network management systems",
+        "Develop and train ML models achieving 92%+ accuracy in predicting network failures 30-60 minutes in advance"
+      ],
+      "deliverables": [
+        "Deployment scripts and CI/CD pipeline configuration",
+        "Comprehensive test suite with 85%+ code coverage",
+        "Technical documentation and system architecture diagrams",
+        "Training materials and knowledge transfer sessions for operations team"
+      ],
+      "success_metrics": [
+        "Mean time to detection (MTTD) reduced by 65% compared to current manual monitoring",
+        "False positive rate below 8% within first 3 months of production deployment",
+        "API response time under 100ms for 95th percentile requests",
+        "System uptime maintains 99.95% availability"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 325000,
+        "updated_to": 350000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "stakeholders",
+        "added_item": "Telecom Infrastructure Partners",
+        "action": "added"
+      },
+      {
+        "field": "budget",
+        "updated_from": 350000,
+        "updated_to": 325000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "budget",
+        "updated_from": 325000,
+        "updated_to": 300000,
+        "action": "budget_revised"
+      }
+    ],
+    "session_count": 4
+  },
+  "date": "2025-06-20",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal \"Real-Time Network Anomaly Detection Engine for Telecom Infrastructure.\" Please change the budget from $325,000 to $350,000.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help update the budget for \"Real-Time Network Anomaly Detection Engine for Telecom Infrastructure.\" What other details need to be updated in the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the budget from $325,000 to $350,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted the budget update from $325,000 to $350,000. What other details need to be updated?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please update the stakeholders to include 'Telecom Infrastructure Partners'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Telecom Infrastructure Partners' to the stakeholders. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update the budget from  $350,000 to $325,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've noted the budget update from $350,000 to $325,000. What else can I help you update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I've updated the budget from $325,000 to $300,000. That's all the updates for this project proposal.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've noted that all updates for the project proposal are complete. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

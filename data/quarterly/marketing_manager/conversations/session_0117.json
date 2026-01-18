@@ -1,0 +1,130 @@
+{
+  "session_id": 117,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Q4 Campaign Strategy & Fan Engagement Initiative Review",
+      "agenda_items": [
+        "Security protocols for customer data collection in loyalty programs",
+        "Finalize creative direction for upcoming product launch campaign",
+        "Discuss brand partnership opportunities with regional sports teams"
+      ],
+      "key_decisions": [
+        "Selected hybrid approach combining traditional sports media with digital-first content strategy"
+      ],
+      "action_items": [
+        "Dmitri Volkov to negotiate media buy rates with sports broadcast partners within 3 weeks",
+        "Marcus Chen to coordinate with IT on implementing enhanced data encryption for campaign landing pages by end of next month"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Mandated enhanced security measures for all customer data touchpoints in compliance with new protocols",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Fatima Al-Rashid to develop creative brief for agency partners and distribute within 5 days",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Jordan Kim to analyze Western region engagement data and present findings in 2 weeks",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks for asking! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the meeting notes titled 'Q4 Campaign Strategy & Fan Engagement Initiative Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Mandated enhanced security measures for all customer data touchpoints in compliance with new protocols\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Mandated enhanced security measures for all customer data touchpoints in compliance with new protocols\" from the key decisions. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Fatima Al-Rashid to develop creative brief for agency partners and distribute within 5 days' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Fatima Al-Rashid to develop creative brief for agency partners and distribute within 5 days' from the action items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please also remove 'Jordan Kim to analyze Western region engagement data and present findings in 2 weeks' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. I've removed 'Jordan Kim to analyze Western region engagement data and present findings in 2 weeks' from the action items. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all the requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks, that was very helpful!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I'm glad I could assist you.",
+      "share_memory": false
+    }
+  ]
+}

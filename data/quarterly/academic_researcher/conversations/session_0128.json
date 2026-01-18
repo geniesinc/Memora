@@ -1,0 +1,115 @@
+{
+  "session_id": 128,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Data-Driven University Initiative: Initial Research Pilot Planning",
+      "agenda_items": [
+        "Allocation of preliminary research tasks and responsibilities",
+        "Identification of key research questions for the pilot phase",
+        "Review of proposed data sources from energy industry partners"
+      ],
+      "key_decisions": [
+        "Formulate a joint university-industry data governance committee for oversight and dispute resolution.",
+        "Prioritize real-time sensor data from smart grid infrastructure for initial pilot due to high impact potential."
+      ],
+      "action_items": [
+        "Ms. Patel (Research Assistant): Compile a literature review on recent advancements in AI for energy grid optimization within the next 2 weeks.",
+        "Dr. Sharma (Computer Science): Schedule a follow-up meeting with industry legal counsel to discuss data anonymization strategies within the next 10 days."
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to add some new meeting notes. Could you help me structure the information for my recent team sync?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you add your meeting notes. Let's get started.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The meeting was about the \"Data-Driven University Initiative: Initial Research Pilot Planning.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For the agenda, we discussed the allocation of preliminary research tasks and responsibilities, identified key research questions for the pilot phase, and reviewed proposed data sources from energy industry partners.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We decided to formulate a joint university-industry data governance committee and prioritize real-time sensor data from smart grid infrastructure for the initial pilot.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "What are the action items from this meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Ms. Patel needs to compile a literature review on recent advancements in AI for energy grid optimization within the next 2 weeks, and Dr. Sharma will schedule a follow-up with industry legal counsel to discuss data anonymization strategies within 10 days.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. Is there anything else you'd like to add or change for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thank you for your help in structuring these notes!",
+      "share_memory": false
+    }
+  ]
+}

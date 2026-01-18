@@ -1,0 +1,136 @@
+{
+  "session_id": 389,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment: Q+1 Product Launch",
+      "agenda_items": [
+        "Establishing a content calendar and workflow for the next 3 months",
+        "Discussion on optimizing content for SEO and conversion within the e-commerce platform"
+      ],
+      "key_decisions": [
+        "Implement A/B testing on product page descriptions and calls-to-action to optimize conversion rates.",
+        "Integrate user-generated content initiatives more prominently into the overall content strategy.",
+        "Allocate dedicated content resources for in-depth product guides and comparison articles."
+      ],
+      "attendees": [
+        "Anya Sharma, Head of Content"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Maria Rodriguez, SEO Specialist",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "David Miller, Content Writer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of current content performance metrics for key product categories",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! I was just wondering, what's a common misconception people have about AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! A common misconception is that AI is always sentient or has human-like consciousness.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Content Strategy Alignment: Q+1 Product Launch'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details should I remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Maria Rodriguez, SEO Specialist\" from the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed Maria Rodriguez from the attendees list for the meeting notes. Is there anything else I should remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"David Miller, Content Writer\" from the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed David Miller from the attendees list. Is there anything else I should remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Review of current content performance metrics for key product categories\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Review of current content performance metrics for key product categories\" from the agenda items. Is there anything else I should remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Alright, I've removed the requested attendees and agenda item from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that was very helpful. Thanks for your assistance!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out anytime you need assistance again.",
+      "share_memory": false
+    }
+  ]
+}

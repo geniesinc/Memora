@@ -1,0 +1,104 @@
+{
+  "session_id": 941,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-14",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm doing well, thank you for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! I was just thinking about \"machine learning.\" Could you tell me what exactly that means?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Machine learning is a field of artificial intelligence where systems learn from data to identify patterns and make decisions with minimal human intervention. It allows computers to improve their performance on a task over time without being explicitly programmed.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear explanation. So, it's about systems learning from information rather than being told every single step?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Precisely! Instead of rigid instructions, machine learning models adapt and evolve their understanding based on the data they process.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "This is evident in things like recommendation systems suggesting products or movies, or spam filters identifying unwanted emails. They learn from past data to make predictions or classifications.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's really interesting. What are some of the different types of machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "There are three main types: supervised, unsupervised, and reinforcement learning, each with different approaches to how they learn from data. They are used for various tasks depending on the data available and the problem to be solved.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Could you tell me a bit more about what makes each type unique?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Supervised learning uses labeled data for prediction, unsupervised learning finds patterns in unlabeled data, and reinforcement learning learns through trial and error with rewards. They differ in their data requirements and learning mechanisms.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's a good summary. I enjoyed learning about this from you today.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! I'm glad I could help, and I'm happy to discuss machine learning or other topics anytime you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

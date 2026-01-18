@@ -1,0 +1,118 @@
+{
+  "session_id": 403,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "Q3 Regional Campaign Performance Review & Compliance Update",
+      "agenda_items": [
+        "Review performance metrics for recent plant-based protein launch campaign",
+        "Discuss updated FDA labeling compliance requirements for marketing materials",
+        "Plan social media content calendar with regulatory approval workflow"
+      ],
+      "key_decisions": [
+        "Allocate additional budget to in-store sampling programs based on conversion data",
+        "Shift focus from awareness metrics to purchase intent tracking for next campaign phase"
+      ],
+      "attendees": [
+        "Tom\u00e1s Herrera, Digital Marketing Specialist",
+        "Priya Naidoo, Marketing Manager",
+        "Leila Yamamoto, Compliance Officer",
+        "Chen Wei, Customer Insights Analyst",
+        "Marcus Okafor, Brand Strategy Lead",
+        "Fatima Al-Rashid, Regional Sales Director"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Evaluate customer engagement data from retail partner activations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Align on regional distributor co-marketing strategy for next phase",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Q3 Regional Campaign Performance Review & Compliance Update'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Evaluate customer engagement data from retail partner activations\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Evaluate customer engagement data from retail partner activations\" from the agenda items. Is there anything else you'd like to remove or modify from these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please also remove \"Align on regional distributor co-marketing strategy for next phase\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Align on regional distributor co-marketing strategy for next phase\" from the agenda items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the removals from the agenda items. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, the agenda items have been updated. Is there anything else I can help you with regarding these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. I appreciate your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "session_id": 89,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Cross-Border Fleet Optimization Initiative",
+      "project_description": "Strategic deployment of AI-driven route optimization and predictive maintenance systems across regional distribution networks to reduce operational costs and improve delivery efficiency by 25%.",
+      "budget": 2800000,
+      "timeline": "18 months with Phase 1 (months 1-6) for pilot deployment, Phase 2 (months 7-12) for regional rollout, and Phase 3 (months 13-18) for optimization and scaling",
+      "project_lead": "Priya Naidoo, VP of Regional Operations",
+      "stakeholders": [
+        "Regional Operations Directors",
+        "IT Infrastructure Division",
+        "Customer Service Leadership",
+        "Finance and Procurement",
+        "Fleet Management Teams"
+      ],
+      "objectives": [
+        "Decrease vehicle downtime by 40% via predictive maintenance implementation",
+        "Create scalable framework for expansion to additional regions",
+        "Reduce fuel consumption and operational costs by 25% through optimized routing algorithms",
+        "Establish real-time visibility platform for end-to-end shipment tracking"
+      ],
+      "deliverables": [
+        "ROI analysis framework and performance benchmarking system",
+        "Predictive maintenance system integrated with existing fleet management infrastructure",
+        "Scalability roadmap for future regional expansion"
+      ],
+      "market_impact": "Expected to strengthen competitive positioning in regional logistics market by establishing technology leadership and enabling 15-20% pricing flexibility while maintaining margins. Anticipated to capture additional market share from competitors unable to match delivery speed and reliability improvements."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Change management toolkit and operational playbooks",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Enhance cross-border coordination and reduce customs clearance delays by 30%",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 3000000,
+        "reverted_to": 2800000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering if you could help me with something today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help with your questions. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to remove some information from my project proposal titled 'Cross-Border Fleet Optimization Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Change management toolkit and operational playbooks\" from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. \"Change management toolkit and operational playbooks\" has been removed from the deliverables for this project. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Enhance cross-border coordination and reduce customs clearance delays by 30%' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Enhance cross-border coordination and reduce customs clearance delays by 30%' from the objectives. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget from $3,000,000 to $2,800,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've reverted the budget to $2,800,000. Is there anything else you'd like to remove or modify from the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "All requested removals and modifications to the project proposal have been completed. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Great! If you need any further assistance with your proposal or anything else, feel free to ask. Have a wonderful day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "session_id": 540,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_6",
+    "content_data": {
+      "project_title": "Pan-European Audience Engagement & Brand Revitalization Initiative",
+      "project_description": "Comprehensive marketing strategy to enhance brand positioning and drive measurable audience engagement across European media markets through integrated digital and traditional campaigns.",
+      "budget": 325000,
+      "timeline": "12 months structured as Phase 1: Market Research & Strategy (months 1-3), Phase 2: Campaign Development (months 4-6), Phase 3: Execution & Optimization (months 7-12)",
+      "project_lead": "Leena Virtanen, Senior Marketing Manager",
+      "stakeholders": [
+        "Content Production Team"
+      ],
+      "objectives": [
+        "Drive 50% growth in qualified lead generation through optimized channel mix"
+      ],
+      "deliverables": [
+        "Integrated multi-channel campaign creative assets and messaging framework",
+        "Comprehensive European market segmentation analysis and persona development",
+        "Brand refresh guidelines including visual identity and tone of voice standards"
+      ],
+      "success_metrics": [
+        "Marketing Qualified Leads (MQL) volume and conversion rates",
+        "Return on Marketing Investment (ROMI) of 4.2:1 or higher",
+        "Net Promoter Score (NPS) increase of 15 points"
+      ],
+      "campaign_channels": [
+        "LinkedIn and Twitter for B2B thought leadership",
+        "Programmatic display advertising across premium media networks"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 300000,
+        "reverted_to": 325000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Expand market share in underperforming regional segments",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Pan-European Audience Engagement & Brand Revitalization Initiative.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please revert the budget from 300,000 Euros back to 325,000 Euros.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to 325,000 Euros for that project. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Expand market share in underperforming regional segments\" from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Expand market share in underperforming regional segments\" from the objectives. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the project proposal by removing that objective. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, have a good one!",
+      "share_memory": false
+    }
+  ]
+}

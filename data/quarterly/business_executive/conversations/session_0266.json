@@ -1,0 +1,160 @@
+{
+  "session_id": 266,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "Q-Series Aircraft Certification Strategy and Regulatory Compliance Review",
+      "agenda_items": [
+        "Safety management system integration across newly acquired subsidiaries",
+        "Budget reallocation for extended certification testing requirements",
+        "EASA and FAA certification timeline alignment for Q-Series platform",
+        "Supplier audit findings and corrective action status across European and Asian facilities"
+      ],
+      "key_decisions": [
+        "Mandated immediate implementation of enhanced traceability protocols across all Tier 1 suppliers",
+        "Greenlit partnership with external aviation law firm specializing in international certification harmonization"
+      ],
+      "action_items": [
+        "Regional Directors to assess local regulatory landscape changes and report findings within 6 weeks",
+        "Chief Compliance Officer to present revised global compliance framework to Board within 3 weeks",
+        "General Counsel to finalize export control classification for new avionics suite within 10 days",
+        "CFO to prepare detailed financial impact analysis of certification delay for executive committee review in 2 weeks"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Head of Engineering to coordinate with certification authorities on updated test protocol submission within 5 weeks",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Export control compliance framework updates for defense-adjacent components",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Approved delay of commercial launch by 4 months to ensure full regulatory compliance across all target markets",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 110,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 197,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      },
+      {
+        "session_id": 266,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting recent advancements in artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Some exciting recent advancements include large language models becoming multimodal and significant progress in AI for scientific discovery, like protein folding.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q-Series Aircraft Certification Strategy and Regulatory Compliance Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Head of Engineering to coordinate with certification authorities on updated test protocol submission within 5 weeks' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Export control compliance framework updates for defense-adjacent components' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Export control compliance framework updates for defense-adjacent components\" from the agenda items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Approved delay of commercial launch by 4 months to ensure full regulatory compliance across all target markets' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been completed. Is there anything else I can help you with regarding these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance with your meeting notes or anything else.",
+      "share_memory": false
+    }
+  ]
+}

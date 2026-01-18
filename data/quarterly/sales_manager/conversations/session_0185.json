@@ -1,0 +1,135 @@
+{
+  "session_id": 185,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Q3 Sales Performance Review & Strategic Planning Session",
+      "agenda_items": [
+        "Open discussion and action item assignment",
+        "Analysis of key account performance and pipeline health",
+        "Strategic initiatives for upcoming period: new product launch support and regional expansion"
+      ],
+      "key_decisions": [
+        "Implement a targeted outreach campaign for underperforming regions, focusing on client re-engagement."
+      ],
+      "attendees": [
+        "Regional Sales Managers (Europe, APAC, Americas)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Prioritize Q4 efforts on the new 'Advanced Materials' product line launch, allocating 60% of team resources.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Product Marketing Manager (Advanced Materials)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of previous quarter's sales metrics against targets",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering, what are some of the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is seeing rapid progress in areas like large language models and computer vision. These advancements are leading to more sophisticated applications across many industries.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q3 Sales Performance Review & Strategic Planning Session'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Prioritize Q4 efforts on the new 'Advanced Materials' product line launch, allocating 60% of team resources.' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the `key_decisions` field. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Product Marketing Manager (Advanced Materials)' from the 'attendees' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Product Marketing Manager (Advanced Materials)' from the `attendees` field. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Review of previous quarter's sales metrics against targets' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Review of previous quarter's sales metrics against targets' from the `agenda_items` field. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "All requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

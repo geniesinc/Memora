@@ -1,0 +1,92 @@
+{
+  "session_id": 553,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 6,
+      "total_items_processed": 6,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-06-26",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's great to hear! I was curious, what exactly is the difference between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines performing tasks that typically require human intelligence, while machine learning is a subset of AI that focuses on systems learning from data without explicit programming. Machine learning enables AI systems to improve their performance over time through experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Wow, that actually makes a lot of sense! So machine learning is like the brain within the AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a fantastic way to put it! Machine learning truly acts as the core learning mechanism for many AI applications.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's a very clear explanation. Can you give some examples of everyday things that use machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely! Think of things like recommendation systems on streaming platforms, spam filters in your email, and even the facial recognition on your phone\u2014they all leverage machine learning.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "So, those recommendation systems are essentially predicting what someone might like based on past data?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Exactly! You've precisely captured how those systems work by analyzing past interactions to anticipate future preferences.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's really insightful, thanks for explaining everything so clearly! I appreciate the detailed breakdown.",
+      "share_memory": false
+    }
+  ]
+}

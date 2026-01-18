@@ -1,0 +1,171 @@
+{
+  "session_id": 104,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: European Travel Partners",
+      "agenda_items": [
+        "Discussion on new predictive analytics features for enhanced client value"
+      ],
+      "key_decisions": [
+        "Prioritize Q4 outreach to top 5 underperforming accounts with tailored analytics reports."
+      ],
+      "action_items": [
+        "Draft a proposal for a joint marketing initiative with a strategic airline partner for review next month. (Owner: Marketing Department)",
+        "Prepare Q3 performance deep-dive reports for each sales team member by end of next week. (Owner: Sales Operations)",
+        "Develop a competitive analysis brief focusing on predictive analytics offerings from industry rivals within the next two weeks. (Owner: Product Marketing)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review of Q3 sales performance against targets for key European accounts",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Strategy session for approaching high-potential, unengaged travel enterprise clients",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Identification of cross-selling and upselling opportunities within existing portfolio",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Schedule follow-up calls with key decision-makers from target accounts to present new feature benefits. (Owner: Sales Team Leads)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 20,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 74,
+        "session_date": "2025-06-03",
+        "operation": "update"
+      },
+      {
+        "session_id": 86,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 104,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I don't have any specific needs at the moment, but I'm ready to answer any questions you might have for me.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Account Review: European Travel Partners'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review of Q3 sales performance against targets for key European accounts' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Review of Q3 sales performance against targets for key European accounts' from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Strategy session for approaching high-potential, unengaged travel enterprise clients' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Strategy session for approaching high-potential, unengaged travel enterprise clients' from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Identification of cross-selling and upselling opportunities within existing portfolio' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Identification of cross-selling and upselling opportunities within existing portfolio' from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please also remove 'Schedule follow-up calls with key decision-makers from target accounts to present new feature benefits. (Owner: Sales Team Leads)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Schedule follow-up calls with key decision-makers from target accounts to present new feature benefits. (Owner: Sales Team Leads)' from the action items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been completed. Is there anything else I can assist you with regarding the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else in the future.",
+      "share_memory": false
+    }
+  ]
+}

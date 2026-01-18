@@ -1,0 +1,153 @@
+{
+  "session_id": 887,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_8",
+    "content_data": {
+      "platform": "Instagram",
+      "content_type": "Image Post",
+      "main_message": "Thrilled to unveil a sneak peek of our latest branding concept for a new food-tech venture! We focused on creating a vibrant, approachable identity that resonates with a customer-centric ethos in the regional market.",
+      "hashtags": [
+        "#FoodTechDesign",
+        "#CreativeDesigner",
+        "#FoodInnovation",
+        "#BrandIdentity",
+        "#CustomerCentric",
+        "#RegionalFood",
+        "#CreativeVision"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#CustomerCentric",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#RegionalFood",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#CreativeVision",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 348,
+        "session_date": "2025-06-18",
+        "operation": "add"
+      },
+      {
+        "session_id": 887,
+        "session_date": "2025-07-14",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-07-14",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What are some of the most common misconceptions people have about artificial intelligence?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "One common misconception is that AI is always sentient or has emotions like humans. Another is that AI will inevitably take over all human jobs.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'Instagram Image Post'. I want to change some of the details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update it. What details do you want to change in the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I want to update the hashtags. Please add '#CustomerCentric' to the existing list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#CustomerCentric' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#RegionalFood' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#RegionalFood' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#CreativeVision' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#CreativeVision' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for the hashtags.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, the hashtags have been updated. Is there anything else you'd like to update for the social media post?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, I think that's all for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

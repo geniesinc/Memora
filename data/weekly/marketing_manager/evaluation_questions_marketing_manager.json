@@ -1,0 +1,1475 @@
+{
+  "persona": "marketing_manager",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_156",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Buy groceries",
+              "session_id": 146
+            }
+          ],
+          "task_count": 1
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Call family",
+              "session_id": 20
+            },
+            {
+              "value": "Update wardrobe",
+              "session_id": 43
+            },
+            {
+              "value": "Review creative assets",
+              "session_id": 55
+            },
+            {
+              "value": "Organize home decor",
+              "session_id": 56
+            },
+            {
+              "value": "Plan product launch strategy",
+              "session_id": 67
+            },
+            {
+              "value": "Create brand guidelines document",
+              "session_id": 93
+            },
+            {
+              "value": "Update marketing calendar",
+              "session_id": 119
+            },
+            {
+              "value": "Plan dinner party",
+              "session_id": 128
+            },
+            {
+              "value": "Book spa appointment",
+              "session_id": 142
+            },
+            {
+              "value": "Approve social media content",
+              "session_id": 154
+            }
+          ],
+          "total_forgotten_items": 10
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_156_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Buy groceries?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the deleted task: Call family?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_1",
+              "evaluation_question": "Is 'Update wardrobe' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_2",
+              "evaluation_question": "Does the response include Review creative assets in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_3",
+              "evaluation_question": "Is the completed/deleted task 'Organize home decor' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_4",
+              "evaluation_question": "Does the response mention the deleted task: Plan product launch strategy?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_6",
+              "evaluation_question": "Does the response include Create brand guidelines document in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_7",
+              "evaluation_question": "Is the completed/deleted task 'Update marketing calendar' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Plan dinner party?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_9",
+              "evaluation_question": "Is 'Book spa appointment' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_156_eval_forgetting_10",
+              "evaluation_question": "Does the response include Approve social media content in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 11,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 10
+        }
+      },
+      {
+        "question_id": "content_project_proposal_156_project_proposal_1",
+        "question": "Write a project proposal for 'Regional Media Performance Optimization Pilot Initiative'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Regional Media Performance Optimization Pilot Initiative",
+            "project_description": "A comprehensive pilot program to enhance content delivery performance and audience engagement across regional media channels through data-driven optimization strategies and advanced analytics implementation.",
+            "budget": 200000,
+            "timeline": "12 months with Phase 1 (months 1-4) for research and planning, Phase 2 (months 5-9) for implementation, and Phase 3 (months 10-12) for evaluation and scaling recommendations",
+            "project_lead": "Priya Nakamura, Senior Marketing Manager",
+            "stakeholders": [
+              "Technology Integration Partners",
+              "Audience Development Team",
+              "Analytics and Insights Department"
+            ],
+            "objectives": [
+              "Establish baseline performance metrics across all regional media touchpoints",
+              "Reduce content load times and buffering incidents to enhance viewer experience",
+              "Develop scalable optimization framework for enterprise-wide deployment"
+            ],
+            "deliverables": [
+              "Optimized content delivery architecture and implementation roadmap",
+              "Comprehensive regional media performance audit and benchmark report",
+              "Real-time performance monitoring dashboard with actionable insights"
+            ],
+            "success_metrics": [
+              "15% improvement in content completion rates for long-form media",
+              "40% increase in audience engagement duration and interaction rates",
+              "30% reduction in bounce rates and content abandonment"
+            ],
+            "competitive_analysis": "Current regional competitors demonstrate 15-20% faster content delivery speeds and higher engagement retention rates. Recent market analysis indicates that performance optimization could recover an estimated 35% of lost audience share while positioning our brand as the technical leader in regional media delivery."
+          },
+          "session_history": [
+            33,
+            112,
+            121
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "stakeholders",
+              "value": "Regional Media Operations Team",
+              "session_id": 112
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Regional Media Performance Optimization Pilot Initiative?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A comprehensive pilot program to enhance content delivery performance and audience engagement across regional media channels through data-driven optimization strategies and advanced analytics implementation.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 200000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '12 months with Phase 1 (months 1-4) for research and planning, Phase 2 (months 5-9) for implementation, and Phase 3 (months 10-12) for evaluation and scaling recommendations' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Priya Nakamura, Senior Marketing Manager?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Technology Integration Partners, Audience Development Team, Analytics and Insights Department' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Establish baseline performance metrics across all regional media touchpoints, Reduce content load times and buffering incidents to enhance viewer experience, Develop scalable optimization framework for enterprise-wide deployment?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Optimized content delivery architecture and implementation roadmap, Comprehensive regional media performance audit and benchmark report, Real-time performance monitoring dashboard with actionable insights' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the success_metrics: 15% improvement in content completion rates for long-form media, 40% increase in audience engagement duration and interaction rates, 30% reduction in bounce rates and content abandonment?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_memory_presence_9",
+              "evaluation_question": "Is the competitive_analysis information 'Current regional competitors demonstrate 15-20% faster content delivery speeds and higher engagement retention rates. Recent market analysis indicates that performance optimization could recover an estimated 35% of lost audience share while positioning our brand as the technical leader in regional media delivery.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted stakeholders: Regional Media Operations Team?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 11,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_project_proposal_156_project_proposal_2",
+        "question": "Write a project proposal for 'Omnichannel Style Discovery Campaign for Gen-Z European Markets'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Omnichannel Style Discovery Campaign for Gen-Z European Markets",
+            "project_description": "Mobile-first integrated marketing initiative to drive brand awareness and customer acquisition across key European markets through personalized fashion discovery experiences and influencer partnerships.",
+            "budget": 100000,
+            "timeline": "9 months with Phase 1 (months 1-3) focusing on content creation and influencer onboarding, Phase 2 (months 4-6) on campaign launch and optimization, and Phase 3 (months 7-9) on performance analysis and scaling",
+            "project_lead": "Zara Okafor, Senior Marketing Manager",
+            "stakeholders": [
+              "E-commerce Director",
+              "Social Media Team",
+              "External Agency Partners",
+              "Creative Services Team",
+              "Customer Insights Analyst"
+            ],
+            "objectives": [
+              "Drive 50,000 new mobile app downloads through targeted social campaigns",
+              "Achieve 4.5% engagement rate on mobile-optimized content across all channels"
+            ],
+            "deliverables": [
+              "Monthly performance dashboards and optimization reports",
+              "Influencer partnership program with onboarding materials and brand guidelines"
+            ],
+            "success_metrics": [
+              "Mobile app downloads and activation rates",
+              "Customer acquisition cost and lifetime value ratio",
+              "Influencer content reach and authentic engagement metrics"
+            ],
+            "risk_mitigation": "Diversified influencer portfolio reduces dependency on individual partnerships, phased budget allocation allows for agile optimization based on early performance data, and pre-approved creative templates ensure brand consistency while maintaining campaign velocity despite potential approval delays."
+          },
+          "session_history": [
+            58,
+            72,
+            104
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "deliverables",
+              "value": "Interactive style quiz and personalized recommendation engine for mobile app",
+              "session_id": 72
+            },
+            {
+              "field": "success_metrics",
+              "value": "Conversion rate from discovery to purchase on mobile devices",
+              "session_id": 72
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Omnichannel Style Discovery Campaign for Gen-Z European Markets?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'Mobile-first integrated marketing initiative to drive brand awareness and customer acquisition across key European markets through personalized fashion discovery experiences and influencer partnerships.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 100000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline '9 months with Phase 1 (months 1-3) focusing on content creation and influencer onboarding, Phase 2 (months 4-6) on campaign launch and optimization, and Phase 3 (months 7-9) on performance analysis and scaling' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Zara Okafor, Senior Marketing Manager?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'E-commerce Director, Social Media Team, External Agency Partners, Creative Services Team, Customer Insights Analyst' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Drive 50,000 new mobile app downloads through targeted social campaigns, Achieve 4.5% engagement rate on mobile-optimized content across all channels?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'Monthly performance dashboards and optimization reports, Influencer partnership program with onboarding materials and brand guidelines' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the success_metrics: Mobile app downloads and activation rates, Customer acquisition cost and lifetime value ratio, Influencer content reach and authentic engagement metrics?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_memory_presence_9",
+              "evaluation_question": "Is the risk_mitigation information 'Diversified influencer portfolio reduces dependency on individual partnerships, phased budget allocation allows for agile optimization based on early performance data, and pre-approved creative templates ensure brand consistency while maintaining campaign velocity despite potential approval delays.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted deliverables: Interactive style quiz and personalized recommendation engine for mobile app?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_156_project_proposal_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed success_metrics information 'Conversion rate from discovery to purchase on mobile devices' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_156_meeting_notes_1",
+        "question": "Write meeting notes for: Campaign Performance Review & European Expansion Strategy",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Campaign Performance Review & European Expansion Strategy",
+            "agenda_items": [
+              "Discuss customer engagement trends and retention data from pilot workflow optimization platform",
+              "Plan influencer partnership program for sustainable food-tech initiatives",
+              "Integration of workflow automation tools into marketing operations"
+            ],
+            "key_decisions": [
+              "Committed to implementing AI-powered customer segmentation tool within the next 2 months",
+              "Approved 15% budget increase for digital advertising in Nordic markets based on strong conversion rates"
+            ],
+            "campaign_metrics": "Current campaign showing 23% increase in customer acquisition, 4.2% conversion rate across EU markets, 67% email open rate, and 890K social media impressions with engagement rate of 5.8%"
+          },
+          "session_history": [
+            38,
+            41,
+            65
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_decisions",
+              "value": "Agreed to shift focus from B2C to B2B marketing for enterprise workflow solutions",
+              "session_id": 41
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Campaign Performance Review & European Expansion Strategy?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Discuss customer engagement trends and retention data from pilot workflow optimization platform, Plan influencer partnership program for sustainable food-tech initiatives, Integration of workflow automation tools into marketing operations' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Committed to implementing AI-powered customer segmentation tool within the next 2 months, Approved 15% budget increase for digital advertising in Nordic markets based on strong conversion rates?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's campaign_metrics 'Current campaign showing 23% increase in customer acquisition, 4.2% conversion rate across EU markets, 67% email open rate, and 890K social media impressions with engagement rate of 5.8%' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed key decisions information 'Agreed to shift focus from B2C to B2B marketing for enterprise workflow solutions' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_156_meeting_notes_2",
+        "question": "Write meeting notes for: Q3 Patient Education Campaign Review and HIPAA Compliance Alignment",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Q3 Patient Education Campaign Review and HIPAA Compliance Alignment",
+            "agenda_items": [
+              "Review patient education campaign performance metrics across regional clinics"
+            ],
+            "key_decisions": [
+              "Selected diabetes awareness initiative to launch in 8 weeks with phased regional rollout"
+            ],
+            "action_items": [
+              "Marcus Thompson to coordinate compliance audit scheduling with legal team by +5 days",
+              "Schedule stakeholder presentation on campaign ROI and compliance metrics for +30 days"
+            ]
+          },
+          "session_history": [
+            113,
+            124
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "agenda_items",
+              "value": "Address feedback from compliance team on social media content guidelines",
+              "session_id": 124
+            },
+            {
+              "field": "key_decisions",
+              "value": "Approved transition to new HIPAA-compliant email platform within 6 weeks",
+              "session_id": 124
+            },
+            {
+              "field": "action_items",
+              "value": "Update all landing page privacy policies and obtain legal approval within +14 days",
+              "session_id": 124
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Q3 Patient Education Campaign Review and HIPAA Compliance Alignment?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Review patient education campaign performance metrics across regional clinics' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Selected diabetes awareness initiative to launch in 8 weeks with phased regional rollout?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's action items 'Marcus Thompson to coordinate compliance audit scheduling with legal team by +5 days, Schedule stakeholder presentation on campaign ROI and compliance metrics for +30 days' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted agenda items: Address feedback from compliance team on social media content guidelines?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed key decisions information 'Approved transition to new HIPAA-compliant email platform within 6 weeks' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_156_meeting_notes_2_eval_forgetting_2",
+              "evaluation_question": "Does the response mention the action items 'Update all landing page privacy policies and obtain legal approval within +14 days' that was deleted?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 7,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 3
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_156",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 23,
+          "total_amount": 429.42999999999995,
+          "food_expenses": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.36,
+              "session_id": 8
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 8.33,
+              "session_id": 11
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 15.21,
+              "session_id": 13
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.0,
+              "session_id": 16
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 49.75,
+              "session_id": 27
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.23,
+              "session_id": 29
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.93,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.84,
+              "session_id": 50
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.12,
+              "session_id": 53
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 9.53,
+              "session_id": 61
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 22.85,
+              "session_id": 63
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 27.11,
+              "session_id": 64
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 13.73,
+              "session_id": 66
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.7,
+              "session_id": 68
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 16.09,
+              "session_id": 89
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 32.57,
+              "session_id": 96
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.85,
+              "session_id": 98
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 48.76,
+              "session_id": 102
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 11.48,
+              "session_id": 118
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.23,
+              "session_id": 127
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.03,
+              "session_id": 139
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 12.32,
+              "session_id": 148
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 104.41,
+              "session_id": 151
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_156_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $429.43?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_156",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 63138,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 14064,
+              "session_id": 21
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 5939,
+              "session_id": 30
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6801,
+              "session_id": 59
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7385,
+              "session_id": 75
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9935,
+              "session_id": 105
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6172,
+              "session_id": 136
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 12842,
+              "session_id": 144
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_156_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 63,138 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_coffee_156_0",
+        "question": "Am I meeting my coffee budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 25,
+          "actual_value": 57.290000000000006,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "over_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "coffee",
+            "value": 25
+          },
+          "goal_session": {
+            "session_id": 22,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 8,
+              "session_date": "2025-06-01",
+              "amount": 4.36,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 16,
+              "session_date": "2025-06-01",
+              "amount": 8.0,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 29,
+              "session_date": "2025-06-02",
+              "amount": 4.23,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 32,
+              "session_date": "2025-06-02",
+              "amount": 5.93,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 50,
+              "session_date": "2025-06-03",
+              "amount": 3.84,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 53,
+              "session_date": "2025-06-03",
+              "amount": 5.12,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 68,
+              "session_date": "2025-06-04",
+              "amount": 5.7,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 98,
+              "session_date": "2025-06-05",
+              "amount": 8.85,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 127,
+              "session_date": "2025-06-06",
+              "amount": 6.23,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 139,
+              "session_date": "2025-06-07",
+              "amount": 5.03,
+              "expense_type": "coffee"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_156_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the coffee budget goal of $25?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_156_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($57.29) compared to the budget goal ($25.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_156_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is OVER BUDGET (actual: $57.29 vs budget: $25.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_156_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 13000,
+          "actual_value": 9019.714285714286,
+          "goal_status": {
+            "is_goal_met": false,
+            "status": "below_target"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 13000
+          },
+          "goal_session": {
+            "session_id": 15,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 21,
+              "session_date": "2025-06-01",
+              "step_count": 14064
+            },
+            {
+              "session_id": 30,
+              "session_date": "2025-06-02",
+              "step_count": 5939
+            },
+            {
+              "session_id": 59,
+              "session_date": "2025-06-03",
+              "step_count": 6801
+            },
+            {
+              "session_id": 75,
+              "session_date": "2025-06-04",
+              "step_count": 7385
+            },
+            {
+              "session_id": 105,
+              "session_date": "2025-06-05",
+              "step_count": 9935
+            },
+            {
+              "session_id": 136,
+              "session_date": "2025-06-06",
+              "step_count": 6172
+            },
+            {
+              "session_id": 144,
+              "session_date": "2025-06-07",
+              "step_count": 12842
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 13000 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (9,020 steps) compared to the goal (13,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_156_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was NOT MET (actual: 9,020 steps vs goal: 13,000 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_156",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 57.290000000000006,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 4.36,
+              "session_id": 8
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.0,
+              "session_id": 16
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.23,
+              "session_id": 29
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.93,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 3.84,
+              "session_id": 50
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.12,
+              "session_id": 53
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.7,
+              "session_id": 68
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 8.85,
+              "session_id": 98
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.23,
+              "session_id": 127
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.03,
+              "session_id": 139
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_156_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $57.29?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_movies_general_156",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 5,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Saoirse Ronan",
+                  "session_id": 126
+                }
+              ]
+            },
+            "directors": {
+              "likes": [
+                {
+                  "item": "Richard Linklater",
+                  "session_id": 74
+                }
+              ],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "Everything Everywhere All at Once",
+                  "session_id": 18
+                },
+                {
+                  "item": "Portrait of a Lady on Fire",
+                  "session_id": 28
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "Lost in Translation",
+                  "session_id": 5
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "C\u00e9line Sciamma",
+              "session_id": 74
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Saoirse Ronan (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Richard Linklater?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Everything Everywhere All at Once?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Portrait of a Lady on Fire?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_memory_presence_dislike_4",
+              "evaluation_question": "Does the response avoid recommending Lost in Translation (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for C\u00e9line Sciamma?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 5,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "pref_books_general_156",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 4,
+          "memory_items": {
+            "authors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Colson Whitehead",
+                  "session_id": 134
+                }
+              ]
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "women's experiences",
+                  "session_id": 87
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "racial identity",
+                  "session_id": 90
+                }
+              ]
+            },
+            "already_read_list": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "The Nightingale",
+                  "session_id": 106
+                }
+              ]
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Tayari Jones",
+              "session_id": 108
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Colson Whitehead (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for women's experiences?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_dislike_2",
+              "evaluation_question": "Does the response avoid recommending racial identity (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_memory_presence_dislike_3",
+              "evaluation_question": "Does the response avoid recommending The Nightingale (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Tayari Jones?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "pref_music_general_156",
+        "question": "Can you suggest me some music?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [
+                {
+                  "item": "Lizzo",
+                  "session_id": 149
+                }
+              ],
+              "dislikes": []
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [
+                {
+                  "item": "Anti",
+                  "session_id": 97
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Beyonc\u00e9",
+              "session_id": 60
+            },
+            {
+              "value": "Taylor Swift",
+              "session_id": 86
+            },
+            {
+              "value": "SZA",
+              "session_id": 149
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Lizzo?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Anti?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Beyonc\u00e9?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Taylor Swift?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_156_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for SZA?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_travel_general_156",
+        "question": "I'm planning a trip. Any destination suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "destination_types": {
+              "likes": [],
+              "dislikes": []
+            },
+            "regions": {
+              "likes": [
+                {
+                  "item": "East Asia",
+                  "session_id": 147
+                }
+              ],
+              "dislikes": []
+            },
+            "climates": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_visited_list": {
+              "likes": [
+                {
+                  "item": "Chichen Itza, Mexico",
+                  "session_id": 17
+                },
+                {
+                  "item": "Angkor Wat, Cambodia",
+                  "session_id": 82
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "British Isles",
+              "session_id": 52
+            },
+            {
+              "value": "Balkans",
+              "session_id": 147
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for East Asia?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Chichen Itza, Mexico?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Angkor Wat, Cambodia?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for British Isles?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_travel_general_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Balkans?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_music_artists_156",
+        "question": "Can you recommend music by artists I like?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "Lizzo",
+                "session_id": 149
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "Lizzo",
+              "session_id": 149
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Beyonc\u00e9",
+              "session_id": 60
+            },
+            {
+              "value": "Taylor Swift",
+              "session_id": 86
+            },
+            {
+              "value": "SZA",
+              "session_id": 149
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_artists_156_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Lizzo?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_artists_156_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Beyonc\u00e9?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_artists_156_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Taylor Swift?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_music_artists_156_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for SZA?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 3
+        }
+      }
+    ]
+  }
+}

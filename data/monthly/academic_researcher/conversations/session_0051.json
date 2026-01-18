@@ -1,0 +1,107 @@
+{
+  "session_id": 51,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_1",
+    "content_data": {
+      "email_purpose": "To summarize key findings from recent educational technology efficacy research and propose actionable strategies for regional non-profit adoption.",
+      "recipient_list": [
+        "Non-profit Executive Leadership Team",
+        "Regional Policy Advisors"
+      ],
+      "key_points": [
+        "Analysis of scalable, low-cost mobile solutions aligned with regional educational disparities."
+      ],
+      "call_to_action": "Schedule a follow-up discussion to delve deeper into these findings and collaboratively strategize implementation within our regional initiatives."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Identification of critical success factors for sustainable technology integration in educational non-profits.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 49,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 51,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'To summarize key findings from recent educational technology efficacy research and propose actionable strategies for regional non-profit adoption.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Identification of critical success factors for sustainable technology integration in educational non-profits\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Identification of critical success factors for sustainable technology integration in educational non-profits\" from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. The key point has been removed from the email. Is there anything else I can assist you with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "session_id": 67,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Global Content Strategy Alignment for Upcoming Collection Launch",
+      "agenda_items": [
+        "Review Q3 Content Performance Metrics & Learnings"
+      ],
+      "key_decisions": [
+        "Adopt 'Conscious Craftsmanship' as the primary narrative pillar for the 'Ethereal Weave' collection's core content."
+      ],
+      "attendees": [
+        "Liam Chen (Product Marketing Lead)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Content Writer Persona (Content Writer)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Integration Points with Product Marketing & E-commerce Teams",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Elara Vance (Head of Content Strategy)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 17,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 57,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      },
+      {
+        "session_id": 67,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready for your questions when you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Global Content Strategy Alignment for Upcoming Collection Launch'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details would you like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Content Writer Persona (Content Writer)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Content Writer Persona (Content Writer)' from the attendees. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Integration Points with Product Marketing & E-commerce Teams' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. 'Integration Points with Product Marketing & E-commerce Teams' has been removed from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Dr. Elara Vance (Head of Content Strategy)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, 'Dr. Elara Vance (Head of Content Strategy)' has been removed from the attendees. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested removals have been made to the meeting notes. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now. I appreciate your help and I'll be in touch if I need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

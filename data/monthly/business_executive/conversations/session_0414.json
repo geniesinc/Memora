@@ -1,0 +1,124 @@
+{
+  "session_id": 414,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Distributed Energy Storage Integration Framework for Renewable Grid Optimization",
+      "project_description": "Strategic initiative to develop and deploy an integrated energy storage solution across multi-regional renewable energy facilities to enhance grid stability and optimize energy distribution efficiency.",
+      "budget": 17550000,
+      "timeline": "24 months with Phase 1: Feasibility and Design (months 1-6), Phase 2: Pilot Implementation (months 7-14), Phase 3: Full Deployment and Optimization (months 15-24)",
+      "project_lead": "Priya Nkrumah, VP of Strategic Energy Solutions",
+      "stakeholders": [
+        "External Technology Partners",
+        "Board of Directors",
+        "Renewable Energy Division",
+        "Chief Technology Officer",
+        "Regional Operations Directors"
+      ],
+      "objectives": [
+        "Reduce grid instability incidents by 60% during peak demand periods",
+        "Achieve ROI within 5 years through operational cost reductions and energy arbitrage opportunities",
+        "Establish scalable framework for battery storage deployment across 12 regional facilities"
+      ],
+      "deliverables": [
+        "Training programs for operations and maintenance teams",
+        "Pilot deployment at three flagship renewable facilities",
+        "Regulatory compliance documentation and certification reports"
+      ],
+      "risk_assessment": "Medium-high risk profile due to emerging technology dependencies, regulatory approval timelines across multiple jurisdictions, and capital intensity requiring phased investment approval from the board."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "deliverables",
+        "removed_item": "Performance monitoring dashboard and predictive analytics platform",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 14650000,
+        "reverted_to": 17550000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'Distributed Energy Storage Integration Framework for Renewable Grid Optimization'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Performance monitoring dashboard and predictive analytics platform' from the deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Performance monitoring dashboard and predictive analytics platform\" from the deliverables for that proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Actually, can you revert the budget to $17,550,000? I made a mistake earlier.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've reverted the budget to $17,550,000 for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing the specified deliverable and reverting the budget. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Glad I could assist.",
+      "share_memory": false
+    }
+  ]
+}

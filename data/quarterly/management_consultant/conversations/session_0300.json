@@ -1,0 +1,167 @@
+{
+  "session_id": 300,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Strategic Automation Roadmap Alignment - Phase 2 Review",
+      "agenda_items": [
+        "Discussion on technology stack selection for new automation platforms",
+        "Deep dive into proposed Phase 2 automation opportunities (Supply Chain, Production, Customer Experience)"
+      ],
+      "key_decisions": [
+        "Approved preliminary budget allocation for initial proof-of-concept projects within the next 3 months.",
+        "Prioritized three key automation initiatives for Phase 2: Predictive Maintenance (Production), Automated Logistics Orchestration (Supply Chain), and AI-driven Customer Service Bots (Customer Experience).",
+        "Formed a cross-functional task force to evaluate potential platform vendors for robotic process automation (RPA) and intelligent automation (IA) technologies."
+      ],
+      "attendees": [
+        "Dr. Anya Sharma (Global Head of Strategy)",
+        "Ms. Isabella Rossi (Head of Digital Transformation)",
+        "Mr. Samuel 'Sam' Davies (Chief Technology Officer)",
+        "Mr. Hiroshi Tanaka (Director of Supply Chain Innovation)",
+        "Ms. Elena Petrova (Lead Consultant, Automation Strategy)"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "attendees",
+        "added_item": "Ms. Elena Petrova (Lead Consultant, Automation Strategy)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Deep dive into proposed Phase 2 automation opportunities (Supply Chain, Production, Customer Experience)",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Formed a cross-functional task force to evaluate potential platform vendors for robotic process automation (RPA) and intelligent automation (IA) technologies.",
+        "action": "added"
+      }
+    ],
+    "session_count": 5,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 61,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 139,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      },
+      {
+        "session_id": 166,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 230,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      },
+      {
+        "session_id": 300,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Strategic Automation Roadmap Alignment - Phase 2 Review.' I have a few details to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help update those meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add Ms. Elena Petrova (Lead Consultant, Automation Strategy) to the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Ms. Elena Petrova to the attendees. Is there anything else you'd like to update for these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the agenda items to include: 'Deep dive into proposed Phase 2 automation opportunities (Supply Chain, Production, Customer Experience)'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the agenda items. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please update the key decisions to include: 'Formed a cross-functional task force to evaluate potential platform vendors for robotic process automation (RPA) and intelligent automation (IA) technologies.'",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added that decision. Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, I've updated the meeting notes with all the details you provided. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's everything for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

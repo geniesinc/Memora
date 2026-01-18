@@ -1,0 +1,1404 @@
+{
+  "persona": "creative_designer",
+  "date_range": {
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-07"
+  },
+  "questions": {
+    "remembering": [
+      {
+        "question_id": "activity_todos_147",
+        "question": "What tasks remain on my todo list this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "remaining_tasks": [
+            {
+              "value": "Schedule eye exam",
+              "session_id": 47
+            },
+            {
+              "value": "Prepare design presentation",
+              "session_id": 119
+            },
+            {
+              "value": "Buy art supplies",
+              "session_id": 123
+            },
+            {
+              "value": "Complete logo design concepts",
+              "session_id": 138
+            }
+          ],
+          "task_count": 4
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Plan creative workshop attendance",
+              "session_id": 19
+            },
+            {
+              "value": "Review client feedback",
+              "session_id": 63
+            },
+            {
+              "value": "Plan creative workshop attendance",
+              "session_id": 85
+            },
+            {
+              "value": "Call family",
+              "session_id": 97
+            },
+            {
+              "value": "Update design blog",
+              "session_id": 98
+            },
+            {
+              "value": "Visit local gallery",
+              "session_id": 113
+            },
+            {
+              "value": "Organize studio space",
+              "session_id": 126
+            },
+            {
+              "value": "Organize studio space",
+              "session_id": 146
+            }
+          ],
+          "total_forgotten_items": 8
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_todos_147_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the task: Schedule eye exam?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_memory_presence_1",
+              "evaluation_question": "Is 'Prepare design presentation' listed as a remaining todo item?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_memory_presence_2",
+              "evaluation_question": "Does the response include Buy art supplies in the current task list?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_memory_presence_3",
+              "evaluation_question": "Is the todo item 'Complete logo design concepts' correctly shown as active?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_0",
+              "evaluation_question": "Does the response mention the deleted task: Plan creative workshop attendance?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_1",
+              "evaluation_question": "Is 'Review client feedback' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_2",
+              "evaluation_question": "Does the response include Plan creative workshop attendance in the task list?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_3",
+              "evaluation_question": "Is the completed/deleted task 'Call family' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_4",
+              "evaluation_question": "Does the response mention the deleted task: Update design blog?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_5",
+              "evaluation_question": "Is 'Visit local gallery' listed as a remaining todo item?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_7",
+              "evaluation_question": "Is the completed/deleted task 'Organize studio space' mentioned?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "activity_todos_147_eval_forgetting_8",
+              "evaluation_question": "Does the response mention the deleted task: Organize studio space?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 12,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 8
+        }
+      },
+      {
+        "question_id": "content_project_proposal_147_project_proposal_1",
+        "question": "Write a project proposal for 'Immersive Fan Experience Design for Next-Gen Entertainment Launch'",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "project_title": "Immersive Fan Experience Design for Next-Gen Entertainment Launch",
+            "project_description": "A comprehensive creative proposal for developing a cutting-edge, customer-centric digital and physical experience to support a major entertainment IP launch, boosting engagement and brand loyalty.",
+            "budget": 300000,
+            "timeline": "Approximately 6 months, with an initial 2-month discovery and concept phase, followed by 4 months of design and prototyping.",
+            "project_lead": "Aisha Rahman, Lead Creative Strategist",
+            "stakeholders": [
+              "Director of Fan Engagement",
+              "VP of Product Development, Interactive Experiences"
+            ],
+            "objectives": [
+              "Increase pre-launch anticipation and post-launch user retention metrics by 20%."
+            ],
+            "deliverables": [
+              "User Journey Maps and Persona Development",
+              "Concept Art and 3D Visualizations for Physical Activations"
+            ],
+            "creative_requirements": [
+              "Emphasis on creating shareable content and fostering community interaction.",
+              "Needs to resonate with target demographic (ages 16-35) while appealing to broader audiences."
+            ],
+            "design_style": "Futuristic, vibrant, and highly interactive, blending cinematic aesthetics with playful, user-driven elements. Emphasizes emotional connection and narrative immersion."
+          },
+          "session_history": [
+            34,
+            42,
+            78
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "deliverables",
+              "value": "Creative Direction for Marketing Collateral and Campaign Assets",
+              "session_id": 42
+            },
+            {
+              "field": "objectives",
+              "value": "Design and prototype interactive digital experiences that drive sustained engagement.",
+              "session_id": 42
+            },
+            {
+              "field": "budget",
+              "value": 200000,
+              "session_id": 78
+            },
+            {
+              "field": "stakeholders",
+              "value": "Head of Marketing, Entertainment Division",
+              "session_id": 78
+            }
+          ],
+          "total_forgotten_items": 4
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the project title: Immersive Fan Experience Design for Next-Gen Entertainment Launch?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_1",
+              "evaluation_question": "Is the project description information 'A comprehensive creative proposal for developing a cutting-edge, customer-centric digital and physical experience to support a major entertainment IP launch, boosting engagement and brand loyalty.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the budget details: 300000?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_3",
+              "evaluation_question": "Is the project's timeline 'Approximately 6 months, with an initial 2-month discovery and concept phase, followed by 4 months of design and prototyping.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_4",
+              "evaluation_question": "Does the response include the project_lead: Aisha Rahman, Lead Creative Strategist?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_5",
+              "evaluation_question": "Is the stakeholders information 'Director of Fan Engagement, VP of Product Development, Interactive Experiences' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_6",
+              "evaluation_question": "Does the response mention the objectives details: Increase pre-launch anticipation and post-launch user retention metrics by 20%.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_7",
+              "evaluation_question": "Is the project's deliverables 'User Journey Maps and Persona Development, Concept Art and 3D Visualizations for Physical Activations' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_8",
+              "evaluation_question": "Does the response include the creative_requirements: Emphasis on creating shareable content and fostering community interaction., Needs to resonate with target demographic (ages 16-35) while appealing to broader audiences.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_memory_presence_9",
+              "evaluation_question": "Is the design_style information 'Futuristic, vibrant, and highly interactive, blending cinematic aesthetics with playful, user-driven elements. Emphasizes emotional connection and narrative immersion.' correctly included in the proposal?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted deliverables: Creative Direction for Marketing Collateral and Campaign Assets?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed objectives information 'Design and prototype interactive digital experiences that drive sustained engagement.' mentioned in the proposal?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_forgetting_3",
+              "evaluation_question": "Is the deleted project budget '200000' included?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_project_proposal_147_project_proposal_1_eval_forgetting_4",
+              "evaluation_question": "Does the response include the deleted stakeholders: Head of Marketing, Entertainment Division?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 14,
+          "memory_presence_questions": 10,
+          "forgetting_absence_questions": 4
+        }
+      },
+      {
+        "question_id": "content_email_writeup_147_email_writeup_1",
+        "question": "Write an email about: To provide a visual update on the proposed branding strategy for our education sector cost-reduction initiatives.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To provide a visual update on the proposed branding strategy for our education sector cost-reduction initiatives.",
+            "recipient_list": [
+              "Senior Strategy Consultant"
+            ],
+            "key_points": [
+              "Overview of the proposed visual identity for education sector communications."
+            ],
+            "call_to_action": "Please review the attached visual presentation and provide your feedback on the proposed branding concepts by the end of the next business cycle."
+          },
+          "session_history": [
+            18,
+            24
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "recipient_list",
+              "value": "Client Relationship Manager (Education)",
+              "session_id": 24
+            },
+            {
+              "field": "key_points",
+              "value": "Explanation of design choices aligned with brand values: trust, innovation, and clarity.",
+              "session_id": 24
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To provide a visual update on the proposed branding strategy for our education sector cost-reduction initiatives.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Senior Strategy Consultant' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Overview of the proposed visual identity for education sector communications.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached visual presentation and provide your feedback on the proposed branding concepts by the end of the next business cycle.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted recipient list: Client Relationship Manager (Education)?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed key points information 'Explanation of design choices aligned with brand values: trust, innovation, and clarity.' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_meeting_notes_147_meeting_notes_1",
+        "question": "Write meeting notes for: Project 'Nexus' Visual Identity Brainstorm & Client Feedback Review",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "meeting_title": "Project 'Nexus' Visual Identity Brainstorm & Client Feedback Review",
+            "agenda_items": [
+              "Alignment on communication strategy for upcoming client presentation"
+            ],
+            "key_decisions": [
+              "Agreed to merge 'futuristic-minimalist' and 'mythic-fantasy' mood board elements for a unique blend."
+            ],
+            "action_items": [
+              "Schedule a follow-up meeting with the client for concept approval (Project Manager, +7 days).",
+              "Prepare a concise presentation slide deck summarizing key visual decisions for the next internal review (Creative Designer, +4 days)."
+            ]
+          },
+          "session_history": [
+            29,
+            48
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "key_decisions",
+              "value": "Confirmed the primary color palette will lean towards deep blues, purples, and subtle neons.",
+              "session_id": 48
+            },
+            {
+              "field": "agenda_items",
+              "value": "Review of initial mood boards and concept sketches for 'Project Nexus'",
+              "session_id": 48
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the meeting title: Project 'Nexus' Visual Identity Brainstorm & Client Feedback Review?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_memory_presence_1",
+              "evaluation_question": "Is the agenda items information 'Alignment on communication strategy for upcoming client presentation' correctly included in the notes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key decisions details: Agreed to merge 'futuristic-minimalist' and 'mythic-fantasy' mood board elements for a unique blend.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_memory_presence_3",
+              "evaluation_question": "Is the meeting's action items 'Schedule a follow-up meeting with the client for concept approval (Project Manager, +7 days)., Prepare a concise presentation slide deck summarizing key visual decisions for the next internal review (Creative Designer, +4 days).' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted key decisions: Confirmed the primary color palette will lean towards deep blues, purples, and subtle neons.?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_meeting_notes_147_meeting_notes_1_eval_forgetting_1",
+              "evaluation_question": "Is the removed agenda items information 'Review of initial mood boards and concept sketches for 'Project Nexus'' mentioned in the notes?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "content_email_writeup_147_email_writeup_2",
+        "question": "Write an email about: To provide an update on the current status and next steps for the Brand Identity Refresh project, including a review of initial design concepts.",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "content_data": {
+            "email_purpose": "To provide an update on the current status and next steps for the Brand Identity Refresh project, including a review of initial design concepts.",
+            "recipient_list": [
+              "Head of Marketing"
+            ],
+            "key_points": [
+              "Next phase involves developing selected concepts into comprehensive brand guidelines and asset libraries."
+            ],
+            "call_to_action": "Please review the attached presentation and provide your feedback by end of day, three days from now, so we can move forward with concept refinement."
+          },
+          "session_history": [
+            54,
+            73
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "field": "recipient_list",
+              "value": "VP of E-commerce",
+              "session_id": 73
+            },
+            {
+              "field": "key_points",
+              "value": "Gathering feedback is crucial for refining the brand identity and ensuring alignment across stakeholders.",
+              "session_id": 73
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_memory_presence_0",
+              "evaluation_question": "Does the response include the email purpose: To provide an update on the current status and next steps for the Brand Identity Refresh project, including a review of initial design concepts.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_memory_presence_1",
+              "evaluation_question": "Is the recipient list information 'Head of Marketing' correctly included in the email?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_memory_presence_2",
+              "evaluation_question": "Does the response mention the key points details: Next phase involves developing selected concepts into comprehensive brand guidelines and asset libraries.?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_memory_presence_3",
+              "evaluation_question": "Is the email's call_to_action 'Please review the attached presentation and provide your feedback by end of day, three days from now, so we can move forward with concept refinement.' appropriately included?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_forgetting_0",
+              "evaluation_question": "Does the response include the deleted recipient list: VP of E-commerce?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "content_email_writeup_147_email_writeup_2_eval_forgetting_1",
+              "evaluation_question": "Is the removed key points information 'Gathering feedback is crucial for refining the brand identity and ensuring alignment across stakeholders.' mentioned in the email?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "question_id": "activity_food_total_147",
+        "question": "What is my total food spending this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_count": 23,
+          "total_amount": 431.9,
+          "food_expenses": [
+            {
+              "expense_type": "lunch",
+              "amount": 11.64,
+              "session_id": 4
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.02,
+              "session_id": 6
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 5.33,
+              "session_id": 27
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.04,
+              "session_id": 30
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.22,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.71,
+              "session_id": 49
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 10.87,
+              "session_id": 60
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 25.69,
+              "session_id": 62
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 23.72,
+              "session_id": 71
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.29,
+              "session_id": 77
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 49.19,
+              "session_id": 79
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.22,
+              "session_id": 81
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 5.23,
+              "session_id": 101
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.71,
+              "session_id": 106
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 105.23,
+              "session_id": 108
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 17.08,
+              "session_id": 117
+            },
+            {
+              "expense_type": "dinner",
+              "amount": 22.82,
+              "session_id": 122
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.27,
+              "session_id": 130
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.83,
+              "session_id": 131
+            },
+            {
+              "expense_type": "grocery",
+              "amount": 64.13,
+              "session_id": 132
+            },
+            {
+              "expense_type": "breakfast",
+              "amount": 11.83,
+              "session_id": 137
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.67,
+              "session_id": 143
+            },
+            {
+              "expense_type": "lunch",
+              "amount": 16.16,
+              "session_id": 147
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_total_147_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total food spending amount of $431.90?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_steps_total_147",
+        "question": "How many total steps have I taken this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "step_count": 7,
+          "total_steps": 68396,
+          "step_data": [
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9744,
+              "session_id": 10
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9727,
+              "session_id": 37
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 6495,
+              "session_id": 57
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 7708,
+              "session_id": 94
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 9497,
+              "session_id": 107
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 14795,
+              "session_id": 120
+            },
+            {
+              "activity_type": "daily_steps",
+              "step_count": 10430,
+              "session_id": 144
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_steps_total_147_eval_memory_presence_total_0",
+              "evaluation_question": "Does the response mention the total step count of 68,396 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_food_expenses_coffee_147_0",
+        "question": "Am I meeting my coffee budget goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 65,
+          "actual_value": 62.980000000000004,
+          "goal_status": {
+            "is_goal_met": true,
+            "status": "under_budget"
+          },
+          "goal_data": {
+            "category": "food_expenses",
+            "subcategory": "coffee",
+            "value": 65
+          },
+          "goal_session": {
+            "session_id": 8,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 6,
+              "session_date": "2025-06-01",
+              "amount": 7.02,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 30,
+              "session_date": "2025-06-02",
+              "amount": 5.04,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 32,
+              "session_date": "2025-06-02",
+              "amount": 7.22,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 49,
+              "session_date": "2025-06-03",
+              "amount": 7.71,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 77,
+              "session_date": "2025-06-04",
+              "amount": 6.29,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 81,
+              "session_date": "2025-06-04",
+              "amount": 7.22,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 106,
+              "session_date": "2025-06-05",
+              "amount": 4.71,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 130,
+              "session_date": "2025-06-06",
+              "amount": 6.27,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 131,
+              "session_date": "2025-06-06",
+              "amount": 4.83,
+              "expense_type": "coffee"
+            },
+            {
+              "session_id": 143,
+              "session_date": "2025-06-07",
+              "amount": 6.67,
+              "expense_type": "coffee"
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_147_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the coffee budget goal of $65?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_147_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual spending amount ($62.98) compared to the budget goal ($65.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_food_expenses_coffee_147_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that spending is UNDER BUDGET (actual: $62.98 vs budget: $65.00)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "goal_step_tracker_daily_steps_147_0",
+        "question": "Am I meeting my daily step goal?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "goal_value": 8500,
+          "actual_value": 9770.857142857143,
+          "goal_status": {
+            "is_goal_met": true,
+            "status": "goal_met"
+          },
+          "goal_data": {
+            "category": "step_tracker",
+            "subcategory": "daily_steps",
+            "value": 8500
+          },
+          "goal_session": {
+            "session_id": 20,
+            "session_date": "2025-06-01"
+          },
+          "activity_sessions": [
+            {
+              "session_id": 10,
+              "session_date": "2025-06-01",
+              "step_count": 9744
+            },
+            {
+              "session_id": 37,
+              "session_date": "2025-06-02",
+              "step_count": 9727
+            },
+            {
+              "session_id": 57,
+              "session_date": "2025-06-03",
+              "step_count": 6495
+            },
+            {
+              "session_id": 94,
+              "session_date": "2025-06-04",
+              "step_count": 7708
+            },
+            {
+              "session_id": 107,
+              "session_date": "2025-06-05",
+              "step_count": 9497
+            },
+            {
+              "session_id": 120,
+              "session_date": "2025-06-06",
+              "step_count": 14795
+            },
+            {
+              "session_id": 144,
+              "session_date": "2025-06-07",
+              "step_count": 10430
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_147_0_eval_memory_presence_0",
+              "evaluation_question": "Does the response mention the daily_steps goal of 8500 steps?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_147_0_eval_memory_presence_progress_1",
+              "evaluation_question": "Does the response mention the actual step count (9,771 steps) compared to the goal (8,500 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "goal_step_tracker_daily_steps_147_0_eval_memory_presence_status_2",
+              "evaluation_question": "Does the response indicate that the step goal was MET (actual: 9,771 steps vs goal: 8,500 steps)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 0
+        }
+      },
+      {
+        "question_id": "activity_food_coffee_147",
+        "question": "How much have I spent on coffee this week?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "expense_type": "coffee",
+          "category_total": 62.980000000000004,
+          "expense_items": [
+            {
+              "expense_type": "coffee",
+              "amount": 7.02,
+              "session_id": 6
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 5.04,
+              "session_id": 30
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.22,
+              "session_id": 32
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.71,
+              "session_id": 49
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.29,
+              "session_id": 77
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 7.22,
+              "session_id": 81
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.71,
+              "session_id": 106
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.27,
+              "session_id": 130
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 4.83,
+              "session_id": 131
+            },
+            {
+              "expense_type": "coffee",
+              "amount": 6.67,
+              "session_id": 143
+            }
+          ]
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "activity_food_coffee_147_eval_memory_presence_coffee_0",
+              "evaluation_question": "Does the response mention the coffee spending amount of $62.98?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            }
+          ],
+          "total_evaluation_questions": 1,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 0
+        }
+      }
+    ],
+    "recommending": [
+      {
+        "question_id": "pref_books_general_147",
+        "question": "I'm looking for a good book to read. Any suggestions?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 4,
+          "memory_items": {
+            "authors": {
+              "likes": [],
+              "dislikes": [
+                {
+                  "item": "Tayari Jones",
+                  "session_id": 84
+                }
+              ]
+            },
+            "topics": {
+              "likes": [
+                {
+                  "item": "coming of age",
+                  "session_id": 70
+                }
+              ],
+              "dislikes": []
+            },
+            "already_read_list": {
+              "likes": [
+                {
+                  "item": "The Ten Thousand Doors of January",
+                  "session_id": 1
+                },
+                {
+                  "item": "The Nightingale",
+                  "session_id": 92
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Donna Tartt",
+              "session_id": 46
+            },
+            {
+              "value": "Hanya Yanagihara",
+              "session_id": 84
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_memory_presence_dislike_0",
+              "evaluation_question": "Does the response avoid recommending Tayari Jones (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for coming of age?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Ten Thousand Doors of January?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_memory_presence_like_3",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Nightingale?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Donna Tartt?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_books_general_147_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Hanya Yanagihara?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 6,
+          "memory_presence_questions": 4,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_movies_general_147",
+        "question": "Can you suggest me a movie?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 2,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "actors": {
+              "likes": [
+                {
+                  "item": "Robert Pattinson",
+                  "session_id": 55
+                }
+              ],
+              "dislikes": []
+            },
+            "directors": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_watched_list": {
+              "likes": [
+                {
+                  "item": "The Conjuring",
+                  "session_id": 22
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Dario Argento",
+              "session_id": 43
+            },
+            {
+              "value": "Sarah Michelle Gellar",
+              "session_id": 55
+            },
+            {
+              "value": "Alex Wolff",
+              "session_id": 69
+            }
+          ],
+          "total_forgotten_items": 3
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_general_147_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Robert Pattinson?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_147_eval_memory_presence_like_1",
+              "evaluation_question": "Does the response reflect or align with the user's preference for The Conjuring?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_147_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Dario Argento?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_147_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Sarah Michelle Gellar?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_general_147_eval_forgetting_2",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Alex Wolff?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 5,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 3
+        }
+      },
+      {
+        "question_id": "pref_music_general_147",
+        "question": "Can you suggest me some music?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "item_count": 3,
+          "memory_items": {
+            "genres": {
+              "likes": [],
+              "dislikes": []
+            },
+            "artists": {
+              "likes": [
+                {
+                  "item": "Fleet Foxes",
+                  "session_id": 100
+                }
+              ],
+              "dislikes": [
+                {
+                  "item": "TV on the Radio",
+                  "session_id": 66
+                }
+              ]
+            },
+            "decades": {
+              "likes": [],
+              "dislikes": []
+            },
+            "already_listened_list": {
+              "likes": [
+                {
+                  "item": "Fever to Tell",
+                  "session_id": 74
+                }
+              ],
+              "dislikes": []
+            }
+          }
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Death Cab for Cutie",
+              "session_id": 65
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_general_147_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Fleet Foxes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_147_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending TV on the Radio (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_147_eval_memory_presence_like_2",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Fever to Tell?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_general_147_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Death Cab for Cutie?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 4,
+          "memory_presence_questions": 3,
+          "forgetting_absence_questions": 1
+        }
+      },
+      {
+        "question_id": "pref_movies_actors_147",
+        "question": "Can you recommend a movie with actors I like?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "Robert Pattinson",
+                "session_id": 55
+              }
+            ],
+            "dislikes": []
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "Robert Pattinson",
+              "session_id": 55
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Sarah Michelle Gellar",
+              "session_id": 55
+            },
+            {
+              "value": "Alex Wolff",
+              "session_id": 69
+            }
+          ],
+          "total_forgotten_items": 2
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_movies_actors_147_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Robert Pattinson?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_147_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Sarah Michelle Gellar?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            },
+            {
+              "evaluation_question_id": "pref_movies_actors_147_eval_forgetting_1",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Alex Wolff?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 1,
+          "forgetting_absence_questions": 2
+        }
+      },
+      {
+        "question_id": "pref_music_artists_147",
+        "question": "Can you recommend music by artists I like?",
+        "question_date": "2025-06-07",
+        "memory_evidence": {
+          "subcategory_data": {
+            "likes": [
+              {
+                "item": "Fleet Foxes",
+                "session_id": 100
+              }
+            ],
+            "dislikes": [
+              {
+                "item": "TV on the Radio",
+                "session_id": 66
+              }
+            ]
+          },
+          "likes_count": 1,
+          "specific_items": [
+            {
+              "item": "Fleet Foxes",
+              "session_id": 100
+            }
+          ]
+        },
+        "forgetting_evidence": {
+          "forgotten_items": [
+            {
+              "value": "Death Cab for Cutie",
+              "session_id": 65
+            }
+          ],
+          "total_forgotten_items": 1
+        },
+        "evaluation": {
+          "evaluation_questions": [
+            {
+              "evaluation_question_id": "pref_music_artists_147_eval_memory_presence_like_0",
+              "evaluation_question": "Does the response reflect or align with the user's preference for Fleet Foxes?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_artists_147_eval_memory_presence_dislike_1",
+              "evaluation_question": "Does the response avoid recommending TV on the Radio (which the user dislikes)?",
+              "expected_answer": "yes",
+              "evaluation_type": "memory_presence"
+            },
+            {
+              "evaluation_question_id": "pref_music_artists_147_eval_forgetting_0",
+              "evaluation_question": "Does the response reflect or mention the user's preference for Death Cab for Cutie?",
+              "expected_answer": "no",
+              "evaluation_type": "forgetting_absence"
+            }
+          ],
+          "total_evaluation_questions": 3,
+          "memory_presence_questions": 2,
+          "forgetting_absence_questions": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "session_id": 441,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Strategic Review: Regional Grid Modernization Initiative",
+      "agenda_items": [
+        "Identification of next-phase priorities and resource allocation"
+      ],
+      "key_decisions": [
+        "Allocate additional budget for pilot testing of advanced sensor technologies in two key substations."
+      ],
+      "attendees": [
+        "Ms. Vivian Lee (Head of Regional Operations, EnergyCo)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Assessment of stakeholder engagement and communication strategy",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Mr. Kenji Tanaka (Senior Regulatory Advisor, EnergyCo)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Analysis of emerging regulatory changes and their impact",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 174,
+        "session_date": "2025-06-08",
+        "operation": "add"
+      },
+      {
+        "session_id": 200,
+        "session_date": "2025-06-10",
+        "operation": "delete"
+      },
+      {
+        "session_id": 365,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      },
+      {
+        "session_id": 377,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      },
+      {
+        "session_id": 441,
+        "session_date": "2025-06-21",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Review: Regional Grid Modernization Initiative.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details would you like to remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Assessment of stakeholder engagement and communication strategy' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Assessment of stakeholder engagement and communication strategy\" from the agenda items. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Mr. Kenji Tanaka (Senior Regulatory Advisor, EnergyCo)' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Mr. Kenji Tanaka (Senior Regulatory Advisor, EnergyCo)' from the attendees. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Analysis of emerging regulatory changes and their impact' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Analysis of emerging regulatory changes and their impact' from the agenda items. Is there anything else you'd like to remove from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. The requested items have been removed from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

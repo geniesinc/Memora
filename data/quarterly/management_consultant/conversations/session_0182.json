@@ -1,0 +1,130 @@
+{
+  "session_id": 182,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Strategic Roadmap Alignment: Q3 Initiatives Review",
+      "agenda_items": [
+        "Review of current strategic initiatives progress"
+      ],
+      "key_decisions": [
+        "Allocate additional research budget to investigate blockchain-based security enhancements."
+      ],
+      "attendees": [
+        "Ms. Isabella Rossi, VP of Business Development"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Anya Sharma, Chief Strategy Officer",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Next steps and action item assignment",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 63,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 159,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 182,
+        "session_date": "2025-06-09",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Roadmap Alignment: Q3 Initiatives Review'. There are specific details I'd like to delete.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove specific information from the meeting notes. What details would you like to delete?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Anya Sharma, Chief Strategy Officer' from the 'attendees' list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Dr. Anya Sharma, Chief Strategy Officer' from the attendees list. Is there anything else you'd like to remove from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Next steps and action item assignment' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Next steps and action item assignment' from the agenda items. Is there anything else you'd like to remove from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "The meeting notes have been updated with your specified deletions. Is there anything else you need assistance with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That was very helpful, thanks for your assistance!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out again if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

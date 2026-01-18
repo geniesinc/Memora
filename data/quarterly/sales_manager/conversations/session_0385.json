@@ -1,0 +1,145 @@
+{
+  "session_id": 385,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Pan-European Market Expansion for Novel Oncology Therapeutic",
+      "project_description": "Proposal for a strategic initiative to penetrate key European markets with our lead oncology therapeutic, leveraging data-driven insights for optimized sales and market share growth.",
+      "budget": 925000,
+      "timeline": "18 months, with initial market entry in the first 6 months and full regional rollout over the subsequent 12 months.",
+      "project_lead": "Isabelle Dubois, Senior Sales Manager",
+      "stakeholders": [
+        "Marketing Director, Oncology Division",
+        "Medical Affairs Lead, Europe"
+      ],
+      "objectives": [
+        "Achieve significant market penetration in 5 target European countries within the first year.",
+        "Exceed initial revenue targets for the novel therapeutic by 15% within the first 18 months.",
+        "Optimize sales force effectiveness and resource allocation based on real-time market data."
+      ],
+      "deliverables": [
+        "KOL engagement plan and initial relationship establishment reports.",
+        "Detailed country-specific market entry strategies for 5 target nations.",
+        "Regional sales team structure and hiring recommendations.",
+        "Comprehensive sales training program for European sales teams, tailored to the new product."
+      ],
+      "success_metrics": [
+        "Percentage of target physicians prescribing the therapeutic.",
+        "Market share growth within target indications."
+      ],
+      "revenue_targets": [
+        "Generate \u20ac30M in cumulative revenue by the end of the 18-month project timeline."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "success_metrics",
+        "removed_item": "KOL engagement and advocacy scores.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 850000,
+        "reverted_to": 925000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Head of Market Access",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Pan-European Market Expansion for Novel Oncology Therapeutic'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, what specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'KOL engagement and advocacy scores' from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. 'KOL engagement and advocacy scores' have been removed from the success metrics for the proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget back to 925000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget to 925000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Head of Market Access' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. 'Head of Market Access' has been removed from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. All specified changes have been made to the project proposal. Is there anything else you need assistance with?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that will be all. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    }
+  ]
+}

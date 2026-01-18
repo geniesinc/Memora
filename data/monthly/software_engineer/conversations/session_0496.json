@@ -1,0 +1,134 @@
+{
+  "session_id": 496,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_4",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Technical Achievement Post",
+      "main_message": "Excited to share that our team just deployed a real-time claims processing optimization system that reduced average processing time by 43% while cutting infrastructure costs by $2.1M annually.",
+      "hashtags": [
+        "CostOptimization",
+        "CloudArchitecture",
+        "HealthTech",
+        "DevOps",
+        "HealthcareInnovation"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "DevOps",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "HealthcareInnovation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 202,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 496,
+        "session_date": "2025-06-23",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well, thanks. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! I've been exploring the advancements in quantum computing and how it could revolutionize various industries.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Technical Achievement Post'. I want to change some of the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add 'DevOps' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'DevOps' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also add 'HealthcareInnovation' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'HealthcareInnovation' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Alright, it looks like we're all set with the updates to the social media post. Do you need help with anything else?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a fantastic day.",
+      "share_memory": false
+    }
+  ]
+}

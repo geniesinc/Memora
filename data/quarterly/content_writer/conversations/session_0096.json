@@ -1,0 +1,114 @@
+{
+  "session_id": 96,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_1",
+    "content_data": {
+      "project_title": "Interactive Narrative Experience for Global Teen Audiences",
+      "project_description": "A proposal for developing a transmedia storytelling project designed to engage a global teen demographic through interactive narratives across multiple digital platforms.",
+      "budget": 100000,
+      "timeline": "Over a 10-month period, including concept development (months 1-2), content creation (months 3-7), and launch/promotion (months 8-10)",
+      "project_lead": "Lena Petrova, Senior Content Strategist",
+      "stakeholders": [
+        "Creative Director, Interactive Media",
+        "Head of Digital Content",
+        "Marketing Director, Youth Segment"
+      ],
+      "objectives": [
+        "Expand brand reach into key international markets previously underserved",
+        "Establish a new benchmark for interactive storytelling within the entertainment industry"
+      ],
+      "deliverables": [
+        "Interactive web-based story platform prototype",
+        "Launch campaign content package (copy, visuals, ad concepts)",
+        "Audience engagement strategy document"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 85000,
+        "reverted_to": 100000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Generate measurable user-generated content and community participation",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Interactive Narrative Experience for Global Teen Audiences'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove some information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget from $85,000 back to $100,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to $100,000 for the project. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Generate measurable user-generated content and community participation' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Generate measurable user-generated content and community participation\" from the objectives. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've completed all the requested changes to the project proposal. Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "session_id": 70,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Biotech Pilot Project: Phase 1 Review & AI Integration Strategy",
+      "agenda_items": [
+        "Review of Phase 1 pilot results and key learnings",
+        "Defining success metrics for expanded regional rollout",
+        "Resource allocation and timeline adjustments for next iteration"
+      ],
+      "key_decisions": [
+        "Prioritize refining the anomaly detection algorithm based on observed inconsistencies in initial biotech data sets.",
+        "Initiate discussions with the regional biotech partner for a deeper dive into their proprietary data structures next month."
+      ],
+      "action_items": [
+        "Founder: Draft an internal memo outlining strategic adjustments based on pilot feedback and communicate to core team; deadline: within the next 3 days.",
+        "Kai Chen: Develop a preliminary proposal for optimizing data ingestion for varied data formats; deadline: within the next 10 days."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Discussion of initial data synthesis from biotech partners",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Dr. Anya Sharma: Lead a deep-dive analysis of Phase 1 data anomalies; deadline: within the next 7 days.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate additional engineering resources to optimize data ingestion pipelines for diverse biomarker data types.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 53,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 56,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      },
+      {
+        "session_id": 70,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Biotech Pilot Project: Phase 1 Review & AI Integration Strategy'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Discussion of initial data synthesis from biotech partners\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Discussion of initial data synthesis from biotech partners\" from the agenda items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Dr. Anya Sharma: Lead a deep-dive analysis of Phase 1 data anomalies; deadline: within the next 7 days.' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Dr. Anya Sharma: Lead a deep-dive analysis of Phase 1 data anomalies; deadline: within the next 7 days.\" from the action items. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Allocate additional engineering resources to optimize data ingestion pipelines for diverse biomarker data types.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Allocate additional engineering resources to optimize data ingestion pipelines for diverse biomarker data types.\" from the key decisions. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

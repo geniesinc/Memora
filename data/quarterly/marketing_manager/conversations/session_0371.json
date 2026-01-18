@@ -1,0 +1,111 @@
+{
+  "session_id": 371,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_7",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Brand Campaign Announcement",
+      "main_message": "Excited to unveil our sustainable fashion initiative that merges eco-conscious design with scalable retail innovation, reinforcing our commitment to both style and environmental responsibility across North America.",
+      "hashtags": [
+        "SustainableFashion",
+        "FashionForward",
+        "ConsciousStyle",
+        "BrandEvolution",
+        "GreenRetail"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "GreenRetail",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 190,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 371,
+        "session_date": "2025-06-18",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-18",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Brand Campaign Announcement'. I want to change a few details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the social media post. What information in it needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'GreenRetail' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'GreenRetail' to the hashtags. Is there anything else you'd like to update in the post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You got it. The social media post has been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Okay, I'll let you go then! Have a great day.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You too! Have a wonderful day!",
+      "share_memory": false
+    }
+  ]
+}

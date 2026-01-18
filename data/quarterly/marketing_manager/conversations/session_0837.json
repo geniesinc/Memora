@@ -1,0 +1,80 @@
+{
+  "session_id": 837,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 10,
+      "total_items_processed": 10,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-07-09",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was hoping you could tell me the difference between a traditional PC and a gaming console.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "A traditional PC is designed for general-purpose computing, while a gaming console is optimized specifically for playing video games. PCs offer more versatility and upgrade options, whereas consoles typically provide a more streamlined, plug-and-play experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear distinction. How do the components of each device differ to achieve those different purposes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Gaming consoles prioritize powerful, integrated graphics and processors for gaming performance, while PCs allow for a wider range of customizable components for diverse tasks. PCs often have more RAM and storage flexibility, whereas consoles have fixed specifications.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For example, a gaming console like a PlayStation or Xbox uses a custom AMD APU, while a gaming PC might combine an Intel or AMD CPU with a dedicated Nvidia or AMD graphics card. PCs also offer a wider variety of peripherals, such as different keyboards, mice, and monitors.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's interesting. So the customization aspect of a PC is a big differentiator.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, it certainly is. Thanks for explaining all of this!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "session_id": 168,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_4",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Research Highlight",
+      "main_message": "Fascinating insights from our recent pilot with a European government agency on integrating advanced robotics for critical infrastructure. The initial findings demonstrate significant potential for enhancing operational efficiency and safety. More details to follow as we prepare for publication.",
+      "hashtags": [
+        "#Automation",
+        "#AIinGovernment",
+        "#ComputerScience",
+        "#Research",
+        "#PublicSectorTech",
+        "#EuropeanInnovation"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#PublicSectorTech",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#EuropeanInnovation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 120,
+        "session_date": "2025-06-06",
+        "operation": "add"
+      },
+      {
+        "session_id": 168,
+        "session_date": "2025-06-08",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello! Can you help me with something today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello there! Of course, I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Research Highlight.' I want to change some of the details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What information in it needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#PublicSectorTech'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've updated the hashtags to include '#PublicSectorTech'. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add '#EuropeanInnovation' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#EuropeanInnovation' to the hashtags. Is there anything else you'd like to update for the post?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're all set then! Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out again if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

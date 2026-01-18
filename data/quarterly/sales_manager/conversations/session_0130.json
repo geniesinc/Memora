@@ -1,0 +1,120 @@
+{
+  "session_id": 130,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review & Pipeline Strategy Session",
+      "agenda_items": [
+        "Pipeline generation strategies for the upcoming period",
+        "Review of current quarter's sales performance against targets"
+      ],
+      "key_decisions": [
+        "Allocate additional resources to support the pilot program for the new analytics integration within the next month."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Account Manager)",
+        "Sarah Jenkins (Marketing Liaison)",
+        "Anya Sharma (Sales Director)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to add some meeting notes. Can you help me organize and structure the information?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I can help you add those meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The meeting was for our Q3 Performance Review & Pipeline Strategy Session.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The agenda items included pipeline generation strategies for the upcoming period and a review of the current quarter's sales performance against targets.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We decided to allocate additional resources to support the pilot program for the new analytics integration within the next month.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Who attended the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Maria Rodriguez, our Account Manager, Sarah Jenkins, our Marketing Liaison, and Anya Sharma, our Sales Director, were all in attendance.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "What were the action items and follow-ups?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks, that was really helpful!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could help.",
+      "share_memory": false
+    }
+  ]
+}

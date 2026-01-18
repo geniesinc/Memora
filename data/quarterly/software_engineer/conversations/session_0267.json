@@ -1,0 +1,127 @@
+{
+  "session_id": 267,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Video Streaming Infrastructure Optimization Review",
+      "agenda_items": [
+        "Evaluate new object storage solution for media asset management",
+        "Discuss microservices migration strategy for legacy encoding pipeline",
+        "Plan database sharding approach for user analytics service",
+        "Review current CDN performance metrics and latency issues",
+        "Address API rate limiting concerns from mobile app team"
+      ],
+      "key_decisions": [
+        "Selected AWS S3 with CloudFront integration over Google Cloud Storage for media delivery",
+        "Approved migration to containerized encoding workers using Kubernetes by end of current development cycle"
+      ],
+      "technical_blockers": [
+        "Third-party analytics SDK causing memory leaks in mobile applications requiring immediate patch",
+        "Cross-region data replication lag exceeding acceptable thresholds for live content synchronization",
+        "Current database connection pooling configuration hitting max connections during peak traffic hours",
+        "Legacy encoding service still using deprecated FFmpeg version causing compatibility issues with new codec formats"
+      ]
+    },
+    "update_type": "unknown",
+    "pool_status": "completed",
+    "operation_converted": "update_to_delete",
+    "conversion_reason": "Insufficient remaining data for update operation",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Agreed to implement Redis caching layer to reduce database load by 40%",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Postponed GraphQL API migration until after current streaming optimization work completes",
+        "action": "removed_from_memory"
+      }
+    ],
+    "deletion_method": "update_fallback_to_delete"
+  },
+  "date": "2025-06-14",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting recent advancements in artificial intelligence that you've observed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Recent advancements in AI, particularly in large language models and generative AI, have been quite remarkable. The ability of these models to understand and generate human-like text and create novel content is truly fascinating.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Video Streaming Infrastructure Optimization Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Agreed to implement Redis caching layer to reduce database load by 40%\" from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Agreed to implement Redis caching layer to reduce database load by 40%\" from the 'key_decisions' field. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Postponed GraphQL API migration until after current streaming optimization work completes\" from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed \"Postponed GraphQL API migration until after current streaming optimization work completes\" from the 'key_decisions' field. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All the requested removals have been made from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks for your help! That was very efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "I'm glad I could assist you efficiently today! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

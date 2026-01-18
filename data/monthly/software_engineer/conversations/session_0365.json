@@ -1,0 +1,169 @@
+{
+  "session_id": 365,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Network Security Architecture Review - 5G Core Implementation",
+      "agenda_items": [
+        "Evaluate multi-tenant isolation strategy for regional carrier deployments",
+        "Review current authentication protocol implementation for 5G standalone core"
+      ],
+      "key_decisions": [
+        "Implement hardware security module integration for cryptographic key management before regional rollout",
+        "Mandate code signing and artifact verification in CI/CD pipeline starting next sprint",
+        "Adopt TLS 1.3 with mutual authentication for all inter-service communication within the next 4 weeks"
+      ],
+      "attendees": [
+        "Lena Kowalski, Principal Engineer - Network Functions",
+        "Henrik Svensson, Infrastructure Engineer",
+        "Priya Nambiar, Senior Software Engineer"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Mandate code signing and artifact verification in CI/CD pipeline starting next sprint",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Priya Nambiar, Senior Software Engineer",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Adopt TLS 1.3 with mutual authentication for all inter-service communication within the next 4 weeks",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Review current authentication protocol implementation for 5G standalone core",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 352,
+        "session_date": "2025-06-16",
+        "operation": "add"
+      },
+      {
+        "session_id": 362,
+        "session_date": "2025-06-17",
+        "operation": "delete"
+      },
+      {
+        "session_id": 365,
+        "session_date": "2025-06-17",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Network Security Architecture Review - 5G Core Implementation'. I have a few details to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the key decisions to include: Mandate code signing and artifact verification in CI/CD pipeline starting next sprint.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've noted the update to key decisions. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the attendees to include Priya Nambiar, Senior Software Engineer.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, Priya Nambiar has been added to the attendees. Anything else for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the key decisions to include: Adopt TLS 1.3 with mutual authentication for all inter-service communication within the next 4 weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. The key decisions now include adopting TLS 1.3. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please update the agenda items to include: Review current authentication protocol implementation for 5G standalone core.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, the agenda items now include \"Review current authentication protocol implementation for 5G standalone core.\" Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Got it. Your updates to the meeting notes have been recorded.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Great, that was very helpful!",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

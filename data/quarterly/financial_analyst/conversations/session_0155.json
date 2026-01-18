@@ -1,0 +1,117 @@
+{
+  "session_id": 155,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Long-Term Cost Reduction Initiative - Phase 1 Review",
+      "agenda_items": [
+        "Budget re-forecasting for the upcoming period"
+      ],
+      "key_decisions": [
+        "Approve the pilot program for cloud-based data analytics for financial reporting"
+      ],
+      "attendees": [
+        "Isabelle Dubois, IT Strategy Manager",
+        "Marcus Thorne, Procurement Lead"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Dr. Chen Li, Director of Operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Form a cross-functional task force to explore energy consumption reduction strategies",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today. How can I assist you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello to you too! I was wondering, what are some of the most interesting recent advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "One interesting advancement is the progress in large language models, enabling more nuanced and coherent text generation. Another area is reinforcement learning, which has led to significant breakthroughs in robotics and game playing.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Long-Term Cost Reduction Initiative - Phase 1 Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Dr. Chen Li, Director of Operations' from the 'attendees' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Dr. Chen Li, Director of Operations' from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Form a cross-functional task force to explore energy consumption reduction strategies' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Form a cross-functional task force to explore energy consumption reduction strategies' from the 'key_decisions' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Confirmed. I've removed the specified attendee and key decision from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You too! I'm always here to help with your document needs.",
+      "share_memory": false
+    }
+  ]
+}

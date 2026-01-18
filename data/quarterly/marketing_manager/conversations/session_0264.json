@@ -1,0 +1,105 @@
+{
+  "session_id": 264,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "Quarterly campaign performance review and strategic recommendations for enhanced security messaging across North American media channels.",
+      "recipient_list": [
+        "VP of Marketing"
+      ],
+      "key_points": [
+        "Proposed partnership with cybersecurity influencers to expand credibility in North American market"
+      ],
+      "call_to_action": "Review attached performance dashboard and provide feedback on proposed budget adjustments by end of next week to inform upcoming campaign planning cycle."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Recommended budget reallocation toward LinkedIn and industry publication placements for next phase",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 66,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 122,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 264,
+        "session_date": "2025-06-13",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-13",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! I'm ready to chat about anything you'd like.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the email titled 'Quarterly campaign performance review and strategic recommendations for enhanced security messaging across North American media channels.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Recommended budget reallocation toward LinkedIn and industry publication placements for next phase\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Recommended budget reallocation toward LinkedIn and industry publication placements for next phase\" from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. The email has been updated with your requested removals. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

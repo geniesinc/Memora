@@ -1,0 +1,120 @@
+{
+  "session_id": 274,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "AR Rendering Pipeline Optimization & Unity Integration Review",
+      "agenda_items": [
+        "Review API architecture for real-time data synchronization across devices",
+        "Address WebXR deployment strategy for client demo environment"
+      ],
+      "key_decisions": [
+        "Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features",
+        "Adopt Manomotion SDK for hand tracking rather than building custom solution in-house"
+      ],
+      "action_items": [
+        "Conduct performance profiling on current spatial mesh generation algorithm by end of week",
+        "Document API endpoints and data schemas for client integration by next sprint"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-14",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Great! I need to add some meeting notes. Can you help me organize the information?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, I can help you add those meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The meeting was about AR Rendering Pipeline Optimization & Unity Integration Review.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The agenda items included reviewing the API architecture for real-time data synchronization across devices and addressing the WebXR deployment strategy for the client demo environment.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We decided to migrate to the Unity 6 rendering pipeline within the next three months and adopt the Manomotion SDK for hand tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "What are the action items from this meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The action items are to conduct performance profiling on the current spatial mesh generation algorithm by end of the week and to document API endpoints and data schemas for client integration by the next sprint.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Got it. I have all the details for the meeting notes. Is there anything else you'd like to add or change?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that covers everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I'm glad I could assist you. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

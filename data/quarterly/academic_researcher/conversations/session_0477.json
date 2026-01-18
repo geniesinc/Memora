@@ -1,0 +1,77 @@
+{
+  "session_id": 477,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "expense_type": "coffee",
+      "amount": 3.43,
+      "created_at": "2025-06-23"
+    },
+    "category": "food_expenses"
+  },
+  "date": "2025-06-23",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! I was wondering, what exactly are some of the key differences between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines simulating human intelligence, while machine learning is a subset of AI that focuses on enabling systems to learn from data without explicit programming. Machine learning is a method used to achieve artificial intelligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's interesting. So one is a part of the other.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly! It's a common misconception that they are entirely separate fields.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Speaking of things that are part of a whole, I just spent $3.43 on a coffee this morning.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a nice way to start the day. Did you have any other food expenses today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Oh, that reminds me, I actually need to run. It was interesting learning about AI and machine learning!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "It was a pleasure discussing them with you! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

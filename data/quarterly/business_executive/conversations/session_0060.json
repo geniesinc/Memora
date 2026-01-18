@@ -1,0 +1,108 @@
+{
+  "session_id": 60,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Regional Compliance Strategy Review - Automotive Safety Standards Implementation",
+      "agenda_items": [
+        "Risk mitigation strategies for upcoming regulatory inspection cycle",
+        "Discussion of supplier certification status and third-party audit findings",
+        "Budget allocation for compliance technology upgrades across production facilities"
+      ],
+      "key_decisions": [
+        "Mandated completion of supplier re-certification program within 4 months to meet new standards"
+      ],
+      "attendees": [
+        "Dmitri Volkov, Manufacturing Plant Manager",
+        "Lars Bergstr\u00f6m, Supply Chain Director",
+        "Kenji Tanaka, Regional Finance Director"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Authorized engagement of external compliance consultancy for gap analysis and remediation planning",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Amara Nwosu, Legal Counsel",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Regional Compliance Strategy Review - Automotive Safety Standards Implementation'. We can go through the specifics now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Alright, I can help you remove some information from the meeting notes. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Authorized engagement of external compliance consultancy for gap analysis and remediation planning' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Authorized engagement of external compliance consultancy for gap analysis and remediation planning\" from the `key_decisions` field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Amara Nwosu, Legal Counsel' from the 'attendees' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Amara Nwosu, Legal Counsel' from the `attendees` field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the requested details from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks, that's everything!",
+      "share_memory": false
+    }
+  ]
+}

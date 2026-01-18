@@ -1,0 +1,139 @@
+{
+  "session_id": 182,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Fan360: Integrated Multi-Platform Engagement Ecosystem",
+      "project_description": "A comprehensive digital engagement strategy to deepen fan connections across North American markets through personalized content, gamification, and real-time interactive experiences during live sporting events.",
+      "budget": 525000,
+      "timeline": "12 months with Phase 1 (months 1-4) focusing on platform development, Phase 2 (months 5-8) on content creation and testing, and Phase 3 (months 9-12) on full market rollout",
+      "project_lead": "Priya Nakamura, Senior Marketing Manager - Digital Engagement",
+      "stakeholders": [
+        "Digital Product Team",
+        "Analytics and Insights Group"
+      ],
+      "objectives": [
+        "Create new revenue streams through premium digital content offerings"
+      ],
+      "deliverables": [
+        "Interactive social media campaign framework for 50+ game days",
+        "Comprehensive analytics dashboard for engagement tracking"
+      ],
+      "success_metrics": [
+        "Social media engagement rate improvement of 40%",
+        "Mobile app downloads exceeding 250,000 within first 6 months"
+      ],
+      "competitive_analysis": "Recent analysis shows regional competitors have increased digital engagement budgets by 35% with focus on mobile-first experiences and Gen Z targeting. Our proposal addresses current gaps in personalization and real-time engagement while leveraging our unique venue access and athlete partnerships that competitors cannot replicate."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Partnership Development",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 500000,
+        "reverted_to": 525000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Chief Marketing Officer",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Fan360: Integrated Multi-Platform Engagement Ecosystem'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Partnership Development' from the 'stakeholders' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Partnership Development' from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Actually, could you revert the budget back to $525,000?",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget back to $525,000 for the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Chief Marketing Officer' from the 'stakeholders' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Chief Marketing Officer' from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding removals and modifications for the proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've completed all the requested changes to the project proposal. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

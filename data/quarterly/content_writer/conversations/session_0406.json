@@ -1,0 +1,117 @@
+{
+  "session_id": 406,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_3",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Insightful Article Snippet",
+      "main_message": "Discover how mobile-first strategies are revolutionizing the food-tech landscape, enabling businesses to connect with consumers more effectively and drive unprecedented growth. Our latest insights delve into key trends and actionable tactics for regional market success.",
+      "hashtags": [
+        "#DigitalTransformation",
+        "#ContentStrategy",
+        "#AudienceEngagement",
+        "#FoodTech",
+        "#Consulting"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#Consulting",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 67,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 406,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting technological advancements you've seen recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! I'm particularly fascinated by the progress in AI and machine learning, especially in areas like natural language processing and computer vision.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Insightful Article Snippet'. I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to update the hashtags to include '#Consulting'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood, I've added '#Consulting' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great, the update to the social media post is complete with the new hashtag. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks for the help! I appreciate it.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a wonderful day.",
+      "share_memory": false
+    }
+  ]
+}

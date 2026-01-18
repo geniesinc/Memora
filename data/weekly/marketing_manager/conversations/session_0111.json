@@ -1,0 +1,81 @@
+{
+  "session_id": 111,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "Balkans",
+    "preference": "dislike",
+    "subcategory": "regions",
+    "fallback_reason": "delete_failed_no_valid_items"
+  },
+  "date": "2025-06-05",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! I was just wondering, what are your thoughts on recent technological advancements?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I find the rapid pace of technological advancements incredibly exciting, especially in areas like AI and sustainable energy. It's fascinating to see how these innovations are shaping our future.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's an interesting perspective.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Indeed. Speaking of shaping the future, have you been following any interesting developments in space exploration lately?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not really, but I'm always curious about new discoveries. What's been happening in that field?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Well, there's been a lot of buzz around new missions to Mars and the discovery of potential new exoplanets. Do any particular regions on Earth, like perhaps the Balkans or Scandinavia, spark your interest for future travel?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Hmm, I'm not really a fan of the Balkans; I much prefer the idea of exploring Scandinavia.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Scandinavia is a fantastic choice! I'd love to help you add that preference to your memory.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That sounds good.",
+      "share_memory": false
+    }
+  ]
+}

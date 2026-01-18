@@ -1,0 +1,112 @@
+{
+  "session_id": 492,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Redesign Sprint Planning: Q3 Promotional Campaign Visuals",
+      "agenda_items": [
+        "Brainstorm fresh visual concepts for upcoming Q3 promotions, focusing on engagement and conversion"
+      ],
+      "key_decisions": [
+        "Adopt a more minimalist aesthetic with vibrant color accents for the core Q3 campaign visuals to align with recent market trends.",
+        "Integrate user-generated content (UGC) elements into select promotional assets to boost authenticity."
+      ],
+      "action_items": [
+        "Creative Director to provide updated brand mood boards incorporating minimalist aesthetic by end of next business cycle.",
+        "Lead Designer to mock up 3-5 distinct visual concepts for the primary campaign banner within the next 5 days."
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review current campaign performance metrics and user feedback data",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Allocate design tasks and set initial deadlines for key assets",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! I'm ready to chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Redesign Sprint Planning: Q3 Promotional Campaign Visuals'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review current campaign performance metrics and user feedback data' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Review current campaign performance metrics and user feedback data\" from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Allocate design tasks and set initial deadlines for key assets' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Allocate design tasks and set initial deadlines for key assets' from the agenda items. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified agenda items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now. I appreciate the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

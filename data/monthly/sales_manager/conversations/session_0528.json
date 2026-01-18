@@ -1,0 +1,180 @@
+{
+  "session_id": 528,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Predictive Analytics Pilot - Q3 Performance Review & Expansion Strategy",
+      "agenda_items": [
+        "Identify Key Success Metrics for European Rollout",
+        "Resource Allocation & Training Needs for Next Phase",
+        "Discussion of Predictive Lead Scoring Accuracy"
+      ],
+      "key_decisions": [
+        "Establish a dedicated working group to refine lead scoring models based on ongoing feedback.",
+        "Allocate additional budget for specialized sales training on leveraging predictive insights."
+      ],
+      "action_items": [
+        "IT Department to initiate planning for CRM integration with predictive platform. (Kick-off: +3 days)",
+        "Training Department to develop a module on 'Selling with Predictive Analytics' for sales teams. (Due: +14 days)",
+        "Sales Operations to compile detailed Q3 pilot performance report and present to leadership. (Due: +7 days)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Resource Allocation & Training Needs for Next Phase",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Training Department to develop a module on 'Selling with Predictive Analytics' for sales teams. (Due: +14 days)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discussion of Predictive Lead Scoring Accuracy",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Sales Operations to compile detailed Q3 pilot performance report and present to leadership. (Due: +7 days)",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate additional budget for specialized sales training on leveraging predictive insights.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 410,
+        "session_date": "2025-06-18",
+        "operation": "add"
+      },
+      {
+        "session_id": 419,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      },
+      {
+        "session_id": 528,
+        "session_date": "2025-06-23",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes titled 'Predictive Analytics Pilot - Q3 Performance Review & Expansion Strategy'. I'd like to change some of the details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed in them?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Resource Allocation & Training Needs for Next Phase' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Resource Allocation & Training Needs for Next Phase' to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Training Department to develop a module on 'Selling with Predictive Analytics' for sales teams. (Due: +14 days)' to the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added the training module to the action items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Discussion of Predictive Lead Scoring Accuracy' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Discussion of Predictive Lead Scoring Accuracy' to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Sales Operations to compile detailed Q3 pilot performance report and present to leadership. (Due: +7 days)' to the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added the Q3 pilot performance report to the action items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Allocate additional budget for specialized sales training on leveraging predictive insights' to the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added the budget allocation to the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the meeting notes. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Thank you, that's everything for now.",
+      "share_memory": false
+    }
+  ]
+}

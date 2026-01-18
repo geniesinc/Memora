@@ -1,0 +1,114 @@
+{
+  "session_id": 152,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Pilot Cost-Reduction Strategy Review: Biotech North America",
+      "agenda_items": [
+        "Review current pilot program expenditure vs. budget"
+      ],
+      "key_decisions": [
+        "Postpone investment in new lab equipment until Q2 next period to re-evaluate ROI."
+      ],
+      "action_items": [
+        "Finance department to model projected savings from vendor renegotiations by the end of the current business cycle. (Owner: Sarah Chen)",
+        "Internal Communications to prepare messaging for affected teams regarding cost-reduction efforts. (Owner: Elena Rodriguez)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Form cross-functional task force to evaluate energy consumption in manufacturing processes.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 51,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 131,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 152,
+        "session_date": "2025-06-07",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, I was hoping you could help me with something. Do you have a moment?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I'm here to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Pilot Cost-Reduction Strategy Review: Biotech North America'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to delete from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Form cross-functional task force to evaluate energy consumption in manufacturing processes.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to delete or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the meeting notes. Thanks for handling that.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Form cross-functional task force to evaluate energy consumption in manufacturing processes\" from the key decisions in the meeting notes. Is there anything else you need assistance with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

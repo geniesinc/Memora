@@ -1,0 +1,155 @@
+{
+  "session_id": 343,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_7",
+    "content_data": {
+      "meeting_title": "Cross-Departmental Working Group on AI Ethics and Data Governance",
+      "agenda_items": [
+        "Presentation of preliminary findings from the 'Explainable AI in Network Management' study.",
+        "Discussion on the implications of upcoming compliance frameworks for ongoing research projects."
+      ],
+      "key_decisions": [
+        "Mandate a pre-submission ethical review for all research projects involving novel data processing techniques."
+      ],
+      "action_items": [
+        "All research leads to submit a brief impact assessment of new data collection methods on compliance by the end of the following month.",
+        "Professor Elara Vance to coordinate with legal department for a briefing on upcoming EU regulations within the next month.",
+        "Dr. Anya Sharma to draft terms of reference for the AI Ethics and Data Governance sub-committee by end of next week."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate resources for specialized legal counsel consultation on complex data governance issues.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Identification of potential ethical risks in new data collection methodologies.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 133,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 309,
+        "session_date": "2025-06-15",
+        "operation": "delete"
+      },
+      {
+        "session_id": 328,
+        "session_date": "2025-06-15",
+        "operation": "update"
+      },
+      {
+        "session_id": 332,
+        "session_date": "2025-06-16",
+        "operation": "update"
+      },
+      {
+        "session_id": 343,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-16",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I'm ready to chat when you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Hi! I recently learned about the concept of \"swarm intelligence\" and how it's being applied in robotics. It's fascinating how simple individual rules can lead to complex collective behaviors.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Cross-Departmental Working Group on AI Ethics and Data Governance'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to delete?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Allocate resources for specialized legal counsel consultation on complex data governance issues.' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please remove 'Identification of potential ethical risks in new data collection methodologies.' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed \"Identification of potential ethical risks in new data collection methodologies.\" from the agenda items. Is there anything else you'd like to remove or modify from the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes by removing those items. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but it was great talking with you!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You too! Feel free to reach out anytime if you need assistance in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

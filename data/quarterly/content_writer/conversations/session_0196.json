@@ -1,0 +1,154 @@
+{
+  "session_id": 196,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Global Content Efficiency Initiative: Storytelling for Cost Optimization",
+      "project_description": "A pilot program designed to enhance content creation efficiency and reduce operational costs across global entertainment properties through strategic storytelling and optimized workflows.",
+      "budget": 250000,
+      "timeline": "Over the next 9 months, with a 3-month pilot phase and a 6-month scaling phase.",
+      "project_lead": "Lena Petrova, Senior Content Strategist",
+      "stakeholders": [
+        "Regional Content Leads (Asia, EMEA, Americas)",
+        "Head of Global Content Operations"
+      ],
+      "objectives": [
+        "Standardize content creation best practices across at least three global regions.",
+        "Reduce content production expenditures by 15% through streamlined processes."
+      ],
+      "deliverables": [
+        "A comprehensive 'Storytelling for Efficiency' playbook.",
+        "A detailed report on pilot phase performance and recommendations for global rollout.",
+        "Training modules for regional content teams on new workflow protocols and narrative strategies."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "budget",
+        "updated_from": 200000,
+        "updated_to": 250000,
+        "action": "budget_revised"
+      },
+      {
+        "field": "deliverables",
+        "added_item": "Training modules for regional content teams on new workflow protocols and narrative strategies.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 6,
+    "completion_threshold": 6,
+    "session_history": [
+      {
+        "session_id": 54,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 63,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      },
+      {
+        "session_id": 74,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      },
+      {
+        "session_id": 85,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 109,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 196,
+        "session_date": "2025-06-10",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-10",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks. It's always good to connect!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the project proposal titled 'Global Content Efficiency Initiative: Storytelling for Cost Optimization'. Please change the budget for this proposal from $200,000 to $250,000.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help update the budget for 'Global Content Efficiency Initiative: Storytelling for Cost Optimization'. What specific updates do you need to make to the budget?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, please update the budget from $200,000 to $250,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the budget for 'Global Content Efficiency Initiative: Storytelling for Cost Optimization' from $200,000 to $250,000. Is there anything else you'd like to update on this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the deliverables to include: 'Training modules for regional content teams on new workflow protocols and narrative strategies.'",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the deliverables for 'Global Content Efficiency Initiative: Storytelling for Cost Optimization'. Is there anything else you'd like to update on this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now on the 'Global Content Efficiency Initiative: Storytelling for Cost Optimization' proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. Is there anything else you'd like to update on the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, I'll consider that proposal complete for now. Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

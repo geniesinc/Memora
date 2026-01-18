@@ -1,0 +1,139 @@
+{
+  "session_id": 478,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_8",
+    "content_data": {
+      "email_purpose": "To provide an update on Q2 sales performance and outline strategic priorities for the upcoming period.",
+      "recipient_list": [
+        "Head of European Operations"
+      ],
+      "key_points": [
+        "Pipeline for the next two periods shows robust potential, particularly in our oncology portfolio."
+      ],
+      "call_to_action": "Review the attached Q2 performance report and prepare for our strategic planning session next week to finalize priorities for the upcoming period."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Achieved 115% of Q2 revenue target, primarily driven by new market penetration in Central Europe.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Marketing Department Head",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 281,
+        "session_date": "2025-06-15",
+        "operation": "add"
+      },
+      {
+        "session_id": 424,
+        "session_date": "2025-06-21",
+        "operation": "update"
+      },
+      {
+        "session_id": 461,
+        "session_date": "2025-06-22",
+        "operation": "delete"
+      },
+      {
+        "session_id": 478,
+        "session_date": "2025-06-23",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'm doing well, thank you. I'm ready to help with any questions you might have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my email titled 'To provide an update on Q2 sales performance and outline strategic priorities for the upcoming period.'",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Achieved 115% of Q2 revenue target, primarily driven by new market penetration in Central Europe.\" from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Achieved 115% of Q2 revenue target, primarily driven by new market penetration in Central Europe\" from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Marketing Department Head' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Marketing Department Head' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the requested information from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance with anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "You too! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

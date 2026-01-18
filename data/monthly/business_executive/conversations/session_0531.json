@@ -1,0 +1,123 @@
+{
+  "session_id": 531,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_5",
+    "content_data": {
+      "project_title": "Global Market Expansion Initiative for Specialty Oncology Portfolio",
+      "project_description": "Strategic expansion of our specialty oncology product line into emerging Latin American markets, leveraging data analytics to optimize market entry and distribution channels. This initiative aims to establish regional partnerships and regulatory pathways to capture market share in high-growth therapeutic areas.",
+      "budget": 10300000,
+      "timeline": "18 months with Phase 1: Market Analysis and Regulatory Strategy (months 1-6), Phase 2: Partnership Development and Pilot Launch (months 7-12), Phase 3: Full Market Entry and Scale (months 13-18)",
+      "project_lead": "Priya Chandrasekaran, VP of International Business Development",
+      "stakeholders": [
+        "Regional Commercial Operations Teams",
+        "Finance and Corporate Development",
+        "Medical Affairs and Clinical Research"
+      ],
+      "objectives": [
+        "Secure regulatory approvals for four key oncology products through accelerated pathways",
+        "Generate data-driven insights on patient access barriers and market dynamics",
+        "Develop strategic partnerships with regional distributors and healthcare networks"
+      ],
+      "deliverables": [
+        "Partnership agreements with minimum three regional distribution partners",
+        "Comprehensive market assessment report with competitive landscape analysis",
+        "Risk mitigation protocols and compliance framework",
+        "Supply chain network design and logistics framework"
+      ],
+      "risk_assessment": "Medium-high risk profile driven by regulatory uncertainties in emerging markets, currency fluctuation exposure, and potential supply chain disruptions. Mitigation strategies include phased rollout approach, local partnership structures, and robust compliance monitoring systems."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 8850000,
+        "reverted_to": 10300000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Chief Strategy Officer",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-25",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well, thank you! I need to remove some information from my project proposal titled 'Global Market Expansion Initiative for Specialty Oncology Portfolio'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd like to revert the budget from $8,850,000 back to $10,300,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the budget for the proposal to $10,300,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Chief Strategy Officer' from the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. 'Chief Strategy Officer' has been removed from the stakeholders. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Chief Strategy Officer' from the stakeholders and reverted the budget in the project proposal. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

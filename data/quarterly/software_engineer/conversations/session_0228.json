@@ -1,0 +1,123 @@
+{
+  "session_id": 228,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Robotics Vision System Architecture Review and Sprint Planning",
+      "agenda_items": [
+        "Plan integration testing strategy for multi-robot coordination framework",
+        "Address performance bottlenecks in real-time object detection module",
+        "Evaluate cloud infrastructure requirements for edge deployment across European facilities"
+      ],
+      "key_decisions": [
+        "Adopt YOLOv8 architecture for improved detection accuracy while maintaining real-time performance requirements",
+        "Implement hybrid edge-cloud architecture with primary processing on-device and telemetry aggregation in Azure",
+        "Allocate additional GPU resources to development environment for parallel model training experiments"
+      ],
+      "attendees": [
+        "Lars Bergstr\u00f6m (Lead Software Architect)",
+        "Nadia Kowalski (Engineering Manager)",
+        "Jamal Osei (Embedded Systems Engineer)",
+        "Ravi Patel (QA Automation Lead)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Evaluate cloud infrastructure requirements for edge deployment across European facilities",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate additional GPU resources to development environment for parallel model training experiments",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-12",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks for asking! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi! I need to update my meeting notes titled 'Robotics Vision System Architecture Review and Sprint Planning'. I have a few details I'd like to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Evaluate cloud infrastructure requirements for edge deployment across European facilities' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Evaluate cloud infrastructure requirements for edge deployment across European facilities\" to the agenda items. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the key decisions by adding: 'Allocate additional GPU resources to development environment for parallel model training experiments'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood, I've added \"Allocate additional GPU resources to development environment for parallel model training experiments\" to the key decisions. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for the updates on the meeting notes, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're all set then! Is there anything else I can assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need assistance again.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do, have a good one!",
+      "share_memory": false
+    }
+  ]
+}

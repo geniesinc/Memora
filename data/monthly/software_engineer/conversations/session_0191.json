@@ -1,0 +1,156 @@
+{
+  "session_id": 191,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "IoT Gateway Architecture Review and Q4 Sprint Planning",
+      "agenda_items": [
+        "Review current MQTT broker performance metrics and scalability concerns",
+        "Address technical debt in legacy communication protocols",
+        "Discuss edge computing implementation for predictive maintenance modules"
+      ],
+      "key_decisions": [
+        "Implement Redis caching layer to handle increased sensor data throughput from industrial automation clients",
+        "Migrate from monolithic architecture to microservices using Kubernetes for improved scalability across European client deployments"
+      ],
+      "attendees": [
+        "Fatima Al-Rashid, Engineering Manager",
+        "Priya Sharma, Senior Backend Engineer",
+        "Chen Wei, QA Automation Lead",
+        "Lars Bergstr\u00f6m, DevOps Engineer"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "key_decisions",
+        "added_item": "Migrate from monolithic architecture to microservices using Kubernetes for improved scalability across European client deployments",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Discuss edge computing implementation for predictive maintenance modules",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Chen Wei, QA Automation Lead",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Lars Bergstr\u00f6m, DevOps Engineer",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-09",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what are some of the most interesting recent advancements in artificial intelligence that you've observed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "One interesting advancement is the progress in large language models, enabling more nuanced and coherent text generation. Another exciting area is the development of AI for scientific discovery, accelerating research in fields like material science and drug design.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'd like to update my meeting notes titled 'IoT Gateway Architecture Review and Q4 Sprint Planning'. I need to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For the key decisions, please add: 'Migrate from monolithic architecture to microservices using Kubernetes for improved scalability across European client deployments'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Migrate from monolithic architecture to microservices using Kubernetes for improved scalability across European client deployments\" to the key decisions. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Discuss edge computing implementation for predictive maintenance modules' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Discuss edge computing implementation for predictive maintenance modules\" to the agenda items. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Chen Wei, QA Automation Lead' to the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Chen Wei, QA Automation Lead, to the attendees. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Lars Bergstr\u00f6m, DevOps Engineer' to the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added Lars Bergstr\u00f6m, DevOps Engineer, to the attendees. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I've updated the meeting notes with all the details you provided.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "Thank you for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out if you need anything else.",
+      "share_memory": false
+    }
+  ]
+}

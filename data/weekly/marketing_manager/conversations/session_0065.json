@@ -1,0 +1,114 @@
+{
+  "session_id": 65,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Campaign Performance Review & European Expansion Strategy",
+      "agenda_items": [
+        "Discuss customer engagement trends and retention data from pilot workflow optimization platform",
+        "Plan influencer partnership program for sustainable food-tech initiatives",
+        "Integration of workflow automation tools into marketing operations"
+      ],
+      "key_decisions": [
+        "Committed to implementing AI-powered customer segmentation tool within the next 2 months",
+        "Approved 15% budget increase for digital advertising in Nordic markets based on strong conversion rates"
+      ],
+      "campaign_metrics": "Current campaign showing 23% increase in customer acquisition, 4.2% conversion rate across EU markets, 67% email open rate, and 890K social media impressions with engagement rate of 5.8%"
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Integration of workflow automation tools into marketing operations",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 38,
+        "session_date": "2025-06-02",
+        "operation": "add"
+      },
+      {
+        "session_id": 41,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 65,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Campaign Performance Review & European Expansion Strategy'; I have some changes to a few details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update it. What information in the meeting notes needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the 'agenda_items' to include \"Integration of workflow automation tools into marketing operations.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `agenda_items` to include \"Integration of workflow automation tools into marketing operations.\" Is there anything else you'd like to update for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You got it. The meeting notes have been updated. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

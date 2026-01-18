@@ -1,0 +1,134 @@
+{
+  "session_id": 408,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_6",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Thought Leadership Post",
+      "main_message": "Excited to share insights from our recent workflow optimization initiative that reduced patient onboarding time by 34% across our European clinics. Investing in smart process design isn't just about efficiency\u2014it's about delivering better care experiences.",
+      "hashtags": [
+        "WorkflowOptimization",
+        "EuropeanHealthcare",
+        "DigitalHealth",
+        "PatientExperience",
+        "HealthcareInnovation"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "PatientExperience",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "HealthcareInnovation",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 204,
+        "session_date": "2025-06-10",
+        "operation": "add"
+      },
+      {
+        "session_id": 408,
+        "session_date": "2025-06-19",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well. What are some interesting technological advancements you've been following lately?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I've been fascinated by the progress in AI and machine learning, particularly in areas like natural language processing and computer vision.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my social media post titled 'LinkedIn Thought Leadership Post'; I'd like to change a few details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'LinkedIn Thought Leadership Post'. What changes would you like to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add 'PatientExperience' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#PatientExperience' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'HealthcareInnovation' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added '#HealthcareInnovation' to the hashtags. Is there anything else you'd like to update for this post?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for it. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Maybe another time!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime you need assistance.",
+      "share_memory": false
+    }
+  ]
+}

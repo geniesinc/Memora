@@ -1,0 +1,123 @@
+{
+  "session_id": 3,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: TelcoConnect Group Integration & Expansion",
+      "agenda_items": [
+        "Identify key pain points and bottlenecks in current phase",
+        "Resource allocation and support requirements",
+        "Next steps and ownership for critical actions",
+        "Discuss roadmap for next phase of solution deployment"
+      ],
+      "key_decisions": [
+        "Schedule follow-up with client's Head of Infrastructure to present updated integration timeline.",
+        "Prioritize resolution of API latency issues identified in Phase 1 by end of next week."
+      ],
+      "attendees": [
+        "Maria Rodriguez (Technical Account Manager)",
+        "David Chen (Product Lead)",
+        "Aisha Rahman (Sales Executive)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'm doing great, thanks for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to add some new meeting notes. Could you help me organize and structure the information effectively?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I can help you add those meeting notes. Let's get started.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The meeting was for a Strategic Account Review: TelcoConnect Group Integration & Expansion.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great, \"Strategic Account Review: TelcoConnect Group Integration & Expansion.\" What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The agenda items included identifying key pain points and bottlenecks, discussing resource allocation and support requirements, outlining next steps and ownership for critical actions, and presenting the roadmap for the next phase of solution deployment.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Thanks. What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We decided to schedule a follow-up with the client's Head of Infrastructure to present the updated integration timeline, and prioritize resolving API latency issues from Phase 1 by the end of next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Who attended the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The attendees were Maria Rodriguez, our Technical Account Manager; David Chen, our Product Lead; and Aisha Rahman, our Sales Executive.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Got it. Is there anything else you'd like to add to the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That should be all for now, thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime you need to organize more notes or have other questions.",
+      "share_memory": false
+    }
+  ]
+}

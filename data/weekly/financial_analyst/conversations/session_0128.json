@@ -1,0 +1,92 @@
+{
+  "session_id": 128,
+  "session_type": "no_memory",
+  "operation": null,
+  "operation_details": {
+    "item": null,
+    "content_data": null,
+    "pool_status": {
+      "draft_pool_size": 0,
+      "completed_pool_size": 2,
+      "total_items_processed": 2,
+      "available_pool_exhausted": true,
+      "draft_pool_empty": true,
+      "all_items_completed": true
+    },
+    "generation_method": "add_converted_to_no_memory",
+    "operation_converted": "add_to_no_memory",
+    "conversion_reason": "both_pools_exhausted",
+    "fallback_session_type": "no_memory",
+    "message": "All meeting_notes items have been completed. Converting to general conversation."
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was just wondering, what do you think is the most interesting recent technological advancement?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I find the rapid advancements in AI and machine learning to be incredibly fascinating right now. The potential applications across so many fields are truly remarkable.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a great point, but I was actually thinking more about the breakthroughs in quantum computing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's an excellent observation! Quantum computing is indeed another area with groundbreaking advancements and immense potential.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I agree; it's quite impressive. What do you think are the biggest challenges facing quantum computing right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "One of the biggest challenges is maintaining quantum coherence, as qubits are very sensitive to environmental interference. Another significant hurdle is scaling up these complex systems while minimizing errors.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a very insightful way to look at it; you've pinpointed some crucial obstacles. Your understanding of the complexities involved is impressive.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "It's been a really interesting discussion, but I actually have to go now. Thanks for the conversation!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Thanks for the engaging chat, and have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

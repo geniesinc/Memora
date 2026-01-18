@@ -1,0 +1,112 @@
+{
+  "session_id": 131,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Pilot Cost-Reduction Strategy Review: Biotech North America",
+      "agenda_items": [
+        "Review current pilot program expenditure vs. budget"
+      ],
+      "key_decisions": [
+        "Postpone investment in new lab equipment until Q2 next period to re-evaluate ROI.",
+        "Form cross-functional task force to evaluate energy consumption in manufacturing processes."
+      ],
+      "action_items": [
+        "Finance department to model projected savings from vendor renegotiations by the end of the current business cycle. (Owner: Sarah Chen)",
+        "Internal Communications to prepare messaging for affected teams regarding cost-reduction efforts. (Owner: Elena Rodriguez)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Analyze identified cost-saving opportunities in supply chain and operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Outline next steps and responsibilities for implementation phase",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Pilot Cost-Reduction Strategy Review: Biotech North America'. We can go through the specifics now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Analyze identified cost-saving opportunities in supply chain and operations' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Analyze identified cost-saving opportunities in supply chain and operations\" from the agenda items. Is there anything else you'd like to remove or modify in the notes for the Pilot Cost-Reduction Strategy Review?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Outline next steps and responsibilities for implementation phase' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've also removed \"Outline next steps and responsibilities for implementation phase\" from the agenda items. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed both items from the agenda for the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

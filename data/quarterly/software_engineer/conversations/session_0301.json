@@ -1,0 +1,127 @@
+{
+  "session_id": 301,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_9",
+    "content_data": {
+      "meeting_title": "AR Rendering Pipeline Optimization & Unity Integration Review",
+      "agenda_items": [
+        "Address WebXR deployment strategy for client demo environment"
+      ],
+      "key_decisions": [
+        "Adopt Manomotion SDK for hand tracking rather than building custom solution in-house"
+      ],
+      "action_items": [
+        "Document API endpoints and data schemas for client integration by next sprint"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Conduct performance profiling on current spatial mesh generation algorithm by end of week",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Review API architecture for real-time data synchronization across devices",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'AR Rendering Pipeline Optimization & Unity Integration Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've noted the removal of 'Migrate to Unity 6 rendering pipeline within the next 3 months to leverage improved AR Foundation features' from the 'key_decisions' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Conduct performance profiling on current spatial mesh generation algorithm by end of week' from the 'action_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've also removed 'Conduct performance profiling on current spatial mesh generation algorithm by end of week' from the 'action_items' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Review API architecture for real-time data synchronization across devices' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Review API architecture for real-time data synchronization across devices' from the 'agenda_items' field. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, all the requested removals from the meeting notes have been processed. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that will be all. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "session_id": 72,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Q4 Customer Acquisition Strategy & Budget Reallocation Review",
+      "agenda_items": [
+        "Evaluate email marketing automation ROI"
+      ],
+      "key_decisions": [
+        "Consolidate marketing tech stack by eliminating two redundant analytics tools within 45 days"
+      ],
+      "attendees": [
+        "Leila Okonkwo, Marketing Analytics Manager",
+        "Jordan Clarke, Digital Content Specialist",
+        "Dante Rossi, E-commerce Director"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Review current paid search and social media campaign performance",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Kenji Yamamoto, Email Marketing Lead",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hey! I was wondering, what are some of the most interesting recent advancements in AI?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Recent advancements in AI include significant progress in large language models like GPT-4 and the development of more sophisticated AI for scientific discovery, such as AlphaFold for protein folding.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Q4 Customer Acquisition Strategy & Budget Reallocation Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove \"Review current paid search and social media campaign performance\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Review current paid search and social media campaign performance\" from the agenda items. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Kenji Yamamoto, Email Marketing Lead' from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed Kenji Yamamoto from the attendees. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Confirmed, I have removed \"Review current paid search and social media campaign performance\" from the agenda items and \"Kenji Yamamoto, Email Marketing Lead\" from the attendees in the meeting notes. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I might have more questions later. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

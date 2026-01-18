@@ -1,0 +1,115 @@
+{
+  "session_id": 39,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Regional Pharma Market Entry Strategy - Financial Projections Review",
+      "agenda_items": [
+        "Review of key performance indicators (KPIs) for financial tracking",
+        "Analysis of COGS and operational expenditure estimates for initial 12-month phase",
+        "Review of updated revenue forecasts for new product launch in target region"
+      ],
+      "key_decisions": [
+        "Mandated a sensitivity analysis on pricing strategies and regulatory changes",
+        "Agreed to prioritize cost-saving initiatives for manufacturing and supply chain in the initial 6 months"
+      ],
+      "attendees": [
+        "Anya Sharma (Financial Analyst, Lead)",
+        "Elena Petrova (Corporate Finance Manager)",
+        "Dr. Ben Carter (Head of Regional Operations)"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "attendees",
+        "added_item": "Dr. Ben Carter (Head of Regional Operations)",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Review of updated revenue forecasts for new product launch in target region",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It's going well, thanks! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Regional Pharma Market Entry Strategy - Financial Projections Review'. I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add Dr. Ben Carter (Head of Regional Operations) to the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. Dr. Ben Carter has been added to the attendees list. Is there anything else you'd like to update in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please update the agenda items to include: 'Review of updated revenue forecasts for new product launch in target region'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the agenda items. Is there anything else you'd like to update in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, the meeting notes have been updated. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, I think that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great rest of your day.",
+      "share_memory": false
+    }
+  ]
+}

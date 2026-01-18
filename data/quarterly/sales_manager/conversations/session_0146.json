@@ -1,0 +1,123 @@
+{
+  "session_id": 146,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "European AI-Driven Travel Personalization Engine Expansion",
+      "project_description": "Proposal to scale our AI-powered travel recommendation engine across key European markets, enhancing user engagement and optimizing booking conversion rates.",
+      "budget": 1200000,
+      "timeline": "18 months, with initial market penetration during the first 6 months and full regional rollout by the end of the project.",
+      "project_lead": "Lena Petrova, Head of European Sales",
+      "stakeholders": [
+        "Head of Product Development",
+        "Chief Revenue Officer"
+      ],
+      "objectives": [
+        "Improve customer lifetime value (CLV) by 15% through personalized recommendations."
+      ],
+      "deliverables": [
+        "Detailed market entry strategies for new European regions.",
+        "Comprehensive sales training modules for regional teams.",
+        "Monthly performance reports and quarterly strategic reviews."
+      ],
+      "success_metrics": [
+        "New customer acquisition rate in target regions.",
+        "Customer churn reduction."
+      ],
+      "sales_strategy": "Our strategy involves a multi-pronged approach: direct sales to B2B travel partners, targeted digital marketing campaigns in new regions, and leveraging existing customer data to cross-sell and upsell personalized travel packages. Focus on demonstrating ROI to partners and fostering strong, long-term relationships."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "objectives",
+        "removed_item": "Establish key strategic partnerships with local travel operators.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 1700000,
+        "reverted_to": 1200000,
+        "action": "budget_reverted"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to answer any questions you have.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the project proposal titled 'European AI-Driven Travel Personalization Engine Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Establish key strategic partnerships with local travel operators.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Establish key strategic partnerships with local travel operators.' from the objectives. Is there anything else you'd like to remove or modify from this proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove the entire project proposal titled 'European AI-Driven Travel Personalization Engine Expansion'. Also, please revert the budget from $1,700,000 back to $1,200,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed the project proposal titled 'European AI-Driven Travel Personalization Engine Expansion' and reverted the budget to $1,200,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I'm all set with the removals and modifications for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Acknowledged. What else can I help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

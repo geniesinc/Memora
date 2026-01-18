@@ -1,0 +1,108 @@
+{
+  "session_id": 381,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_8",
+    "content_data": {
+      "email_purpose": "Proposing a strategic partnership to implement AI-driven cost-reduction solutions within the robotics manufacturing process.",
+      "recipient_list": [
+        "Head of Procurement - North America"
+      ],
+      "key_points": [
+        "Proposed pilot project scope and expected ROI."
+      ],
+      "call_to_action": "Schedule a follow-up discussion to explore a tailored pilot program for your North American operations."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Head of Operations - Robotics Division",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Demonstration of potential for significant long-term cost savings in robotics manufacturing.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-20",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think about the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "The recent progress in AI, particularly in areas like natural language processing and computer vision, is quite fascinating. These advancements are opening up many new possibilities across various fields.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to make some modifications to my email titled 'Proposing a strategic partnership to implement AI-driven cost-reduction solutions within the robotics manufacturing process.' I'd like to remove some information from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Sure, I can help you remove information from the email. What specific details would you like to remove?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Head of Operations - Robotics Division' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Head of Operations - Robotics Division' from the recipient list. Is there anything else you'd like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Demonstration of potential for significant long-term cost savings in robotics manufacturing.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Demonstration of potential for significant long-term cost savings in robotics manufacturing\" from the key points. Is there anything else you'd like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed those items from the email. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

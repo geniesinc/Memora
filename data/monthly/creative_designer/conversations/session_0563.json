@@ -1,0 +1,119 @@
+{
+  "session_id": 563,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_2",
+    "content_data": {
+      "platform": "Instagram",
+      "content_type": "Image Post",
+      "main_message": "Thrilled to share a sneak peek of our latest brand identity project for an innovative sustainable fashion startup! Merging modern aesthetics with ethical principles to craft a visual language that speaks volumes. Every detail, from palette to typography, is meticulously curated to resonate with their mission.",
+      "hashtags": [
+        "#SustainableFashion",
+        "#NorthAmericanFashion",
+        "#CreativeDirection",
+        "#StartupLife",
+        "#FashionDesign",
+        "#VisualStorytelling",
+        "#BrandIdentity"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#BrandIdentity",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 175,
+        "session_date": "2025-06-09",
+        "operation": "add"
+      },
+      {
+        "session_id": 563,
+        "session_date": "2025-06-26",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-26",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! What are some interesting recent advancements in AI that you've noticed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Hello! I've noticed significant progress in large language models and their ability to generate human-like text and code. Explainable AI, which helps us understand how AI makes decisions, is also seeing exciting developments.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'Instagram Image Post'. I want to change some of the details within it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the social media post. What information in it needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the hashtags to include '#BrandIdentity'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the hashtags to include '#BrandIdentity'. Is there anything else you'd like to update in the post?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That was all the updates I had for that post.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated it. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Not at the moment, but I might have more questions for you later.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

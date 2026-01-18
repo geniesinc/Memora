@@ -1,0 +1,119 @@
+{
+  "session_id": 4,
+  "session_type": "activity",
+  "operation": "add",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client",
+      "agenda_items": [
+        "Identify potential risks and mitigation strategies for upcoming contract renewals",
+        "Address recent regulatory changes impacting the manufacturing sector"
+      ],
+      "key_decisions": [
+        "Initiate discussions with legal and product teams regarding proactive solutions for anticipated regulatory shifts."
+      ],
+      "action_items": [
+        "Sales Rep A to schedule a technical deep-dive with client's compliance team to identify specific pain points. (Due: +7 days)",
+        "Sales Manager (self) to review Q3 sales forecasts and adjust pipeline for new compliance solutions. (Due: +5 days)"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "redesigned_three_pool",
+    "partial_content_generated": true
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hey! I was just wondering, what are some of the most common applications of AI in everyday life?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI is all around us, from the recommendation systems on streaming platforms to the voice assistants on our phones. It's also used in things like fraud detection and even in some medical diagnoses.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to add some meeting notes. Can you help me organize and structure the information?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely! I can help you add those meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "What was the title or purpose of the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The meeting was titled \"Strategic Account Review: Global Compliance Solutions for Key Manufacturing Client.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "What about the agenda items?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The agenda items included identifying potential risks and mitigation strategies for upcoming contract renewals, and addressing recent regulatory changes impacting the manufacturing sector.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "What key decisions were made?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We decided to initiate discussions with legal and product teams regarding proactive solutions for anticipated regulatory shifts.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "What are the action items from this meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Sales Rep A needs to schedule a technical deep-dive with the client's compliance team within seven days, and I will review Q3 sales forecasts and adjust the pipeline for new compliance solutions within five days.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Got it. Is there anything else you'd like to add or change for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

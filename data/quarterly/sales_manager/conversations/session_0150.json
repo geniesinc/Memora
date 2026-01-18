@@ -1,0 +1,142 @@
+{
+  "session_id": 150,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_3",
+    "content_data": {
+      "meeting_title": "Regional Sales Performance Review & Q3 Strategy Alignment",
+      "agenda_items": [
+        "Analysis of key account health and pipeline status",
+        "Team training needs and skill development planning",
+        "Discussion of new product launch impact and initial feedback",
+        "Strategy session for upcoming quarter's sales initiatives",
+        "Review of previous quarter's regional sales performance against targets"
+      ],
+      "key_decisions": [
+        "Schedule a dedicated training session on advanced negotiation tactics for the sales team within the next three weeks.",
+        "Prioritize cross-selling existing clients in the upcoming period to leverage established relationships."
+      ],
+      "attendees": [
+        "Regional Sales Director",
+        "Sales Manager - South Region",
+        "Sales Manager - East Region",
+        "Senior Sales Manager - North Region",
+        "Sales Manager - West Region"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "draft",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Strategy session for upcoming quarter's sales initiatives",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Review of previous quarter's regional sales performance against targets",
+        "action": "added"
+      },
+      {
+        "field": "attendees",
+        "added_item": "Sales Manager - West Region",
+        "action": "added"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Regional Sales Performance Review & Q3 Strategy Alignment'. I'd like to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the agenda items, please add: 'Strategy session for upcoming quarter's sales initiatives'.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Strategy session for upcoming quarter's sales initiatives\" to the agenda items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Review of previous quarter's regional sales performance against targets' to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Review of previous quarter's regional sales performance against targets\" to the agenda items. What else needs to be updated for the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please add 'Sales Manager - West Region' to the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Sales Manager - West Region' to the attendees. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the meeting notes with the new agenda items and attendee. Is there anything else you need help with regarding it?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any further assistance with your meeting notes or anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do, thanks!",
+      "share_memory": false
+    }
+  ]
+}

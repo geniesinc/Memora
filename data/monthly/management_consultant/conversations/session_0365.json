@@ -1,0 +1,87 @@
+{
+  "session_id": 365,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_6",
+    "content_data": {
+      "meeting_title": "Strategic Review: Regional Grid Modernization Initiative",
+      "agenda_items": [
+        "Identification of next-phase priorities and resource allocation"
+      ],
+      "key_decisions": [
+        "Allocate additional budget for pilot testing of advanced sensor technologies in two key substations."
+      ],
+      "attendees": [
+        "Ms. Vivian Lee (Head of Regional Operations, EnergyCo)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Form a dedicated task force to address inter-agency regulatory compliance, reporting back in 2 weeks.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Strategic Review: Regional Grid Modernization Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Form a dedicated task force to address inter-agency regulatory compliance, reporting back in 2 weeks\" from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Form a dedicated task force to address inter-agency regulatory compliance, reporting back in 2 weeks\" from the key decisions. Is there anything else you'd like to remove or modify in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've updated the meeting notes by removing that decision. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, that's all for now! Have a good one.",
+      "share_memory": false
+    }
+  ]
+}

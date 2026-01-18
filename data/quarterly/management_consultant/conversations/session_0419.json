@@ -1,0 +1,150 @@
+{
+  "session_id": 419,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Regional Healthcare Automation Initiative - Steering Committee Update",
+      "agenda_items": [
+        "Strategic alignment with broader organizational transformation goals",
+        "Review of current pilot project status and key performance indicators (KPIs)",
+        "Resource allocation for upcoming project phases",
+        "Discussion on observed challenges and potential mitigation strategies in workflow integration",
+        "Evaluation of initial user feedback and proposed system enhancements"
+      ],
+      "key_decisions": [
+        "Approved allocation of additional technical resources to expedite data pipeline optimization by end of next period.",
+        "Prioritized development of a 'quick-win' dashboard for frontline staff to demonstrate immediate value.",
+        "Agreed to present preliminary findings to regional leadership within the next three weeks.",
+        "Established a bi-weekly working group for cross-functional problem-solving regarding integration issues."
+      ],
+      "action_items": [
+        "Operations Lead: Consolidate and summarize all user feedback received to date for next meeting.",
+        "Project Manager: Schedule follow-up meeting with key stakeholders to discuss resource re-prioritization by next week.",
+        "Consultant Team: Draft communication plan for regional leadership presentation within 7 days."
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Evaluation of initial user feedback and proposed system enhancements",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Established a bi-weekly working group for cross-functional problem-solving regarding integration issues.",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 83,
+        "session_date": "2025-06-05",
+        "operation": "add"
+      },
+      {
+        "session_id": 94,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      },
+      {
+        "session_id": 150,
+        "session_date": "2025-06-08",
+        "operation": "delete"
+      },
+      {
+        "session_id": 419,
+        "session_date": "2025-06-21",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-21",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering, what are some of the benefits of practicing mindfulness?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Practicing mindfulness can reduce stress, improve focus, and enhance emotional regulation. It also promotes a greater sense of well-being.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes for 'Regional Healthcare Automation Initiative - Steering Committee Update'. I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What specific information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please update the 'agenda_items' to include \"Evaluation of initial user feedback and proposed system enhancements.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `agenda_items` to include \"Evaluation of initial user feedback and proposed system enhancements.\" Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please also update the `key_decisions` to include \"Established a bi-weekly working group for cross-functional problem-solving regarding integration issues.\"",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added \"Established a bi-weekly working group for cross-functional problem-solving regarding integration issues\" to the `key_decisions`. Is there anything else you'd like to update for these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The meeting notes have been updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Great, I'll keep that in mind for next time!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Glad I could help, and I look forward to assisting you again in the future!",
+      "share_memory": false
+    }
+  ]
+}

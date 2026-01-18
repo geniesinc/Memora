@@ -1,0 +1,148 @@
+{
+  "session_id": 73,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "To provide a strategic update on key account performance and discuss upcoming growth opportunities within the North American healthcare market.",
+      "recipient_list": [
+        "VP of Sales - Healthcare Division",
+        "Head of Strategic Accounts",
+        "Marketing Lead - Healthcare Solutions"
+      ],
+      "key_points": [
+        "Proposal for targeted outreach campaigns to address identified growth segments.",
+        "Analysis of new regulatory changes and their potential influence on sales strategies."
+      ],
+      "call_to_action": "Please review the attached performance summary and come prepared to discuss actionable strategies during our sync next week."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_points",
+        "removed_item": "Identification of emerging market trends impacting client needs and our solution positioning.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "recipient_list",
+        "removed_item": "Regional Sales Directors - North America",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Review of QTD performance against targets for top-tier healthcare clients.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 7,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 20,
+        "session_date": "2025-06-02",
+        "operation": "update"
+      },
+      {
+        "session_id": 73,
+        "session_date": "2025-06-04",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering if you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I can certainly try to help. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to delete some information from the email titled 'To provide a strategic update on key account performance and discuss upcoming growth opportunities within the North American healthcare market.'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the email?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Identification of emerging market trends impacting client needs and our solution positioning.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Identification of emerging market trends impacting client needs and our solution positioning\" from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Regional Sales Directors - North America' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Regional Sales Directors - North America' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Review of QTD performance against targets for top-tier healthcare clients.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Review of QTD performance against targets for top-tier healthcare clients' from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Alright, I've made those removals. Is there anything else I can help you with regarding this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. I appreciate your help, and I'll definitely reach out if I need anything else!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "session_id": 320,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "email_writeup_6",
+    "content_data": {
+      "email_purpose": "To provide a critical update on the pilot program's performance, outline key learnings, and propose next steps for scaling our AI-driven media intelligence platform.",
+      "recipient_list": [
+        "Advisory Board Member (Media Strategy)"
+      ],
+      "key_points": [
+        "Pilot program achieved X% increase in regional content engagement metrics for the customer.",
+        "Identified areas for platform optimization based on real-world usage data, particularly around reporting customization."
+      ],
+      "call_to_action": "Schedule a follow-up meeting within the next 5 business days to discuss the full pilot report and finalize the expansion strategy."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "recipient_list",
+        "removed_item": "Pilot Customer - Key Stakeholders",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_points",
+        "removed_item": "Our AI-powered insights platform successfully identified Y previously untapped audience segments.",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 302,
+        "session_date": "2025-06-14",
+        "operation": "add"
+      },
+      {
+        "session_id": 320,
+        "session_date": "2025-06-15",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-15",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going quite well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hello! I need to remove some information from the email titled 'Pilot Program Performance Update'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Pilot Customer - Key Stakeholders' from the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed 'Pilot Customer - Key Stakeholders' from the recipient list. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Our AI-powered insights platform successfully identified Y previously untapped audience segments.' from the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've removed that sentence from the key points. Is there anything else you'd like to remove or modify in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, all requested removals from the email have been completed. Is there anything else I can help you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

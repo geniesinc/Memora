@@ -1,0 +1,164 @@
+{
+  "session_id": 86,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_2",
+    "content_data": {
+      "email_purpose": "Announce launch of patient engagement campaign targeting healthcare providers and share preliminary performance metrics for stakeholder review.",
+      "recipient_list": [
+        "Business Development Leadership",
+        "Healthcare Solutions Team",
+        "Client Success Directors",
+        "Analytics and Insights Team",
+        "Chief Marketing Officer"
+      ],
+      "key_points": [
+        "Partner healthcare organizations requesting customized collateral for internal stakeholder communications",
+        "Workflow optimization messaging resonates strongly with clinical administrators and operations managers",
+        "Budget allocation remains on track with 68% of resources deployed for digital channels",
+        "New patient engagement campaign launched across 47 healthcare systems in three regions"
+      ],
+      "call_to_action": "Review attached performance dashboard and provide feedback on regional messaging adjustments by end of next week to inform optimization strategy."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "recipient_list",
+        "added_item": "Client Success Directors",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Analytics and Insights Team",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Chief Marketing Officer",
+        "action": "added"
+      },
+      {
+        "field": "key_points",
+        "added_item": "New patient engagement campaign launched across 47 healthcare systems in three regions",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 84,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 86,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the email titled 'Announce launch of patient engagement campaign targeting healthcare providers and share preliminary performance metrics for stakeholder review.' I want to change some details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that email. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add 'Client Success Directors' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'Client Success Directors' to the recipient list. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Analytics and Insights Team' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Analytics and Insights Team' to the recipient list. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please also add 'Chief Marketing Officer' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added 'Chief Marketing Officer' to the recipient list. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please add 'New patient engagement campaign launched across 47 healthcare systems in three regions' to the key points.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"New patient engagement campaign launched across 47 healthcare systems in three regions\" to the key points. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new recipients and key point. Do you need any further changes to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "I think that will be everything for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Alright, sounds good! Feel free to reach out if anything else comes up.",
+      "share_memory": false
+    }
+  ]
+}

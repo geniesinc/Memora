@@ -1,0 +1,113 @@
+{
+  "session_id": 51,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Regional Pharma Market Entry Strategy - Financial Projections Review",
+      "agenda_items": [
+        "Review of key performance indicators (KPIs) for financial tracking",
+        "Analysis of COGS and operational expenditure estimates for initial 12-month phase",
+        "Review of updated revenue forecasts for new product launch in target region"
+      ],
+      "key_decisions": [
+        "Mandated a sensitivity analysis on pricing strategies and regulatory changes"
+      ],
+      "attendees": [
+        "Anya Sharma (Financial Analyst, Lead)",
+        "Dr. Ben Carter (Head of Regional Operations)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "attendees",
+        "removed_item": "Elena Petrova (Corporate Finance Manager)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "key_decisions",
+        "removed_item": "Agreed to prioritize cost-saving initiatives for manufacturing and supply chain in the initial 6 months",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I was wondering, what do you think is the most interesting recent scientific discovery?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great question! One fascinating recent discovery is the potential for room-temperature superconductors, which could revolutionize many technologies.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Regional Pharma Market Entry Strategy - Financial Projections Review'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Elena Petrova (Corporate Finance Manager)' from the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed Elena Petrova from the attendees list. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Agreed to prioritize cost-saving initiatives for manufacturing and supply chain in the initial 6 months' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed that item from the key decisions. Is there anything else you'd like to remove or modify in these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! The meeting notes have been updated with your requested removals.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

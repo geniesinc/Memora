@@ -1,0 +1,129 @@
+{
+  "session_id": 501,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Regional Energy Industry UX Pilot - Initial Research Synthesis and Next Steps",
+      "agenda_items": [
+        "Discussion on key user pain points and opportunities identified"
+      ],
+      "key_decisions": [
+        "Focus initial technology intervention concepts on demand-side management and smart grid integration"
+      ],
+      "action_items": [
+        "Dr. Lena Petrova: Begin literature review on ethical considerations for AI in energy management and prepare a brief for the next meeting."
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Allocate resources for developing a prototype for a user-friendly energy consumption dashboard",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 212,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 233,
+        "session_date": "2025-06-11",
+        "operation": "update"
+      },
+      {
+        "session_id": 376,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      },
+      {
+        "session_id": 397,
+        "session_date": "2025-06-18",
+        "operation": "delete"
+      },
+      {
+        "session_id": 501,
+        "session_date": "2025-06-23",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-23",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello! It's great to connect with you today. How can I help you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I was just wondering, what are some of the latest advancements in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "AI has seen incredible progress in areas like natural language processing with large language models, and advancements in computer vision for image recognition. There's also been significant development in AI ethics and responsible AI practices.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Regional Energy Industry UX Pilot - Initial Research Synthesis and Next Steps'.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Allocate resources for developing a prototype for a user-friendly energy consumption dashboard' from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed 'Allocate resources for developing a prototype for a user-friendly energy consumption dashboard' from the `key_decisions` field. Is there anything else you'd like to remove or modify in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that decision from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

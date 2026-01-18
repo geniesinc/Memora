@@ -1,0 +1,150 @@
+{
+  "session_id": 101,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Content Strategy Alignment for Regional Expansion Initiative",
+      "agenda_items": [
+        "Discussion on mobile-first content opportunities in target markets",
+        "Defining KPIs for content success in new regions",
+        "SOP development for content localization and cultural nuance"
+      ],
+      "key_decisions": [
+        "Prioritize short-form video and interactive content for initial regional outreach to leverage mobile engagement trends."
+      ],
+      "attendees": [
+        "Sofia Rodriguez, Regional Marketing Lead (APAC focus)",
+        "Kenji Tanaka, Senior Content Writer"
+      ]
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "attendees",
+        "added_item": "Kenji Tanaka, Senior Content Writer",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Defining KPIs for content success in new regions",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "SOP development for content localization and cultural nuance",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 50,
+        "session_date": "2025-06-03",
+        "operation": "add"
+      },
+      {
+        "session_id": 55,
+        "session_date": "2025-06-03",
+        "operation": "delete"
+      },
+      {
+        "session_id": 101,
+        "session_date": "2025-06-05",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Content Strategy Alignment for Regional Expansion Initiative'. I'd like to change some details within them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What information needs to be changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add Kenji Tanaka, Senior Content Writer, to the attendees list.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've added Kenji Tanaka to the attendees. Is there anything else you'd like to update in the notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add \"Defining KPIs for content success in new regions\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Defining KPIs for content success in new regions\" to the agenda items. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Additionally, please add \"SOP development for content localization and cultural nuance\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've added \"SOP development for content localization and cultural nuance\" to the agenda items. What else would you like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That covers all the updates for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. The updates to the meeting notes have been made. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thank you for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

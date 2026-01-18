@@ -1,0 +1,127 @@
+{
+  "session_id": 147,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "email_writeup_3",
+    "content_data": {
+      "email_purpose": "To outline strategic initiatives for performance optimization and growth within the European food-tech market, leveraging AI solutions.",
+      "recipient_list": [
+        "Chief Marketing Officer",
+        "Head of European Operations",
+        "Lead Data Scientist"
+      ],
+      "key_points": [
+        "Resource allocation for new AI initiatives.",
+        "Proposed AI-driven solutions for supply chain efficiency and waste reduction.",
+        "Analysis of recent market trends impacting food-tech in Europe."
+      ],
+      "call_to_action": "Schedule a follow-up meeting within the next two weeks to finalize the strategic roadmap and allocate resources for the proposed AI initiatives."
+    },
+    "update_type": "redesigned_list_update",
+    "pool_status": "completed",
+    "memory_updates": [
+      {
+        "field": "key_points",
+        "added_item": "Analysis of recent market trends impacting food-tech in Europe.",
+        "action": "added"
+      },
+      {
+        "field": "recipient_list",
+        "added_item": "Lead Data Scientist",
+        "action": "added"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 2,
+    "session_history": [
+      {
+        "session_id": 142,
+        "session_date": "2025-06-07",
+        "operation": "add"
+      },
+      {
+        "session_id": 147,
+        "session_date": "2025-06-08",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-08",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Hi there, I need to update an email titled 'To outline strategic initiatives for performance optimization and growth within the European food-tech market, leveraging AI solutions.' I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Certainly, I can help you update that email. What specific details would you like to change?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please update the 'key_points' to include 'Analysis of recent market trends impacting food-tech in Europe.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've updated the `key_points` to include 'Analysis of recent market trends impacting food-tech in Europe.' Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Lead Data Scientist' to the recipient list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'Lead Data Scientist' to the recipients. Is there anything else you'd like to update in this email?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the email with the new key point and recipient. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's everything for now, but I might have more questions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime if you have more questions.",
+      "share_memory": false
+    }
+  ]
+}

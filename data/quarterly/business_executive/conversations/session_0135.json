@@ -1,0 +1,113 @@
+{
+  "session_id": 135,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Strategic Portfolio Review and Market Expansion Planning Session",
+      "agenda_items": [
+        "Market expansion strategy for telehealth services",
+        "Supply chain optimization initiatives and cost reduction targets"
+      ],
+      "key_decisions": [
+        "Authorized formation of cross-functional task force to address supply chain vulnerabilities identified in recent risk assessment"
+      ],
+      "action_items": [
+        "Marcus Chen to coordinate with Legal and Regulatory Affairs on updated compliance framework by month-end",
+        "Fatima Al-Rashid to develop comprehensive supply chain resilience plan with mitigation strategies within 45 days",
+        "Olivia Nkrumah to schedule follow-up session with Board of Directors to review strategic priorities within 6 weeks"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Postponed launch of biosimilar product line pending additional regulatory guidance expected within 6 months",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Competitive landscape assessment in biosimilars market",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Strategic Portfolio Review and Market Expansion Planning Session'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Postponed launch of biosimilar product line pending additional regulatory guidance expected within 6 months' from the key decisions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Postponed launch of biosimilar product line pending additional regulatory guidance expected within 6 months\" from the key decisions. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Competitive landscape assessment in biosimilars market' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed \"Competitive landscape assessment in biosimilars market\" from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I've updated the meeting notes by removing the requested items. Is there anything else I can assist you with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

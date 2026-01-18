@@ -1,0 +1,155 @@
+{
+  "session_id": 773,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_9",
+    "content_data": {
+      "project_title": "Regional Fan Engagement & Digital Experience Transformation Initiative",
+      "project_description": "Comprehensive marketing program to enhance fan engagement across digital platforms and drive season ticket renewals through personalized content strategies and community-building initiatives.",
+      "budget": 200000,
+      "timeline": "12 months with Phase 1 (months 1-4) focusing on research and strategy, Phase 2 (months 5-9) on implementation, and Phase 3 (months 10-12) on optimization",
+      "project_lead": "Priya Naidoo, Senior Marketing Manager",
+      "stakeholders": [
+        "Regional Sports Venue Management",
+        "Analytics and Insights Team",
+        "Brand Strategy Team",
+        "Fan Experience Department",
+        "External Creative Agency Partners"
+      ],
+      "objectives": [
+        "Expand digital community engagement across social platforms and mobile applications",
+        "Strengthen brand positioning against regional competitors through authentic storytelling",
+        "Increase season ticket holder retention by building deeper emotional connections with regional fan base",
+        "Develop personalized fan journey mapping to improve touchpoint effectiveness"
+      ],
+      "deliverables": [
+        "Social media engagement playbook with community management guidelines",
+        "Email marketing automation workflows for six fan segments",
+        "Performance dashboard with real-time campaign tracking capabilities",
+        "Multi-channel content calendar with 150+ pieces of original creative assets"
+      ],
+      "campaign_channels": [
+        "Mobile Application Push Notifications",
+        "Regional Digital Display Advertising",
+        "Social Media (Instagram, TikTok, Facebook, Twitter)",
+        "Influencer and Ambassador Partnerships"
+      ],
+      "risk_mitigation": "Key risks include platform algorithm changes affecting organic reach, potential budget constraints from ownership, and creative agency capacity limitations. Mitigation strategies include diversifying content distribution across owned channels, building modular campaign components that allow budget flexibility, establishing backup creative resources, and implementing agile sprint methodologies for rapid pivoting based on performance data."
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "stakeholders",
+        "removed_item": "Sales Operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 225000,
+        "reverted_to": 200000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "stakeholders",
+        "removed_item": "Digital Content Team",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-07-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was wondering if you could help me with something today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I'd be happy to help with any questions you have. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Regional Fan Engagement & Digital Experience Transformation Initiative'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Sales Operations' from the 'stakeholders' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. 'Sales Operations' has been removed from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please revert the budget to $200,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've reverted the budget to $200,000. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please remove 'Digital Content Team' from the 'stakeholders' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it, 'Digital Content Team' has been removed from the stakeholders. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay, I've made those changes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Sounds good, have a great day!",
+      "share_memory": false
+    }
+  ]
+}

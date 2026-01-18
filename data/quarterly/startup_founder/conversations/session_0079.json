@@ -1,0 +1,154 @@
+{
+  "session_id": 79,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Accessibility Integration for E-commerce Platform Expansion",
+      "agenda_items": [
+        "Discuss impact of WCAG 2.2 on existing UI/UX components"
+      ],
+      "key_decisions": [
+        "Form cross-functional accessibility task force with representatives from Product, Engineering, and Marketing",
+        "Prioritize WCAG 2.2 AA compliance for all new e-commerce features launched over the next six months"
+      ],
+      "attendees": [
+        "Marcus Chen (Head of E-commerce Strategy)",
+        "Dr. Kenji Tanaka (Head of Product Innovation)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Strategize on vendor selection for accessibility testing and remediation",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Brainstorm AI-driven solutions for accessibility feature enhancement",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Aisha Sharma (Founder/CEO)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 4,
+    "completion_threshold": 4,
+    "session_history": [
+      {
+        "session_id": 6,
+        "session_date": "2025-06-01",
+        "operation": "add"
+      },
+      {
+        "session_id": 26,
+        "session_date": "2025-06-02",
+        "operation": "delete"
+      },
+      {
+        "session_id": 58,
+        "session_date": "2025-06-04",
+        "operation": "update"
+      },
+      {
+        "session_id": 79,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my meeting notes titled 'Accessibility Integration for E-commerce Platform Expansion'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the meeting notes. What specific details or sections would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Strategize on vendor selection for accessibility testing and remediation\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. The agenda item \"Strategize on vendor selection for accessibility testing and remediation\" has been removed. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Brainstorm AI-driven solutions for accessibility feature enhancement\" from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "\"Brainstorm AI-driven solutions for accessibility feature enhancement\" has been removed from the agenda items. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove \"Aisha Sharma (Founder/CEO)\" from the attendees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Aisha Sharma (Founder/CEO) has been removed from the attendees. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for making those changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome! All requested removals have been applied to the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

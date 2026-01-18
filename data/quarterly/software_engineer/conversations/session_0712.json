@@ -1,0 +1,152 @@
+{
+  "session_id": 712,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_5",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Technical Insight Post",
+      "main_message": "Excited to share our latest breakthrough in real-time vehicle telemetry processing\u2014we've reduced data pipeline latency by 73% using a distributed event-driven architecture with Apache Kafka and custom stream processing algorithms.",
+      "hashtags": [
+        "#SoftwareEngineering",
+        "#DistributedSystems",
+        "#DataEngineering",
+        "#SystemArchitecture",
+        "#AutomotiveTech",
+        "#VehicleTelemetry"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "#SystemArchitecture",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#AutomotiveTech",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "#VehicleTelemetry",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 242,
+        "session_date": "2025-06-13",
+        "operation": "add"
+      },
+      {
+        "session_id": 712,
+        "session_date": "2025-07-05",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-07-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing great, thanks for asking. How are things with you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Technical Insight Post'. I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the 'LinkedIn Technical Insight Post'. What information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please add '#SystemArchitecture' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added '#SystemArchitecture' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#AutomotiveTech' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#AutomotiveTech' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please add '#VehicleTelemetry' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added '#VehicleTelemetry' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're all set then! The social media post has been updated with the new hashtags.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great, thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Feel free to reach out if you need any more assistance in the future.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Will do! Have a good one!",
+      "share_memory": false
+    }
+  ]
+}

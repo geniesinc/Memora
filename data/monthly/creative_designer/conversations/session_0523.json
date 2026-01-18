@@ -1,0 +1,134 @@
+{
+  "session_id": 523,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "social_media_post_4",
+    "content_data": {
+      "platform": "LinkedIn",
+      "content_type": "Case Study Snippet",
+      "main_message": "Thrilled to share a glimpse into our latest e-commerce design refresh! We focused on intuitive UX and a seamless brand experience to drive engagement and conversion.",
+      "hashtags": [
+        "DesignThinking",
+        "UXUI",
+        "eCommerceDesign",
+        "DigitalTransformation",
+        "CreativeStrategy"
+      ]
+    },
+    "pool_status": "completed",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "hashtags",
+        "added_item": "DigitalTransformation",
+        "action": "added"
+      },
+      {
+        "field": "hashtags",
+        "added_item": "CreativeStrategy",
+        "action": "added"
+      }
+    ],
+    "session_count": 2,
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 2,
+    "completion_threshold": 1,
+    "session_history": [
+      {
+        "session_id": 232,
+        "session_date": "2025-06-11",
+        "operation": "add"
+      },
+      {
+        "session_id": 523,
+        "session_date": "2025-06-24",
+        "operation": "update"
+      }
+    ]
+  },
+  "date": "2025-06-24",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm doing well. What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the concept of \"neuromorphic computing,\" which aims to mimic the human brain's structure and function for more efficient processing. It's fascinating how researchers are trying to bridge the gap between AI and biological intelligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update the social media post titled 'LinkedIn Case Study Snippet'. I'd like to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update that social media post. What changes do you want to make to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd like to add 'DigitalTransformation' to the hashtags.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I've added 'DigitalTransformation' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'CreativeStrategy' to the hashtags as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I've added 'CreativeStrategy' to the hashtags. Is there anything else you'd like to update?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the hashtags for the social media post. Is there anything else you need help with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. I'll reach out again if I need more help.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Sounds good! Feel free to reach out anytime you need assistance.",
+      "share_memory": false
+    }
+  ]
+}

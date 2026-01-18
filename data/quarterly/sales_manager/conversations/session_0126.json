@@ -1,0 +1,151 @@
+{
+  "session_id": 126,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_2",
+    "content_data": {
+      "meeting_title": "Q3 Sales Performance Review & Efficiency Initiatives",
+      "agenda_items": [
+        "Review of Q3 sales metrics and performance against targets",
+        "Analysis of key wins and losses for the period",
+        "Update on pilot efficiency program integration status",
+        "Brainstorming session: identifying new avenues for process optimization"
+      ],
+      "key_decisions": [
+        "Prioritize follow-up on outstanding proposals from the previous month to close before next reporting cycle.",
+        "Allocate additional resources to support the rollout of the new CRM analytics module for better lead scoring."
+      ],
+      "action_items": [
+        "Marketing Team: Provide updated collateral for the high-efficiency manufacturing solutions by the end of the next month. (Owner: Marketing Director)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "unknown",
+    "operation_converted": "delete_to_update",
+    "conversion_reason": "Insufficient active elements for delete operation",
+    "memory_updates": [
+      {
+        "field": "agenda_items",
+        "added_item": "Analysis of key wins and losses for the period",
+        "action": "added"
+      },
+      {
+        "field": "key_decisions",
+        "added_item": "Allocate additional resources to support the rollout of the new CRM analytics module for better lead scoring.",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Update on pilot efficiency program integration status",
+        "action": "added"
+      },
+      {
+        "field": "agenda_items",
+        "added_item": "Brainstorming session: identifying new avenues for process optimization",
+        "action": "added"
+      }
+    ],
+    "update_type": "delete_fallback_to_update"
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! It's a pleasure to connect with you today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I recently learned about the fascinating concept of quantum entanglement, which is quite mind-bending. It suggests that particles can be linked in such a way that they instantaneously affect each other, no matter the distance.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to update my meeting notes for 'Q3 Sales Performance Review & Efficiency Initiatives.' I have a few changes to make regarding the attendees and action items.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What changes do you need to make to the attendees and action items?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please add \"Analysis of key wins and losses for the period\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Analysis of key wins and losses for the period\" to the agenda items. What other changes do you have for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For key decisions, please add: 'Allocate additional resources to support the rollout of the new CRM analytics module for better lead scoring.'",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Allocate additional resources to support the rollout of the new CRM analytics module for better lead scoring\" to the key decisions. What other updates do you have?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please add \"Update on pilot efficiency program integration status\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Update on pilot efficiency program integration status\" to the agenda items. What other updates do you have for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please add \"Brainstorming session: identifying new avenues for process optimization\" to the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Brainstorming session: identifying new avenues for process optimization\" to the agenda items. What other updates do you have for the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Great! I've updated the meeting notes with all the new agenda items and decisions. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "No, that's everything. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

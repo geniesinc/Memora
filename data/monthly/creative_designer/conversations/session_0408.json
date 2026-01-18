@@ -1,0 +1,130 @@
+{
+  "session_id": 408,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_4",
+    "content_data": {
+      "meeting_title": "Automotive UI/UX Concept Review: Autonomous Driving Interface",
+      "agenda_items": [
+        "Alignment on visual style guide updates for future iterations"
+      ],
+      "key_decisions": [
+        "Prioritize development of a high-fidelity interactive prototype for the primary autonomous mode display."
+      ],
+      "action_items": [
+        "Refine Level 4 autonomous driving UI wireframes based on feedback from engineering - Designer: Anya Sharma (due: +7 days)"
+      ]
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "action_items",
+        "removed_item": "Develop a preliminary visual style guide for 'Zen Drive' branding elements - Designer: Kai Chen (due: +10 days)",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Research best practices for haptic feedback integration in automotive interfaces - Designer: Sofia Rodriguez (due: +14 days)",
+        "action": "removed_from_memory"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 3,
+    "completion_threshold": 3,
+    "session_history": [
+      {
+        "session_id": 287,
+        "session_date": "2025-06-14",
+        "operation": "add"
+      },
+      {
+        "session_id": 342,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      },
+      {
+        "session_id": 408,
+        "session_date": "2025-06-19",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-19",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you for asking. I'm ready to chat whenever you are!",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Automotive UI/UX Concept Review: Autonomous Driving Interface'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Develop a preliminary visual style guide for 'Zen Drive' branding elements - Designer: Kai Chen (due: +10 days)\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove \"Research best practices for haptic feedback integration in automotive interfaces - Designer: Sofia Rodriguez (due: +14 days)\" from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed that action item as well. Is there anything else you'd like to remove or modify from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the removals from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed those items from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's all for now. Thank you for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day!",
+      "share_memory": false
+    }
+  ]
+}

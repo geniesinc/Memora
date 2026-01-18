@@ -1,0 +1,128 @@
+{
+  "session_id": 362,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_5",
+    "content_data": {
+      "meeting_title": "Network Security Architecture Review - 5G Core Implementation",
+      "agenda_items": [
+        "Evaluate multi-tenant isolation strategy for regional carrier deployments"
+      ],
+      "key_decisions": [
+        "Implement hardware security module integration for cryptographic key management before regional rollout"
+      ],
+      "attendees": [
+        "Lena Kowalski, Principal Engineer - Network Functions",
+        "Henrik Svensson, Infrastructure Engineer"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "key_decisions",
+        "removed_item": "Mandate code signing and artifact verification in CI/CD pipeline starting next sprint",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "agenda_items",
+        "removed_item": "Address API gateway security vulnerabilities identified in recent penetration testing",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "attendees",
+        "removed_item": "Marcus Chen, DevSecOps Lead",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-17",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help in any way I can. What can I do for you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, I need to remove some information from the meeting notes titled 'Network Security Architecture Review - 5G Core Implementation'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove \"Mandate code signing and artifact verification in CI/CD pipeline starting next sprint\" from the 'key_decisions' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed \"Mandate code signing and artifact verification in CI/CD pipeline starting next sprint\" from the 'key_decisions' field. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please also remove 'Address API gateway security vulnerabilities identified in recent penetration testing' from the 'agenda_items' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Address API gateway security vulnerabilities identified in recent penetration testing' from the 'agenda_items' field. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Marcus Chen, DevSecOps Lead' from the 'attendees' field.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed 'Marcus Chen, DevSecOps Lead' from the 'attendees' field. Is there anything else you'd like to remove or modify in these notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that is all the information I wanted to remove from the meeting notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "All requested removals have been completed. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thank you for your help.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Have a great day.",
+      "share_memory": false
+    }
+  ]
+}

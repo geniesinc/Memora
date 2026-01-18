@@ -1,0 +1,116 @@
+{
+  "session_id": 647,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_4",
+    "content_data": {
+      "project_title": "Enhancing User Experience Through Narrative-Driven Content Strategy for Food-Tech Platform",
+      "project_description": "A comprehensive proposal to revitalize the user journey on our food-tech platform by integrating compelling narrative content, improving engagement, and fostering a stronger brand connection.",
+      "budget": 100000,
+      "timeline": "6 months, with an initial 2-month discovery and strategy phase, followed by a 4-month content development and implementation phase.",
+      "project_lead": "Kai Chen, Senior Content Strategist",
+      "stakeholders": [
+        "Head of Product"
+      ],
+      "objectives": [
+        "Establish a consistent brand voice and narrative across all user-facing platform content.",
+        "Improve customer satisfaction scores related to content clarity and helpfulness by 10%."
+      ],
+      "deliverables": [
+        "Revised Content Strategy Document with Narrative Framework"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "budget",
+        "reverted_from": 90000,
+        "reverted_to": 100000,
+        "action": "budget_reverted"
+      },
+      {
+        "field": "objectives",
+        "removed_item": "Increase user engagement metrics (time on site, feature adoption) by 15% over the next 6 months.",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-07-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! My day is going quite well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Enhancing User Experience Through Narrative-Driven Content Strategy for Food-Tech Platform'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you remove information from the project proposal. What specific details would you like to remove from it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to revert the budget back to $100,000 from $90,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for your proposal to $100,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please remove 'Increase user engagement metrics (time on site, feature adoption) by 15% over the next 6 months.' from the objectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I've removed 'Increase user engagement metrics (time on site, feature adoption) by 15% over the next 6 months' from the objectives. Is there anything else you'd like to remove or modify in the proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal by removing those elements. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That sounds good. Thanks for your help!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're very welcome! Feel free to reach out anytime if you need further assistance.",
+      "share_memory": false
+    }
+  ]
+}

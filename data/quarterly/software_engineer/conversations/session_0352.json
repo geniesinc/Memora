@@ -1,0 +1,114 @@
+{
+  "session_id": 352,
+  "session_type": "activity",
+  "operation": "update",
+  "operation_details": {
+    "item": "meeting_notes_10",
+    "content_data": {
+      "meeting_title": "Energy Forecasting Model Architecture Review & Sprint Planning",
+      "agenda_items": [
+        "Address database scaling issues for historical consumption data",
+        "Plan integration with European energy market APIs",
+        "Discuss ML model deployment pipeline optimization"
+      ],
+      "key_decisions": [
+        "Implement feature flags for gradual rollout of new prediction algorithms",
+        "Establish bi-weekly code review sessions with data science team to align on model interfaces"
+      ],
+      "action_items": [
+        "Priya Nambiar to prototype TimescaleDB schema migration by +10 days",
+        "Fatima Al-Rashid to conduct load testing on current Kafka cluster configuration by +14 days",
+        "Lars Bergstr\u00f6m to document API integration requirements for ENTSO-E platform by +7 days",
+        "Set up staging environment with production-like data volumes by +14 days",
+        "Complete security audit for data encryption at rest and in transit by +21 days"
+      ]
+    },
+    "pool_status": "draft",
+    "generation_method": "add_converted_to_update",
+    "operation_converted": "add_to_update",
+    "conversion_reason": "available_pool_exhausted",
+    "memory_updates": [
+      {
+        "field": "action_items",
+        "added_item": "Set up staging environment with production-like data volumes by +14 days",
+        "action": "added"
+      },
+      {
+        "field": "action_items",
+        "added_item": "Complete security audit for data encryption at rest and in transit by +21 days",
+        "action": "added"
+      }
+    ],
+    "session_count": 2
+  },
+  "date": "2025-06-17",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! Can you help me with something today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi there! I can certainly try my best to help you today. What can I do for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to update the meeting notes titled 'Energy Forecasting Model Architecture Review & Sprint Planning'. I want to change some details in it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you update the meeting notes. What specific information needs to be changed in it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I need to update the action items. Please add: 'Set up staging environment with production-like data volumes by +14 days.'",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Okay, I've added \"Set up staging environment with production-like data volumes by +14 days\" to the action items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please add 'Complete security audit for data encryption at rest and in transit by +21 days' to the action items as well.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it, I've added \"Complete security audit for data encryption at rest and in transit by +21 days\" to the action items. Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for the action items for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Is there anything else you'd like to update in the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that's everything for now. Thanks for your help!",
+      "share_memory": false
+    }
+  ]
+}

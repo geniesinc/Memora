@@ -1,0 +1,104 @@
+{
+  "session_id": 40,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "meeting_notes_1",
+    "content_data": {
+      "meeting_title": "Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts",
+      "agenda_items": [
+        "Review of Q2 financial performance for top 5 manufacturing clients"
+      ],
+      "key_decisions": [
+        "Agreed to present revised financial forecasts to Client C within the next two weeks to reflect recent material cost increases"
+      ],
+      "action_items": [
+        "Prepare detailed variance analysis report for Client D's Q2 budget by end of next week. (Assigned to: Analyst Team)"
+      ]
+    },
+    "pool_status": "draft",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "agenda_items",
+        "removed_item": "Evaluation of new cost-saving opportunities within client operations",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "action_items",
+        "removed_item": "Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)",
+        "action": "removed_from_memory"
+      }
+    ]
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from the meeting notes titled 'Q3 Performance Review and Strategic Planning for Key Manufacturing Accounts'.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Please remove 'Evaluation of new cost-saving opportunities within client operations' from the agenda items.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I've removed 'Evaluation of new cost-saving opportunities within client operations' from the agenda items. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, please remove 'Schedule follow-up meeting with Client E to discuss proposed capital expenditure plan within the next 10 days. (Assigned to: Lead Analyst)' from the action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I've removed that action item. Is there anything else you'd like to remove or modify from these meeting notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "No, that's all for now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay, I've removed the specified agenda item and action item from the meeting notes. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks for your help! That's everything for now.",
+      "share_memory": false
+    }
+  ]
+}

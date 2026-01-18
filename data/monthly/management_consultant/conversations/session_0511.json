@@ -1,0 +1,155 @@
+{
+  "session_id": 511,
+  "session_type": "activity",
+  "operation": "delete",
+  "operation_details": {
+    "item": "project_proposal_2",
+    "content_data": {
+      "project_title": "Strategic Innovation Roadmap for Electrification Transition",
+      "project_description": "A comprehensive proposal to guide an automotive OEM through the strategic and operational challenges of transitioning to an electrified vehicle portfolio, focusing on market differentiation and sustainable growth.",
+      "budget": 975000,
+      "timeline": "Over an 18-month period, with key milestones at 6, 12, and 18 months.",
+      "project_lead": "Dr. Anya Sharma, Senior Strategy Consultant",
+      "stakeholders": [
+        "Chief Strategy Officer (CSO)"
+      ],
+      "objectives": [
+        "Optimize internal processes and supply chain for electrification components."
+      ],
+      "deliverables": [
+        "Detailed Market Opportunity Analysis Report (including competitive landscape and customer segmentation)"
+      ],
+      "success_metrics": [
+        "Achieved market share percentage for new EV models within 24 months of launch."
+      ],
+      "methodology": "Our approach combines rigorous market analysis, internal capability assessments, stakeholder workshops, and scenario planning. We leverage proprietary frameworks for strategic innovation and organizational agility, tailored to the automotive sector's unique challenges."
+    },
+    "pool_status": "completed",
+    "deletion_method": "redesigned_element_deletion",
+    "memory_deletes": [
+      {
+        "field": "success_metrics",
+        "removed_item": "Positive ROI on electrification investments within 36 months.",
+        "action": "removed_from_memory"
+      },
+      {
+        "field": "budget",
+        "reverted_from": 1250000,
+        "reverted_to": 975000,
+        "action": "budget_reverted"
+      }
+    ],
+    "moved_to_completed": true,
+    "total_sessions_before_completion": 5,
+    "completion_threshold": 5,
+    "session_history": [
+      {
+        "session_id": 85,
+        "session_date": "2025-06-04",
+        "operation": "add"
+      },
+      {
+        "session_id": 99,
+        "session_date": "2025-06-05",
+        "operation": "delete"
+      },
+      {
+        "session_id": 128,
+        "session_date": "2025-06-06",
+        "operation": "delete"
+      },
+      {
+        "session_id": 331,
+        "session_date": "2025-06-16",
+        "operation": "delete"
+      },
+      {
+        "session_id": 511,
+        "session_date": "2025-06-24",
+        "operation": "delete"
+      }
+    ]
+  },
+  "date": "2025-06-24",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm just curious, what are some of the most exciting recent developments in AI technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "There have been exciting advancements in large language models and generative AI, capable of creating human-like text and realistic images. We're also seeing breakthroughs in AI for scientific discovery and healthcare.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I need to remove some information from my project proposal titled 'Strategic Innovation Roadmap for Electrification Transition.'",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, I can help you with that. What specific information would you like to remove from the project proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please remove 'Positive ROI on electrification investments within 36 months' from the success metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've removed \"Positive ROI on electrification investments within 36 months\" from the success metrics of the project proposal. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please revert the budget back to $975,000.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I've updated the budget for your project proposal back to $975,000. Is there anything else you'd like to remove or modify?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's all for now regarding the project proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay, I've updated the project proposal as requested. Is there anything else I can help you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks for your help with that!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're most welcome! I'm glad I could assist you with your project proposal.",
+      "share_memory": false
+    }
+  ]
+}
