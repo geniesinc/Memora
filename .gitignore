@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Virtual envs
+.venv/
+.venv-*/
+venv/
+env/
+
+# Local config
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Eval output debris (kept locally during dev; not part of the release)
+evals/model_eval/logs/
+evals/agent_eval/logs/
+
+# Local agent on-disk stores (chromadb, langmem, nemori)
+evals/agent_eval/*/chroma_db/
+evals/agent_eval/*/chromadb_data/
+evals/agent_eval/*/memories/
+evals/agent_eval/*/data/
+
+# Per-run output written next to the dataset — generated, not part of the release
+data/*/*/eval_results/
+data/*/*/memory_processing/

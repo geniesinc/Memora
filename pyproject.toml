@@ -1,0 +1,44 @@
+[project]
+name = "memora"
+version = "1.0.0"
+description = "Memora: A Long-Term Memory Benchmark for Personalized Agents — released dataset and evaluation pipeline."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+# The released eval pipeline is built around two tracks:
+#   - Track 1 (model_eval/) — direct LLM evaluation, OpenRouter-only
+#   - Track 2 (agent_eval/) — six memory agents, each with its own SDK
+# Dependencies below cover the union; per-track requirements files are kept
+# alongside the code (evals/<track>/requirements.txt) for users who want to
+# install only one track.
+dependencies = [
+    # Core (both tracks)
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.66.0",
+    "requests>=2.31.0",
+
+    # Track 2 — A-Mem (local ChromaDB + sentence-transformer embeddings)
+    "chromadb>=0.4.22",
+    "sentence-transformers>=2.5.0",
+
+    # Track 2 — LangMem
+    "langmem",
+    "langgraph",
+
+    # Track 2 — cloud agents
+    "mem0ai",
+    "memobase",
+
+    # Track 2 — Nemori (not on PyPI; pulled directly from the upstream repo)
+    "nemori @ git+https://github.com/nemori-ai/nemori.git",
+]
+
+[project.optional-dependencies]
+# Accurate token counting for context-truncation logic; not required
+# functionally — the evaluator falls back to a character-based estimate.
+tiktoken = ["tiktoken"]
+
+[tool.uv]
+package = false

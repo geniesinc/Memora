@@ -1,0 +1,28 @@
+# Track 2 (memory-agent eval) dependencies.
+# Install only the SDKs for the agents you actually run — each integration
+# imports its SDK lazily and surfaces a clear error if it isn't installed.
+
+# Core (always required)
+openai>=1.0.0          # answer generation via OpenAI; judges via OpenRouter (api_client)
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+requests>=2.31.0       # used by memos REST client and various integrations
+
+# A-Mem — local ChromaDB + sentence-transformer embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.5.0
+
+# LangMem — LangGraph-based local store
+langmem
+langgraph
+
+# Mem0 (cloud)
+mem0ai
+
+# Memobase (cloud)
+memobase
+
+# Nemori — not on PyPI; install directly from the upstream repo
+nemori @ git+https://github.com/nemori-ai/nemori.git
+
+# MemOS uses requests (already covered above)

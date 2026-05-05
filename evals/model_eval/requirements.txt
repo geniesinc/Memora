@@ -1,0 +1,7 @@
+# Track 1 (LLM eval) dependencies — OpenRouter-only via the OpenAI SDK.
+openai>=1.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# Optional: accurate token counting for context-truncation logic.
+# tiktoken

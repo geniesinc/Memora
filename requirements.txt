@@ -1,0 +1,6 @@
+# Top-level requirements — installs the union of both eval tracks.
+# For per-track installs see evals/model_eval/requirements.txt and
+# evals/agent_eval/requirements.txt.
+
+-r evals/model_eval/requirements.txt
+-r evals/agent_eval/requirements.txt
