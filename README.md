@@ -1,7 +1,6 @@
-# Memora: A Long-Term Memory Benchmark for Personalized Agents
+# From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 
-*Accepted to **ACL 2026** (San Diego).*
-📄 Paper: [arXiv:2604.20006](https://arxiv.org/abs/2604.20006)
+**Memora** · Accepted to ACL 2026 · [arXiv:2604.20006](https://arxiv.org/abs/2604.20006)
 
 This repository contains the released dataset and the evaluation code used to
 produce **Table 3** of the paper. The benchmark measures how well an LLM (or a
@@ -100,21 +99,18 @@ definition.
 **Memory agents**: A-Mem, LangMem, Mem-0, Memobase, MemOS, Nemori. All use
 `gpt-4o-mini` for answer generation (per paper).
 
-## Paper
-
-**Memora: A Long-Term Memory Benchmark for Personalized Agents**
-arXiv: [2604.20006](https://arxiv.org/abs/2604.20006)
-
 ## Citation
 
-If you use Memora in your research, please cite the ACL 2026 paper:
+If you use Memora in your research, please cite:
 
 ```bibtex
-@inproceedings{memora2026,
-  title     = {Memora: A Long-Term Memory Benchmark for Personalized Agents},
+@inproceedings{uddin2026memora,
+  title     = {From Recall to Forgetting: Benchmarking Long-Term Memory
+               for Personalized Agents},
+  author    = {Uddin, Md Nayem and Shubham, Kumar and Blanco, Eduardo
+               and Baral, Chitta and Wang, Gengyu},
   booktitle = {Proceedings of the 64th Annual Meeting of the Association for
                Computational Linguistics (ACL 2026)},
-  address   = {San Diego, California, USA},
   publisher = {Association for Computational Linguistics},
   year      = {2026},
   url       = {https://arxiv.org/abs/2604.20006}
