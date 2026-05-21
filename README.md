@@ -1,6 +1,7 @@
-# Memora
+# Memora: A Long-Term Memory Benchmark for Personalized Agents
 
-**Memora: A Long-Term Memory Benchmark for Personalized Agents**
+*Accepted to **ACL 2026** (San Diego).*
+📄 Paper: [arXiv:2604.20006](https://arxiv.org/abs/2604.20006)
 
 This repository contains the released dataset and the evaluation code used to
 produce **Table 3** of the paper. The benchmark measures how well an LLM (or a
@@ -106,16 +107,17 @@ arXiv: [2604.20006](https://arxiv.org/abs/2604.20006)
 
 ## Citation
 
-If you use Memora in your research, please cite:
+If you use Memora in your research, please cite the ACL 2026 paper:
 
 ```bibtex
-@misc{memora2026,
-  title  = {Memora: A Long-Term Memory Benchmark for Personalized Agents},
-  year   = {2026},
-  eprint = {2604.20006},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
-  url    = {https://arxiv.org/abs/2604.20006}
+@inproceedings{memora2026,
+  title     = {Memora: A Long-Term Memory Benchmark for Personalized Agents},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for
+               Computational Linguistics (ACL 2026)},
+  address   = {San Diego, California, USA},
+  publisher = {Association for Computational Linguistics},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2604.20006}
 }
 ```
 
