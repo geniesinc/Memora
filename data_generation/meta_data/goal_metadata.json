@@ -1,0 +1,32 @@
+[
+  {
+    "category": "food_expenses",
+    "description": "Weekly food budget goals grounded in 7x daily activity patterns from activity_metadata.json",
+    "subcategories": {
+      "breakfast": {
+        "value_ranges": [[35.0, 56.0], [56.0, 84.0], [84.0, 126.0]]
+      },
+      "lunch": {
+        "value_ranges": [[56.0, 84.0], [84.0, 126.0], [105.0, 175.0]]
+      },
+      "dinner": {
+        "value_ranges": [[105.0, 175.0], [175.0, 245.0], [245.0, 350.0]]
+      },
+      "coffee": {
+        "value_ranges": [[21.0, 35.0], [35.0, 49.0], [49.0, 70.0]]
+      },
+      "grocery": {
+        "value_ranges": [[140.0, 280.0], [280.0, 560.0], [560.0, 840.0]]
+      }
+    }
+  },
+  {
+    "category": "step_tracker",
+    "description": "Daily step goals from activity_metadata.json",
+    "subcategories": {
+      "daily_steps": {
+        "value_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+      }
+    }
+  }
+]

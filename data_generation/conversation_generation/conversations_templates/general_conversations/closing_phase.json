@@ -1,0 +1,183 @@
+{
+    "intent_description": {
+        "user_closes_conversation": {
+            "description": "user thank and closes conversation following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_express_satisfaction": {
+            "description": "user expresses satisfaction with the conversation following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_offer_future_help": {
+            "description": "ai offers to help again in the future following the flow of the conversation",
+            "agent": "ai",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_thank_ai": {
+            "description": "user thanks ai for the helpful conversation following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_express_enjoyment": {
+            "description": "ai expresses that it enjoyed the conversation following the flow of the conversation",
+            "agent": "ai",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_indicate_time_to_go": {
+            "description": "user indicates they need to leave or end the conversation following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_acknowledge_departure": {
+            "description": "ai acknowledges user's need to leave and wishes them well following the flow of the conversation",
+            "agent": "ai",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_request_future_conversation": {
+            "description": "user expresses interest in talking again in the future following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_encourage_return": {
+            "description": "ai encourages user to return for future conversations following the flow of the conversation",
+            "agent": "ai",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_positive_farewell": {
+            "description": "ai gives a warm, positive farewell following the flow of the conversation",
+            "agent": "ai",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_casual_goodbye": {
+            "description": "user gives a casual, friendly goodbye following the flow of the conversation",
+            "agent": "user",
+            "phase": "closing",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        }
+    },
+    "conversation_flows_list": [
+        {
+            "flow_id": 1,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_closes_conversation"
+            ]
+        },
+        {
+            "flow_id": 2,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_thank_ai",
+                "ai_positive_farewell"
+            ]
+        },
+        {
+            "flow_id": 3,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_express_satisfaction",
+                "ai_offer_future_help",
+                "user_casual_goodbye"
+            ]
+        },
+        {
+            "flow_id": 4,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_indicate_time_to_go",
+                "ai_acknowledge_departure"
+            ]
+        },
+        {
+            "flow_id": 5,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_express_satisfaction",
+                "ai_positive_farewell"
+            ]
+        },
+        {
+            "flow_id": 6,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_casual_goodbye"
+            ]
+        },
+        {
+            "flow_id": 7,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_indicate_time_to_go",
+                "ai_positive_farewell"
+            ]
+        },
+        {
+            "flow_id": 8,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_request_future_conversation",
+                "ai_encourage_return"
+            ]
+        },
+        {
+            "flow_id": 9,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_express_satisfaction",
+                "ai_encourage_return"
+            ]
+        }
+    ]
+}

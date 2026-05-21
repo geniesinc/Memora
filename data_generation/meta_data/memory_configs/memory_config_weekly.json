@@ -1,0 +1,237 @@
+{
+    "preference_memory": {
+        "description": "Preference memory is a type of memory that stores information about the user's preferences.",
+        "options": {
+            "movies": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.3,
+                    "update": 0.4,
+                    "delete": 0.3
+                },
+                "requires_existing_for": ["update", "delete"]
+            },
+            "books": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.3,
+                    "update": 0.4,
+                    "delete": 0.3
+                },
+                "requires_existing_for": ["update", "delete"]
+            },
+            "music": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.3,
+                    "update": 0.4,
+                    "delete": 0.3
+                },
+                "requires_existing_for": ["update", "delete"]
+            },
+            "travel": {
+                "frequency": "monthly",
+                "range": [10, 12],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.3,
+                    "update": 0.4,
+                    "delete": 0.3
+                },
+                "requires_existing_for": ["update", "delete"]
+            }
+        },
+        "metadata_file": "meta_data/preference_metadata.json"
+    },
+    "activity_memory": {
+        "description": "Activity memory is a type of memory that stores information about the user's activities.",
+        "options": {
+            "food_expenses": {
+                "allowed_operations": ["add"],
+                "operation_weights": {
+                    "add": 1.0
+                },
+                "requires_existing_for": [],
+                "subcategory_frequencies": {
+                    "breakfast": "daily",
+                    "lunch": "daily",
+                    "dinner": "daily",
+                    "coffee": "daily",
+                    "grocery": "weekly"
+                },
+                "subcategory_ranges": {
+                    "breakfast": [0, 1],
+                    "lunch": [0, 1],
+                    "dinner": [0, 1],
+                    "coffee": [1, 2],  
+                    "grocery": [1, 2]
+                }
+            },
+            "step_tracker": {
+                "frequency": "daily",
+                "range": [1, 1],
+                "allowed_operations": ["add"],
+                "operation_weights": {
+                    "add": 1.0
+                },
+                "requires_existing_for": []
+            },
+            "todo_list": {
+                "frequency": "daily",
+                "range": [2, 4],
+                "allowed_operations": ["add", "delete"],
+                "operation_weights": {
+                    "add": 0.5,
+                    "delete": 0.5
+                },
+                "requires_existing_for": ["delete"]
+            },
+            "calendar_event": {
+                "frequency": "weekly",
+                "range": [3, 4],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.4,
+                    "update": 0.4,
+                    "delete": 0.2
+                },
+                "requires_existing_for": ["update", "delete"]
+            }
+        },
+        "metadata_file": "meta_data/activity_metadata.json"
+    },
+    "content_memory": {
+        "description": "Content memory is a type of memory that stores information about the user's content.",
+        "options": {
+            "project_proposal": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.2,
+                    "update": 0.4,
+                    "delete": 0.4
+                },
+                "operation_intensity": {
+                    "update": {
+                        "min_per_session": 1,
+                        "max_per_session": 4
+                    },
+                    "delete": {
+                        "min_per_session": 1,
+                        "max_per_session": 3
+                    }
+                },
+                "completion_threshold": {
+                    "min_sessions": 3,
+                    "max_sessions": 4
+                },
+                "requires_existing_for": ["update", "delete"]
+            },
+            "email_writeup": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.2,
+                    "update": 0.4,
+                    "delete": 0.4
+                },
+                "operation_intensity": {
+                    "update": {
+                        "min_per_session": 1,
+                        "max_per_session": 3
+                    },
+                    "delete": {
+                        "min_per_session": 1,
+                        "max_per_session": 2
+                    }
+                },
+                "completion_threshold": {
+                    "min_sessions": 1,
+                    "max_sessions": 3
+                },
+                "requires_existing_for": ["update", "delete"]
+            },
+            "social_media_post": {
+                "frequency": "weekly",
+                "range": [1, 2],
+                "allowed_operations": ["add"],
+                "operation_weights": {
+                    "add": 1.0
+                },
+                "completion_threshold": {
+                    "min_sessions": 1,
+                    "max_sessions": 1
+                },
+                "requires_existing_for": []
+            },
+            "meeting_notes": {
+                "frequency": "weekly",
+                "range": [6, 8],
+                "allowed_operations": ["add", "update", "delete"],
+                "operation_weights": {
+                    "add": 0.2,
+                    "update": 0.4,
+                    "delete": 0.4
+                },
+                "operation_intensity": {
+                    "update": {
+                        "min_per_session": 1,
+                        "max_per_session": 3
+                    },
+                    "delete": {
+                        "min_per_session": 1,
+                        "max_per_session": 3
+                    }
+                },
+                "completion_threshold": {
+                    "min_sessions": 1,
+                    "max_sessions": 3
+                },
+                "requires_existing_for": ["update", "delete"]
+            }
+        },
+        "metadata_for_content_feilds": "meta_data/refined_content_fields.json",
+        "metadata_for_content_values": "meta_data/content_meta_data_weekly.jsonl"
+    },
+    "goal_memory": {
+        "description": "Goal memory stores user's targets and objectives that relate to activity tracking.",
+        "options": {
+            "food_expenses": {
+                "frequency": "weekly",
+                "range": [1, 3],
+                "allowed_operations": ["add"],
+                "operation_weights": {
+                    "add": 1.0
+                },
+                "requires_existing_for": []
+            },
+            "step_tracker": {
+                "frequency": "weekly",
+                "range": [1, 1],
+                "allowed_operations": ["add"],
+                "operation_weights": {
+                    "add": 1.0
+                },
+                "requires_existing_for": []
+            }
+        },
+        "metadata_file": "meta_data/goal_metadata.json"
+    },
+    "no_memory": {
+        "description": "No memory sessions for factual question-answering without memory operations.",
+        "options": {
+            "no_category": {
+                "frequency": "daily",
+                "range": [5, 8]
+            }
+        }
+    }
+}

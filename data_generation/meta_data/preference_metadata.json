@@ -1,0 +1,210 @@
+{
+  "preference_personas": {
+    "movies": {
+      "action_movie_fan": {
+        "id": 1,
+        "description": "Loves action films with practical effects and adrenaline-pumping sequences",
+        "preferences": {
+          "genres": ["thriller", "adventure", "superhero", "spy", "heist", "martial arts", "war", "crime", "disaster", "survival", "buddy cop", "military", "espionage", "vigilante", "revenge", "chase", "combat", "special forces", "street racing"],
+          "actors": ["Tom Cruise", "Keanu Reeves", "Dwayne Johnson", "Chris Evans", "Charlize Theron", "Chris Hemsworth", "Scarlett Johansson", "Will Smith", "Gal Gadot", "Jason Statham", "Vin Diesel", "Mark Wahlberg", "Gerard Butler", "Liam Neeson", "Ryan Reynolds", "Chris Pratt", "Idris Elba", "Michael Shannon", "John Boyega", "Mahershala Ali", "Winston Duke", "Brian Cox", "Lupita Nyong'o", "Zoe Saldana", "Michael B. Jordan"],
+          "directors": ["Christopher Nolan", "James Cameron", "The Russo Brothers", "Chad Stahelski", "John Woo", "Michael Bay", "Zack Snyder", "Guy Ritchie", "Doug Liman", "Paul Greengrass", "Antoine Fuqua", "Gareth Evans", "Denis Villeneuve", "George Miller", "Kathryn Bigelow", "Ridley Scott", "Tony Scott", "John McTiernan", "Shane Black", "F. Gary Gray", "David Leitch", "Olivier Megaton", "Simon West", "Len Wiseman", "Justin Lin"],
+          "already_watched_list": ["Mission: Impossible series", "John Wick series", "Mad Max: Fury Road", "The Dark Knight", "Top Gun: Maverick", "Fast & Furious", "The Avengers", "Black Panther", "Wonder Woman", "Deadpool", "Casino Royale", "Goldeneye", "Heat", "Die Hard", "Lethal Weapon", "The Matrix", "Terminator 2", "Aliens", "Predator", "First Blood", "The Raid", "Atomic Blonde", "Salt", "The Bourne Identity", "Taken", "Speed", "Point Break", "Bad Boys", "Rush Hour", "Face/Off"]
+        }
+      },
+      "indie_film_fan": {
+        "id": 2,
+        "description": "Appreciates artistic, character-driven independent films with unique storytelling",
+        "preferences": {
+          "genres": ["indie", "art house", "coming-of-age", "psychological thriller", "experimental", "foreign language", "slice of life", "character study", "social realism", "mumblecore", "neo-noir", "magical realism", "satirical drama", "tragicomedy", "intimate drama", "ensemble piece", "low-budget indie", "festival darling"],
+          "actors": ["Saoirse Ronan", "Timothée Chalamet", "Frances McDormand", "Oscar Isaac", "Lupita Nyong'o", "Adam Driver", "Tilda Swinton", "Joaquin Phoenix", "Elisabeth Moss", "Michael Shannon", "Amy Adams", "Ethan Hawke", "Parker Posey", "John Turturro", "Thomasin McKenzie", "LaKeith Stanfield", "Brian Cox", "Hong Chau", "Sterling K. Brown", "Michaela Coel", "Riz Ahmed", "Mahershala Ali", "Kelvin Harrison Jr.", "Brian Cox", "Paul Dano"],
+          "directors": ["Greta Gerwig", "Barry Jenkins", "Chloé Zhao", "Ari Aster", "Jordan Peele", "Celine Sciamma", "Lulu Wang", "Lynne Ramsay", "Kelly Reichardt", "Miranda July", "Noah Baumbach", "Richard Linklater", "Jim Jarmusch", "Charlie Kaufman", "Spike Jonze", "Sofia Coppola", "Paul Thomas Anderson", "Terrence Malick", "Apichatpong Weerasethakul", "Yorgos Lanthimos", "Robert Eggers", "Sean Baker", "Debra Granik", "Andrea Arnold", "Céline Sciamma"],
+          "already_watched_list": ["Lady Bird", "Moonlight", "Nomadland", "Everything Everywhere All at Once", "Parasite", "Get Out", "Minari", "The French Dispatch", "Call Me By Your Name", "Manchester by the Sea", "Her", "Lost in Translation", "The Master", "There Will Be Blood", "Eighth Grade", "Uncut Gems", "The Florida Project", "Hereditary", "Midsommar", "Portrait of a Lady on Fire", "The Farewell", "Waves", "First Cow", "Sound of Metal", "Promising Young Woman", "CODA", "Drive My Car", "Licorice Pizza", "The Power of the Dog", "West Side Story"]
+        }
+      },
+      "classic_movie_fan": {
+        "id": 3,
+        "description": "Prefers timeless films from Hollywood's golden age and classic cinema",
+        "preferences": {
+          "genres": ["drama", "romance", "film noir", "musical", "western", "biographical", "historical", "screwball comedy", "epic", "melodrama", "courtroom drama", "war drama", "period piece", "costume drama", "social drama", "family saga", "romantic comedy", "adventure drama", "literary adaptation", "prestige picture"],
+          "actors": ["Humphrey Bogart", "Grace Kelly", "Cary Grant", "Audrey Hepburn", "James Stewart", "Marilyn Monroe", "Clark Gable", "Ingrid Bergman", "Gregory Peck", "Katharine Hepburn", "Spencer Tracy", "Lauren Bacall", "Gary Cooper", "Elizabeth Taylor", "Paul Newman", "Marlon Brando", "Bette Davis", "Joan Crawford", "Rita Hayworth", "Gene Kelly", "Judy Garland", "Fred Astaire", "Ginger Rogers", "Rock Hudson", "William Holden"],
+          "directors": ["Alfred Hitchcock", "Billy Wilder", "Frank Capra", "John Ford", "Orson Welles", "Howard Hawks", "George Cukor", "William Wyler", "John Huston", "David Lean", "Vincente Minnelli", "George Stevens", "Otto Preminger", "Elia Kazan", "Nicholas Ray", "Douglas Sirk", "Preston Sturges", "Ernst Lubitsch", "King Vidor", "Michael Curtiz", "Victor Fleming", "Cecil B. DeMille", "Fred Zinnemann", "Robert Wise", "Joshua Logan", "John Sturges"],
+          "already_watched_list": ["Casablanca", "Vertigo", "Sunset Boulevard", "The Godfather", "Singin' in the Rain", "Roman Holiday", "North by Northwest", "Gone with the Wind", "Lawrence of Arabia", "The Wizard of Oz", "It's a Wonderful Life", "Some Like It Hot", "The Maltese Falcon", "Citizen Kane", "Rear Window", "Psycho", "The Third Man", "Double Indemnity", "All About Eve", "On the Waterfront", "12 Angry Men", "The Bridge on the River Kwai", "Ben-Hur", "Dr. Zhivago", "The Sound of Music", "My Fair Lady", "West Side Story", "The Apartment", "Chinatown", "The Sting"]
+        }
+      },
+      "horror_fan": {
+        "id": 4,
+        "description": "Enjoys psychological and supernatural horror films with atmospheric tension",
+        "preferences": {
+          "genres": ["horror", "psychological thriller", "supernatural", "mystery", "thriller", "slasher", "zombie", "vampire", "werewolf", "ghost story", "possession", "cult horror", "body horror", "cosmic horror", "folk horror", "found footage", "haunted house", "demonic", "occult", "survival horror"],
+          "actors": ["Lupita Nyong'o", "Toni Collette", "Vera Farmiga", "Patrick Wilson", "Elisabeth Moss", "Alex Wolff", "Milly Shapiro", "Thomasin McKenzie", "Anya Taylor-Joy", "Robert Pattinson", "Ethan Hawke", "Sissy Spacek", "Jamie Lee Curtis", "Sigourney Weaver", "Anthony Hopkins", "Kathy Bates", "Jack Nicholson", "Robert Englund", "Tony Todd", "Neve Campbell", "Sarah Michelle Gellar", "Rose Byrne", "Lin Shaye", "Maika Monroe", "It Follows cast"],
+          "directors": ["Jordan Peele", "Ari Aster", "Mike Flanagan", "James Wan", "Guillermo del Toro", "John Carpenter", "David Cronenberg", "Wes Craven", "George A. Romero", "Sam Raimi", "Brian De Palma", "Roman Polanski", "Stanley Kubrick", "Dario Argento", "Mario Bava", "Lucio Fulci", "Clive Barker", "Tobe Hooper", "Don Coscarelli", "Ti West", "Robert Eggers", "Jennifer Kent", "Julia Ducournau", "Karyn Kusama", "Lynne Ramsay"],
+          "already_watched_list": ["Get Out", "Hereditary", "The Conjuring", "Midsommar", "A Quiet Place", "Us", "The Babadook", "It Follows", "The Witch", "Sinister", "Insidious", "The Ring", "Scream", "Halloween", "The Exorcist", "The Shining", "Rosemary's Baby", "Psycho", "The Texas Chain Saw Massacre", "Night of the Living Dead", "An American Werewolf in London", "The Thing", "They Live", "Evil Dead", "Poltergeist", "Carrie", "The Omen", "Suspiria", "Black Swan", "Don't Look Now"]
+        }
+      },
+      "sci_fi_fan": {
+        "id": 5,
+        "description": "Passionate about science fiction and futuristic concepts with technological themes",
+        "preferences": {
+          "genres": ["cyberpunk", "space opera", "dystopian", "time travel", "post-apocalyptic", "alien invasion", "robot/AI", "alternate reality", "parallel universe", "steampunk", "biopunk", "space exploration", "genetic engineering", "virtual reality", "terraforming", "first contact", "space colonization"],
+          "actors": ["Oscar Isaac", "Ryan Gosling", "Amy Adams", "Rebecca Ferguson", "Joaquin Phoenix", "Scarlett Johansson", "Michael Fassbender", "Charlize Theron", "Matt Damon", "Sandra Bullock", "George Clooney", "Sigourney Weaver", "Harrison Ford", "Mark Hamill", "Carrie Fisher", "Natalie Portman", "Keanu Reeves", "Will Smith", "Tom Hanks", "Jodie Foster", "Edward Norton", "Christian Bale", "Jake Gyllenhaal", "Jeremy Renner", "Chris Pine"],
+          "directors": ["Denis Villeneuve", "Christopher Nolan", "Ridley Scott", "Alex Garland", "The Wachowskis", "Duncan Jones", "Neill Blomkamp", "Alfonso Cuaron", "Gareth Edwards", "Rian Johnson", "J.J. Abrams", "George Lucas", "Steven Spielberg", "James Cameron", "Luc Besson", "Terry Gilliam", "Philip K. Dick adaptors", "Andrei Tarkovsky", "Stanley Kubrick"],
+          "already_watched_list": ["Blade Runner 2049", "Arrival", "Ex Machina", "Her", "Interstellar", "The Matrix", "Dune", "Annihilation", "Gravity", "The Martian", "Star Wars saga", "Star Trek films", "Alien franchise", "Terminator series", "Back to the Future", "E.T.", "Close Encounters", "2001: A Space Odyssey", "Minority Report", "Total Recall", "Ghost in the Shell", "Akira", "District 9", "Elysium", "Mad Max series", "The Fifth Element", "Metropolis", "Solaris", "Gattaca"]
+        }
+      }
+    },
+
+    "books": {
+      "fiction_fan": {
+        "id": 1,
+        "description": "Enjoys contemporary and literary fiction with strong narratives",
+        "preferences": {
+          "authors": ["Elena Ferrante", "Haruki Murakami", "Zadie Smith", "Chimamanda Ngozi Adichie", "Ocean Vuong", "Jennifer Egan", "Colson Whitehead", "Donna Tartt", "Jonathan Franzen", "Celeste Ng", "Jhumpa Lahiri", "Arundhati Roy", "Salman Rushdie", "Margaret Atwood", "Toni Morrison", "Alice Munro", "Kazuo Ishiguro", "Ian McEwan", "Hilary Mantel", "Louise Erdrich", "Tayari Jones", "Brit Bennett", "Min Jin Lee", "Hanya Yanagihara", "Sally Rooney"],
+          "topics": ["identity and belonging", "family dynamics", "coming of age", "love and relationships", "art and creativity", "immigration", "cultural identity", "social issues", "mental health", "friendship", "betrayal", "redemption", "memory", "loss and grief", "women's experiences", "racial identity", "class struggle", "generational conflict", "modern life", "urban experience"],
+          "already_read_list": ["My Brilliant Friend", "Norwegian Wood", "Americanah", "On Earth We're Briefly Gorgeous", "The Hate U Give", "The Goldfinch", "A Little Life", "Pachinko", "The Seven Husbands of Evelyn Hugo", "Where the Crawdads Sing", "Normal People", "The Vanishing Half", "Such a Fun Age", "Klara and the Sun", "The Midnight Library", "Hamnet", "The Ten Thousand Doors of January", "The Silent Patient", "Big Little Lies", "Gone Girl", "The Girl on the Train", "The Handmaid's Tale", "Educated", "Becoming", "Circe", "The Song of Achilles", "The Invisible Bridge", "The Book Thief", "All the Light We Cannot See", "The Nightingale"]
+        }
+      },
+      "thriller_fan": {
+        "id": 2,
+        "description": "Prefers fast-paced thrillers, mysteries, and suspenseful stories",
+        "preferences": {
+          "authors": ["Lee Child", "Gillian Flynn", "Agatha Christie", "Dan Brown", "James Patterson", "Tana French", "Louise Penny", "Michael Crichton", "John Grisham", "David Baldacci", "Harlan Coben", "Karin Slaughter", "Lisa Gardner", "Tess Gerritsen", "Patricia Cornwell", "Jeffrey Deaver", "Dennis Lehane", "Michael Connelly", "Ian Rankin", "Jo Nesbø", "Stieg Larsson", "Henning Mankell", "Ruth Rendell", "P.D. James", "Raymond Chandler"],
+          "topics": ["crime and investigation", "psychological themes", "mystery", "espionage", "survival", "conspiracy", "serial killers", "police procedural", "legal thriller", "medical thriller", "techno-thriller", "political intrigue", "domestic thriller", "cold cases", "forensic science", "international crime", "corporate corruption", "government secrets", "witness protection", "organized crime"],
+          "already_read_list": ["Gone Girl", "The Girl with the Dragon Tattoo", "And Then There Were None", "The Da Vinci Code", "Jack Reacher series", "In the Woods", "Still Life", "The Firm", "The Pelican Brief", "The Bourne Identity", "The Hunt for Red October", "Silence of the Lambs", "The Girl on the Train", "The Woman in the Window", "Big Little Lies", "Sharp Objects", "Dark Places", "The Cuckoo's Calling", "The Thursday Murder Club", "The Seven Deaths of Evelyn Hardcastle", "The Silent Patient", "The Guest List", "The Sanatorium", "The Hunting Party", "The Turn of the Key", "In a Dark, Dark Wood", "The Couple Next Door", "Behind Closed Doors", "The Other Woman", "Sometimes I Lie"]
+        }
+      },
+      "classic_fan": {
+        "id": 3,
+        "description": "Appreciates timeless literature and canonical works",
+        "preferences": {
+          "authors": ["Ernest Hemingway", "F. Scott Fitzgerald", "Jane Austen", "Charles Dickens", "Virginia Woolf", "George Orwell", "William Faulkner", "James Joyce", "Marcel Proust", "Leo Tolstoy", "Fyodor Dostoevsky", "Gabriel García Márquez", "Jorge Luis Borges", "Italo Calvino", "Milan Kundera", "Hermann Hesse", "Thomas Mann", "Franz Kafka", "Albert Camus", "Jean-Paul Sartre", "Simone de Beauvoir", "Edith Wharton", "Henry James", "Mark Twain", "Walt Whitman"],
+          "topics": ["historical events", "social dynamics", "political intrigue", "war and conflict", "philosophical themes", "existentialism", "human condition", "moral dilemmas", "social criticism", "class struggle", "colonialism", "industrialization", "modernism", "stream of consciousness", "symbolism", "allegory", "satire", "tragedy", "epic narratives", "cultural critique"],
+          "already_read_list": ["The Great Gatsby", "Pride and Prejudice", "1984", "To Kill a Mockingbird", "Wuthering Heights", "Jane Eyre", "Great Expectations", "The Catcher in the Rye", "Lord of the Flies", "Animal Farm", "Brave New World", "One Hundred Years of Solitude", "The Sun Also Rises", "A Farewell to Arms", "The Old Man and the Sea", "War and Peace", "Anna Karenina", "Crime and Punishment", "The Brothers Karamazov", "Ulysses", "Mrs. Dalloway", "To the Lighthouse", "The Sound and the Fury", "Absalom, Absalom!", "In Search of Lost Time", "The Magic Mountain", "The Trial", "The Metamorphosis", "The Stranger", "The Plague"]
+        }
+      },
+      "non_fiction_fan": {
+        "id": 4,
+        "description": "Focuses on educational, biographical, and self-improvement books",
+        "preferences": {
+          "authors": ["Bill Bryson", "Malcolm Gladwell", "Mary Roach", "Michelle Obama", "Ta-Nehisi Coates", "Jon Krakauer", "Sebastian Junger", "Erik Larson", "David McCullough", "Doris Kearns Goodwin", "Walter Isaacson", "Robert Caro", "Ron Chernow", "Yuval Noah Harari", "Jared Diamond", "Steven Pinker", "Daniel Kahneman", "Atul Gawande", "Oliver Sacks", "Neil deGrasse Tyson", "Carl Sagan", "Stephen Hawking", "Michio Kaku", "Brian Cox", "Richard Feynman"],
+          "topics": ["science and discovery", "personal development", "historical events", "social justice", "entrepreneurship", "biography", "memoir", "psychology", "neuroscience", "economics", "politics", "technology", "space exploration", "evolution", "climate change", "medicine", "public health", "education", "leadership", "productivity", "mindfulness", "philosophy", "anthropology", "sociology", "cultural studies"],
+          "already_read_list": ["Sapiens", "Educated", "Becoming", "The Tipping Point", "A Short History of Nearly Everything", "Into the Wild", "Into Thin Air", "The Devil in the White City", "John Adams", "Steve Jobs", "The Power Broker", "Alexander Hamilton", "Homo Deus", "Guns, Germs, and Steel", "Thinking, Fast and Slow", "Being Mortal", "The Man Who Mistook His Wife for a Hat", "Astrophysics for People in a Hurry", "Cosmos", "A Brief History of Time", "The Elegant Universe", "Surely You're Joking, Mr. Feynman!", "The Immortal Life of Henrietta Lacks", "Silent Spring", "The Selfish Gene", "Freakonomics", "Outliers", "Blink", "The Black Swan", "Nudge"]
+        }
+      },
+      "fantasy_sci_fi_fan": {
+        "id": 5,
+        "description": "Loves imaginative worlds, fantasy epics, and science fiction",
+        "preferences": {
+          "authors": ["Isaac Asimov", "J.K. Rowling", "George R.R. Martin", "Ursula K. Le Guin", "Neil Gaiman", "Brandon Sanderson", "Patrick Rothfuss", "Robin Hobb", "Terry Pratchett", "J.R.R. Tolkien", "Frank Herbert", "Philip K. Dick", "Ray Bradbury", "Arthur C. Clarke", "Robert Heinlein", "Orson Scott Card", "Kim Stanley Robinson", "Dan Simmons", "Iain M. Banks", "Alastair Reynolds", "Ann Leckie", "Martha Wells", "N.K. Jemisin", "Becky Chambers", "Liu Cixin"],
+          "topics": ["space exploration", "artificial intelligence", "magic and fantasy", "parallel universes", "mythology", "time travel", "alternate history", "dystopian futures", "epic quests", "world building", "alien civilizations", "genetic engineering", "cyberpunk", "steampunk", "urban fantasy", "high fantasy", "dark fantasy", "space opera", "hard science fiction", "soft science fiction"],
+          "already_read_list": ["Harry Potter series", "Game of Thrones", "Foundation", "The Martian", "American Gods", "The Way of Kings", "The Name of the Wind", "The Farseer Trilogy", "Good Omens", "The Lord of the Rings", "Dune", "Do Androids Dream of Electric Sheep?", "Fahrenheit 451", "2001: A Space Odyssey", "Starship Troopers", "Ender's Game", "Red Mars", "Hyperion", "Consider Phlebas", "Revelation Space", "Ancillary Justice", "The Murderbot Diaries", "The Fifth Season", "A Closed and Common Orbit", "The Three-Body Problem", "The Handmaid's Tale", "The Left Hand of Darkness", "A Wizard of Earthsea", "The Chronicles of Narnia", "His Dark Materials"]
+        }
+      }
+    },
+
+    "music": {
+      "rock_metal_fan": {
+        "id": 1,
+        "description": "Enjoys rock, metal, and high-energy guitar-driven music",
+        "preferences": {
+          "genres": ["metal", "hard rock", "punk", "grunge", "alternative", "heavy metal", "thrash metal", "death metal", "black metal", "progressive rock", "classic rock", "indie rock", "post-rock", "garage rock", "psychedelic rock", "blues rock", "southern rock", "arena rock", "stadium rock"],
+          "artists": ["Metallica", "AC/DC", "Linkin Park", "Foo Fighters", "Queen", "Led Zeppelin", "Nirvana", "Pearl Jam", "Black Sabbath", "Iron Maiden", "Pink Floyd", "The Beatles", "The Rolling Stones", "Deep Purple", "Guns N' Roses", "Aerosmith", "Van Halen", "Rush", "Tool", "System of a Down", "Red Hot Chili Peppers", "Green Day", "The White Stripes", "Arctic Monkeys", "Muse"],
+          "decades": ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"],
+          "already_listened_list": ["Master of Puppets", "Back in Black", "Hybrid Theory", "The Colour and the Shape", "A Night at the Opera", "Led Zeppelin IV", "Nevermind", "Ten", "Paranoid", "The Number of the Beast", "The Dark Side of the Moon", "Abbey Road", "Sticky Fingers", "Machine Head", "Appetite for Destruction", "Toys in the Attic", "Van Halen", "Moving Pictures", "Ænima", "Toxicity", "Blood Sugar Sex Magik", "Dookie", "Elephant", "Whatever People Say I Am", "Black Holes and Revelations", "OK Computer", "The Wall", "Rumours", "Hotel California", "Born to Run"]
+        }
+      },
+      "pop_mainstream_fan": {
+        "id": 2,
+        "description": "Prefers popular, catchy, and mainstream music across genres",
+        "preferences": {
+          "genres": ["hip-hop", "R&B", "contemporary", "dance", "electronic dance", "trap", "country pop", "pop rock", "synthpop", "teen pop", "adult contemporary", "soft rock", "new wave", "disco", "funk", "soul", "gospel", "latin pop"],
+          "artists": ["Taylor Swift", "Drake", "Beyoncé", "Ariana Grande", "The Weeknd", "Billie Eilish", "Ed Sheeran", "Adele", "Bruno Mars", "Rihanna", "Justin Bieber", "Olivia Rodrigo", "Dua Lipa", "Bad Bunny", "Harry Styles", "Lizzo", "Post Malone", "Doja Cat", "Lorde", "SZA", "The Chainsmokers", "Maroon 5", "Imagine Dragons", "OneRepublic", "Coldplay"],
+          "decades": ["1980s", "1990s", "2000s", "2010s", "2020s"],
+          "already_listened_list": ["folklore", "After Hours", "Lemonade", "When We All Fall Asleep", "21", "24K Magic", "Anti", "Purpose", "SOUR", "Future Nostalgia", "Un Verano Sin Ti", "Fine Line", "Cuz I Love You", "Stoney", "Hot Pink", "Melodrama", "Ctrl", "Memories...Do Not Open", "V", "A Head Full of Dreams", "1989", "Scorpion", "4", "thank u, next", "Beauty Behind the Madness", "When We All Fall Asleep, Where Do We Go?", "No.6 Collaborations Project", "25", "Doo-Wops & Hooligans"]
+        }
+      },
+      "jazz_classical_fan": {
+        "id": 3,
+        "description": "Appreciates sophisticated jazz, classical, and traditional music",
+        "preferences": {
+          "genres": ["classical", "blues", "big band", "opera", "traditional", "bebop", "swing", "smooth jazz", "fusion", "ragtime", "gospel", "spiritual", "chamber music", "symphony", "concerto", "baroque", "romantic", "modern classical", "minimalism"],
+          "artists": ["Miles Davis", "John Coltrane", "Frank Sinatra", "Ella Fitzgerald", "Bach", "Mozart", "Beethoven", "Chopin", "Debussy", "Louis Armstrong", "Duke Ellington", "Count Basie", "Billie Holiday", "Charlie Parker", "Dizzy Gillespie", "Thelonious Monk", "Bill Evans", "Herbie Hancock", "Keith Jarrett", "Pat Metheny", "Wynton Marsalis", "Diana Krall", "Norah Jones", "Yo-Yo Ma", "Itzhak Perlman"],
+          "decades": ["1920s", "1930s", "1940s", "1950s", "1960s", "1970s", "1980s", "1990s", "2000s"],
+          "already_listened_list": ["Kind of Blue", "A Love Supreme", "Songs for Swingin' Lovers", "The Best of Ella Fitzgerald", "Brandenburg Concertos", "Mozart's Requiem", "Beethoven's 9th Symphony", "Chopin's Nocturnes", "Clair de Lune", "What a Wonderful World", "Take Five", "Body and Soul", "Lady in Satin", "Bird and Diz", "Brilliant Corners", "Waltz for Debby", "Maiden Voyage", "The Köln Concert", "Bright Size Life", "Blood on the Fields", "The Look of Love", "Come Away With Me", "The Silk Road Ensemble", "Perlman Plays Bach", "Gershwin's Rhapsody in Blue", "Vivaldi's Four Seasons", "Pachelbel's Canon", "Ave Maria", "The Well-Tempered Clavier"]
+        }
+      },
+      "electronic_ambient_fan": {
+        "id": 4,
+        "description": "Enjoys electronic, ambient, and experimental soundscapes",
+        "preferences": {
+          "genres": ["ambient", "techno", "house", "synthwave", "experimental", "IDM", "drum and bass", "dubstep", "trance", "downtempo", "chillout", "trip-hop", "glitch", "minimal", "deep house", "progressive house", "breakbeat", "jungle", "garage"],
+          "artists": ["Daft Punk", "Boards of Canada", "Jon Hopkins", "Aphex Twin", "Kraftwerk", "Moderat", "Bonobo", "Tycho", "Burial", "Four Tet", "Autechre", "Squarepusher", "Brian Eno", "Tim Hecker", "Stars of the Lid", "William Basinski", "Max Richter", "Nils Frahm", "Kiasmos", "Rødhåd", "Ben Frost", "Fennesz", "Alva Noto", "Ryuichi Sakamoto", "Ólafur Arnalds"],
+          "decades": ["1970s", "1980s", "1990s", "2000s", "2010s", "2020s"],
+          "already_listened_list": ["Random Access Memories", "Music Has the Right to Children", "Immunity", "Selected Ambient Works 85-92", "Computer World", "III", "Black Sands", "Dive", "Untrue", "There Is Love in You", "Tri Repetae", "Hard Normal Daddy", "Ambient 1: Music for Airports", "Ravedeath, 1972", "And Their Refinement of the Decline", "The Disintegration Loops", "Sleep", "All Melody", "Blond:ish", "Dystopian", "By the Throat", "Endless Summer", "Xerrox Vol. 3", "async", "re:member", "Overgrown", "In a Silent Way", "Plantasia", "I Am Sitting in a Room", "Discreet Music"]
+        }
+      },
+      "indie_alternative_fan": {
+        "id": 5,
+        "description": "Prefers independent, alternative, and artistic music",
+        "preferences": {
+          "genres": ["folk", "alternative", "post-rock", "indie pop", "indie rock", "alt-rock", "shoegaze", "dream pop", "lo-fi", "chamber pop", "baroque pop", "freak folk", "neo-soul", "art rock", "experimental pop", "indie folk", "new wave", "post-punk", "slowcore"],
+          "artists": ["Bon Iver", "Radiohead", "Arcade Fire", "The National", "Fleet Foxes", "Phoebe Bridgers", "Sufjan Stevens", "Vampire Weekend", "The Strokes", "Interpol", "Yeah Yeah Yeahs", "Modest Mouse", "Death Cab for Cutie", "The Shins", "Belle and Sebastian", "Animal Collective", "Grizzly Bear", "TV on the Radio", "Wilco", "Sonic Youth", "Pavement", "Pixies", "R.E.M.", "Talking Heads", "The Smiths"],
+          "decades": ["1980s", "1990s", "2000s", "2010s", "2020s"],
+          "already_listened_list": ["For Emma, Forever Ago", "OK Computer", "Funeral", "Boxer", "Fleet Foxes", "Stranger in the Alps", "Illinois", "Vampire Weekend", "Is This It", "Turn On the Bright Lights", "Fever to Tell", "The Moon & Antarctica", "Transatlanticism", "Wincing the Night Away", "If You're Feeling Sinister", "Merriweather Post Pavilion", "Veckatimest", "Return to Cookie Mountain", "Yankee Hotel Foxtrot", "Daydream Nation", "Crooked Rain, Crooked Rain", "Doolittle", "Automatic for the People", "Remain in Light", "The Queen Is Dead", "In the Aeroplane Over the Sea", "Loveless", "Heaven or Las Vegas", "Spoon's Ga Ga Ga Ga Ga"]
+        }
+      }
+    },
+
+    "travel": {
+      "adventure_fan": {
+        "id": 1,
+        "description": "Seeks thrilling, active, and adventurous travel experiences",
+        "preferences": {
+          "destination_types": ["hiking and trekking", "rock climbing", "skiing and snowboarding", "scuba diving", "surfing", "white-water rafting", "bungee jumping", "paragliding", "volcano exploration", "glacier trekking", "desert expeditions", "jungle exploration", "safari tours", "outdoor camping", "mountaineering", "zip-lining", "canyoning", "kayaking", "mountain biking", "trail running"],
+          "regions": ["Patagonia", "Himalayas", "New Zealand", "Iceland", "Canadian Rockies", "Swiss Alps", "Norwegian Fjords", "Costa Rica", "Nepal", "Chile", "Argentina", "Alaska", "Montana", "Colorado", "Utah", "British Columbia", "Tasmania", "Scandinavia", "Andes Mountains", "Kilimanjaro"],
+          "climates": ["mountain weather", "alpine climate", "polar conditions", "tropical adventure", "desert conditions", "temperate highlands", "subpolar", "challenging conditions"],
+          "already_visited_list": ["Everest Base Camp, Nepal", "Annapurna Circuit, Nepal", "Laugavegur Trail, Iceland", "Reykjavik, Iceland", "Milford Track, New Zealand", "Routeburn Track, New Zealand", "Torres del Paine, Chile", "El Calafate, Argentina", "Chamonix, France", "Zermatt, Switzerland", "Lofoten Islands, Norway", "Banff National Park, Canada", "Jasper National Park, Canada", "Whistler, Canada", "Cradle Mountain, Tasmania", "Fiordland National Park, New Zealand", "Denali National Park, Alaska", "Glacier National Park, Montana", "Yosemite National Park, California", "Grand Canyon, Arizona", "Mount Kilimanjaro, Tanzania", "Machu Picchu, Peru", "Mount Whitney, California", "Mount Washington, New Hampshire", "Rocky Mountain National Park, Colorado", "Patagonia Trekking Circuit, Chile", "Dolomites, Italy", "Mont Blanc Circuit, France", "Mount Fuji, Japan", "Inca Trail, Peru"]
+        }
+      },
+      "cultural_fan": {
+        "id": 2,
+        "description": "Focuses on cultural immersion, art, and historical experiences",
+        "preferences": {
+          "destination_types": ["museums and galleries", "ancient ruins", "UNESCO World Heritage sites", "archaeological sites", "religious landmarks", "traditional villages", "cultural festivals", "local markets", "artisan workshops", "historical districts", "architectural heritage", "medieval sites", "royal palaces", "cathedrals and churches", "temples and shrines", "monasteries", "heritage centers", "colonial architecture", "performing arts venues", "cultural ceremonies"],
+          "regions": ["Western Europe", "Mediterranean", "Middle East", "East Asia", "Central America", "South America", "Eastern Europe", "India", "Southeast Asia", "North Africa", "Balkans", "Scandinavia", "British Isles", "Iberian Peninsula", "Italian Peninsula", "Greek Islands", "Turkey", "Persia", "Central Asia", "Caucasus"],
+          "climates": ["mild and pleasant", "temperate", "Mediterranean", "continental", "subtropical", "monsoon"],
+          "already_visited_list": ["Colosseum, Rome", "Louvre Museum, Paris", "Kiyomizu-dera Temple, Kyoto", "Hagia Sophia, Istanbul", "Pyramids of Giza, Cairo", "Acropolis of Athens, Greece", "Uffizi Gallery, Florence", "Sagrada Familia, Barcelona", "Prague Castle, Czech Republic", "Schönbrunn Palace, Vienna", "Hermitage Museum, St. Petersburg", "Western Wall, Jerusalem", "Ghats of Varanasi, India", "Angkor Wat, Cambodia", "Machu Picchu, Peru", "Petra Archaeological Site, Jordan", "Pompeii Ruins, Italy", "Sistine Chapel, Vatican City", "Palace of Versailles, France", "British Museum, London", "Forbidden City, Beijing", "Taj Mahal, Agra", "Alhambra Palace, Granada", "Neuschwanstein Castle, Germany", "Mont Saint-Michel Abbey, France", "Parthenon, Athens", "Chichen Itza, Mexico", "Great Wall of China, Beijing", "Stone Circle, Stonehenge", "Edinburgh Castle, Scotland"]
+        }
+      },
+      "luxury_fan": {
+        "id": 3,
+        "description": "Prefers comfortable, high-end, and exclusive travel experiences",
+        "preferences": {
+          "destination_types": ["five-star resorts", "boutique hotels", "spa and wellness", "Michelin-starred dining", "wine tasting", "private tours", "luxury cruises", "high-end shopping", "exclusive experiences", "private villas", "luxury trains", "VIP services", "personal concierge", "fine dining", "champagne experiences", "golf courses", "private beaches", "infinity pools", "helicopter tours", "yacht charters"],
+          "regions": ["Caribbean", "French Riviera", "Maldives", "Dubai", "Monaco", "Swiss Alps", "Tuscany", "Napa Valley", "Bordeaux", "Champagne", "Santorini", "Mykonos", "Bali", "Seychelles", "Mauritius", "Fiji", "Tahiti", "Aspen", "St. Moritz", "Courchevel"],
+          "climates": ["tropical", "mild and pleasant", "hot and sunny", "Mediterranean", "temperate", "alpine"],
+          "already_visited_list": ["Four Seasons Resort Maldives", "Burj Al Arab, Dubai", "Hotel Hermitage Monte-Carlo, Monaco", "Canaves Oia Hotel, Santorini", "Four Seasons Resort Bora Bora", "The Little Nell, Aspen", "Kulm Hotel St. Moritz", "Auberge du Soleil, Napa Valley", "Borgo Santo Pietro, Tuscany", "Hotel du Cap-Eden-Roc, French Riviera", "North Island Lodge, Seychelles", "Shangri-La Le Touessrok, Mauritius", "Kokomo Private Island, Fiji", "The Plaza, New York", "Ritz Paris, France", "Mandarin Oriental Bangkok", "St. Regis New York", "Park Hyatt Tokyo", "Amangiri, Utah", "Belmond Hotel Caruso, Italy", "Rosewood London", "Edition Times Square, New York", "1 Hotels South Beach, Miami", "W Barcelona", "Le Labo Spa, Amanpuri", "COMO The Halkin London", "Bulgari Hotel Milan", "Armani Hotel Dubai", "The Luxury Collection Gritti Palace, Venice"]
+        }
+      },
+      "nature_fan": {
+        "id": 4,
+        "description": "Seeks natural beauty, wildlife, and eco-friendly destinations",
+        "preferences": {
+          "destination_types": ["wildlife viewing", "bird watching", "whale watching", "safari experiences", "marine life", "rainforest exploration", "coral reef snorkeling", "nature trails", "botanical gardens", "conservation projects", "eco-lodges", "biodiversity hotspots", "endemic species", "wildlife migration", "pristine beaches", "natural wonders", "geological formations", "waterfalls", "hot springs", "stargazing"],
+          "regions": ["Sub-Saharan Africa", "Amazon basin", "Galapagos", "Madagascar", "Borneo", "Costa Rica", "Australia", "New Zealand", "Canada", "Alaska", "Scandinavia", "Patagonia", "Pantanal", "Serengeti", "Masai Mara", "Yellowstone", "Yosemite", "Great Barrier Reef", "Raja Ampat", "Komodo"],
+          "climates": ["tropical", "temperate", "subtropical", "polar", "alpine", "desert", "rainforest", "savanna", "tundra"],
+          "already_visited_list": ["Masai Mara National Reserve, Kenya", "Manuel Antonio National Park, Costa Rica", "Galapagos Islands, Ecuador", "Andasibe-Mantadia National Park, Madagascar", "Yellowstone National Park, USA", "Amazon Rainforest Lodge, Peru", "Great Barrier Reef Marine Park, Australia", "Serengeti National Park, Tanzania", "Kruger National Park, South Africa", "Chobe National Park, Botswana", "Volcanoes National Park, Rwanda", "Bwindi Impenetrable Forest, Uganda", "Kinabalu National Park, Borneo", "Leuser National Park, Sumatra", "Raja Ampat Marine Park, Indonesia", "Komodo National Park, Indonesia", "Torres del Paine National Park, Chile", "Pantanal Wetlands, Brazil", "Iguazu Falls National Park, Argentina", "Victoria Falls, Zambia", "Niagara Falls, Canada", "Grand Canyon National Park, Arizona", "Yosemite National Park, California", "Banff National Park, Canada", "Jasper National Park, Canada", "Churchill Polar Bear Tours, Canada", "Svalbard Archipelago, Norway", "Antarctica Peninsula Expedition", "Madagascar Lemur Sanctuary", "Monteverde Cloud Forest, Costa Rica"]
+        }
+      },
+      "urban_fan": {
+        "id": 5,
+        "description": "Enjoys vibrant cities, nightlife, and metropolitan experiences",
+        "preferences": {
+          "destination_types": ["nightlife and entertainment", "food scene exploration", "street art", "rooftop bars", "live music venues", "theaters and shows", "art galleries", "fashion districts", "local markets", "coffee culture", "craft breweries", "urban architecture", "street food", "cultural districts", "shopping districts", "city skylines", "public art", "underground culture"],
+          "regions": ["East Asia", "North America", "Western Europe", "Southeast Asia", "Eastern Europe", "South America", "Middle East", "Australia", "Scandinavia", "Mediterranean"],
+          "climates": ["mild and pleasant", "temperate", "subtropical", "continental", "Mediterranean"],
+          "already_visited_list": ["Shibuya District, Tokyo", "Times Square, New York", "Camden Market, London", "Kreuzberg District, Berlin", "Gothic Quarter, Barcelona", "Marina Bay District, Singapore", "Central District, Hong Kong", "Gangnam District, Seoul", "Khao San Road, Bangkok", "Jordaan District, Amsterdam", "Nyhavn Harbor, Copenhagen", "Gamla Stan, Stockholm", "Laneways, Melbourne", "The Rocks District, Sydney", "Distillery District, Toronto", "Old Montreal, Canada", "Vila Madalena, São Paulo", "Palermo District, Buenos Aires", "Roma Norte, Mexico City", "Florentin District, Tel Aviv", "Dubai Marina, UAE", "Colaba District, Mumbai", "Connaught Place, Delhi", "Beyoğlu District, Istanbul", "Lesser Town, Prague", "Innere Stadt, Vienna", "Pest Side, Budapest", "Old Town, Warsaw", "Bairro Alto, Lisbon", "Malasaña District, Madrid"]
+        }
+      }
+    }
+  }
+}

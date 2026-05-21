@@ -1,0 +1,1540 @@
+{
+    "intent_description": {
+        "user_ask_fact_question": {
+            "description": "user asks a factual question seeking information or facts about the category topic following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_fact_question": {
+            "description": "ai provides factual answers to user's fact questions following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_explanation_question": {
+            "description": "user asks for explanation or clarification on a topic following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_explanation_question": {
+            "description": "ai explains a concept or process clearly following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_how_to_question": {
+            "description": "user asks for instructions or guidance on how to do something following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_how_to_question": {
+            "description": "ai provides step-by-step instructions or guidance on how to do something following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_opinion_question": {
+            "description": "user asks for AI's perspective on a general topic following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_opinion_question": {
+            "description": "ai shares perspective or opinion on a general topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_definition_question": {
+            "description": "user asks for the definition of a term or concept following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_definition_question": {
+            "description": "ai provides the definition of a term or concept following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_comparison_question": {
+            "description": "user asks about comparisons between different things or concepts following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_comparison_question": {
+            "description": "ai provides balanced perspectives on comparison questions following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_comparison_question_within_category": {
+            "description": "user asks for comparison between items within the same category following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_comparison_question_within_category": {
+            "description": "ai provides balanced perspectives on comparison questions within the same category following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_comparison_question_across_categories": {
+            "description": "user asks for comparison between items from different categories following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_comparison_question_across_categories": {
+            "description": "ai provides balanced perspectives on comparison questions across categories following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_analogy_question": {
+            "description": "user asks for an analogy or similar example following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_analogy_question": {
+            "description": "ai provides an analogy or similar example following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_historical_question": {
+            "description": "user asks about historical or past events following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_historical_question": {
+            "description": "ai provides information about historical or past events following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_interesting_fact_question": {
+            "description": "user asks for an interesting fact or trivia following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_interesting_fact_question": {
+            "description": "ai provides an interesting fact or trivia following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_meaning_question": {
+            "description": "user asks for the meaning of a word or phrase following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_meaning_question": {
+            "description": "ai provides the meaning of a word or phrase following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_cause_effect_question": {
+            "description": "user asks about cause and effect relationships following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_cause_effect_question": {
+            "description": "ai provides information about cause and effect relationships following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_social_opinion_question": {
+            "description": "user asks for AI's perspective on a social or cultural topic following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_social_opinion_question": {
+            "description": "ai shares perspective or opinion on a social or cultural topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_pop_culture_question": {
+            "description": "user asks about pop culture or popular culture following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_pop_culture_question": {
+            "description": "ai provides information about pop culture or popular culture following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_hypothetical_question": {
+            "description": "user asks a what-if or hypothetical question following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_hypothetical_question": {
+            "description": "ai engages thoughtfully with hypothetical scenarios following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_connection_question": {
+            "description": "user connects the category to other topics or domains following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_connection_question": {
+            "description": "ai explores connections between categories and other domains following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_creative_question": {
+            "description": "user asks imaginative or creative questions following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_creative_question": {
+            "description": "ai engages creatively with imaginative questions following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_cultural_question": {
+            "description": "user asks about cultural or social aspects following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_cultural_question": {
+            "description": "ai discusses cultural and social aspects thoughtfully following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_experience_question": {
+            "description": "user asks about experiences without revealing preferences following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_experience_question": {
+            "description": "ai responds to experience questions without asking for personal preferences following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_philosophical_question": {
+            "description": "user asks deeper, philosophical questions about the category following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_philosophical_question": {
+            "description": "ai engages with philosophical questions thoughtfully following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_ask_followup_question": {
+            "description": "user asks a follow-up question based on ai's previous response following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_answer_followup_question": {
+            "description": "ai answers user's follow-up question thoughtfully following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_provide_thoughtful_response": {
+            "description": "ai gives a thoughtful, engaging response to continue the topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_share_interesting_fact": {
+            "description": "ai shares an interesting fact related to the topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_pose_counter_question": {
+            "description": "ai responds with a related question to continue exploration following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_answer_counter_question": {
+            "description": "user answers ai's counter question following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_ask_follow_up_question": {
+            "description": "ai asks a follow-up question to continue the topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_answer_follow_up_question": {
+            "description": "user answers ai's follow-up question following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_elaborate_with_examples": {
+            "description": "ai elaborates on the topic with concrete examples following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_show_engagement": {
+            "description": "user shows interest and engagement with the discussion following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_continues_topic_as_user_shows_engagement": {
+            "description": "ai continues the topic as user shows engagement following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_show_disengagement": {
+            "description": "user shows disengagement with the discussion following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_closes_topic_as_user_shows_disengagement": {
+            "description": "ai closes the topic as user shows disengagement following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_continues_to_different_topic_as_user_shows_disengagement": {
+            "description": "ai continues to a different topic as user shows disengagement following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_show_interest_in_different_topic": {
+            "description": "user shows interest in a different topic following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_express_surprise": {
+            "description": "user shows surprise at ai's information with natural reactions expressing amazement or newfound knowledge following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_express_agreement": {
+            "description": "user agrees with ai's point using natural expressions of understanding and concurrence following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_express_disagreement": {
+            "description": "user politely disagrees or offers different perspective using respectful language to present alternative views following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_think_then_ask": {
+            "description": "user pauses to think then asks a follow-up question showing contemplation before inquiring about related aspects following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_use_conversational_connector": {
+            "description": "user uses natural conversation bridges to transition between related topics smoothly following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_pivot_topic_naturally": {
+            "description": "user naturally shifts to a related aspect of the topic without being abrupt following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_express_enthusiasm": {
+            "description": "ai shows enthusiasm about the topic with positive and engaging language following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_acknowledge_user_point": {
+            "description": "ai acknowledges user's observation with positive validation and recognition of their insight following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_think_then_respond": {
+            "description": "ai demonstrates thoughtful consideration then provides substantive response showing deliberation before offering detailed insights following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_use_conversational_bridge": {
+            "description": "ai uses natural transitions to smoothly connect ideas and topics following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_build_on_topic": {
+            "description": "ai naturally expands the current topic without being asked, showing genuine interest following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_offer_different_perspective": {
+            "description": "ai presents alternative viewpoint or additional angle on the topic following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_show_curiosity": {
+            "description": "user demonstrates curiosity about what ai shared using natural expressions of interest and requests for more information following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "user_connect_ideas": {
+            "description": "user makes connections between different concepts discussed without sharing personal experience following the flow of the conversation",
+            "agent": "user",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        },
+        "ai_validate_user_thinking": {
+            "description": "ai validates user's thought process with encouraging language that recognizes their analytical skills and insights following the flow of the conversation",
+            "agent": "ai",
+            "phase": "exploration",
+            "share_memory": false,
+            "conversation_type": "general",
+            "requires_instruction": false
+        }
+    },
+    "conversation_flows_list": [
+        {
+            "flow_id": 1,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_fact_question",
+                "ai_answer_fact_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_definition_question",
+                "ai_answer_definition_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_express_surprise",
+                "ai_express_enthusiasm",
+                "user_think_then_ask",
+                "ai_think_then_respond",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples",
+                "user_connect_ideas",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 2,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_express_agreement",
+                "ai_use_conversational_bridge",
+                "user_show_curiosity",
+                "ai_build_on_topic",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_pivot_topic_naturally",
+                "ai_acknowledge_user_point"
+            ]
+        },
+        {
+            "flow_id": 3,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_express_surprise",
+                "ai_express_enthusiasm",
+                "user_ask_how_to_question",
+                "ai_answer_how_to_question",
+                "user_think_then_ask",
+                "ai_think_then_respond",
+                "user_ask_philosophical_question",
+                "ai_answer_philosophical_question",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples"
+            ]
+        },
+        {
+            "flow_id": 4,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_comparison_question_within_category",
+                "ai_answer_comparison_question_within_category",
+                "user_express_disagreement",
+                "ai_acknowledge_user_point",
+                "user_think_then_ask",
+                "ai_offer_different_perspective",
+                "user_use_conversational_connector",
+                "ai_use_conversational_bridge",
+                "user_ask_cultural_question",
+                "ai_answer_cultural_question",
+                "user_connect_ideas",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 5,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_opinion_question",
+                "ai_answer_opinion_question",
+                "user_express_agreement",
+                "ai_use_conversational_bridge",
+                "user_show_engagement",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_pose_counter_question",
+                "user_think_then_ask",
+                "ai_express_enthusiasm",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples"
+            ]
+        },
+        {
+            "flow_id": 6,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_ask_follow_up_question",
+                "user_answer_follow_up_question",
+                "ai_elaborate_with_examples",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 7,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 8,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_cultural_question",
+                "ai_answer_cultural_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 9,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_definition_question",
+                "ai_answer_definition_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "ai_elaborate_with_examples",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 10,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_provide_thoughtful_response",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_elaborate_with_examples",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question"
+            ]
+        },
+        {
+            "flow_id": 11,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_historical_question",
+                "ai_answer_historical_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question"
+            ]
+        },
+        {
+            "flow_id": 12,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_elaborate_with_examples",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 13,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_creative_question",
+                "ai_answer_creative_question"
+            ]
+        },
+        {
+            "flow_id": 14,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_philosophical_question",
+                "ai_answer_philosophical_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_provide_thoughtful_response",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 15,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 16,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_ask_follow_up_question",
+                "user_answer_follow_up_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_share_interesting_fact",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 17,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_creative_question",
+                "ai_answer_creative_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 18,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_meaning_question",
+                "ai_answer_meaning_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_provide_thoughtful_response",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 19,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_elaborate_with_examples",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 20,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_social_opinion_question",
+                "ai_answer_social_opinion_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 21,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_pop_culture_question",
+                "ai_answer_pop_culture_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 22,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_provide_thoughtful_response",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 23,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_experience_question",
+                "ai_answer_experience_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_elaborate_with_examples",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 24,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_interesting_fact_question",
+                "ai_answer_interesting_fact_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 25,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 26,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_definition_question",
+                "ai_answer_definition_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_elaborate_with_examples",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement"
+            ]
+        },
+        {
+            "flow_id": 27,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_share_interesting_fact",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 28,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_philosophical_question",
+                "ai_answer_philosophical_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_elaborate_with_examples",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement"
+            ]
+        },
+        {
+            "flow_id": 29,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_historical_question",
+                "ai_answer_historical_question",
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "ai_share_interesting_fact",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_show_engagement"
+            ]
+        },
+        {
+            "flow_id": 30,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_elaborate_with_examples",
+                "user_ask_meaning_question",
+                "ai_answer_meaning_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_provide_thoughtful_response",
+                "user_ask_followup_question",
+                "ai_answer_followup_question"
+            ]
+        },
+        {
+            "flow_id": 31,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_creative_question",
+                "ai_answer_creative_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_ask_philosophical_question",
+                "ai_answer_philosophical_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "ai_elaborate_with_examples",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_provide_thoughtful_response"
+            ]
+        },
+        {
+            "flow_id": 32,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_social_opinion_question",
+                "ai_answer_social_opinion_question",
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_share_interesting_fact",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_show_engagement",
+                "ai_continues_topic_as_user_shows_engagement"
+            ]
+        },
+        {
+            "flow_id": 33,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_ask_follow_up_question",
+                "user_answer_follow_up_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_elaborate_with_examples"
+            ]
+        },
+        {
+            "flow_id": 34,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_pop_culture_question",
+                "ai_answer_pop_culture_question",
+                "user_ask_cultural_question",
+                "ai_answer_cultural_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "ai_share_interesting_fact",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_provide_thoughtful_response",
+                "user_show_engagement"
+            ]
+        },
+        {
+            "flow_id": 35,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_engagement",
+                "ai_provide_thoughtful_response",
+                "user_ask_definition_question",
+                "ai_answer_definition_question",
+                "user_ask_meaning_question",
+                "ai_answer_meaning_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "user_ask_analogy_question",
+                "ai_answer_analogy_question",
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_continues_topic_as_user_shows_engagement"
+            ]
+        },
+        {
+            "flow_id": 36,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_how_to_question",
+                "ai_answer_how_to_question",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_ask_explanation_question",
+                "ai_answer_explanation_question",
+                "ai_elaborate_with_examples"
+            ]
+        },
+        {
+            "flow_id": 37,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_comparison_question_within_category",
+                "ai_answer_comparison_question_within_category",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "ai_pose_counter_question",
+                "user_answer_counter_question"
+            ]
+        },
+        {
+            "flow_id": 38,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_comparison_question_across_categories",
+                "ai_answer_comparison_question_across_categories",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "ai_elaborate_with_examples",
+                "user_show_engagement"
+            ]
+        },
+        {
+            "flow_id": 39,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_fact_question",
+                "ai_answer_fact_question",
+                "user_show_disengagement",
+                "ai_closes_topic_as_user_shows_disengagement"
+            ]
+        },
+        {
+            "flow_id": 40,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_opinion_question",
+                "ai_answer_opinion_question",
+                "user_show_disengagement",
+                "ai_continues_to_different_topic_as_user_shows_disengagement",
+                "user_show_interest_in_different_topic"
+            ]
+        },
+        {
+            "flow_id": 41,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_show_disengagement",
+                "ai_continues_to_different_topic_as_user_shows_disengagement",
+                "user_show_interest_in_different_topic",
+                "ai_elaborate_with_examples"
+            ]
+        },
+        {
+            "flow_id": 42,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_fact_question",
+                "ai_answer_fact_question",
+                "user_express_surprise",
+                "ai_express_enthusiasm",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples",
+                "user_connect_ideas",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 43,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_share_interesting_fact",
+                "user_think_then_ask",
+                "ai_think_then_respond",
+                "user_express_agreement",
+                "ai_use_conversational_bridge",
+                "user_pivot_topic_naturally",
+                "ai_build_on_topic"
+            ]
+        },
+        {
+            "flow_id": 44,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_opinion_question",
+                "ai_answer_opinion_question",
+                "user_express_disagreement",
+                "ai_acknowledge_user_point",
+                "user_think_then_ask",
+                "ai_answer_followup_question",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 45,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_pose_counter_question",
+                "user_think_then_ask",
+                "ai_express_enthusiasm",
+                "user_ask_followup_question",
+                "ai_answer_followup_question",
+                "user_use_conversational_connector",
+                "user_ask_comparison_question",
+                "ai_answer_comparison_question",
+                "user_connect_ideas",
+                "ai_acknowledge_user_point"
+            ]
+        },
+        {
+            "flow_id": 46,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_cultural_question",
+                "ai_answer_cultural_question",
+                "user_express_surprise",
+                "ai_use_conversational_bridge",
+                "ai_share_interesting_fact",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples",
+                "user_pivot_topic_naturally",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 47,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_ask_follow_up_question",
+                "user_answer_follow_up_question",
+                "ai_think_then_respond",
+                "user_express_agreement",
+                "ai_build_on_topic",
+                "user_use_conversational_connector",
+                "ai_share_interesting_fact",
+                "user_ask_philosophical_question",
+                "ai_answer_philosophical_question"
+            ]
+        },
+        {
+            "flow_id": 48,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_hypothetical_question",
+                "ai_answer_hypothetical_question",
+                "user_think_then_ask",
+                "ai_express_enthusiasm",
+                "user_connect_ideas",
+                "ai_acknowledge_user_point",
+                "user_express_surprise",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 49,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_definition_question",
+                "ai_answer_definition_question",
+                "user_ask_historical_question",
+                "ai_answer_historical_question",
+                "user_express_surprise",
+                "ai_share_interesting_fact",
+                "user_think_then_ask",
+                "ai_think_then_respond",
+                "user_ask_comparison_question_across_categories",
+                "ai_answer_comparison_question_across_categories",
+                "user_connect_ideas",
+                "ai_validate_user_thinking"
+            ]
+        },
+        {
+            "flow_id": 50,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_pose_counter_question",
+                "user_answer_counter_question",
+                "ai_express_enthusiasm",
+                "user_ask_cause_effect_question",
+                "ai_answer_cause_effect_question",
+                "user_express_agreement",
+                "ai_build_on_topic",
+                "user_use_conversational_connector",
+                "ai_share_interesting_fact",
+                "user_ask_creative_question",
+                "ai_answer_creative_question",
+                "user_show_curiosity",
+                "ai_elaborate_with_examples",
+                "user_pivot_topic_naturally",
+                "ai_acknowledge_user_point"
+            ]
+        },
+        {
+            "flow_id": 51,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_ask_meaning_question",
+                "ai_answer_meaning_question",
+                "user_ask_connection_question",
+                "ai_answer_connection_question",
+                "user_express_disagreement",
+                "ai_acknowledge_user_point",
+                "user_think_then_ask",
+                "ai_think_then_respond",
+                "user_ask_pop_culture_question",
+                "ai_answer_pop_culture_question",
+                "user_express_surprise",
+                "ai_use_conversational_bridge"
+            ]
+        },
+        {
+            "flow_id": 52,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_ask_follow_up_question",
+                "user_answer_follow_up_question",
+                "ai_think_then_respond",
+                "user_ask_interesting_fact_question",
+                "ai_answer_interesting_fact_question",
+                "user_express_surprise",
+                "ai_express_enthusiasm",
+                "user_ask_social_opinion_question",
+                "ai_answer_social_opinion_question",
+                "user_express_agreement",
+                "ai_validate_user_thinking",
+                "user_ask_experience_question",
+                "ai_answer_experience_question"
+            ]
+        }
+    ]
+}

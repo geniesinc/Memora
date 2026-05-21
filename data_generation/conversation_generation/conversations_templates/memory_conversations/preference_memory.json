@@ -1,0 +1,533 @@
+{
+    "intent_description": {
+        "ai_transition_to_add_memory": {
+            "description": "ai transitions to add a memory following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_add_memory_item_after_transition": {
+            "description": "user shares a specific item in their memory with a preference following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_transition_to_update_memory": {
+            "description": "ai transitions to update a memory following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_update_memory_item_after_transition": {
+            "description": "user updates a specific item in their memory following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_transition_to_delete_memory": {
+            "description": "ai transitions to delete a memory following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_delete_memory_item_after_transition": {
+            "description": "user deletes a specific item in their memory following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_new_discoveries": {
+            "description": "ai asks about new items user has discovered recently to encourage adding preferences following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_memory_item_with_preference_in_response": {
+            "description": "user shares a specific item in their memory with a preference in response to ai's question following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_recent_consumption_memory": {
+            "description": "ai asks about what user has been consuming recently to encourage adding preferences following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_share_memory_then_ask_user_reflection": {
+            "description": "ai shares own preference/opinion about the topic then asks user to reflect on it following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_reflect_on_ai_shared_memory": {
+            "description": "user reflects on AI's shared preference/opinion and shares their own perspective following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_memory_item": {
+            "description": "ai asks about a specific item user has in their memory to encourage adding preferences following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_memory_item_with_preference": {
+            "description": "user shares a specific item in their memory to encourage adding preferences following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_memory_item_without_preference": {
+            "description": "user shares a specific item in their memory without sharing a preference following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_user_preference_on_shared_memory": {
+            "description": "ai asks about user's preference on a shared memory item following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "user_share_preference_on_shared_memory": {
+            "description": "user shares their preference on a shared memory item following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_transition_and_add_memory": {
+            "description": "user makes a transition to add a memory following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_transition_and_update_memory": {
+            "description": "user makes a transition to update a memory following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_transition_and_delete_memory": {
+            "description": "user makes a transition to delete a memory following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_comparative_question_to_memory": {
+            "description": "ai asks user to compare different options which naturally leads to preference sharing following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_comparative_preference_memory": {
+            "description": "user shares preference while making comparisons following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_curiosity_driven_memory_question": {
+            "description": "ai expresses curiosity about user's tastes in a casual, friendly way following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_answer_ai_curiosity_with_memory": {
+            "description": "user satisfies AI's curiosity by sharing their memory item with the preference following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_acknowledge_new_preference": {
+            "description": "ai acknowledges and responds positively to user's new preference following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_acknowledge_change": {
+            "description": "ai acknowledges the preference change following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_acknowledge_removal": {
+            "description": "ai acknowledges the preference removal following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_acknowledge_preference_sharing": {
+            "description": "ai acknowledges the user's preference sharing following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_ask_why_changed": {
+            "description": "ai asks why their preference changed following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory"
+        },
+        "user_answer_ai_why_changed": {
+            "description": "user answers ai's question why their preference changed following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_ask_why_preference": {
+            "description": "ai asks why they have the preference following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "user_answer_ai_why_preference": {
+            "description": "user answers ai's question why they have the preference following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "user_express_taste_evolution": {
+            "description": "user expresses their taste evolution following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_ask_about_changing_tastes": {
+            "description": "ai asks about changing tastes following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "user_mention_change_with_memory": {
+            "description": "user mentions a change with a memory item following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_previous_preference": {
+            "description": "ai asks about user's previous preference following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_mention_the_disinterest_in_memory": {
+            "description": "user mentions their disinterest in a memory item following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        }
+    },
+    "conversation_flows_list": [
+        {
+            "flow_id": 1,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_transition_to_add_memory",
+                "user_add_memory_item_after_transition",
+                "ai_acknowledge_new_preference"
+            ]
+        },
+        {
+            "flow_id": 2,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_new_discoveries",
+                "user_share_memory_item_with_preference_in_response",
+                "ai_ask_why_preference",
+                "user_answer_ai_why_preference",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 3,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_recent_consumption_memory",
+                "user_share_memory_item_with_preference_in_response",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 4,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_comparative_question_to_memory",
+                "user_share_comparative_preference_memory",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 5,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_curiosity_driven_memory_question",
+                "user_answer_ai_curiosity_with_memory",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 6,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_share_memory_then_ask_user_reflection",
+                "user_reflect_on_ai_shared_memory",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 7,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_memory_item",
+                "user_share_memory_item_with_preference",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 8,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_memory_item",
+                "user_share_memory_item_without_preference",
+                "ai_ask_about_user_preference_on_shared_memory",
+                "user_share_preference_on_shared_memory",
+                "ai_acknowledge_preference_sharing"
+            ]
+        },
+        {
+            "flow_id": 9,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_transition_and_add_memory",
+                "ai_acknowledge_new_preference"
+            ]
+        },
+        {
+            "flow_id": 10,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_transition_and_add_memory",
+                "ai_ask_why_preference",
+                "user_answer_ai_why_preference",
+                "ai_acknowledge_new_preference"
+            ]
+        },
+        {
+            "flow_id": 11,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "update",
+            "approach": "implicit",
+            "conversation_flow": [
+                "ai_transition_to_update_memory",
+                "user_update_memory_item_after_transition"
+            ]
+        },
+        {
+            "flow_id": 12,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "update",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_transition_to_update_memory",
+                "user_update_memory_item_after_transition",
+                "ai_ask_why_changed",
+                "user_answer_ai_why_changed"
+            ]
+        },
+        {
+            "flow_id": 13,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "update",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_changing_tastes",
+                "user_express_taste_evolution",
+                "user_update_memory_item_after_transition"
+            ]
+        },
+        {
+            "flow_id": 14,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "update",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_transition_and_update_memory",
+                "ai_acknowledge_change"
+            ]
+        },
+        {
+            "flow_id": 15,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "update",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_mention_change_with_memory",
+                "ai_ask_why_changed",
+                "user_answer_ai_why_changed"
+            ]
+        },
+        {
+            "flow_id": 16,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "delete",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_transition_to_delete_memory",
+                "user_delete_memory_item_after_transition"
+            ]
+        },
+        {
+            "flow_id": 17,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "delete",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_transition_to_delete_memory",
+                "user_delete_memory_item_after_transition",
+                "ai_acknowledge_removal"
+            ]
+        },
+        {
+            "flow_id": 18,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "delete",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_transition_and_delete_memory",
+                "ai_ask_why_changed",
+                "user_answer_ai_why_changed"
+            ]
+        },
+        {
+            "flow_id": 19,
+            "flow_type": "ai_initiated",
+            "memory_type": "preference_memory",
+            "operation": "delete",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_previous_preference",
+                "user_mention_the_disinterest_in_memory"
+            ]
+        },
+        {
+            "flow_id": 20,
+            "flow_type": "user_initiated",
+            "memory_type": "preference_memory",
+            "operation": "delete",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_transition_and_delete_memory",
+                "ai_acknowledge_removal"
+            ]
+        }
+    ]
+}

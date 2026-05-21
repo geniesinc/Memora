@@ -1,0 +1,1208 @@
+{
+  "activity_personas": {
+    "software_engineer": {
+      "id": 1,
+      "description": "Tech-focused activity patterns with coding, system work, and technical tasks",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Review pull request",
+            "Fix critical bug",
+            "Update API documentation",
+            "Deploy to staging environment",
+            "Code review meeting prep",
+            "Refactor legacy code",
+            "Write unit tests",
+            "Update system dependencies",
+            "Optimize database queries",
+            "Setup CI/CD pipeline",
+            "Debug production issue",
+            "Complete feature implementation",
+            "Update personal projects on GitHub",
+            "Learn new programming language",
+            "Backup laptop files",
+            "Update software on devices",
+            "Configure development environment",
+            "Read tech documentation",
+            "Practice coding challenges",
+            "Setup home network security"
+          ],
+          "personal_tasks": [
+            "Pay utility bills",
+            "Buy groceries",
+            "Schedule car maintenance",
+            "Call parents",
+            "Plan weekend activities",
+            "Book flight for vacation",
+            "Organize home office",
+            "Exercise for 30 minutes"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Sprint planning meeting",
+              "Architecture review session",
+              "Code review meeting",
+              "Tech talk presentation",
+              "Stakeholder demo",
+              "Engineering all-hands",
+              "1:1 with tech lead",
+              "Database migration planning"
+            ],
+            "dates": [
+              "+1 days",
+              "+2 days",
+              "+3 days",
+              "+5 days",
+              "+7 days",
+              "+10 days",
+              "+12 days",
+              "+14 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Eye exam",
+              "Dentist appointment",
+              "Mechanic visit",
+              "Gym session",
+              "Gaming night",
+              "Tech meetup"
+            ],
+            "dates": [
+              "+4 days",
+              "+6 days",
+              "+8 days",
+              "+9 days",
+              "+11 days",
+              "+13 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Sister's birthday",
+              "Best friend's birthday",
+              "Spouse's birthday",
+              "Nephew's birthday"
+            ],
+            "dates": [
+              "+15 days",
+              "+22 days",
+              "+45 days",
+              "+67 days",
+              "+89 days",
+              "+123 days"
+            ]
+          }
+        }
+      }
+    },
+    "marketing_manager": {
+      "id": 2,
+      "description": "Marketing-focused activities with campaigns, content creation, and brand work",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Review campaign performance metrics",
+            "Approve social media content",
+            "Update marketing calendar",
+            "Prepare budget presentation",
+            "Analyze competitor campaigns",
+            "Create brand guidelines document",
+            "Schedule influencer outreach",
+            "Review creative assets",
+            "Plan product launch strategy",
+            "Update customer personas",
+            "Coordinate with design team",
+            "Track lead generation metrics",
+            "Brainstorm content ideas",
+            "Update portfolio website",
+            "Research design trends",
+            "Create mood board",
+            "Plan photoshoot concepts",
+            "Write blog post draft",
+            "Update LinkedIn content strategy",
+            "Organize inspiration folder"
+          ],
+          "personal_tasks": [
+            "Buy groceries",
+            "Schedule hair appointment",
+            "Plan dinner party",
+            "Call family",
+            "Book spa appointment",
+            "Update wardrobe",
+            "Plan weekend brunch",
+            "Organize home decor"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Campaign review meeting",
+              "Creative brainstorming session",
+              "Brand strategy workshop",
+              "Client presentation",
+              "Marketing team sync",
+              "Budget planning meeting",
+              "Content calendar review",
+              "Performance metrics review"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+5 days",
+              "+7 days",
+              "+9 days",
+              "+11 days",
+              "+13 days",
+              "+15 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Hair styling appointment",
+              "Networking event",
+              "Art gallery opening",
+              "Yoga class",
+              "Brunch with friends",
+              "Shopping appointment"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+8 days",
+              "+10 days",
+              "+12 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Best friend's birthday",
+              "Sister's birthday",
+              "Partner's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+18 days",
+              "+29 days",
+              "+52 days",
+              "+73 days",
+              "+94 days",
+              "+115 days"
+            ]
+          }
+        }
+      }
+    },
+    "business_executive": {
+      "id": 3,
+      "description": "Executive-level activities focused on strategy, leadership, and high-level decisions",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Review quarterly board report",
+            "Approve strategic initiative budget",
+            "Prepare investor presentation",
+            "Review acquisition proposal",
+            "Update executive dashboard",
+            "Sign off on major contracts",
+            "Review department head reports",
+            "Plan leadership retreat",
+            "Update succession planning",
+            "Review company policies",
+            "Approve hiring plan",
+            "Analyze market research",
+            "Follow up with industry contacts",
+            "Schedule board member lunch",
+            "Plan conference attendance",
+            "Update professional headshots",
+            "Prepare thought leadership article",
+            "Review speaking engagement proposals",
+            "Update executive bio",
+            "Plan investor dinner"
+          ],
+          "personal_tasks": [
+            "Schedule executive physical",
+            "Plan family vacation",
+            "Review investment portfolio",
+            "Book restaurant reservations",
+            "Schedule personal training",
+            "Plan charity event attendance",
+            "Update estate planning",
+            "Schedule spouse dinner"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Board of directors meeting",
+              "Executive team meeting",
+              "Investor relations call",
+              "Strategic planning session",
+              "Quarterly business review",
+              "M&A discussion",
+              "Leadership team offsite",
+              "Stakeholder presentation"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+5 days",
+              "+8 days",
+              "+12 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Executive physical",
+              "Personal training session",
+              "Financial advisor meeting",
+              "Country club dinner",
+              "Charity gala",
+              "Wine tasting event"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+9 days",
+              "+11 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Best friend's birthday",
+              "Sister's birthday",
+              "Spouse's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+20 days",
+              "+35 days",
+              "+58 days",
+              "+79 days",
+              "+101 days",
+              "+125 days"
+            ]
+          }
+        }
+      }
+    },
+    "creative_designer": {
+      "id": 4,
+      "description": "Design-focused activities with creative projects, client work, and artistic pursuits",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Complete logo design concepts",
+            "Review client feedback",
+            "Update design system",
+            "Prepare design presentation",
+            "Create wireframes",
+            "Update portfolio website",
+            "Research design trends",
+            "Organize design assets",
+            "Test user interface",
+            "Export final design files",
+            "Update project timeline",
+            "Send design proofs to client",
+            "Sketch new illustration ideas",
+            "Experiment with color palettes",
+            "Create personal art project",
+            "Update design blog",
+            "Practice typography layouts",
+            "Organize inspiration boards",
+            "Try new design software",
+            "Visit art supply store"
+          ],
+          "personal_tasks": [
+            "Buy art supplies",
+            "Visit local gallery",
+            "Plan creative workshop attendance",
+            "Call family",
+            "Organize studio space",
+            "Plan coffee date with friends",
+            "Schedule eye exam",
+            "Update online portfolio"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Client design review",
+              "Creative team brainstorming",
+              "Design critique session",
+              "Project kickoff meeting",
+              "Brand workshop",
+              "User testing session",
+              "Design system meeting",
+              "Portfolio review"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+5 days",
+              "+7 days",
+              "+10 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Art gallery opening",
+              "Design workshop",
+              "Photography session",
+              "Coffee with designer friends",
+              "Creative networking event",
+              "Art class"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+8 days",
+              "+11 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Best friend's birthday",
+              "Sister's birthday",
+              "Spouse's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+20 days",
+              "+35 days",
+              "+58 days",
+              "+79 days",
+              "+101 days",
+              "+125 days"
+            ]
+          }
+        }
+      }
+    },
+    "financial_analyst": {
+      "id": 5,
+      "description": "Finance-focused activities with analysis, reporting, and investment work",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Update financial forecasting model",
+            "Review quarterly budget variance",
+            "Prepare investment analysis report",
+            "Update cash flow projections",
+            "Analyze market trends",
+            "Review expense reports",
+            "Complete risk assessment",
+            "Update financial dashboard",
+            "Prepare board presentation",
+            "Reconcile account balances",
+            "Review audit findings",
+            "Update compliance documentation",
+            "Review personal investment portfolio",
+            "Update budget spreadsheet",
+            "Pay monthly bills",
+            "Research new investment options",
+            "Review insurance policies",
+            "Update retirement planning",
+            "Track monthly expenses",
+            "Schedule tax preparation"
+          ],
+          "personal_tasks": [
+            "Schedule dentist appointment",
+            "Plan weekend activities",
+            "Call parents",
+            "Buy groceries",
+            "Schedule car service",
+            "Plan vacation budget",
+            "Exercise at gym",
+            "Read financial news"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Budget review meeting",
+              "Investment committee session",
+              "Financial planning workshop",
+              "Audit preparation meeting",
+              "Market analysis presentation",
+              "Risk assessment review",
+              "Quarterly results discussion",
+              "Financial strategy session"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+9 days",
+              "+13 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Financial advisor meeting",
+              "Tax preparation appointment",
+              "Insurance review",
+              "Investment seminar",
+              "Banking appointment",
+              "Estate planning meeting"
+            ],
+            "dates": [
+              "+3 days",
+              "+7 days",
+              "+10 days",
+              "+14 days",
+              "+18 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Best friend's birthday",
+              "Sister's birthday",
+              "Spouse's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+20 days",
+              "+35 days",
+              "+58 days",
+              "+79 days",
+              "+101 days",
+              "+125 days"
+            ]
+          }
+        }
+      }
+    },
+    "sales_manager": {
+      "id": 6,
+      "description": "Sales-focused activities with client relationships, targets, and team management",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Follow up with prospect leads",
+            "Update CRM system",
+            "Prepare sales presentation",
+            "Review team performance metrics",
+            "Schedule client meetings",
+            "Update sales forecast",
+            "Prepare proposal documents",
+            "Review contract terms",
+            "Plan territory expansion",
+            "Update lead qualification",
+            "Coordinate with marketing team",
+            "Review competitor analysis",
+            "Send thank you notes to clients",
+            "Plan client appreciation event",
+            "Update contact database",
+            "Research prospect companies",
+            "Prepare client success stories",
+            "Schedule relationship check-ins",
+            "Plan networking event attendance",
+            "Update LinkedIn connections"
+          ],
+          "personal_tasks": [
+            "Plan family dinner",
+            "Schedule workout session",
+            "Buy gifts for family",
+            "Plan weekend sports activities",
+            "Call old friends",
+            "Schedule home maintenance",
+            "Plan vacation time",
+            "Organize garage"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Client pitch meeting",
+              "Sales team meeting",
+              "Prospect discovery call",
+              "Contract negotiation",
+              "Pipeline review session",
+              "Customer success check-in",
+              "Sales training workshop",
+              "Territory planning meeting"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+6 days",
+              "+8 days",
+              "+12 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Networking happy hour",
+              "Golf with client",
+              "Industry conference",
+              "Gym session",
+              "Dinner with spouse",
+              "Sports event"
+            ],
+            "dates": [
+              "+2 days",
+              "+5 days",
+              "+7 days",
+              "+9 days",
+              "+14 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Mom's birthday",
+              "Dad's birthday",
+              "Best friend's birthday",
+              "Sister's birthday",
+              "Spouse's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+20 days",
+              "+35 days",
+              "+58 days",
+              "+79 days",
+              "+101 days",
+              "+125 days"
+            ]
+          }
+        }
+      }
+    },
+    "startup_founder": {
+      "id": 7,
+      "description": "Entrepreneurial activities with startup building, fundraising, and innovation",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Update investor pitch deck",
+            "Review product development progress",
+            "Plan user acquisition strategy",
+            "Update financial projections",
+            "Prepare team all-hands",
+            "Review partnership proposals",
+            "Update product roadmap",
+            "Plan fundraising timeline",
+            "Review legal documents",
+            "Update company metrics dashboard",
+            "Plan marketing campaign",
+            "Review hiring pipeline",
+            "Research industry trends",
+            "Brainstorm new product features",
+            "Attend startup events",
+            "Connect with other founders",
+            "Read startup books/podcasts",
+            "Update personal brand",
+            "Plan thought leadership content",
+            "Research new markets"
+          ],
+          "personal_tasks": [
+            "Schedule health checkup",
+            "Plan date night",
+            "Exercise/meditation time",
+            "Call family/friends",
+            "Plan short vacation",
+            "Organize home office",
+            "Read non-work books",
+            "Plan hobby time"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Investor pitch meeting",
+              "Product strategy session",
+              "Team standup meeting",
+              "User feedback review",
+              "Partnership discussion",
+              "Board meeting",
+              "Product demo",
+              "Fundraising call"
+            ],
+            "dates": [
+              "+1 days",
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+8 days",
+              "+11 days",
+              "+13 days",
+              "+16 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Startup networking event",
+              "Mentor coffee meeting",
+              "Industry conference",
+              "Wellness appointment",
+              "Founder support group",
+              "Innovation workshop"
+            ],
+            "dates": [
+              "+3 days",
+              "+5 days",
+              "+7 days",
+              "+9 days",
+              "+12 days",
+              "+15 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Co-founder's birthday",
+              "Mom's birthday",
+              "Dad's birthday",
+              "Key employee's birthday",
+              "Mentor's birthday",
+              "Best friend's birthday"
+            ],
+            "dates": [
+              "+25 days",
+              "+38 days",
+              "+55 days",
+              "+72 days",
+              "+95 days",
+              "+118 days"
+            ]
+          }
+        }
+      }
+    },
+    "management_consultant": {
+      "id": 8,
+      "description": "Consulting activities with client projects, analysis, and strategic recommendations",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Complete client assessment report",
+            "Prepare implementation roadmap",
+            "Update project timeline",
+            "Review stakeholder feedback",
+            "Prepare executive presentation",
+            "Conduct process analysis",
+            "Update change management plan",
+            "Review industry benchmarks",
+            "Prepare workshop materials",
+            "Update client deliverables",
+            "Plan team coordination",
+            "Review project budget",
+            "Read industry reports",
+            "Update consulting framework",
+            "Prepare case study",
+            "Update professional certifications",
+            "Plan conference attendance",
+            "Update LinkedIn profile",
+            "Research new methodologies",
+            "Network with industry peers"
+          ],
+          "personal_tasks": [
+            "Plan family time",
+            "Schedule medical appointments",
+            "Plan travel arrangements",
+            "Update home organization",
+            "Call extended family",
+            "Plan weekend activities",
+            "Schedule exercise time",
+            "Plan vacation days"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Client steering committee",
+              "Project workshop session",
+              "Stakeholder interview",
+              "Executive briefing",
+              "Team retrospective",
+              "Change management workshop",
+              "Process mapping session",
+              "Implementation planning"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+5 days",
+              "+8 days",
+              "+10 days",
+              "+13 days",
+              "+15 days",
+              "+18 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Professional networking event",
+              "Industry conference",
+              "Executive coaching session",
+              "Professional development workshop",
+              "Alumni networking",
+              "Business dinner"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+7 days",
+              "+9 days",
+              "+12 days",
+              "+16 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Client executive's birthday",
+              "Team member's birthday",
+              "Mom's birthday",
+              "Dad's birthday",
+              "Spouse's birthday",
+              "Colleague's birthday"
+            ],
+            "dates": [
+              "+19 days",
+              "+33 days",
+              "+48 days",
+              "+65 days",
+              "+82 days",
+              "+108 days"
+            ]
+          }
+        }
+      }
+    },
+    "content_writer": {
+      "id": 9,
+      "description": "Writing-focused activities with content creation, research, and storytelling",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Write blog post draft",
+            "Edit website copy",
+            "Research article topic",
+            "Update content calendar",
+            "Review SEO performance",
+            "Create social media captions",
+            "Proofread marketing materials",
+            "Interview subject matter expert",
+            "Update style guide",
+            "Plan content series",
+            "Optimize existing content",
+            "Review content analytics",
+            "Work on personal writing project",
+            "Update writing portfolio",
+            "Submit article to publication",
+            "Research writing contests",
+            "Update author bio",
+            "Plan writing workshop attendance",
+            "Read writing craft books",
+            "Practice new writing techniques"
+          ],
+          "personal_tasks": [
+            "Visit local bookstore",
+            "Plan coffee shop writing session",
+            "Call family",
+            "Plan weekend reading time",
+            "Schedule library visit",
+            "Plan literary event attendance",
+            "Exercise/walk for inspiration",
+            "Organize home library"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Content planning meeting",
+              "Editorial review session",
+              "Client content review",
+              "Brand voice workshop",
+              "Content strategy meeting",
+              "SEO optimization review",
+              "Content performance review",
+              "Writer collaboration session"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+5 days",
+              "+7 days",
+              "+10 days",
+              "+12 days",
+              "+15 days",
+              "+17 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Writing workshop",
+              "Author reading event",
+              "Book club meeting",
+              "Literary festival",
+              "Coffee with writer friends",
+              "Poetry reading"
+            ],
+            "dates": [
+              "+2 days",
+              "+4 days",
+              "+6 days",
+              "+9 days",
+              "+11 days",
+              "+14 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Editor's birthday",
+              "Writing mentor's birthday",
+              "Mom's birthday",
+              "Dad's birthday",
+              "Writing group friend's birthday",
+              "Literary agent's birthday"
+            ],
+            "dates": [
+              "+21 days",
+              "+35 days",
+              "+49 days",
+              "+68 days",
+              "+86 days",
+              "+105 days"
+            ]
+          }
+        }
+      }
+    },
+    "academic_researcher": {
+      "id": 10,
+      "description": "Research-focused activities with academic work, publishing, and scholarly collaboration",
+      "activity_categories": {
+        "food_expenses": {
+          "breakfast": {
+            "amount_ranges": [[5.0, 8.0], [8.0, 12.0], [12.0, 18.0]]
+          },
+          "lunch": {
+            "amount_ranges": [[8.0, 12.0], [12.0, 18.0], [15.0, 25.0]]
+          },
+          "dinner": {
+            "amount_ranges": [[15.0, 25.0], [25.0, 35.0], [35.0, 50.0]]
+          },
+          "coffee": {
+            "amount_ranges": [[3.0, 5.0], [5.0, 7.0], [7.0, 10.0]]
+          },
+          "grocery": {
+            "amount_ranges": [[20.0, 40.0], [40.0, 80.0], [80.0, 120.0]]
+          }
+        },
+        "step_tracker": {
+          "daily_steps": {
+            "step_count_ranges": [[4000, 6000], [6000, 8000], [8000, 10000], [10000, 12000], [12000, 15000]]
+          }
+        },
+        "todo_list": {
+          "work_tasks": [
+            "Complete research data analysis",
+            "Write research paper draft",
+            "Review literature for study",
+            "Update research methodology",
+            "Prepare conference abstract",
+            "Review journal submissions",
+            "Update research proposal",
+            "Coordinate with research team",
+            "Prepare grant application",
+            "Update research ethics forms",
+            "Plan field work schedule",
+            "Review peer review feedback",
+            "Prepare lecture materials",
+            "Grade student assignments",
+            "Update course syllabus",
+            "Plan academic conference attendance",
+            "Update CV and publications list",
+            "Research sabbatical planning",
+            "Connect with academic peers",
+            "Plan research collaboration"
+          ],
+          "personal_tasks": [
+            "Visit university library",
+            "Plan quiet research time",
+            "Schedule health appointments",
+            "Plan family time",
+            "Organize home office",
+            "Plan reading for pleasure",
+            "Schedule exercise time",
+            "Plan nature walks for thinking"
+          ]
+        },
+        "calendar_event": {
+          "work_meetings": {
+            "events": [
+              "Research team meeting",
+              "Faculty committee meeting",
+              "Grant review session",
+              "Conference presentation",
+              "Academic collaboration meeting",
+              "Thesis defense",
+              "Peer review discussion",
+              "Research methodology workshop"
+            ],
+            "dates": [
+              "+1 days",
+              "+3 days",
+              "+6 days",
+              "+8 days",
+              "+11 days",
+              "+14 days",
+              "+17 days",
+              "+20 days"
+            ]
+          },
+          "personal_appointments": {
+            "events": [
+              "Academic conference",
+              "Research library visit",
+              "Scholarly lecture",
+              "Academic networking",
+              "Research seminar",
+              "University social event"
+            ],
+            "dates": [
+              "+2 days",
+              "+5 days",
+              "+7 days",
+              "+10 days",
+              "+13 days",
+              "+16 days"
+            ]
+          },
+          "birthdays": {
+            "events": [
+              "Research collaborator's birthday",
+              "Department head's birthday",
+              "Mom's birthday",
+              "Dad's birthday",
+              "Graduate student's birthday",
+              "Academic mentor's birthday"
+            ],
+            "dates": [
+              "+23 days",
+              "+41 days",
+              "+56 days",
+              "+74 days",
+              "+92 days",
+              "+119 days"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
