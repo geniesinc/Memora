@@ -7,6 +7,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2604.20006-b31b1b.svg)](https://arxiv.org/abs/2604.20006)
 [![Conference](https://img.shields.io/badge/ACL-2026-4b44ce.svg)](https://2026.aclweb.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![ASU](https://img.shields.io/badge/ASU-8C1D40.svg)](https://www.asu.edu/)
+[![Genies](https://img.shields.io/badge/Genies-312A37.svg)](https://genies.com/)
 
 <p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
 
