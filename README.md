@@ -1,4 +1,4 @@
-<p align="right"><img src="assets/genies-logo.svg" alt="Genies" height="28"></p>
+<p align="right"><a href="https://genies.com"><img src="assets/genies-logo.svg" alt="Genies" height="32"></a></p>
 
 # From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 
@@ -7,7 +7,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2604.20006-b31b1b.svg)](https://arxiv.org/abs/2604.20006)
 [![Conference](https://img.shields.io/badge/ACL-2026-4b44ce.svg)](https://2026.aclweb.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 
 <p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
 
