@@ -1,4 +1,4 @@
-<p align="right"><img src="assets/genies-logo.png" alt="Genies" height="32"></p>
+<p align="right"><img src="assets/genies-logo.svg" alt="Genies" height="28"></p>
 
 # From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 
