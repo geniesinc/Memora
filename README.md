@@ -1,4 +1,4 @@
-<p align="right"><a href="https://genies.com"><img src="assets/genies-logo.svg" alt="Genies" height="32"></a></p>
+<p align="center"><a href="https://genies.com"><img src="assets/genies-logo.svg" alt="Genies" height="32"></a></p>
 
 # From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 
@@ -10,8 +10,6 @@
 [![ASU](https://img.shields.io/badge/ASU-8C1D40.svg)](https://www.asu.edu/)
 [![Genies](https://img.shields.io/badge/Genies-312A37.svg)](https://genies.com/)
 
-<p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
-
 This repository contains the released dataset and the evaluation code used to
 produce **Table 3** of the paper. The benchmark measures how well an LLM (or a
 memory-augmented agent) can answer memory-grounded questions over a long,
@@ -19,6 +17,8 @@ realistic conversation history — with explicit credit for both *recalling*
 information that should be remembered and *forgetting* information that has
 been deleted or updated. Both behaviours are combined into a single score:
 **FAMA** (Forgetting-Aware Memory Accuracy, paper §4.2).
+
+<p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
 
 ## What's here
 
