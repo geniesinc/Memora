@@ -2,13 +2,15 @@
 
 # From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 
-**Memora** · Accepted to ACL 2026 · [arXiv:2604.20006](https://arxiv.org/abs/2604.20006)
+<p align="center"><b>Memora</b> · Accepted to ACL 2026 · <a href="https://arxiv.org/abs/2604.20006">arXiv:2604.20006</a></p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.20006-b31b1b.svg)](https://arxiv.org/abs/2604.20006)
-[![Conference](https://img.shields.io/badge/ACL-2026-4b44ce.svg)](https://2026.aclweb.org/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![ASU](https://img.shields.io/badge/ASU-8C1D40.svg)](https://www.asu.edu/)
-[![Genies](https://img.shields.io/badge/Genies-312A37.svg)](https://genies.com/)
+<p align="center">
+<a href="https://arxiv.org/abs/2604.20006"><img src="https://img.shields.io/badge/arXiv-2604.20006-b31b1b.svg" alt="arXiv"></a>
+<a href="https://2026.aclweb.org/"><img src="https://img.shields.io/badge/ACL-2026-4b44ce.svg" alt="ACL 2026"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+<a href="https://www.asu.edu/"><img src="https://img.shields.io/badge/ASU-8C1D40.svg" alt="ASU"></a>
+<a href="https://genies.com/"><img src="https://img.shields.io/badge/Genies-312A37.svg" alt="Genies"></a>
+</p>
 
 This repository contains the released dataset and the evaluation code used to
 produce **Table 3** of the paper. The benchmark measures how well an LLM (or a
