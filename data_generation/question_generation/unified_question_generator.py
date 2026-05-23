@@ -881,44 +881,91 @@ class UnifiedQuestionGenerator:
         
         return forgetting_evidence
     
+    @staticmethod
+    def _normalize_value(value: Any) -> str:
+        """Normalize a value for forgetting/memory overlap comparison."""
+        if isinstance(value, str):
+            return value.strip().lower()
+        if isinstance(value, dict):
+            return json.dumps(value, sort_keys=True).lower()
+        if isinstance(value, list):
+            return json.dumps(sorted([str(v) for v in value]), sort_keys=True).lower()
+        return str(value).lower()
+
+    def _get_current_content_data(self, snapshot: MemorySnapshot, category: str,
+                                  item_id: Optional[str]) -> Dict[str, Any]:
+        """Look up the live content_data for an item_id in this snapshot."""
+        if item_id is None:
+            return {}
+        content_memory = snapshot.memory_state.get("memory_items", {}).get("content_memory", {})
+        items = content_memory.get(category, [])
+        if not isinstance(items, list):
+            return {}
+        for it in items:
+            if isinstance(it, dict) and it.get("id") == item_id:
+                return it.get("content_data", {}) or {}
+        return {}
+
+    def _is_value_in_current(self, field: Optional[str], value: Any,
+                             current_content_data: Dict[str, Any]) -> bool:
+        """True if (field, value) is still present in the current content_data."""
+        if not field or field not in current_content_data:
+            return False
+        current = current_content_data[field]
+        norm_value = self._normalize_value(value)
+        if isinstance(current, list):
+            return any(self._normalize_value(v) == norm_value for v in current)
+        return self._normalize_value(current) == norm_value
+
     def _extract_content_forgetting_evidence(self, snapshot: MemorySnapshot, category: str, item_id: str = None) -> Dict[str, Any]:
-        """Extract forgetting evidence for content memory based on memory_deletes from delete operations"""
+        """Extract forgetting evidence for content memory based on memory_deletes from delete operations.
+
+        A deleted (field, value) pair is dropped from forgetting evidence if the
+        same field still contains that value in the final memory state — i.e.
+        the field was re-populated after deletion. Without this guard, the
+        downstream evaluation builder emits a `forgetting_absence` sub-question
+        for an item that also has a `memory_presence` sub-question, producing
+        contradictory eval criteria for the same (field, value).
+        """
         forgetting_evidence = {
             "forgotten_items": [],
             "total_forgotten_items": 0
         }
-        
+
+        # Live content state for this item — used to drop re-added (field, value) pairs.
+        current_content_data = self._get_current_content_data(snapshot, category, item_id)
+
         # Analyze all sessions up to this snapshot to find content delete operations
         for session_id_str, session_data in self.memory_states.items():
             session_id = int(session_id_str)
-            
+
             # Only look at sessions up to the current snapshot
             if session_id > snapshot.session_id:
                 continue
-            
+
             session_type = session_data.get("session_type")
             session_category = session_data.get("session_category")
             operation = session_data.get("operation_performed")
             operation_details = session_data.get("operation_details", {})
-            
+
             # Only look at content memory delete operations for this category
-            if (session_type == "content_memory" and 
-                session_category == category and 
+            if (session_type == "content_memory" and
+                session_category == category and
                 operation == "delete"):
-                
+
                 memory_states_item = operation_details.get("item")
-                
+
                 # Only include if no item_id filter or if it matches
                 if item_id is None or memory_states_item == item_id:
-                    
+
                     # Extract memory_deletes which contain the forgotten items
                     memory_deletes = operation_details.get("memory_deletes", [])
-                    
+
                     for delete_item in memory_deletes:
                         # Get the actual deleted value based on action type
                         deleted_value = None
                         action = delete_item.get("action")
-                        
+
                         if action == "removed_from_memory":
                             deleted_value = delete_item.get("removed_item")
                         elif action == "budget_reverted":
@@ -926,10 +973,16 @@ class UnifiedQuestionGenerator:
                         else:
                             # Generic fallback
                             deleted_value = delete_item.get("removed_item") or delete_item.get("value")
-                        
+
+                        field = delete_item.get("field")
+
+                        # Skip if this (field, value) was re-added later (still present in the live state).
+                        if self._is_value_in_current(field, deleted_value, current_content_data):
+                            continue
+
                         forgotten_item = {
                             "forgotten_item": {
-                                "field": delete_item.get("field"),
+                                "field": field,
                                 "value": deleted_value,
                                 "item_id": memory_states_item,
                                 "action": action
@@ -938,10 +991,10 @@ class UnifiedQuestionGenerator:
                             "session_date": session_data.get("session_date"),
                             "operation_type": "content_delete"
                         }
-                        
+
                         forgetting_evidence["forgotten_items"].append(forgotten_item)
                         forgetting_evidence["total_forgotten_items"] += 1
-        
+
         return forgetting_evidence
     
     def generate_activity_questions(self, snapshot: MemorySnapshot) -> List[Dict[str, Any]]:
