@@ -118,12 +118,18 @@ try:
 except ImportError:
     # Fallback defaults if config not available
     MODEL_CONTEXT_LIMITS = {
+        "google/gemini-3.1-pro-preview": 1_000_000,
+        "gemini-3.1-pro-preview": 1_000_000,
         "google/gemini-3-pro-preview": 1_000_000,
         "gemini-3-pro-preview": 1_000_000,
         "qwen/qwen3-32b": 40_000,
-        "qwen3-32b": 40_000,    
+        "qwen3-32b": 40_000,
+        "openai/gpt-5.5": 400_000,
+        "gpt-5.5": 400_000,
         "openai/gpt-5.2": 400_000,
         "gpt-5.2": 400_000,
+        "anthropic/claude-opus-4.7": 1_000_000,
+        "claude-opus-4.7": 1_000_000,
         "anthropic/claude-sonnet-4.5": 1_000_000,
         "claude-sonnet-4.5": 1_000_000,
     }
@@ -212,17 +218,19 @@ def get_model_context_limit(model_name: str, safety_margin: float = 0.3, prompt_
         # If still not found, try common patterns
         if limit is None:
             if "gpt-5" in model_base.lower():
-                limit = MODEL_CONTEXT_LIMITS.get("openai/gpt-5.2") or MODEL_CONTEXT_LIMITS.get("gpt-5.2", 400_000)
+                limit = MODEL_CONTEXT_LIMITS.get("openai/gpt-5.5") or MODEL_CONTEXT_LIMITS.get("gpt-5.5", 400_000)
             elif "gpt-4" in model_base.lower():
                 limit = MODEL_CONTEXT_LIMITS.get("gpt-4o", 128_000)
             elif "gpt-3.5" in model_base.lower():
                 limit = MODEL_CONTEXT_LIMITS.get("gpt-3.5-turbo", 16_385)
+            elif "claude-opus-4" in model_base.lower():
+                limit = MODEL_CONTEXT_LIMITS.get("anthropic/claude-opus-4.7") or MODEL_CONTEXT_LIMITS.get("claude-opus-4.7", 1_000_000)
             elif "claude-sonnet-4.5" in model_base.lower() or "claude-sonnet-4" in model_base.lower():
                 limit = MODEL_CONTEXT_LIMITS.get("anthropic/claude-sonnet-4.5") or MODEL_CONTEXT_LIMITS.get("claude-sonnet-4.5", 1_000_000)
             elif "claude" in model_base.lower():
                 limit = MODEL_CONTEXT_LIMITS.get("claude-3-5-sonnet-20241022", 200_000)
             elif "gemini-3" in model_base.lower():
-                limit = MODEL_CONTEXT_LIMITS.get("google/gemini-3-pro-preview") or MODEL_CONTEXT_LIMITS.get("gemini-3-pro-preview", 1_048_576)
+                limit = MODEL_CONTEXT_LIMITS.get("google/gemini-3.1-pro-preview") or MODEL_CONTEXT_LIMITS.get("gemini-3.1-pro-preview", 1_048_576)
             elif "gemini" in model_base.lower():
                 limit = MODEL_CONTEXT_LIMITS.get("google/gemini-2.5-flash", 1_000_000)
             elif "qwen3" in model_base.lower() or "qwen" in model_base.lower():

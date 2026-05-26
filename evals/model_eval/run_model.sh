@@ -41,12 +41,11 @@ PERSONAS=(
     # "startup_founder"
 )
 
-# The four LLMs reported in the paper (Table 3). All routed through OpenRouter.
+# Frontier LLMs under evaluation. All routed through OpenRouter.
 MODELS=(
-    "qwen/qwen3-32b"
-    "anthropic/claude-sonnet-4.5"
-    "google/gemini-3-pro-preview"
-    "openai/gpt-5.2"
+    "openai/gpt-5.5"
+    "anthropic/claude-opus-4.7"
+    "google/gemini-3.1-pro-preview"
 )
 
 # Run each model twice: once with reasoning OFF, once with reasoning ON.
