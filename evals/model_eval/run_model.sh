@@ -23,9 +23,9 @@ DATA_DIR="${MEMORA_DATA_DIR:-$RELEASE_ROOT/data}"
 
 # --- What to evaluate --------------------------------------------------------
 PERIODS=(
-    "weekly"
-    # "monthly"
-    # "quarterly"
+    # "weekly"
+    "monthly"
+    "quarterly"
 )
 
 PERSONAS=(
