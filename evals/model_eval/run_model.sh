@@ -97,6 +97,14 @@ run_one() {
     log ""
     log "[$((++CURRENT))/$TOTAL] $MODEL  reasoning=$SUFFIX  -- $PERIOD/$PERSONA"
 
+    # Resume support: skip if a non-empty eval_report already exists for this slot.
+    if [ "${SKIP_IF_DONE:-true}" = "true" ] && \
+       ls "$OUTPUT_DIR"/eval_report_*.json >/dev/null 2>&1; then
+        log "SKIP: report already present in $OUTPUT_DIR"
+        SUCCESS=$((SUCCESS + 1))
+        return
+    fi
+
     local CMD=(python -u "$SCRIPT_DIR/model_based_evaluator.py"
                --sessions-dir "$SESSIONS_DIR"
                --model        "$MODEL"
