@@ -22,6 +22,10 @@ been deleted or updated. Both behaviours are combined into a single score:
 
 <p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
 
+## News
+
+- **2026-05-28** — Added FAMA scores for three newer frontier models — **GPT-5.5**, **Claude Opus 4.7**, and **Gemini 3.1 Pro Preview** — at the bottom of the results table. These are an `academic_researcher`-only spot check (single persona, all three periods, multi-judge), not a full 10-persona Table-3 reproduction; see footnote ⁂.
+
 ## Results
 
 Task-level FAMA scores (higher is better, scaled to [0, 100]), reproduced
@@ -59,8 +63,18 @@ from Table 3 of the paper. **W** = weekly, **M** = monthly, **Q** = quarterly.
 <tr><td>MemoBase</td> <td>43.60</td><td>20.08</td><td>15.18</td><td>68.94</td><td>58.46</td><td>45.62</td><td>18.00</td><td>7.00</td><td>1.00</td></tr>
 <tr><td>MemoryOS</td> <td>51.84</td><td>29.78</td><td>25.05</td><td>62.64</td><td>48.54</td><td>44.02</td><td>20.66</td><td>6.00</td><td>5.50</td></tr>
 <tr><td>Nemori</td>   <td>65.06</td><td>44.08</td><td>33.83</td><td>52.84</td><td>45.90</td><td>41.66</td><td>18.66</td><td>0.00</td><td>6.50</td></tr>
+<tr><td colspan="10"><i>Frontier LLMs — <code>academic_researcher</code> spot check ⁂ (without reasoning tokens)</i></td></tr>
+<tr><td>GPT-5.5</td>                  <td>14.90</td><td>26.99</td><td>22.15</td><td>64.00</td><td>51.90</td><td>64.46</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Claude Opus 4.7</td>          <td>21.89</td><td>29.00</td><td>22.96</td><td>38.67</td><td>48.52</td><td>49.27</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Gemini 3.1 Pro Preview</td>   <td>16.62</td><td>10.81</td><td>17.69</td><td>44.00</td><td>45.12</td><td>47.63</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td colspan="10"><i>Frontier LLMs — <code>academic_researcher</code> spot check ⁂ (with reasoning tokens)</i></td></tr>
+<tr><td>GPT-5.5</td>                  <td>26.29</td><td>17.04</td><td>23.23</td><td>64.00</td><td>57.90</td><td>73.07</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Claude Opus 4.7</td>          <td>28.62</td><td>24.41</td><td>23.66</td><td>42.67</td><td>39.58</td><td>51.13</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Gemini 3.1 Pro Preview</td>   <td>10.19</td><td>9.38</td><td>12.96</td><td>52.00</td><td>57.74</td><td>58.08</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 </tbody>
 </table>
+
+<sup>⁂ Single-persona (`academic_researcher`) spot check at all three horizons, multi-judge (GPT-4.1 + Claude Haiku 4.5 + Gemini 2.5 Flash). Not directly comparable to the rows above, which are 10-persona averages from the paper. All three models score 0 on Reasoning at this slice. Reproduce with the `MODELS` block in `evals/model_eval/run_model.sh`.</sup>
 
 ## What's here
 
