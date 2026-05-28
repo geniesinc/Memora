@@ -22,6 +22,46 @@ been deleted or updated. Both behaviours are combined into a single score:
 
 <p align="center"><img src="assets/teaser.png" alt="The three tasks of the Memora benchmark: Remembering, Reasoning, Recommending" width="100%"></p>
 
+## Results
+
+Task-level FAMA scores (higher is better, scaled to [0, 100]), reproduced
+from Table 3 of the paper. **W** = weekly, **M** = monthly, **Q** = quarterly.
+
+<table>
+<thead>
+<tr>
+  <th rowspan="2">Model / Agent</th>
+  <th colspan="3">Remembering</th>
+  <th colspan="3">Recommending</th>
+  <th colspan="3">Reasoning</th>
+</tr>
+<tr>
+  <th>W</th><th>M</th><th>Q</th>
+  <th>W</th><th>M</th><th>Q</th>
+  <th>W</th><th>M</th><th>Q</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="10"><i>Language models (without reasoning tokens)</i></td></tr>
+<tr><td>Qwen3-32B</td>            <td>26.12</td><td>21.14</td><td>19.24</td><td>50.16</td><td>50.30</td><td>48.88</td><td>6.00</td><td>2.00</td><td>6.00</td></tr>
+<tr><td>Claude Sonnet 4.5</td>    <td>27.50</td><td>19.42</td><td>21.25</td><td>43.62</td><td>39.00</td><td>44.02</td><td>6.66</td><td>3.00</td><td>5.50</td></tr>
+<tr><td>Gemini 3 Pro Preview</td> <td>20.36</td><td>21.44</td><td>17.28</td><td>45.12</td><td>45.94</td><td>52.56</td><td>6.66</td><td>4.00</td><td>4.00</td></tr>
+<tr><td>GPT-5.2</td>              <td>25.32</td><td>19.92</td><td>23.39</td><td>54.80</td><td>51.12</td><td>53.36</td><td>4.66</td><td>0.00</td><td>1.00</td></tr>
+<tr><td colspan="10"><i>Language models (with reasoning tokens)</i></td></tr>
+<tr><td>Qwen3-32B</td>            <td>23.86</td><td>25.62</td><td>17.14</td><td>50.04</td><td>53.06</td><td>47.71</td><td>6.66</td><td>9.00</td><td>3.00</td></tr>
+<tr><td>Claude Sonnet 4.5</td>    <td>26.56</td><td>21.40</td><td>19.13</td><td>52.40</td><td>60.90</td><td>51.78</td><td>4.00</td><td>0.00</td><td>2.50</td></tr>
+<tr><td>Gemini 3 Pro Preview</td> <td>21.02</td><td>23.26</td><td>18.12</td><td>43.36</td><td>44.92</td><td>50.83</td><td>6.00</td><td>10.00</td><td>8.50</td></tr>
+<tr><td>GPT-5.2</td>              <td>25.70</td><td>19.22</td><td>22.16</td><td>53.40</td><td>51.60</td><td>53.36</td><td>4.66</td><td>0.00</td><td>2.00</td></tr>
+<tr><td colspan="10"><i>Long-term memory agents</i></td></tr>
+<tr><td>A-Mem</td>    <td>71.82</td><td>41.90</td><td>40.78</td><td>35.04</td><td>37.52</td><td>34.95</td><td>2.00</td><td>2.00</td><td>5.00</td></tr>
+<tr><td>LangMem</td>  <td>71.16</td><td>42.00</td><td>39.14</td><td>48.88</td><td>44.08</td><td>33.85</td><td>30.00</td><td>14.00</td><td>11.00</td></tr>
+<tr><td>Mem-0</td>    <td>40.42</td><td>21.08</td><td>19.90</td><td>52.58</td><td>36.20</td><td>38.47</td><td>16.00</td><td>0.00</td><td>2.00</td></tr>
+<tr><td>MemoBase</td> <td>43.60</td><td>20.08</td><td>15.18</td><td>68.94</td><td>58.46</td><td>45.62</td><td>18.00</td><td>7.00</td><td>1.00</td></tr>
+<tr><td>MemoryOS</td> <td>51.84</td><td>29.78</td><td>25.05</td><td>62.64</td><td>48.54</td><td>44.02</td><td>20.66</td><td>6.00</td><td>5.50</td></tr>
+<tr><td>Nemori</td>   <td>65.06</td><td>44.08</td><td>33.83</td><td>52.84</td><td>45.90</td><td>41.66</td><td>18.66</td><td>0.00</td><td>6.50</td></tr>
+</tbody>
+</table>
+
 ## What's here
 
 ```
@@ -110,46 +150,6 @@ definition.
 
 **Memory agents**: A-Mem, LangMem, Mem-0, Memobase, MemOS, Nemori. All use
 `gpt-4o-mini` for answer generation (per paper).
-
-### Results
-
-Task-level FAMA scores (higher is better, scaled to [0, 100]), reproduced
-from Table 3 of the paper. **W** = weekly, **M** = monthly, **Q** = quarterly.
-
-<table>
-<thead>
-<tr>
-  <th rowspan="2">Model / Agent</th>
-  <th colspan="3">Remembering</th>
-  <th colspan="3">Recommending</th>
-  <th colspan="3">Reasoning</th>
-</tr>
-<tr>
-  <th>W</th><th>M</th><th>Q</th>
-  <th>W</th><th>M</th><th>Q</th>
-  <th>W</th><th>M</th><th>Q</th>
-</tr>
-</thead>
-<tbody>
-<tr><td colspan="10"><i>Language models (without reasoning tokens)</i></td></tr>
-<tr><td>Qwen3-32B</td>            <td>26.12</td><td>21.14</td><td>19.24</td><td>50.16</td><td>50.30</td><td>48.88</td><td>6.00</td><td>2.00</td><td>6.00</td></tr>
-<tr><td>Claude Sonnet 4.5</td>    <td>27.50</td><td>19.42</td><td>21.25</td><td>43.62</td><td>39.00</td><td>44.02</td><td>6.66</td><td>3.00</td><td>5.50</td></tr>
-<tr><td>Gemini 3 Pro Preview</td> <td>20.36</td><td>21.44</td><td>17.28</td><td>45.12</td><td>45.94</td><td>52.56</td><td>6.66</td><td>4.00</td><td>4.00</td></tr>
-<tr><td>GPT-5.2</td>              <td>25.32</td><td>19.92</td><td>23.39</td><td>54.80</td><td>51.12</td><td>53.36</td><td>4.66</td><td>0.00</td><td>1.00</td></tr>
-<tr><td colspan="10"><i>Language models (with reasoning tokens)</i></td></tr>
-<tr><td>Qwen3-32B</td>            <td>23.86</td><td>25.62</td><td>17.14</td><td>50.04</td><td>53.06</td><td>47.71</td><td>6.66</td><td>9.00</td><td>3.00</td></tr>
-<tr><td>Claude Sonnet 4.5</td>    <td>26.56</td><td>21.40</td><td>19.13</td><td>52.40</td><td>60.90</td><td>51.78</td><td>4.00</td><td>0.00</td><td>2.50</td></tr>
-<tr><td>Gemini 3 Pro Preview</td> <td>21.02</td><td>23.26</td><td>18.12</td><td>43.36</td><td>44.92</td><td>50.83</td><td>6.00</td><td>10.00</td><td>8.50</td></tr>
-<tr><td>GPT-5.2</td>              <td>25.70</td><td>19.22</td><td>22.16</td><td>53.40</td><td>51.60</td><td>53.36</td><td>4.66</td><td>0.00</td><td>2.00</td></tr>
-<tr><td colspan="10"><i>Long-term memory agents</i></td></tr>
-<tr><td>A-Mem</td>    <td>71.82</td><td>41.90</td><td>40.78</td><td>35.04</td><td>37.52</td><td>34.95</td><td>2.00</td><td>2.00</td><td>5.00</td></tr>
-<tr><td>LangMem</td>  <td>71.16</td><td>42.00</td><td>39.14</td><td>48.88</td><td>44.08</td><td>33.85</td><td>30.00</td><td>14.00</td><td>11.00</td></tr>
-<tr><td>Mem-0</td>    <td>40.42</td><td>21.08</td><td>19.90</td><td>52.58</td><td>36.20</td><td>38.47</td><td>16.00</td><td>0.00</td><td>2.00</td></tr>
-<tr><td>MemoBase</td> <td>43.60</td><td>20.08</td><td>15.18</td><td>68.94</td><td>58.46</td><td>45.62</td><td>18.00</td><td>7.00</td><td>1.00</td></tr>
-<tr><td>MemoryOS</td> <td>51.84</td><td>29.78</td><td>25.05</td><td>62.64</td><td>48.54</td><td>44.02</td><td>20.66</td><td>6.00</td><td>5.50</td></tr>
-<tr><td>Nemori</td>   <td>65.06</td><td>44.08</td><td>33.83</td><td>52.84</td><td>45.90</td><td>41.66</td><td>18.66</td><td>0.00</td><td>6.50</td></tr>
-</tbody>
-</table>
 
 ## Citation
 
