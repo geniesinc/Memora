@@ -111,6 +111,20 @@ DEFAULT_JUDGE_MODELS = {
 TASK_TYPES = ("Remembering", "Reasoning", "Recommending")
 
 
+def count_passed_evaluations(evaluation_results: List[Dict[str, Any]]) -> int:
+    """Count how many evaluation sub-questions the judge(s) scored correct.
+
+    Correctness is stored in the nested ``evaluation_result['is_correct']`` field
+    produced by :meth:`MemoryQuestionAnswering.evaluate_answer_with_llm` (this
+    mirrors the Track-1 model-based evaluator). There is no top-level
+    ``evaluation_passed`` key, so reading that key always returned 0.
+    """
+    return sum(
+        1 for eval_result in evaluation_results
+        if eval_result.get('evaluation_result', {}).get('is_correct', False)
+    )
+
+
 def fama_score(memory_presence_correct: int, memory_presence_total: int,
                forgetting_absence_correct: int, forgetting_absence_total: int) -> float:
     """
@@ -782,9 +796,12 @@ Provide your evaluation in JSON format with answer (yes/no), confidence (0.0-1.0
             evaluation_results = self.evaluate_answer_with_llm(generated_answer, evaluation_questions)
             print(f"   ✅ Completed {len(evaluation_results)} evaluations")
         
-        # Calculate evaluation metrics (same as model-based evaluation)
+        # Calculate evaluation metrics (same as model-based evaluation).
+        # Correctness lives in the nested evaluation_result['is_correct'] field
+        # (see evaluate_answer_with_llm); there is no top-level 'evaluation_passed'
+        # key, so reading it always yielded 0 and reported "Passed evaluations: 0".
         total_evaluations = len(evaluation_results)
-        passed_evaluations = sum(1 for eval_result in evaluation_results if eval_result.get('evaluation_passed', False))
+        passed_evaluations = count_passed_evaluations(evaluation_results)
         evaluation_score = (passed_evaluations / total_evaluations) if total_evaluations > 0 else 0.0
         
         # Calculate memory retention and forgetting accuracy metrics
