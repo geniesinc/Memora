@@ -264,16 +264,41 @@ class MemoryQuestionAnswering:
                     except Exception as e:
                         print(f"  ✗ Failed to initialize judge {judge_name}: {e}")
 
-                if not self.judge_clients:
+                # The published Table 3 protocol is a majority vote of ALL judges.
+                # Treat a PARTIAL initialization (1-2 of 3) the same as a total
+                # failure: a 1-/2-judge "majority" is not the published protocol and
+                # would silently sidestep --strict-judges.
+                if len(self.judge_clients) != len(self.judge_models):
                     self._handle_multi_judge_failure(
-                        "No judge clients could be initialized (check OPENROUTER_API_KEY "
-                        "and judge model names)."
+                        f"Only {len(self.judge_clients)}/{len(self.judge_models)} judge "
+                        "clients could be initialized (check OPENROUTER_API_KEY and judge "
+                        f"model names). The published Table 3 protocol requires all "
+                        f"{len(self.judge_models)} judges."
                     )
             except ImportError as e:
                 self._handle_multi_judge_failure(
                     f"Could not import OpenRouter client from "
                     f"{model_eval_dir()}: {e}"
                 )
+
+        # Statistics tracking (must be set on EVERY init path, not only on the
+        # multi-judge-failure path — otherwise a successful multi-judge init leaves
+        # self.stats undefined and later updates raise AttributeError).
+        self.stats = {
+            'total_questions': 0,
+            'answered': 0,
+            'failed': 0,
+            'no_memories_found': 0,
+            'with_memories_found': 0,
+            'total_evaluations': 0,
+            'passed_evaluations': 0,
+            'questions_with_evaluations': 0,
+            # New accuracy metrics
+            'memory_presence_total': 0,
+            'memory_presence_passed': 0,
+            'forgetting_absence_total': 0,
+            'forgetting_absence_passed': 0
+        }
 
     def _handle_multi_judge_failure(self, reason: str) -> None:
         """Handle a multi-judge initialization failure LOUDLY.
@@ -306,24 +331,7 @@ class MemoryQuestionAnswering:
             file=sys.stderr,
         )
         self.use_multi_judge = False
-        
-        # Statistics tracking
-        self.stats = {
-            'total_questions': 0,
-            'answered': 0,
-            'failed': 0,
-            'no_memories_found': 0,
-            'with_memories_found': 0,
-            'total_evaluations': 0,
-            'passed_evaluations': 0,
-            'questions_with_evaluations': 0,
-            # New accuracy metrics
-            'memory_presence_total': 0,
-            'memory_presence_passed': 0,
-            'forgetting_absence_total': 0,
-            'forgetting_absence_passed': 0
-        }
-    
+
     def load_questions(self, questions_file: str) -> Dict[str, Any]:
         """
         Load questions from evaluation_questions or unified_questions file.
