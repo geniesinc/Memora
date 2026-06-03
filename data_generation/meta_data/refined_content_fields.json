@@ -1,0 +1,509 @@
+{
+  "software_engineer": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "risk_assessment": "string",
+        "success_metrics": "list of string",
+        "resources_needed": "list of string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string" 
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string",
+        "technical_blockers": "list of string"
+      }
+    }
+  },
+  "marketing_manager": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "success_metrics": "list of string",
+        "campaign_channels": "list of string",
+        "competitive_analysis": "string",
+        "risk_mitigation": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {
+        "campaign_metrics": "string"
+      }
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {}
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string", 
+        "attendees": "list of string",
+        "campaign_metrics": "string"
+      }
+    }
+  },
+  "business_executive": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "risk_assessment": "string",
+        "market_impact": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "executive_insights": "string",
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "creative_designer": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "design_style": "string",
+        "creative_requirements": "list of string",
+        "technical_specs": "list of string",
+        "inspiration_references": "list of string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "financial_analyst": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "risk_analysis": "list of string",
+        "roi_projection": "list of string",
+        "compliance_requirements": "list of string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "sales_manager": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "revenue_targets": "list of string",
+        "market_analysis": "string",
+        "sales_strategy": "string",
+        "success_metrics": "list of string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "startup_founder": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "market_opportunity": "string",
+        "competitive_analysis": "list of string",
+        "funding_requirements": "list of string",
+        "growth_projections": "string",
+        "risk_mitigation": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "management_consultant": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "methodology": "string",
+        "success_metrics": "list of string",
+        "implementation_phases": "string",
+        "risk_assessment": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "content_writer": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "brand_guidelines": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  },
+  "academic_researcher": {
+    "project_proposal": {
+      "required_fields": {
+        "project_title": "string",
+        "project_description": "string",
+        "budget": "range",
+        "timeline": "string",
+        "project_lead": "string",
+        "stakeholders": "list of string",
+        "objectives": "list of string",
+        "deliverables": "list of string"
+      },
+      "optional_fields": {
+        "research_methodology": "string",
+        "ethical_considerations": "string",
+        "significance_impact": "string",
+        "publication_plan": "string"
+      }
+    },
+    "email_writeup": {
+      "required_fields": {
+        "email_purpose": "string",
+        "recipient_list": "list of string",
+        "key_points": "list of string",
+        "call_to_action": "string"
+      },
+      "optional_fields": {}
+    },
+    "social_media_post": {
+      "required_fields": {
+        "platform": "string",
+        "content_type": "string",
+        "main_message": "string",
+        "hashtags": "list of string"
+      },
+      "optional_fields": {
+        "call_to_action": "string"
+      }
+    },
+    "meeting_notes": {
+      "required_fields": {
+        "meeting_title": "string",
+        "agenda_items": "list of string",
+        "key_decisions": "list of string"
+      },
+      "optional_fields": {
+        "action_items": "list of string",
+        "attendees": "list of string"
+      }
+    }
+  }
+}

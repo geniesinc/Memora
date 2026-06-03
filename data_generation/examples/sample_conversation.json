@@ -1,0 +1,364 @@
+{
+  "session_id": 1,
+  "session_type": "activity_memory",
+  "category": "todo_list",
+  "subcategory": "work_tasks",
+  "preference_type": "task_management",
+  "item": "Refactor legacy code",
+  "operation": "add",
+  "operation_details": {
+    "item": {
+      "task_type": "work_tasks",
+      "description": "Refactor legacy code",
+      "created_at": "2025-06-01"
+    },
+    "category": "todo_list"
+  },
+  "date": "2025-06-01",
+  "persona": "software_engineer",
+  "conversation_flow": [],
+  "flow_metadata": {
+    "selected_flows": {
+      "opening": 6,
+      "opening_flow": [
+        "user_greet",
+        "ai_greet_response"
+      ],
+      "exploration": 39,
+      "exploration_flow": [
+        "user_ask_fact_question",
+        "ai_answer_fact_question",
+        "user_show_disengagement",
+        "ai_closes_topic_as_user_shows_disengagement"
+      ],
+      "memory": 7,
+      "memory_flow": [
+        "user_casual_memory_add",
+        "ai_continue_conversation_after_memory_share"
+      ],
+      "memory_approach": "unknown",
+      "closing": 6,
+      "closing_flow": [
+        "user_casual_goodbye"
+      ]
+    },
+    "flow_structure": {
+      "opening": 2,
+      "exploration": 4,
+      "memory": 2,
+      "closing": 1
+    },
+    "total_intents": 9
+  },
+  "model_used": "google/gemini-2.5-flash",
+  "generation_timestamp": "2025-12-18T15:22:27.981619",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How are you doing today?",
+      "intent": "user_greet",
+      "description": "",
+      "agent": "user",
+      "phase": "opening",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "user starts the conversation with a casual greeting",
+      "prompt": {
+        "system_prompt": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\n[No previous conversation]\n\nCURRENT TURN INSTRUCTION:\nuser starts the conversation with a casual greeting\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\n[No previous conversation]\n\nCURRENT TURN INSTRUCTION:\nuser starts the conversation with a casual greeting\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat whenever you are.",
+      "intent": "ai_greet_response",
+      "description": "",
+      "agent": "ai",
+      "phase": "opening",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "ai responds to user greeting warmly",
+      "prompt": {
+        "system_prompt": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\n\nCURRENT TURN INSTRUCTION:\nai responds to user greeting warmly\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\n\nCURRENT TURN INSTRUCTION:\nai responds to user greeting warmly\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! What exactly does an AI assistant do?",
+      "intent": "user_ask_fact_question",
+      "description": "",
+      "agent": "user",
+      "phase": "exploration",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "user asks a factual question seeking information or facts about the category topic following the flow of the conversation",
+      "prompt": {
+        "system_prompt": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\n\nCURRENT TURN INSTRUCTION:\nuser asks a factual question seeking information or facts about the category topic following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\n\nCURRENT TURN INSTRUCTION:\nuser asks a factual question seeking information or facts about the category topic following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.",
+      "intent": "ai_answer_fact_question",
+      "description": "",
+      "agent": "ai",
+      "phase": "exploration",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "ai provides factual answers to user's fact questions following the flow of the conversation",
+      "prompt": {
+        "system_prompt": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\n\nCURRENT TURN INSTRUCTION:\nai provides factual answers to user's fact questions following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\n\nCURRENT TURN INSTRUCTION:\nai provides factual answers to user's fact questions following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds like a lot of different things.",
+      "intent": "user_show_disengagement",
+      "description": "",
+      "agent": "user",
+      "phase": "exploration",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "user shows disengagement with the discussion following the flow of the conversation",
+      "prompt": {
+        "system_prompt": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\n\nCURRENT TURN INSTRUCTION:\nuser shows disengagement with the discussion following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\n\nCURRENT TURN INSTRUCTION:\nuser shows disengagement with the discussion following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It certainly can be a broad range, depending on what a user needs help with.",
+      "intent": "ai_closes_topic_as_user_shows_disengagement",
+      "description": "",
+      "agent": "ai",
+      "phase": "exploration",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "ai closes the topic as user shows disengagement following the flow of the conversation",
+      "prompt": {
+        "system_prompt": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\n\nCURRENT TURN INSTRUCTION:\nai closes the topic as user shows disengagement following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — AI Assistant Agent (General Conversation)\n\nYou are an AI assistant engaging in natural conversation with a user. Your primary goals are:\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask thoughtful questions to keep the conversation flowing\n- Show genuine interest in topics being discussed\n- Provide informative but concise responses\n\n## CRITICAL - NO PERSONAL QUESTIONS:\n- ABSOLUTELY FORBIDDEN to ask USER about personal preferences, opinions, or experiences\n- NEVER ask: \"What do you think?\", \"Which do you prefer?\", \"What's your favorite?\", \"What resonates with you?\", \"What stands out to you?\", \"What do you find?\", \"How do you feel about?\", \"to you\", \"in your opinion\", \"your thoughts\"\n- ONLY ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\", \"When was X released?\", \"What genres does X work in?\", \"How are they similar?\", \"What techniques are commonly used?\"\n- Keep conversations natural and factual\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- Redirect conversations away from these topics if they come up\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n\n## AI Can Share Opinions When Asked:\n- If user asks you for opinions, you can share your thoughts and preferences\n- Be helpful and engaging when responding to opinion questions from user\n- You can express preferences and make recommendations when asked\n- BUT avoid expressing preferences about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - no personal questions allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\n\nCURRENT TURN INSTRUCTION:\nai closes the topic as user shows disengagement following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I still need to refactor some legacy code today.",
+      "intent": "user_casual_memory_add",
+      "description": "",
+      "agent": "user",
+      "phase": "memory_share",
+      "share_memory": true,
+      "conversation_type": "memory",
+      "requires_instruction": true,
+      "instruction": "Memory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nUser should casually mention something they need to do: 'Refactor legacy code'. Express this naturally as part of the conversation - just mention what they need to accomplish, don't mention to-do lists or memory management.",
+      "prompt": {
+        "system_prompt": "# System Instruction — User Agent (Activity Memory)\n\nYou are simulating a natural user managing activity memory with an AI assistant. Your goal is to add new activities, update existing activity records, or remove activities you no longer want to track in specific life areas.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Share factual information about your tracked activities\n- Be specific about numbers, dates, and accomplishments when instructed\n- Provide context about timing and quantities\n\n## Operation-Specific Behavior:\n- **ADD**: Share new activity data you want to track and remember\n- **UPDATE**: Provide changes to existing activity records with new information\n- **DELETE**: Identify activities you no longer want to track or remove\n\n## Activity Domains:\nYou'll be sharing tracking data about:\n- **Food Expenses**: spending on meals, groceries, dining out\n- **Step Tracking**: daily steps, walking activities, fitness goals\n- **To-Do Lists**: completed tasks, productivity, accomplishments\n- **Calendar Events**: meetings, appointments, scheduled activities\n\n## Activity Sharing Rules:\n- You CAN share tracking data and activities when the turn instructions tell you to\n- Be specific about quantities, dates, and accomplishments\n- Include relevant details: amounts, times, frequencies, completion status\n- Only share the ONE specific activity mentioned in the instructions\n\n## Activity Focus:\n- Report factual tracking data: \"I walked 8,500 steps\", \"I spent $45 on groceries\", \"I completed a tasks\"\n- Include specific timing: \"yesterday\", \"this week\", \"on Tuesday\"\n- Be accurate about quantities and details\n- Focus on actual data and accomplishments, not opinions\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be factual and specific about activities\n- Focus on one activity at a time\n\nRemember: Goal is accurately reporting activities and experiences. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\n\nCURRENT TURN INSTRUCTION:\nMemory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nUser should casually mention something they need to do: 'Refactor legacy code'. Express this naturally as part of the conversation - just mention what they need to accomplish, don't mention to-do lists or memory management.\n\n\nSESSION CONTEXT:\n- Category: todo_list\n- Subcategory: work_tasks \n- Preference Type: task_management\n- Item: Refactor legacy code\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — User Agent (Activity Memory)\n\nYou are simulating a natural user managing activity memory with an AI assistant. Your goal is to add new activities, update existing activity records, or remove activities you no longer want to track in specific life areas.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Share factual information about your tracked activities\n- Be specific about numbers, dates, and accomplishments when instructed\n- Provide context about timing and quantities\n\n## Operation-Specific Behavior:\n- **ADD**: Share new activity data you want to track and remember\n- **UPDATE**: Provide changes to existing activity records with new information\n- **DELETE**: Identify activities you no longer want to track or remove\n\n## Activity Domains:\nYou'll be sharing tracking data about:\n- **Food Expenses**: spending on meals, groceries, dining out\n- **Step Tracking**: daily steps, walking activities, fitness goals\n- **To-Do Lists**: completed tasks, productivity, accomplishments\n- **Calendar Events**: meetings, appointments, scheduled activities\n\n## Activity Sharing Rules:\n- You CAN share tracking data and activities when the turn instructions tell you to\n- Be specific about quantities, dates, and accomplishments\n- Include relevant details: amounts, times, frequencies, completion status\n- Only share the ONE specific activity mentioned in the instructions\n\n## Activity Focus:\n- Report factual tracking data: \"I walked 8,500 steps\", \"I spent $45 on groceries\", \"I completed a tasks\"\n- Include specific timing: \"yesterday\", \"this week\", \"on Tuesday\"\n- Be accurate about quantities and details\n- Focus on actual data and accomplishments, not opinions\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be factual and specific about activities\n- Focus on one activity at a time\n\nRemember: Goal is accurately reporting activities and experiences. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\n\nCURRENT TURN INSTRUCTION:\nMemory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nUser should casually mention something they need to do: 'Refactor legacy code'. Express this naturally as part of the conversation - just mention what they need to accomplish, don't mention to-do lists or memory management.\n\n\nSESSION CONTEXT:\n- Category: todo_list\n- Subcategory: work_tasks \n- Preference Type: task_management\n- Item: Refactor legacy code\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like an important task to tackle today. How much progress are you hoping to make on it?",
+      "intent": "ai_continue_conversation_after_memory_share",
+      "description": "",
+      "agent": "ai",
+      "phase": "memory_share",
+      "share_memory": false,
+      "conversation_type": "memory",
+      "requires_instruction": true,
+      "instruction": "Memory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nAI should continue the conversation naturally after the user shared their memory. Do NOT mention specific amounts, items, or details. Do NOT mention memory management, adding, removing, or deleting anything. Just acknowledge what they shared and continue the conversation flow.",
+      "prompt": {
+        "system_prompt": "# System Instruction — AI Assistant Agent (Activity Memory)\n\nYou are an AI assistant helping users manage their activity memory. Your goal is to help them add new activities, update existing activity records, or remove activities they no longer want to track in specific life areas.\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask about their recent activities and tracking data\n- Show interest in their daily routines and accomplishments\n- Help them record activities clearly and accurately\n\n## Operation-Specific Guidance:\n- **ADD**: Help capture new activities and tracking data they want to remember\n- **UPDATE**: Help modify existing activity records with new information\n- **DELETE**: Help remove activity records they no longer want to track\n\n## Activity Domains:\nFocus on tracking activities in these specific areas:\n- **Food Expenses**: spending on meals, groceries, dining out\n- **Step Tracking**: daily steps, walking activities, fitness goals\n- **To-Do Lists**: completed tasks, productivity, accomplishments\n- **Calendar Events**: meetings, appointments, scheduled activities\n\n## Activity Memory - Experience Questions ENCOURAGED:\n- You CAN ask USER about what they've tracked, completed, or accomplished\n- You CAN ask: \"How many steps did you get today?\", \"What did you spend on food this today?\", \"What tasks did you complete?\", \"What events do you have coming up?\"\n- Focus on capturing actual tracking data and completed activities\n- Ask about timing, quantities, and specific details\n\n## Activity Tracking Focus:\n- Understand what they've consumed or done\n- Capture timing and context of activities\n- Record their experiences with activities\n- Focus on factual activity information\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Focus on one activity at a time\n\nRemember: Goal is tracking actual activities and experiences. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\nuser: I still need to refactor some legacy code today.\n\nCURRENT TURN INSTRUCTION:\nMemory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nAI should continue the conversation naturally after the user shared their memory. Do NOT mention specific amounts, items, or details. Do NOT mention memory management, adding, removing, or deleting anything. Just acknowledge what they shared and continue the conversation flow.\n\n\nSESSION CONTEXT:\n- Category: todo_list\n- Operation: add\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — AI Assistant Agent (Activity Memory)\n\nYou are an AI assistant helping users manage their activity memory. Your goal is to help them add new activities, update existing activity records, or remove activities they no longer want to track in specific life areas.\n\n## Core Behavior:\n- Be helpful, conversational, and engaging\n- Ask about their recent activities and tracking data\n- Show interest in their daily routines and accomplishments\n- Help them record activities clearly and accurately\n\n## Operation-Specific Guidance:\n- **ADD**: Help capture new activities and tracking data they want to remember\n- **UPDATE**: Help modify existing activity records with new information\n- **DELETE**: Help remove activity records they no longer want to track\n\n## Activity Domains:\nFocus on tracking activities in these specific areas:\n- **Food Expenses**: spending on meals, groceries, dining out\n- **Step Tracking**: daily steps, walking activities, fitness goals\n- **To-Do Lists**: completed tasks, productivity, accomplishments\n- **Calendar Events**: meetings, appointments, scheduled activities\n\n## Activity Memory - Experience Questions ENCOURAGED:\n- You CAN ask USER about what they've tracked, completed, or accomplished\n- You CAN ask: \"How many steps did you get today?\", \"What did you spend on food this today?\", \"What tasks did you complete?\", \"What events do you have coming up?\"\n- Focus on capturing actual tracking data and completed activities\n- Ask about timing, quantities, and specific details\n\n## Activity Tracking Focus:\n- Understand what they've consumed or done\n- Capture timing and context of activities\n- Record their experiences with activities\n- Focus on factual activity information\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Focus on one activity at a time\n\nRemember: Goal is tracking actual activities and experiences. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\nuser: I still need to refactor some legacy code today.\n\nCURRENT TURN INSTRUCTION:\nMemory Context - Category: todo_list, Activity: Refactor legacy code (work_tasks), Operation: add\n\nAI should continue the conversation naturally after the user shared their memory. Do NOT mention specific amounts, items, or details. Do NOT mention memory management, adding, removing, or deleting anything. Just acknowledge what they shared and continue the conversation flow.\n\n\nSESSION CONTEXT:\n- Category: todo_list\n- Operation: add\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'm going to try to get as much done as I can. Well, I should probably get to it then.",
+      "intent": "user_casual_goodbye",
+      "description": "",
+      "agent": "user",
+      "phase": "closing",
+      "share_memory": false,
+      "conversation_type": "general",
+      "requires_instruction": false,
+      "instruction": "user gives a casual, friendly goodbye following the flow of the conversation",
+      "prompt": {
+        "system_prompt": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF.",
+        "user_content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\nuser: I still need to refactor some legacy code today.\nai: That sounds like an important task to tackle today. How much progress are you hoping to make on it?\n\nCURRENT TURN INSTRUCTION:\nuser gives a casual, friendly goodbye following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n",
+        "full_messages": [
+          {
+            "role": "system",
+            "content": "# System Instruction — User Agent (General Conversation)\n\nYou are simulating a natural user in conversation with an AI assistant. This is general conversation - be very careful about personal information.\n\n## Core Behavior:\n- Respond naturally and conversationally\n- Stay engaged and curious about topics\n- Ask questions that feel organic to the conversation\n- Give general responses without revealing personal preferences\n\n## CRITICAL - NO PERSONAL INFORMATION:\n- NEVER volunteer personal preferences, opinions, or experiences\n- Do NOT say things like \"I've seen that\", \"I love that\", \"That's my favorite\"\n- Stay completely general: \"That sounds interesting\", \"I've heard good things about that\"\n- Do NOT confirm or deny personal experiences with movies, actors, directors, etc.\n- Avoid any personal statements about your preferences\n\n## CRITICAL - AVOID MEMORY-CONTAMINATING TOPICS:\n- ABSOLUTELY FORBIDDEN to discuss or ask about: movies, films, cinema, books, literature, music, songs, artists, travel, destinations, vacations, trips\n- These topics are reserved for memory-specific conversations only\n- If these topics come up, redirect to other subjects\n- Focus on other topics like: technology, science, current events, hobbies (except the forbidden ones), work, education, sports, food (general), weather, etc.\n- Do NOT bring up these topics in conversation\n\n## ASKING AI QUESTIONS - ALLOWED:\n- You CAN ask AI for opinions: \"What do you think?\", \"What's your favorite?\", \"Which do you prefer?\"\n- You CAN ask factual questions: \"What are the differences?\", \"How do they compare?\", \"What makes X unique?\"\n- AI can share its opinions and preferences when asked\n- BUT avoid asking about movies, books, music, or travel\n\n## Response Style:\n- CRITICAL: Keep responses EXTREMELY short: MAXIMUM 1-2 sentences ONLY\n- Be concise and to the point\n- Avoid long explanations or multiple examples\n- ONE main point per response\n\nRemember: This is general conversation - absolutely NO personal preferences allowed, and avoid memory-contaminating topics. BE BRIEF."
+          },
+          {
+            "role": "user",
+            "content": "\nCONVERSATION HISTORY:\nuser: Hi there! How are you doing today?\nai: I'm doing great, thank you! I'm ready to chat whenever you are.\nuser: That's good to hear! What exactly does an AI assistant do?\nai: As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions.\nuser: That sounds like a lot of different things.\nai: It certainly can be a broad range, depending on what a user needs help with.\nuser: I still need to refactor some legacy code today.\nai: That sounds like an important task to tackle today. How much progress are you hoping to make on it?\n\nCURRENT TURN INSTRUCTION:\nuser gives a casual, friendly goodbye following the flow of the conversation\n\n\n\nGenerate a natural, conversational response that follows the instruction above.\n\nCRITICAL LENGTH REQUIREMENT: Your response MUST be 1-2 sentences maximum. NO LONG RESPONSES. BE EXTREMELY BRIEF AND CONCISE.\n"
+          }
+        ]
+      }
+    }
+  ],
+  "conversation_only": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How are you doing today?"
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing great, thank you! I'm ready to chat whenever you are."
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! What exactly does an AI assistant do?"
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "As an AI assistant, I process information, answer questions, and perform tasks like generating text or summarizing documents. My purpose is to assist users with a wide range of inquiries and functions."
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds like a lot of different things."
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It certainly can be a broad range, depending on what a user needs help with."
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I still need to refactor some legacy code today."
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like an important task to tackle today. How much progress are you hoping to make on it?"
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'm going to try to get as much done as I can. Well, I should probably get to it then."
+    }
+  ],
+  "total_turns": 9,
+  "evaluation_enabled": true,
+  "evaluation_iterations": 1,
+  "evaluation_feedback_history": [],
+  "evaluation_model": "anthropic/claude-sonnet-4.5",
+  "evaluation_result": {
+    "memory_operation_quality": true,
+    "overall_pass": true,
+    "evaluation_time": 1.723754644393921
+  },
+  "evaluation_questions": [
+    "Did the user mention or share information about 'Refactor legacy code' in their todo_list activities?"
+  ],
+  "evaluation_answers": [
+    true
+  ],
+  "success": true
+}

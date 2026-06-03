@@ -1,0 +1,125 @@
+{
+    "intent_description": {
+        "user_initiate_content_conversation": {
+            "description": "user initiates a conversation about the content following the flow of the conversation",
+            "agent": "user",
+            "phase": "content_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_agree_to_help_with_content_conversation": {
+            "description": "ai agrees to help with the content conversation following the flow of the conversation",
+            "agent": "ai",
+            "phase": "content_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_ask_about_content_fields": {
+            "description": "ai asks about the content fields following the flow of the conversation",
+            "agent": "ai",
+            "phase": "content_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_content_fields": {
+            "description": "user shares the content fields following the flow of the conversation",
+            "agent": "user",
+            "phase": "content_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_confirm_content_writeup_complete": {
+            "description": "ai confirms that all information for the content has been gathered (works for any content type)",
+            "agent": "ai",
+            "phase": "content_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_initiate_content_update_conversation": {
+            "description": "user initiates a conversation about updating existing content",
+            "agent": "user",
+            "phase": "content_update",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_agree_to_help_with_content_update": {
+            "description": "ai agrees to help update existing content",
+            "agent": "ai",
+            "phase": "content_update",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_content_update": {
+            "description": "user shares a specific update to a content field",
+            "agent": "user",
+            "phase": "content_update",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_acknowledge_content_update": {
+            "description": "ai acknowledges the content update and asks if there are more changes",
+            "agent": "ai",
+            "phase": "content_update",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_confirm_content_updates_complete": {
+            "description": "user confirms that all content updates have been shared",
+            "agent": "user",
+            "phase": "content_update",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_initiate_content_delete_conversation": {
+            "description": "user initiates a conversation about deleting content elements",
+            "agent": "user",
+            "phase": "content_delete",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_agree_to_help_with_content_delete": {
+            "description": "ai agrees to help with content deletion",
+            "agent": "ai",
+            "phase": "content_delete",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_content_delete": {
+            "description": "user shares what content elements to delete",
+            "agent": "user",
+            "phase": "content_delete",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_acknowledge_content_delete": {
+            "description": "ai acknowledges the content deletion and asks if there are more deletions",
+            "agent": "ai",
+            "phase": "content_delete",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_confirm_content_deletes_complete": {
+            "description": "user confirms that all content deletions have been shared",
+            "agent": "user",
+            "phase": "content_delete",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        }
+    },
+    "conversation_flows_list": []
+}

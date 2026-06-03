@@ -1,0 +1,122 @@
+{
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-01",
+  "total_days": 7,
+  "persona": "software_engineer",
+  "sessions": [
+    {
+      "type": "activity_memory",
+      "category": "todo_list",
+      "operation": "add",
+      "id": 1,
+      "date": "2025-06-01",
+      "operation_details": {
+        "item": {
+          "task_type": "work_tasks",
+          "description": "Refactor legacy code",
+          "created_at": "2025-06-01"
+        },
+        "category": "todo_list"
+      }
+    },
+    {
+      "type": "no_memory",
+      "category": null,
+      "operation": null,
+      "id": 2,
+      "date": "2025-06-01"
+    },
+    {
+      "type": "activity_memory",
+      "category": "food_expenses",
+      "operation": "add",
+      "id": 3,
+      "date": "2025-06-01",
+      "operation_details": {
+        "item": {
+          "expense_type": "coffee",
+          "amount": 3.41,
+          "created_at": "2025-06-01"
+        },
+        "category": "food_expenses"
+      }
+    },
+    {
+      "type": "no_memory",
+      "category": null,
+      "operation": null,
+      "id": 4,
+      "date": "2025-06-01"
+    },
+    {
+      "type": "no_memory",
+      "category": null,
+      "operation": null,
+      "id": 5,
+      "date": "2025-06-01"
+    },
+    {
+      "type": "activity_memory",
+      "category": "food_expenses",
+      "operation": "add",
+      "id": 6,
+      "date": "2025-06-01",
+      "operation_details": {
+        "item": {
+          "expense_type": "breakfast",
+          "amount": 9.15,
+          "created_at": "2025-06-01"
+        },
+        "category": "food_expenses"
+      }
+    },
+    {
+      "type": "preference_memory",
+      "category": "travel",
+      "operation": "add",
+      "id": 7,
+      "date": "2025-06-01",
+      "operation_details": {
+        "item": "trail running",
+        "preference": "like",
+        "subcategory": "destination_types"
+      }
+    },
+    {
+      "type": "content_memory",
+      "category": "social_media_post",
+      "operation": "add",
+      "id": 8,
+      "date": "2025-06-01",
+      "operation_details": {
+        "item": "social_media_post_1",
+        "content_data": {
+          "platform": "LinkedIn",
+          "content_type": "Technical Insight Post",
+          "main_message": "Excited to share how our team optimized real-time video stream latency by 40% through adaptive bitrate improvements and edge computing strategies. Tackling sub-second delivery at scale continues to push the boundaries of what's possible in live streaming infrastructure.",
+          "hashtags": [
+            "#EdgeComputing",
+            "#VideoEngineering",
+            "#SoftwareEngineering"
+          ]
+        },
+        "pool_status": "draft",
+        "generation_method": "redesigned_three_pool",
+        "partial_content_generated": true
+      }
+    }
+  ],
+  "summary": {
+    "total_sessions": 163,
+    "session_types": {
+      "activity_memory": 59,
+      "no_memory": 53,
+      "preference_memory": 29,
+      "content_memory": 18,
+      "goal_memory": 4
+    }
+  },
+  "output_folder": "sessions_20251217_180430_software_engineer",
+  "generation_timestamp": "20251217_180430",
+  "_note": "Trimmed sample: first 8 sessions only. Full weekly runs produce ~150 sessions per persona."
+}

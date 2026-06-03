@@ -1,0 +1,157 @@
+{
+    "intent_description": {
+        "user_greet": {
+            "description": "user starts the conversation with a casual greeting",
+            "agent": "user",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "ai_greet": {
+            "description": "ai starts the conversation with a warm greeting",
+            "agent": "ai",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "ai_greet_response": {
+            "description": "ai responds to user greeting warmly",
+            "agent": "ai",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "user_greet_response": {
+            "description": "user responds to ai greeting warmly",
+            "agent": "user",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "user_greet_and_ask_for_help_with_some_questions": {
+            "description": "user greets ai and asks for help",
+            "agent": "user",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "ai_greet_response_and_agree_to_help_with_user_questions": {
+            "description": "ai responds to user's greeting and agrees to help with user's questions",
+            "agent": "ai",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "user_greet_and_ask_a_random_question": {
+            "description": "user greets ai and asks a random question",
+            "agent": "user",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "ai_answer_greet_and_response_for_random_question": {
+            "description": "ai responds to user's greeting and answersrandom question",
+            "agent": "ai",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "ai_greet_by_asking_how_is_user_day_going": {
+            "description": "ai greets user by asking how their day is going",
+            "agent": "ai",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        },
+        "user_answer_how_is_their_day_going_without_mentioning_memory": {
+            "description": "user answers ai's question about how their day is going without mentioning any memory",
+            "agent": "user",
+            "phase": "opening",
+            "share_memory": false,
+            "conversation_type": "general"
+        }
+    },
+    "conversation_flows_list": [
+        {
+            "flow_id": 1,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_greet",
+                "ai_greet_response"
+            ]
+        },
+        {
+            "flow_id": 2,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_greet",
+                "user_greet_and_ask_a_random_question",
+                "ai_answer_greet_and_response_for_random_question"
+            ]
+        },
+        {
+            "flow_id": 3,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_greet_and_ask_for_help_with_some_questions",
+                "ai_greet_response_and_agree_to_help_with_user_questions"
+            ]
+        },
+        {
+            "flow_id": 4,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_greet_by_asking_how_is_user_day_going",
+                "user_answer_how_is_their_day_going_without_mentioning_memory"
+            ]
+        },
+        {
+            "flow_id": 5,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_greet",
+                "user_greet_response"
+            ]
+        },
+        {
+            "flow_id": 6,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_greet",
+                "ai_greet_response"
+            ]
+        },
+        {
+            "flow_id": 7,
+            "flow_type": "ai_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "ai_greet_by_asking_how_is_user_day_going",
+                "user_answer_how_is_their_day_going_without_mentioning_memory"
+            ]
+        },
+        {
+            "flow_id": 8,
+            "flow_type": "user_initiated",
+            "memory_type": null,
+            "operation": null,
+            "conversation_flow": [
+                "user_greet_and_ask_for_help_with_some_questions",
+                "ai_greet_response_and_agree_to_help_with_user_questions"
+            ]
+        }
+    ]
+}

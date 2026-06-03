@@ -1,0 +1,8 @@
+# Dependencies for the Memora benchmark-data-generation pipeline.
+# Only Stage 2 (conversation generation) and the LLM-based quality
+# evaluator require API access; Stages 1 and 3 are pure Python.
+
+openai>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0

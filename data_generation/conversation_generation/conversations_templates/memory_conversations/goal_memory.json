@@ -1,0 +1,60 @@
+{
+    "intent_description": {
+        "user_directly_share_goal": {
+            "description": "user share their goal with ai following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "ai_respond_to_goal_positivly": {
+            "description": "ai responds to user's goal with a positive response following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": false
+        },
+        "ai_ask_about_user_goal": {
+            "description": "ai asks about user's goal following the flow of the conversation",
+            "agent": "ai",
+            "phase": "memory_share",
+            "share_memory": false,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        },
+        "user_share_goal_in_response_to_ai_question": {
+            "description": "user shares their goal following the flow of the conversation",
+            "agent": "user",
+            "phase": "memory_share",
+            "share_memory": true,
+            "conversation_type": "memory",
+            "requires_instruction": true
+        }
+    },
+    "conversation_flows_list": [
+        {
+            "flow_id": 1,
+            "flow_type": "user_initiated",
+            "memory_type": "goal_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "user_directly_share_goal",
+                "ai_respond_to_goal_positivly"
+            ]
+        },
+        {
+            "flow_id": 2,
+            "flow_type": "ai_initiated",
+            "memory_type": "goal_memory",
+            "operation": "add",
+            "approach": "explicit",
+            "conversation_flow": [
+                "ai_ask_about_user_goal",
+                "user_share_goal_in_response_to_ai_question"
+            ]
+        }
+    ]
+}
