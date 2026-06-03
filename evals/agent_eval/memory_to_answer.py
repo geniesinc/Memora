@@ -111,6 +111,36 @@ DEFAULT_JUDGE_MODELS = {
 TASK_TYPES = ("Remembering", "Reasoning", "Recommending")
 
 
+def model_eval_dir() -> Path:
+    """Filesystem path to the shared ``model_eval`` package.
+
+    ``api_client.OpenRouterClient`` (the multi-judge backend) lives in
+    ``evals/model_eval/``. This file is ``evals/agent_eval/memory_to_answer.py``,
+    so the directory is one level up from this file's parent:
+    ``Path(__file__).parent.parent / "model_eval"`` — NOT
+    ``Path(__file__).parent / "model_eval"`` (which would point at the
+    non-existent ``evals/agent_eval/model_eval`` and silently break the
+    multi-judge import). See ``test_judge_import.py``.
+    """
+    return Path(__file__).resolve().parent.parent / "model_eval"
+
+
+def import_openrouter_client():
+    """Resolve and import ``OpenRouterClient`` from the shared model_eval dir.
+
+    Adds :func:`model_eval_dir` to ``sys.path`` (if needed) and returns the
+    ``OpenRouterClient`` class. Importing the class does NOT require any API
+    key or network access (the key is only read in its ``__init__``), so this
+    function is safe to call from tests. Raises ``ImportError`` if the path is
+    wrong or the module cannot be found.
+    """
+    judge_path = str(model_eval_dir())
+    if judge_path not in sys.path:
+        sys.path.append(judge_path)
+    from api_client import OpenRouterClient  # noqa: E402
+    return OpenRouterClient
+
+
 def fama_score(memory_presence_correct: int, memory_presence_total: int,
                forgetting_absence_correct: int, forgetting_absence_total: int) -> float:
     """
@@ -145,10 +175,11 @@ class MemoryQuestionAnswering:
     """
     
     def __init__(self, memory_system_name: str, user_id: str, model: str = "gpt-4o-mini", output_dir: Optional[Path] = None,
-                 judge_models: Optional[Dict[str, str]] = None, use_multi_judge: bool = True):
+                 judge_models: Optional[Dict[str, str]] = None, use_multi_judge: bool = True,
+                 strict_judges: bool = False):
         """
         Initialize the question answering system.
-        
+
         Args:
             memory_system_name: Name of the memory system (e.g., 'mem_0', 'a_mem')
             user_id: User ID for memory access (MUST match Step 1!)
@@ -156,6 +187,11 @@ class MemoryQuestionAnswering:
             output_dir: Directory to save results (default: current directory)
             judge_models: Dict mapping judge name to model name for multi-judge evaluation
             use_multi_judge: Whether to use multi-judge evaluation (default: True)
+            strict_judges: If True, abort (raise RuntimeError) instead of silently
+                degrading to a single judge when multi-judge was requested but the
+                judge clients cannot be initialized. Results produced by a single
+                judge are NOT comparable to the published Table 3 numbers, so repro
+                runs should pass strict_judges=True (CLI: --strict-judges).
         """
         self.memory_system_name = memory_system_name
         self.user_id = user_id
@@ -163,6 +199,7 @@ class MemoryQuestionAnswering:
         self.output_dir = Path(output_dir) if output_dir else Path.cwd()
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.use_multi_judge = use_multi_judge
+        self.strict_judges = strict_judges
         self.judge_models = judge_models or DEFAULT_JUDGE_MODELS
         
         if not OPENAI_AVAILABLE:
@@ -207,17 +244,18 @@ class MemoryQuestionAnswering:
         self.judge_clients = {}
         if self.use_multi_judge:
             print(f"\n🔍 Initializing Multi-Judge Evaluation:")
-            # Import OpenRouter client from model_eval
+            # Import OpenRouter client from the shared model_eval package.
+            # NOTE: api_client lives in evals/model_eval/, i.e. one level ABOVE
+            # this file's directory — see import_openrouter_client()/model_eval_dir().
             try:
-                sys.path.append(str(Path(__file__).parent / "model_eval"))
-                from api_client import OpenRouterClient
-                
+                OpenRouterClient = import_openrouter_client()
+
                 for judge_name, judge_model in self.judge_models.items():
                     try:
                         # Use OpenRouterClient properly (same as model_based_evaluator.py)
                         client = OpenRouterClient(model=judge_model)
                         self.judge_clients[judge_name] = client
-                        
+
                         # Verify client configuration
                         client_type = type(client).__name__
                         client_base_url = getattr(client.client, 'base_url', 'unknown')
@@ -225,16 +263,27 @@ class MemoryQuestionAnswering:
                         print(f"    Client type: {client_type}, Base URL: {client_base_url}")
                     except Exception as e:
                         print(f"  ✗ Failed to initialize judge {judge_name}: {e}")
-                
-                if not self.judge_clients:
-                    print("  ⚠️  No judges initialized, falling back to single judge")
-                    self.use_multi_judge = False
+
+                # The published Table 3 protocol is a majority vote of ALL judges.
+                # Treat a PARTIAL initialization (1-2 of 3) the same as a total
+                # failure: a 1-/2-judge "majority" is not the published protocol and
+                # would silently sidestep --strict-judges.
+                if len(self.judge_clients) != len(self.judge_models):
+                    self._handle_multi_judge_failure(
+                        f"Only {len(self.judge_clients)}/{len(self.judge_models)} judge "
+                        "clients could be initialized (check OPENROUTER_API_KEY and judge "
+                        f"model names). The published Table 3 protocol requires all "
+                        f"{len(self.judge_models)} judges."
+                    )
             except ImportError as e:
-                print(f"  ⚠️  Could not import OpenRouter client: {e}")
-                print(f"  Falling back to single OpenAI judge")
-                self.use_multi_judge = False
-        
-        # Statistics tracking
+                self._handle_multi_judge_failure(
+                    f"Could not import OpenRouter client from "
+                    f"{model_eval_dir()}: {e}"
+                )
+
+        # Statistics tracking (must be set on EVERY init path, not only on the
+        # multi-judge-failure path — otherwise a successful multi-judge init leaves
+        # self.stats undefined and later updates raise AttributeError).
         self.stats = {
             'total_questions': 0,
             'answered': 0,
@@ -250,7 +299,39 @@ class MemoryQuestionAnswering:
             'forgetting_absence_total': 0,
             'forgetting_absence_passed': 0
         }
-    
+
+    def _handle_multi_judge_failure(self, reason: str) -> None:
+        """Handle a multi-judge initialization failure LOUDLY.
+
+        Multi-judge is the published Table 3 protocol (majority vote of three
+        judges). Silently degrading to a single judge produces numbers that are
+        NOT comparable to Table 3, so we make the failure impossible to miss:
+        a prominent banner is always printed, and if ``strict_judges`` is set
+        the run aborts instead of continuing with one judge.
+        """
+        banner = (
+            "\n" + "!" * 72 + "\n"
+            "!!  MULTI-JUDGE UNAVAILABLE\n"
+            f"!!  Reason: {reason}\n"
+            "!!  Requested multi-judge evaluation could NOT be initialized.\n"
+            "!!  Results below would use a SINGLE judge and are NOT comparable\n"
+            "!!  to the published Table 3 (3-judge majority vote).\n"
+            + "!" * 72
+        )
+        print(banner, file=sys.stderr)
+        if self.strict_judges:
+            raise RuntimeError(
+                "Multi-judge evaluation was requested but is unavailable, and "
+                "--strict-judges is set. Aborting rather than silently producing "
+                f"single-judge (non-Table-3-comparable) results. Reason: {reason}"
+            )
+        print(
+            "  ⚠️  Falling back to a SINGLE OpenAI judge "
+            "(pass --strict-judges to make this a hard failure instead).",
+            file=sys.stderr,
+        )
+        self.use_multi_judge = False
+
     def load_questions(self, questions_file: str) -> Dict[str, Any]:
         """
         Load questions from evaluation_questions or unified_questions file.
@@ -1412,7 +1493,15 @@ Note: Requires OPENAI_API_KEY and appropriate API keys for the memory system.
         action='store_true',
         help='Disable multi-judge evaluation (use single judge)'
     )
-    
+
+    parser.add_argument(
+        '--strict-judges',
+        action='store_true',
+        help='Abort instead of silently degrading to a single judge if '
+             'multi-judge initialization fails. Use this for reproduction runs: '
+             'single-judge results are NOT comparable to the published Table 3.'
+    )
+
     parser.add_argument(
         '--judge-openai',
         type=str,
@@ -1489,7 +1578,8 @@ Note: Requires OPENAI_API_KEY and appropriate API keys for the memory system.
             model=args.model,
             output_dir=output_dir,
             judge_models=judge_models,
-            use_multi_judge=use_multi_judge
+            use_multi_judge=use_multi_judge,
+            strict_judges=args.strict_judges
         )
         
         # Load questions
