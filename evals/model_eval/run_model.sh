@@ -44,15 +44,21 @@ PERSONAS=(
 # LLMs under evaluation. All routed through OpenRouter.
 # The first block is the paper's Table 3 set; the second is the newer
 # frontier models added in the 2026-05-28 spot check.
-MODELS=(
-    "qwen/qwen3-32b"
-    "anthropic/claude-sonnet-4.5"
-    "google/gemini-3-pro-preview"
-    "openai/gpt-5.2"
-    "openai/gpt-5.5"
-    "anthropic/claude-opus-4.7"
-    "google/gemini-3.1-pro-preview"
-)
+# Override for a one-off subset with: MODELS="a/b c/d" ./run_model.sh
+if [ -n "${MODELS:-}" ]; then
+    read -r -a MODELS <<< "$MODELS"
+else
+    MODELS=(
+        "qwen/qwen3-32b"
+        "anthropic/claude-sonnet-4.5"
+        "google/gemini-3-pro-preview"
+        "openai/gpt-5.2"
+        "openai/gpt-5.5"
+        "anthropic/claude-opus-4.7"
+        "google/gemini-3.1-pro-preview"
+        "anthropic/claude-fable-5"
+    )
+fi
 
 # Run each model twice: once with reasoning OFF, once with reasoning ON.
 EVALUATE_WITH_REASONING="true"

@@ -39,6 +39,7 @@ RELEASE_MODELS = [
     "openai/gpt-5.5",
     "anthropic/claude-opus-4.7",
     "google/gemini-3.1-pro-preview",
+    "anthropic/claude-fable-5",
 ]
 
 # Model context limits (in tokens)
@@ -56,6 +57,8 @@ MODEL_CONTEXT_LIMITS = {
     "gpt-5.2": 400_000,
 
     # Anthropic Models
+    "anthropic/claude-fable-5": 1_000_000,
+    "claude-fable-5": 1_000_000,
     "anthropic/claude-opus-4.7": 1_000_000,
     "claude-opus-4.7": 1_000_000,
     "anthropic/claude-sonnet-4.5": 1_000_000,
