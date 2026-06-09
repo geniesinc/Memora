@@ -24,6 +24,7 @@ been deleted or updated. Both behaviours are combined into a single score:
 
 ## News
 
+- **2026-06-09** — Added FAMA scores for Anthropic's newly released **Claude Fable 5** to the spot-check rows (same `academic_researcher` single-persona setup, all three periods, reasoning ON/OFF). Notably it is the only model in the spot check to score above 0 on the Reasoning task at this slice.
 - **2026-05-28** — Added FAMA scores for three newer frontier models — **GPT-5.5**, **Claude Opus 4.7**, and **Gemini 3.1 Pro Preview** — at the bottom of the results table. These are an `academic_researcher`-only spot check (single persona, all three periods, multi-judge), not a full 10-persona Table-3 reproduction; see footnote ⁂.
 
 ## Results
@@ -67,14 +68,16 @@ from Table 3 of the paper. **W** = weekly, **M** = monthly, **Q** = quarterly.
 <tr><td>GPT-5.5</td>                  <td>14.90</td><td>26.99</td><td>22.15</td><td>64.00</td><td>51.90</td><td>64.46</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>Claude Opus 4.7</td>          <td>21.89</td><td>29.00</td><td>22.96</td><td>38.67</td><td>48.52</td><td>49.27</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>Gemini 3.1 Pro Preview</td>   <td>16.62</td><td>10.81</td><td>17.69</td><td>44.00</td><td>45.12</td><td>47.63</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Claude Fable 5</td>          <td>22.51</td><td>26.39</td><td>22.14</td><td>48.00</td><td>59.55</td><td>64.89</td><td>0.00</td><td>10.00</td><td>0.00</td></tr>
 <tr><td colspan="10"><i>Frontier LLMs — <code>academic_researcher</code> spot check ⁂ (with reasoning tokens)</i></td></tr>
 <tr><td>GPT-5.5</td>                  <td>26.29</td><td>17.04</td><td>23.23</td><td>64.00</td><td>57.90</td><td>73.07</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>Claude Opus 4.7</td>          <td>28.62</td><td>24.41</td><td>23.66</td><td>42.67</td><td>39.58</td><td>51.13</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>Gemini 3.1 Pro Preview</td>   <td>10.19</td><td>9.38</td><td>12.96</td><td>52.00</td><td>57.74</td><td>58.08</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Claude Fable 5</td>          <td>26.51</td><td>27.81</td><td>25.19</td><td>33.33</td><td>43.83</td><td>65.89</td><td>0.00</td><td>0.00</td><td>5.00</td></tr>
 </tbody>
 </table>
 
-<sup>⁂ Single-persona (`academic_researcher`) spot check at all three horizons, multi-judge (GPT-4.1 + Claude Haiku 4.5 + Gemini 2.5 Flash). Not directly comparable to the rows above, which are 10-persona averages from the paper. All three models score 0 on Reasoning at this slice. Reproduce with the `MODELS` block in `evals/model_eval/run_model.sh`.</sup>
+<sup>⁂ Single-persona (`academic_researcher`) spot check at all three horizons, multi-judge (GPT-4.1 + Claude Haiku 4.5 + Gemini 2.5 Flash). Not directly comparable to the rows above, which are 10-persona averages from the paper. Reasoning scores are near-zero across these models at this slice (Fable 5 is the only one to break 0, on two of six runs). Reproduce with the `MODELS` block in `evals/model_eval/run_model.sh`.</sup>
 
 ## What's here
 
