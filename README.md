@@ -24,7 +24,7 @@ been deleted or updated. Both behaviours are combined into a single score:
 
 ## News
 
-- **2026-06-09** — Promoted the `academic_researcher` spot-check rows to the top of the results table, sorted by mean FAMA. Added Anthropic's newly released **Claude Fable 5**, which leads the no-reasoning block (avg 28.16) and ranks second in the reasoning block (avg 25.28), and is the only model in the spot check to score above 0 on the Reasoning task at this slice.
+- **2026-06-09** — Added Anthropic's newly released **Claude Fable 5**, which leads the no-reasoning block (avg 28.16) and ranks second in the reasoning block (avg 25.28), and is the only model in the spot check to score above 0 on the Reasoning task at this slice.
 - **2026-05-28** — Added FAMA scores for three newer frontier models — **GPT-5.5**, **Claude Opus 4.7**, and **Gemini 3.1 Pro Preview** — as an `academic_researcher`-only spot check (single persona, all three periods, multi-judge), not a full 10-persona Table-3 reproduction; see footnote ⁂.
 
 ## Results
