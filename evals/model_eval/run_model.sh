@@ -23,9 +23,9 @@ DATA_DIR="${MEMORA_DATA_DIR:-$RELEASE_ROOT/data}"
 
 # --- What to evaluate --------------------------------------------------------
 PERIODS=(
-    "weekly"
-    # "monthly"
-    # "quarterly"
+    # "weekly"
+    "monthly"
+    "quarterly"
 )
 
 PERSONAS=(
@@ -41,13 +41,24 @@ PERSONAS=(
     # "startup_founder"
 )
 
-# The four LLMs reported in the paper (Table 3). All routed through OpenRouter.
-MODELS=(
-    "qwen/qwen3-32b"
-    "anthropic/claude-sonnet-4.5"
-    "google/gemini-3-pro-preview"
-    "openai/gpt-5.2"
-)
+# LLMs under evaluation. All routed through OpenRouter.
+# The first block is the paper's Table 3 set; the second is the newer
+# frontier models added in the 2026-05-28 spot check.
+# Override for a one-off subset with: MODELS="a/b c/d" ./run_model.sh
+if [ -n "${MODELS:-}" ]; then
+    read -r -a MODELS <<< "$MODELS"
+else
+    MODELS=(
+        "qwen/qwen3-32b"
+        "anthropic/claude-sonnet-4.5"
+        "google/gemini-3-pro-preview"
+        "openai/gpt-5.2"
+        "openai/gpt-5.5"
+        "anthropic/claude-opus-4.7"
+        "google/gemini-3.1-pro-preview"
+        "anthropic/claude-fable-5"
+    )
+fi
 
 # Run each model twice: once with reasoning OFF, once with reasoning ON.
 EVALUATE_WITH_REASONING="true"
@@ -97,6 +108,14 @@ run_one() {
 
     log ""
     log "[$((++CURRENT))/$TOTAL] $MODEL  reasoning=$SUFFIX  -- $PERIOD/$PERSONA"
+
+    # Resume support: skip if a non-empty eval_report already exists for this slot.
+    if [ "${SKIP_IF_DONE:-true}" = "true" ] && \
+       ls "$OUTPUT_DIR"/eval_report_*.json >/dev/null 2>&1; then
+        log "SKIP: report already present in $OUTPUT_DIR"
+        SUCCESS=$((SUCCESS + 1))
+        return
+    fi
 
     local CMD=(python -u "$SCRIPT_DIR/model_based_evaluator.py"
                --sessions-dir "$SESSIONS_DIR"

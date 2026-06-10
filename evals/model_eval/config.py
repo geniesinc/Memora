@@ -34,25 +34,33 @@ class EvaluationConfig:
     save_analysis: bool = True
 
 
-# The four models reported in the paper (Table 3).
+# Frontier models under evaluation.
 RELEASE_MODELS = [
-    "qwen/qwen3-32b",
-    "anthropic/claude-sonnet-4.5",
-    "google/gemini-3-pro-preview",
-    "openai/gpt-5.2",
+    "openai/gpt-5.5",
+    "anthropic/claude-opus-4.7",
+    "google/gemini-3.1-pro-preview",
+    "anthropic/claude-fable-5",
 ]
 
 # Model context limits (in tokens)
 MODEL_CONTEXT_LIMITS = {
     # Google Models
+    "google/gemini-3.1-pro-preview": 1_048_576,
+    "gemini-3.1-pro-preview": 1_048_576,
     "google/gemini-3-pro-preview": 1_048_576,
     "gemini-3-pro-preview": 1_048_576,
 
     # OpenAI Models
+    "openai/gpt-5.5": 400_000,
+    "gpt-5.5": 400_000,
     "openai/gpt-5.2": 400_000,
     "gpt-5.2": 400_000,
 
     # Anthropic Models
+    "anthropic/claude-fable-5": 1_000_000,
+    "claude-fable-5": 1_000_000,
+    "anthropic/claude-opus-4.7": 1_000_000,
+    "claude-opus-4.7": 1_000_000,
     "anthropic/claude-sonnet-4.5": 1_000_000,
     "claude-sonnet-4.5": 1_000_000,
 
