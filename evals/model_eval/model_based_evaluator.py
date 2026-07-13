@@ -1046,9 +1046,9 @@ class EvaluationRunner:
             print(f"\n--- Question {i+1}/{len(questions)}: {question_id} ---")
             print(f"Q: {question_text}")
             
-            # Get current date from question's session_date (when the question is being asked)
+            # Get the date when the question is being asked
             # Default to None if not available
-            current_date = question_data.get('session_date')
+            current_date = question_data.get('question_date')
             
             # Build prompt with current date for temporal context
             system_prompt, user_prompt = self.prompt_builder.build_question_prompt(
@@ -1162,7 +1162,7 @@ class EvaluationRunner:
                 'question': question_text,
                 'task_type': task_type,
                 'session_id': question_data.get('session_id'),
-                'session_date': question_data.get('session_date'),
+                'question_date': question_data.get('question_date'),
                 'model_response': model_response,
                 'expected_answer': question_data.get('answer', ''),
                 'evaluation_questions': evaluation_results,
@@ -1533,4 +1533,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
