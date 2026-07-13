@@ -431,7 +431,7 @@ class PromptBuilder:
                 
                 if speaker == 'ai_agent':
                     conv_text_parts.append(f"Assistant: {message}")
-                elif speaker == 'user':
+                elif speaker in {'user', 'user_agent'}:
                     conv_text_parts.append(f"User: {message}")
             
             conv_text_parts.append("")  # Add blank line between sessions
@@ -458,7 +458,13 @@ class PromptBuilder:
                             speaker = turn.get('speaker', 'unknown')
                             message = turn.get('message', '')
                             
-                            turn_text = f"{'Assistant' if speaker == 'ai_agent' else 'User'}: {message}\n"
+                            if speaker == 'ai_agent':
+                                role = 'Assistant'
+                            elif speaker in {'user', 'user_agent'}:
+                                role = 'User'
+                            else:
+                                continue
+                            turn_text = f"{role}: {message}\n"
                             turn_tokens = count_tokens(turn_text, self.model_name or "gpt-4")
                             
                             if partial_tokens + turn_tokens <= remaining_tokens:
@@ -1533,4 +1539,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
